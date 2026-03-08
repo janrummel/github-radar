@@ -13,7 +13,14 @@
     "weaknesses": "Nur fuer Software-Entwicklung, kein Knowledge Management, hat einen Crypto-Token ($GSD)",
     "learned": "Context Monitor Hook, Analysis Paralysis Guard, Deviation Rules — in unser AgentField-System uebernommen",
     "added": "2026-03-08",
-    "tested": true
+    "tested": true,
+    "notable_stargazers": [
+      {
+        "login": "kieranklaassen",
+        "label": "Kieran Klaassen (kieranklaassen)",
+        "followers": 596
+      }
+    ]
   },
   {
     "id": "openfang",
@@ -29,7 +36,19 @@
     "weaknesses": "12k Stars in 2 Wochen (Red Flag), v0.1.0 mit massivem Feature-Scope, Lizenz-Widerspruch (Apache vs MIT), Self-Reported Benchmarks, positioniert sich aggressiv gegen OpenClaw",
     "learned": "Noch nicht getestet. Abwarten bis v0.2+",
     "added": "2026-03-08",
-    "tested": false
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "Freelander",
+        "label": "高军 (GoJun) (Freelander) @ @GitHubDaily ",
+        "followers": 1165
+      },
+      {
+        "login": "tkersey",
+        "label": "Tim Kersey (tkersey) @ @thisisartium",
+        "followers": 727
+      }
+    ]
   },
   {
     "id": "polars",
@@ -45,7 +64,59 @@
     "weaknesses": "Lernkurve fuer Pandas-Nutzer, nicht alle Pandas-Integrationen verfuegbar",
     "learned": "Code-ASERM Score 4.6/T1. Referenz fuer hochwertige Open-Source-Projekte.",
     "added": "2026-03-04",
-    "tested": true
+    "tested": true,
+    "notable_stargazers": [
+      {
+        "login": "minimaxir",
+        "label": "Max Woolf (minimaxir) @ @buzzfeed ",
+        "followers": 5046
+      },
+      {
+        "login": "trishume",
+        "label": "Tristan Hume (trishume)",
+        "followers": 3686
+      },
+      {
+        "login": "mattsse",
+        "label": "Matthias Seitz (mattsse)",
+        "followers": 1886
+      },
+      {
+        "login": "smorimoto",
+        "label": "Sora Morimoto (smorimoto) @ @ocaml @tc39",
+        "followers": 960
+      },
+      {
+        "login": "softprops",
+        "label": "Doug Tangren (softprops) @ https://www.mongodb.com/atlas",
+        "followers": 954
+      },
+      {
+        "login": "zhpmatrix",
+        "label": "张大千 (zhpmatrix)",
+        "followers": 741
+      },
+      {
+        "login": "Kerollmops",
+        "label": "Clément Renault (Kerollmops) @ @meilisearch",
+        "followers": 671
+      },
+      {
+        "login": "robbert-vdh",
+        "label": "Robbert van der Helm (robbert-vdh) @ @channable",
+        "followers": 648
+      },
+      {
+        "login": "scrogson",
+        "label": "Sonny Scroggin (scrogson) @ @squidinklabs",
+        "followers": 564
+      },
+      {
+        "login": "ik5",
+        "label": "ik5 (ik5)",
+        "followers": 533
+      }
+    ]
   },
   {
     "id": "scrapling",
@@ -61,7 +132,29 @@
     "weaknesses": "Bus-Factor 1, Stars-Inflation-Risiko, Quellen-Bias in Tutorials. Code-ASERM nach Signal-Check korrigiert: 4.4 auf 3.9/T2",
     "learned": "Wichtige Lektion: Stars allein kein Qualitaetssignal. GitHub Fake Stars Problem (CMU 2024 Studie).",
     "added": "2026-03-04",
-    "tested": false
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "pezy",
+        "label": "peizhe.chen (pezy)",
+        "followers": 1186
+      },
+      {
+        "login": "dsfb",
+        "label": "Daniel Bruno (dsfb) @ Octaplus Financial Analytics Ltda.",
+        "followers": 793
+      },
+      {
+        "login": "QIN2DIM",
+        "label": "QIN2DIM @ JhlFund",
+        "followers": 703
+      },
+      {
+        "login": "GONZOsint",
+        "label": "GOΠZO (GONZOsint)",
+        "followers": 517
+      }
+    ]
   },
   {
     "id": "cc-sdd",
@@ -77,7 +170,24 @@
     "weaknesses": "Nicht getestet, weniger ausgereift als GSD",
     "learned": "Noch nicht getestet.",
     "added": "2026-03-08",
-    "tested": false
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "shunkakinoki",
+        "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
+        "followers": 855
+      },
+      {
+        "login": "peaceiris",
+        "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
+        "followers": 609
+      },
+      {
+        "login": "davidkimai",
+        "label": "davidkimai",
+        "followers": 513
+      }
+    ]
   },
   {
     "id": "claude-code-spec-workflow",
@@ -93,7 +203,14 @@
     "weaknesses": "Nicht getestet, weniger tiefgehend als GSD",
     "learned": "Noch nicht getestet.",
     "added": "2026-03-08",
-    "tested": false
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "johannesjo",
+        "label": "Johannes Millan (johannesjo) @ Frontend Developer",
+        "followers": 855
+      }
+    ]
   },
   {
     "id": "ruflo",
@@ -109,7 +226,14 @@
     "weaknesses": "Nicht getestet, sehr grosser Scope, moeglicherweise over-engineered",
     "learned": "Noch nicht getestet.",
     "added": "2026-03-08",
-    "tested": false
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "jedisct1",
+        "label": "Frank Denis (jedisct1)",
+        "followers": 4166
+      }
+    ]
   },
   {
     "id": "orchestrator-starter",
@@ -125,7 +249,8 @@
     "weaknesses": "2 Stars, kein npm-Installer, keine Multi-Runtime-Unterstuetzung, kein Social Proof",
     "learned": "Eigenes Projekt. Taeglicher Einsatz als AgentField.",
     "added": "2026-03-08",
-    "tested": true
+    "tested": true,
+    "notable_stargazers": []
   },
   {
     "id": "awesome-claude-skills",
@@ -141,7 +266,14 @@
     "weaknesses": "Link-Dump ohne Bewertung, keine Qualitaetssicherung der gelisteten Tools",
     "learned": "Gute Quelle fuer Discovery, aber keine Bewertung — genau die Luecke die GitHub-Radar fuellt.",
     "added": "2026-03-08",
-    "tested": false
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "doggy8088",
+        "label": "Will 保哥 (doggy8088) @ 多奇數位創意有限公司",
+        "followers": 4286
+      }
+    ]
   },
   {
     "id": "awesome-claude-code",
@@ -157,7 +289,19 @@
     "weaknesses": "Reine Linkliste, keine Bewertungen oder Vergleiche",
     "learned": "Zweite grosse Quelle fuer Discovery neben Composio.",
     "added": "2026-03-08",
-    "tested": false
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "zchee",
+        "label": "Koichi Shiraishi (zchee) @ @gaudiy",
+        "followers": 764
+      },
+      {
+        "login": "tkersey",
+        "label": "Tim Kersey (tkersey) @ @thisisartium",
+        "followers": 727
+      }
+    ]
   },
   {
     "id": "context-engineering",
@@ -173,7 +317,8 @@
     "weaknesses": "Noch kein einheitliches Framework — jeder implementiert es anders. Messung von Context-Qualitaet ist schwierig",
     "learned": "Context Rot ist real. Frische Subagents (GSD-Ansatz) und Context Monitors (Hook-basiert) sind die beste Gegenmassnahme.",
     "added": "2026-03-08",
-    "tested": true
+    "tested": true,
+    "notable_stargazers": []
   },
   {
     "id": "spec-driven-dev",
@@ -189,7 +334,34 @@
     "weaknesses": "Overhead fuer kleine Aenderungen, Specs koennen selbst veralten, Pattern erfordert Disziplin",
     "learned": "Wir nutzen Elemente davon (Klaeren-Phase in AgentField). Fuer groessere Features lohnt sich der volle Spec-Workflow.",
     "added": "2026-03-08",
-    "tested": true
+    "tested": true,
+    "notable_stargazers": [
+      {
+        "login": "rootsongjc",
+        "label": "Jimmy Song (rootsongjc) @ @dynamia-ai",
+        "followers": 4033
+      },
+      {
+        "login": "LadyKerr",
+        "label": "Kedasha Kerr (LadyKerr) @ Developer Advocate",
+        "followers": 1185
+      },
+      {
+        "login": "filmgirl",
+        "label": "Christina Warren (filmgirl) @ GitHub",
+        "followers": 1035
+      },
+      {
+        "login": "yuiseki",
+        "label": "yuiseki (yuiseki) @ Yuiseki Inc.",
+        "followers": 678
+      },
+      {
+        "login": "peaceiris",
+        "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
+        "followers": 609
+      }
+    ]
   },
   {
     "id": "claude-md-convention",
@@ -205,7 +377,8 @@
     "weaknesses": "Kein Schema-Standard, kann aufgeblaehen, weniger ist mehr (Anthropic-Empfehlung). Keine Validierung ob Instructions befolgt werden",
     "learned": "Unser gesamtes AgentField-System basiert darauf. Wichtigste Lektion: Kurz halten, priorisieren, regelmaessig aufraeumen.",
     "added": "2026-03-08",
-    "tested": true
+    "tested": true,
+    "notable_stargazers": []
   },
   {
     "id": "agentic-design-patterns",
@@ -221,6 +394,7 @@
     "weaknesses": "Hohe Abstraktion, keine konkreten Implementierungs-Empfehlungen. Reale Systeme kombinieren immer mehrere Patterns",
     "learned": "Gutes mentales Modell fuer Agent-Design. Hilft beim Einordnen neuer Tools im Radar.",
     "added": "2026-03-08",
-    "tested": true
+    "tested": true,
+    "notable_stargazers": []
   }
 ]

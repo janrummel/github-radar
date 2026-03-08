@@ -212,6 +212,15 @@ td a:hover { text-decoration: underline; }
 .stat-number { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
 .stat-label { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem; }
 
+/* Notable Stargazers */
+.notable-list { list-style: none; padding: 0; }
+.notable-list li { padding: 0.3rem 0; border-bottom: 1px solid var(--border); font-size: 0.85rem; display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; }
+.notable-list li:last-child { border-bottom: none; }
+.notable-list a { color: var(--accent); text-decoration: none; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.notable-list a:hover { text-decoration: underline; }
+.follower-count { color: var(--text-muted); font-size: 0.75rem; white-space: nowrap; }
+.no-notables { color: var(--text-muted); font-style: italic; }
+
 footer {
   text-align: center;
   padding: 2rem 1rem;

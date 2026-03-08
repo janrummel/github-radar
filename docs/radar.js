@@ -249,6 +249,13 @@ function showDetails(entry) {
     <div class="detail-section"><h4>Staerken</h4><p>${entry.strengths}</p></div>
     <div class="detail-section"><h4>Schwaechen</h4><p>${entry.weaknesses}</p></div>
     <div class="detail-section"><h4>Was ich gelernt habe</h4><p>${entry.learned}</p></div>
+    ${entry.notable_stargazers && entry.notable_stargazers.length > 0 ? `
+    <div class="detail-section notable-section">
+      <h4>Notable Stargazers (${entry.notable_stargazers.length})</h4>
+      <ul class="notable-list">
+        ${entry.notable_stargazers.map(u => `<li><a href="https://github.com/${u.login}" target="_blank">${u.label}</a> <span class="follower-count">${formatStars(u.followers)} Followers</span></li>`).join('')}
+      </ul>
+    </div>` : `<div class="detail-section notable-section"><h4>Notable Stargazers</h4><p class="no-notables">Keine (in Stichprobe von 200)</p></div>`}
   `;
   panel.classList.remove('hidden');
 }
