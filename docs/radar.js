@@ -290,6 +290,7 @@ function showDetails(entry) {
     </div>` : `<div class="detail-section notable-section"><h4>Notable Stargazers</h4><p class="no-notables">Keine (in Stichprobe von 200)</p></div>`}
   `;
   panel.classList.remove('hidden');
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function closeDetails() {
@@ -305,7 +306,10 @@ function renderTable(filteredEntries) {
   sorted.forEach(entry => {
     const ringClass = entry.ring.toLowerCase();
     const tr = document.createElement('tr');
-    tr.addEventListener('click', () => showDetails(entry));
+    tr.addEventListener('click', (e) => {
+      if (e.target.tagName === 'A') e.preventDefault();
+      showDetails(entry);
+    });
     const qs = entry.quality_score || 0;
     const cov = entry.notable_coverage_pct || 0;
     const qClass = qs >= 7 ? 'signal-high' : qs >= 5 ? 'signal-mid' : qs > 0 ? 'signal-low' : 'signal-none';
