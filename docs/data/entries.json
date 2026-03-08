@@ -16,11 +16,20 @@
     "tested": true,
     "notable_stargazers": [
       {
+        "login": "aluxian",
+        "label": "Alexandru Rosianu (aluxian) @ @molin-ai ",
+        "followers": 726,
+        "weight": 1
+      },
+      {
         "login": "kieranklaassen",
         "label": "Kieran Klaassen (kieranklaassen)",
-        "followers": 596
+        "followers": 596,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 2,
+    "notable_density": 0.08
   },
   {
     "id": "openfang",
@@ -41,14 +50,18 @@
       {
         "login": "Freelander",
         "label": "高军 (GoJun) (Freelander) @ @GitHubDaily ",
-        "followers": 1165
+        "followers": 1165,
+        "weight": 2
       },
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 727
+        "followers": 728,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 3,
+    "notable_density": 0.24
   },
   {
     "id": "polars",
@@ -69,54 +82,66 @@
       {
         "login": "minimaxir",
         "label": "Max Woolf (minimaxir) @ @buzzfeed ",
-        "followers": 5046
+        "followers": 5047,
+        "weight": 4
       },
       {
         "login": "trishume",
         "label": "Tristan Hume (trishume)",
-        "followers": 3686
+        "followers": 3691,
+        "weight": 2
       },
       {
         "login": "mattsse",
         "label": "Matthias Seitz (mattsse)",
-        "followers": 1886
+        "followers": 1886,
+        "weight": 2
       },
       {
         "login": "smorimoto",
         "label": "Sora Morimoto (smorimoto) @ @ocaml @tc39",
-        "followers": 960
+        "followers": 960,
+        "weight": 1
       },
       {
         "login": "softprops",
         "label": "Doug Tangren (softprops) @ https://www.mongodb.com/atlas",
-        "followers": 954
+        "followers": 954,
+        "weight": 1
       },
       {
         "login": "zhpmatrix",
         "label": "张大千 (zhpmatrix)",
-        "followers": 741
+        "followers": 741,
+        "weight": 1
       },
       {
         "login": "Kerollmops",
         "label": "Clément Renault (Kerollmops) @ @meilisearch",
-        "followers": 671
+        "followers": 671,
+        "weight": 1
       },
       {
         "login": "robbert-vdh",
         "label": "Robbert van der Helm (robbert-vdh) @ @channable",
-        "followers": 648
+        "followers": 648,
+        "weight": 1
       },
       {
         "login": "scrogson",
         "label": "Sonny Scroggin (scrogson) @ @squidinklabs",
-        "followers": 564
+        "followers": 564,
+        "weight": 1
       },
       {
         "login": "ik5",
         "label": "ik5 (ik5)",
-        "followers": 533
+        "followers": 533,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 16,
+    "notable_density": 0.42
   },
   {
     "id": "scrapling",
@@ -135,26 +160,26 @@
     "tested": false,
     "notable_stargazers": [
       {
-        "login": "pezy",
-        "label": "peizhe.chen (pezy)",
-        "followers": 1186
-      },
-      {
         "login": "dsfb",
         "label": "Daniel Bruno (dsfb) @ Octaplus Financial Analytics Ltda.",
-        "followers": 793
+        "followers": 794,
+        "weight": 1
       },
       {
-        "login": "QIN2DIM",
-        "label": "QIN2DIM @ JhlFund",
-        "followers": 703
+        "login": "ArtSabintsev",
+        "label": "Arthur Ariel Sabintsev (ArtSabintsev) @ @BuildWithGrove",
+        "followers": 549,
+        "weight": 1
       },
       {
         "login": "GONZOsint",
         "label": "GOΠZO (GONZOsint)",
-        "followers": 517
+        "followers": 517,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 3,
+    "notable_density": 0.11
   },
   {
     "id": "cc-sdd",
@@ -175,19 +200,24 @@
       {
         "login": "shunkakinoki",
         "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
-        "followers": 855
+        "followers": 855,
+        "weight": 1
       },
       {
         "login": "peaceiris",
         "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
-        "followers": 609
+        "followers": 609,
+        "weight": 1
       },
       {
         "login": "davidkimai",
         "label": "davidkimai",
-        "followers": 513
+        "followers": 513,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 3,
+    "notable_density": 1.07
   },
   {
     "id": "claude-code-spec-workflow",
@@ -208,9 +238,12 @@
       {
         "login": "johannesjo",
         "label": "Johannes Millan (johannesjo) @ Frontend Developer",
-        "followers": 855
+        "followers": 855,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 1,
+    "notable_density": 0.29
   },
   {
     "id": "ruflo",
@@ -231,9 +264,12 @@
       {
         "login": "jedisct1",
         "label": "Frank Denis (jedisct1)",
-        "followers": 4166
+        "followers": 4166,
+        "weight": 2
       }
-    ]
+    ],
+    "notable_score": 2,
+    "notable_density": 0.1
   },
   {
     "id": "orchestrator-starter",
@@ -250,7 +286,9 @@
     "learned": "Eigenes Projekt. Taeglicher Einsatz als AgentField.",
     "added": "2026-03-08",
     "tested": true,
-    "notable_stargazers": []
+    "notable_stargazers": [],
+    "notable_score": 0,
+    "notable_density": 0.0
   },
   {
     "id": "awesome-claude-skills",
@@ -271,9 +309,18 @@
       {
         "login": "doggy8088",
         "label": "Will 保哥 (doggy8088) @ 多奇數位創意有限公司",
-        "followers": 4286
+        "followers": 4286,
+        "weight": 2
+      },
+      {
+        "login": "h2non",
+        "label": "Tom (h2non) @ Dissident",
+        "followers": 925,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 3,
+    "notable_density": 0.07
   },
   {
     "id": "awesome-claude-code",
@@ -294,14 +341,18 @@
       {
         "login": "zchee",
         "label": "Koichi Shiraishi (zchee) @ @gaudiy",
-        "followers": 764
+        "followers": 765,
+        "weight": 1
       },
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 727
+        "followers": 728,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 2,
+    "notable_density": 0.07
   },
   {
     "id": "context-engineering",
@@ -318,7 +369,9 @@
     "learned": "Context Rot ist real. Frische Subagents (GSD-Ansatz) und Context Monitors (Hook-basiert) sind die beste Gegenmassnahme.",
     "added": "2026-03-08",
     "tested": true,
-    "notable_stargazers": []
+    "notable_stargazers": [],
+    "notable_score": 0,
+    "notable_density": 0.0
   },
   {
     "id": "spec-driven-dev",
@@ -339,29 +392,36 @@
       {
         "login": "rootsongjc",
         "label": "Jimmy Song (rootsongjc) @ @dynamia-ai",
-        "followers": 4033
+        "followers": 4033,
+        "weight": 2
       },
       {
         "login": "LadyKerr",
         "label": "Kedasha Kerr (LadyKerr) @ Developer Advocate",
-        "followers": 1185
+        "followers": 1185,
+        "weight": 2
       },
       {
         "login": "filmgirl",
         "label": "Christina Warren (filmgirl) @ GitHub",
-        "followers": 1035
+        "followers": 1035,
+        "weight": 2
       },
       {
         "login": "yuiseki",
         "label": "yuiseki (yuiseki) @ Yuiseki Inc.",
-        "followers": 678
+        "followers": 678,
+        "weight": 1
       },
       {
         "login": "peaceiris",
         "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
-        "followers": 609
+        "followers": 609,
+        "weight": 1
       }
-    ]
+    ],
+    "notable_score": 8,
+    "notable_density": 0.11
   },
   {
     "id": "claude-md-convention",
@@ -378,7 +438,9 @@
     "learned": "Unser gesamtes AgentField-System basiert darauf. Wichtigste Lektion: Kurz halten, priorisieren, regelmaessig aufraeumen.",
     "added": "2026-03-08",
     "tested": true,
-    "notable_stargazers": []
+    "notable_stargazers": [],
+    "notable_score": 0,
+    "notable_density": 0.0
   },
   {
     "id": "agentic-design-patterns",
@@ -395,6 +457,8 @@
     "learned": "Gutes mentales Modell fuer Agent-Design. Hilft beim Einordnen neuer Tools im Radar.",
     "added": "2026-03-08",
     "tested": true,
-    "notable_stargazers": []
+    "notable_stargazers": [],
+    "notable_score": 0,
+    "notable_density": 0.0
   }
 ]

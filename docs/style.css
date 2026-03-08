@@ -220,8 +220,25 @@ td a:hover { text-decoration: underline; }
 .legend .ring-badge:hover { opacity: 0.8; }
 .legend .ring-badge.ring-inactive { opacity: 0.3; }
 
-/* Notable column */
-.notable-cell { font-variant-numeric: tabular-nums; text-align: center; }
+/* Signal column */
+.signal-cell { font-variant-numeric: tabular-nums; text-align: center; font-weight: 600; }
+.signal-high { color: var(--adopt); }
+.signal-mid { color: var(--trial); }
+.signal-low { color: var(--text-muted); }
+.signal-none { color: var(--text-muted); opacity: 0.5; }
+.signal-meta { font-size: 0.75rem; color: var(--text-muted); font-weight: 400; margin-left: 0.5rem; }
+
+/* Methodology */
+.methodology { margin: 1.5rem 0; }
+.methodology summary { cursor: pointer; color: var(--text-muted); font-size: 0.85rem; padding: 0.5rem 0; }
+.methodology summary:hover { color: var(--text); }
+.methodology-content { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.25rem; margin-top: 0.5rem; font-size: 0.85rem; line-height: 1.7; }
+.methodology-content p { margin-bottom: 0.75rem; }
+.methodology-content p:last-child { margin-bottom: 0; }
+.method-table { width: 100%; margin: 0.75rem 0; font-size: 0.8rem; }
+.method-table th { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.75rem; }
+.method-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border); }
+.method-note { color: var(--text-muted); font-size: 0.8rem; font-style: italic; }
 
 /* Notable Stargazers */
 .notable-list { list-style: none; padding: 0; }

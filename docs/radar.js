@@ -265,7 +265,7 @@ function showDetails(entry) {
     <div class="detail-section"><h4>Was ich gelernt habe</h4><p>${entry.learned}</p></div>
     ${entry.notable_stargazers && entry.notable_stargazers.length > 0 ? `
     <div class="detail-section notable-section">
-      <h4>Notable Stargazers (${entry.notable_stargazers.length})</h4>
+      <h4>Notable Stargazers <span class="signal-meta">Score: ${entry.notable_score || 0} · Density: ${(entry.notable_density || 0).toFixed(2)}</span></h4>
       <ul class="notable-list">
         ${entry.notable_stargazers.map(u => `<li><a href="https://github.com/${u.login}" target="_blank">${u.label}</a> <span class="follower-count">${formatStars(u.followers)} Followers</span></li>`).join('')}
       </ul>
@@ -288,14 +288,15 @@ function renderTable(filteredEntries) {
     const ringClass = entry.ring.toLowerCase();
     const tr = document.createElement('tr');
     tr.addEventListener('click', () => showDetails(entry));
-    const notableCount = (entry.notable_stargazers || []).length;
+    const density = entry.notable_density || 0;
+    const densityClass = density >= 1.0 ? 'signal-high' : density >= 0.2 ? 'signal-mid' : density > 0 ? 'signal-low' : 'signal-none';
     tr.innerHTML = `
       <td><a href="${entry.url}" target="_blank">${entry.name}</a></td>
       <td>${entry.quadrant}</td>
       <td><span class="ring-badge ${ringClass}">${entry.ring}</span></td>
       <td class="stars-cell">${formatStars(entry.stars)}</td>
       <td>${entry.language}</td>
-      <td class="notable-cell">${notableCount > 0 ? notableCount : '-'}</td>
+      <td class="signal-cell ${densityClass}">${density > 0 ? density.toFixed(2) : '-'}</td>
       <td>${entry.tested ? 'Ja' : '-'}</td>
     `;
     tbody.appendChild(tr);

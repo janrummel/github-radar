@@ -47,13 +47,32 @@
             <th>Ring</th>
             <th>Stars</th>
             <th>Sprache</th>
-            <th>Notable</th>
+            <th class="sortable" data-sort="density">Signal <span class="sort-hint">&#9432;</span></th>
             <th>Getestet</th>
           </tr>
         </thead>
         <tbody></tbody>
       </table>
     </section>
+
+    <details class="methodology">
+      <summary>Wie wird der Signal-Score berechnet?</summary>
+      <div class="methodology-content">
+        <p>Der <strong>Signal-Score</strong> misst, ob relevante Entwickler ein Repo gestarrt haben — nicht nur wie viele.</p>
+        <table class="method-table">
+          <thead><tr><th>Follower</th><th>Gewicht</th><th>Bedeutung</th></tr></thead>
+          <tbody>
+            <tr><td>500–999</td><td>1 Punkt</td><td>Aktiver Entwickler</td></tr>
+            <tr><td>1.000–4.999</td><td>2 Punkte</td><td>Bekannter Entwickler</td></tr>
+            <tr><td>5.000–9.999</td><td>4 Punkte</td><td>Einflussreicher Entwickler</td></tr>
+            <tr><td>10.000+</td><td>8 Punkte</td><td>Top-Developer / Thought Leader</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Notable Density</strong> = Score &divide; (Stars / 1.000) — normalisiert fuer Repo-Groesse.<br>
+        Hoher Wert = proportional viele relevante Stargazer. Niedriger Wert bei vielen Stars = moegliches Red Flag.</p>
+        <p class="method-note">Stichprobe: je 100 frueheste + 100 neueste Stargazers pro Repo (max. 200 von allen).</p>
+      </div>
+    </details>
 
     <section class="stats-section">
       <div class="stat-card">
