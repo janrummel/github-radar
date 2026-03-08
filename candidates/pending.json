@@ -1,0 +1,2308 @@
+{
+  "last_discovery": "2026-03-08T22:55:48Z",
+  "total_pending": 230,
+  "total_accepted": 0,
+  "total_rejected": 0,
+  "candidates": [
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 178149,
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": 150857,
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "license": "cc0-1.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "stars": 131628,
+      "description": "Production-ready platform for agentic workflow development.",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": 126242,
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "stars": 96908,
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 89524,
+      "description": "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
+      "language": "TypeScript",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ChatGPTNextWeb/NextChat",
+      "url": "https://github.com/ChatGPTNextWeb/NextChat",
+      "stars": 87445,
+      "description": "✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "stars": 82519,
+      "description": "A collection of MCP servers.",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "stars": 79922,
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "stars": 77993,
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "C",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "stars": 74427,
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "stars": 73281,
+      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effo",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "dair-ai/Prompt-Engineering-Guide",
+      "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "stars": 71279,
+      "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+      "language": "MDX",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "affaan-m/everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "stars": 67305,
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "daytonaio/daytona",
+      "url": "https://github.com/daytonaio/daytona",
+      "stars": 63135,
+      "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+      "language": "TypeScript",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "stars": 55915,
+      "description": "The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configration.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "stars": 53398,
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "stars": 49060,
+      "description": "Universal memory layer for AI Agents",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "stars": 48243,
+      "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话",
+      "language": "Python",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "stars": 48162,
+      "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "tw93/Pake",
+      "url": "https://github.com/tw93/Pake",
+      "stars": 46518,
+      "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "language": "Rust",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "stars": 45471,
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "jeecgboot/JeecgBoot",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "stars": 45361,
+      "description": "【AI低代码平台】“低代码+零代码”双模驱动AI智能平台  AI low-code platform empowers enterprises to quickly develop low-code solutions and build AI applications.  助力企业快速实现低代码开发和构建AI应用！ AI应用平台涵盖：AI应用、AI模型、AI聊天助手、知识库、AI流程编排、MCP",
+      "language": "Java",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "stars": 43394,
+      "description": ":robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers,",
+      "language": "Go",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Kong/kong",
+      "url": "https://github.com/Kong/kong",
+      "stars": 42906,
+      "description": "🦍 The API and AI Gateway",
+      "language": "Lua",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "zhayujie/chatgpt-on-wechat",
+      "url": "https://github.com/zhayujie/chatgpt-on-wechat",
+      "stars": 42012,
+      "description": "CowAgent是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、拥有长期记忆并不断成长。同时支持飞书、钉钉、企业微信应用、微信公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助手和企业数字员工。",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "stars": 41019,
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "language": "TypeScript",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "chatboxai/chatbox",
+      "url": "https://github.com/chatboxai/chatbox",
+      "stars": 38829,
+      "description": "Powerful AI Client",
+      "language": "TypeScript",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mindsdb/mindsdb",
+      "url": "https://github.com/mindsdb/mindsdb",
+      "stars": 38654,
+      "description": "Query Engine for AI Analytics: Build self-reasoning agents across all your live data",
+      "language": "Python",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "agno-agi/agno",
+      "url": "https://github.com/agno-agi/agno",
+      "stars": 38523,
+      "description": "Build, run, manage agentic software at scale.",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 38519,
+      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "code-yeongyu/oh-my-openagent",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "stars": 38109,
+      "description": "omo; the best agent harness - previously oh-my-opencode",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "chatanywhere/GPT_API_free",
+      "url": "https://github.com/chatanywhere/GPT_API_free",
+      "stars": 36482,
+      "description": "Free ChatGPT&DeepSeek API Key，免费ChatGPT&DeepSeek API。免费接入DeepSeek API和GPT4 API，支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "reworkd/AgentGPT",
+      "url": "https://github.com/reworkd/AgentGPT",
+      "stars": 35784,
+      "description": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "language": "TypeScript",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "stars": 34438,
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message se",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "stars": 34001,
+      "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+      "language": "HTML",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": 33487,
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ses",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "alibaba/nacos",
+      "url": "https://github.com/alibaba/nacos",
+      "stars": 32693,
+      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+      "language": "Java",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "block/goose",
+      "url": "https://github.com/block/goose",
+      "stars": 32647,
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ItzCrazyKns/Perplexica",
+      "url": "https://github.com/ItzCrazyKns/Perplexica",
+      "stars": 32240,
+      "description": "Perplexica is an AI-powered answering engine.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "PDFMathTranslate/PDFMathTranslate",
+      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+      "stars": 32109,
+      "description": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero",
+      "language": "Python",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "continuedev/continue",
+      "url": "https://github.com/continuedev/continue",
+      "stars": 31721,
+      "description": "⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "patchy631/ai-engineering-hub",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "stars": 31505,
+      "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+      "language": "Jupyter Notebook",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "stars": 30679,
+      "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "songquanpeng/one-api",
+      "url": "https://github.com/songquanpeng/one-api",
+      "stars": 30226,
+      "description": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key ",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "stars": 29231,
+      "description": "The Frontend for Agents & Generative UI. React + Angular",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "stars": 28627,
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "microsoft/playwright-mcp",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "stars": 28440,
+      "description": "Playwright MCP server",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "voideditor/void",
+      "url": "https://github.com/voideditor/void",
+      "stars": 28313,
+      "description": "",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "stars": 28107,
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "stars": 27642,
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ComposioHQ/composio",
+      "url": "https://github.com/ComposioHQ/composio",
+      "stars": 27323,
+      "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "labring/FastGPT",
+      "url": "https://github.com/labring/FastGPT",
+      "stars": 27304,
+      "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letti",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "chroma-core/chroma",
+      "url": "https://github.com/chroma-core/chroma",
+      "stars": 26513,
+      "description": "Open-source search and retrieval database for AI applications.",
+      "language": "Rust",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "stars": 25993,
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes t",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "stars": 25889,
+      "description": "Build resilient language agents as graphs.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ashishpatel26/500-AI-Agents-Projects",
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "stars": 25799,
+      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, i",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "assafelovic/gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "stars": 25597,
+      "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "stars": 25309,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "stars": 23818,
+      "description": "Bash is all you need -  A nano Claude Code–like agent, built from 0 to 1",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "BloopAI/vibe-kanban",
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "stars": 22692,
+      "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+      "language": "Rust",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "stars": 22432,
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "yamadashy/repomix",
+      "url": "https://github.com/yamadashy/repomix",
+      "stars": 22292,
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like C",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "stars": 21791,
+      "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "letta-ai/letta",
+      "url": "https://github.com/letta-ai/letta",
+      "stars": 21463,
+      "description": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "oraios/serena",
+      "url": "https://github.com/oraios/serena",
+      "stars": 21155,
+      "description": "A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & other integrations)",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "stars": 21136,
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "stars": 20851,
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "winfunc/opcode",
+      "url": "https://github.com/winfunc/opcode",
+      "stars": 20820,
+      "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+      "language": "TypeScript",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "dolthub/dolt",
+      "url": "https://github.com/dolthub/dolt",
+      "stars": 20639,
+      "description": "Dolt – Git for Data",
+      "language": "Go",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "qwibitai/nanoclaw",
+      "url": "https://github.com/qwibitai/nanoclaw",
+      "stars": 20428,
+      "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs direct",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "1Panel-dev/MaxKB",
+      "url": "https://github.com/1Panel-dev/MaxKB",
+      "stars": 20260,
+      "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
+      "language": "Python",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "stars": 19587,
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for pers",
+      "language": "Go",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "kortix-ai/suna",
+      "url": "https://github.com/kortix-ai/suna",
+      "stars": 19482,
+      "description": "Kortix – build, manage and train AI Agents.",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "steveyegge/beads",
+      "url": "https://github.com/steveyegge/beads",
+      "stars": 18540,
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "iOfficeAI/AionUi",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "stars": 18202,
+      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Kilo-Org/kilocode",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "stars": 16389,
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 coding agent on OpenRouter. 1.5M+ Kilo Coders. 25T+ tokens proce",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 16248,
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "OthmanAdi/planning-with-files",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "stars": 15570,
+      "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "GaiZhenbiao/ChuanhuChatGPT",
+      "url": "https://github.com/GaiZhenbiao/ChuanhuChatGPT",
+      "stars": 15374,
+      "description": "GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.",
+      "language": "Python",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "microsoft/mcp-for-beginners",
+      "url": "https://github.com/microsoft/mcp-for-beginners",
+      "stars": 15149,
+      "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for",
+      "language": "Jupyter Notebook",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "czlonkowski/n8n-mcp",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "stars": 14580,
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "cheahjs/free-llm-api-resources",
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "stars": 14554,
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": "Python",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "slopus/happy",
+      "url": "https://github.com/slopus/happy",
+      "stars": 14551,
+      "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "stars": 14407,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen m",
+      "language": "Go",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "triggerdotdev/trigger.dev",
+      "url": "https://github.com/triggerdotdev/trigger.dev",
+      "stars": 13970,
+      "description": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "stars": 12927,
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "stars": 12627,
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "tadata-org/fastapi_mcp",
+      "url": "https://github.com/tadata-org/fastapi_mcp",
+      "stars": 11629,
+      "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "e2b-dev/E2B",
+      "url": "https://github.com/e2b-dev/E2B",
+      "stars": 11178,
+      "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+      "language": "MDX",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "xpzouying/xiaohongshu-mcp",
+      "url": "https://github.com/xpzouying/xiaohongshu-mcp",
+      "stars": 10827,
+      "description": "MCP for xiaohongshu.com",
+      "language": "Go",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "stars": 10796,
+      "description": "Yet another WebUI for Nginx",
+      "language": "Go",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "yusufkaraaslan/Skill_Seekers",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "stars": 10372,
+      "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "JoeanAmier/XHS-Downloader",
+      "url": "https://github.com/JoeanAmier/XHS-Downloader",
+      "stars": 10294,
+      "description": "小红书（XiaoHongShu、RedNote）链接提取/作品采集工具：提取账号发布、收藏、点赞、专辑作品链接；提取搜索结果作品、用户链接；采集小红书作品信息；提取小红书作品下载地址；下载小红书作品文件",
+      "language": "Python",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "stars": 10176,
+      "description": "Claude Code Skills and 500+ agent skills from official dev teams and the community, compatible with Codex, Antigravity, Gemini CLI, Cursor and others.",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "humanlayer/humanlayer",
+      "url": "https://github.com/humanlayer/humanlayer",
+      "stars": 9733,
+      "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "stars": 9466,
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mcp-use/mcp-use",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "stars": 9395,
+      "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "xonsh/xonsh",
+      "url": "https://github.com/xonsh/xonsh",
+      "stars": 9238,
+      "description": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
+      "language": "Python",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Wei-Shaw/claude-relay-service",
+      "url": "https://github.com/Wei-Shaw/claude-relay-service",
+      "stars": 9131,
+      "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "stars": 9084,
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "stars": 8859,
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team colla",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "xinnan-tech/xiaozhi-esp32-server",
+      "url": "https://github.com/xinnan-tech/xiaozhi-esp32-server",
+      "stars": 8800,
+      "description": "本项目为xiaozhi-esp32提供后端服务，帮助您快速搭建ESP32设备控制服务器。Backend service for xiaozhi-esp32, helps you quickly build an ESP32 device control server.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "saturndec/waoowaoo",
+      "url": "https://github.com/saturndec/waoowaoo",
+      "stars": 8744,
+      "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
+      "language": "TypeScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "awslabs/mcp",
+      "url": "https://github.com/awslabs/mcp",
+      "stars": 8388,
+      "description": "Official MCP Servers for AWS",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "stars": 7992,
+      "description": "Claude Code skill that removes signs of AI-generated writing from text",
+      "language": "Unknown",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "firerpa/lamda",
+      "url": "https://github.com/firerpa/lamda",
+      "stars": 7654,
+      "description": " The most powerful Android RPA agent framework, next generation of mobile automation robots.",
+      "language": "Python",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "frankbria/ralph-claude-code",
+      "url": "https://github.com/frankbria/ralph-claude-code",
+      "stars": 7596,
+      "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "0x4m4/hexstrike-ai",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "stars": 7291,
+      "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug boun",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "stars": 7186,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "AgentDeskAI/browser-tools-mcp",
+      "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+      "stars": 7108,
+      "description": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "alibaba/OpenSandbox",
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "stars": 6915,
+      "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, ",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "crestalnetwork/intentkit",
+      "url": "https://github.com/crestalnetwork/intentkit",
+      "stars": 6491,
+      "description": "IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "yzfly/Awesome-MCP-ZH",
+      "url": "https://github.com/yzfly/Awesome-MCP-ZH",
+      "stars": 6413,
+      "description": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mrexodia/ida-pro-mcp",
+      "url": "https://github.com/mrexodia/ida-pro-mcp",
+      "stars": 6128,
+      "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "firecrawl/firecrawl-mcp-server",
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "stars": 5693,
+      "description": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "UfoMiao/zcf",
+      "url": "https://github.com/UfoMiao/zcf",
+      "stars": 5637,
+      "description": "Zero-Config Code Flow for Claude code & Codex",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Integuru-AI/Integuru",
+      "url": "https://github.com/Integuru-AI/Integuru",
+      "stars": 4550,
+      "description": "The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.",
+      "language": "Python",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mahseema/awesome-ai-tools",
+      "url": "https://github.com/mahseema/awesome-ai-tools",
+      "stars": 4541,
+      "description": "A curated list of Artificial Intelligence Top Tools",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "presenton/presenton",
+      "url": "https://github.com/presenton/presenton",
+      "stars": 4273,
+      "description": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "language": "HTML",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "FedML-AI/FedML",
+      "url": "https://github.com/FedML-AI/FedML",
+      "stars": 4009,
+      "description": "FEDML - The unified and scalable ML library for large-scale distributed training, model serving, and federated learning. FEDML Launch, a cross-cloud scheduler, further enables running any AI jobs on a",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "op7418/Humanizer-zh",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "stars": 3907,
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Agenta-AI/agenta",
+      "url": "https://github.com/Agenta-AI/agenta",
+      "stars": 3904,
+      "description": "The open-source LLMOps platform: prompt playground, prompt management, LLM evaluation, and LLM observability all in one place.",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "UnicomAI/wanwu",
+      "url": "https://github.com/UnicomAI/wanwu",
+      "stars": 3821,
+      "description": "China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and a",
+      "language": "Go",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "groupultra/telegram-search",
+      "url": "https://github.com/groupultra/telegram-search",
+      "stars": 3806,
+      "description": "🔍 导出并模糊搜索 Telegram 聊天记录 | Export and fuzzy search your Telegram chat history",
+      "language": "TypeScript",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "LazyAGI/LazyLLM",
+      "url": "https://github.com/LazyAGI/LazyLLM",
+      "stars": 3739,
+      "description": "Easiest and laziest way for  building multi-agent LLMs applications.",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "zebbern/claude-code-guide",
+      "url": "https://github.com/zebbern/claude-code-guide",
+      "stars": 3539,
+      "description": "Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks go from beginner to power user!",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "smallcloudai/refact",
+      "url": "https://github.com/smallcloudai/refact",
+      "stars": 3511,
+      "description": "AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.",
+      "language": "Rust",
+      "license": "bsd-3-clause",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "filipecalegario/awesome-vibe-coding",
+      "url": "https://github.com/filipecalegario/awesome-vibe-coding",
+      "stars": 3502,
+      "description": "A curated list of vibe coding references, collaborating with AI to write code.",
+      "language": "Unknown",
+      "license": "cc0-1.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "trailofbits/skills",
+      "url": "https://github.com/trailofbits/skills",
+      "stars": 3407,
+      "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+      "language": "Python",
+      "license": "cc-by-sa-4.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mindfold-ai/Trellis",
+      "url": "https://github.com/mindfold-ai/Trellis",
+      "stars": 3279,
+      "description": "All-in-one AI framework & toolkit",
+      "language": "Python",
+      "license": "agpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "SWE-agent/mini-swe-agent",
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "stars": 3201,
+      "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified!",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Intelligent-Internet/ii-agent",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "stars": 3171,
+      "description": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "i-am-bee/beeai-framework",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "stars": 3152,
+      "description": "Build production-ready AI agents in both Python and Typescript.",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "memodb-io/Acontext",
+      "url": "https://github.com/memodb-io/Acontext",
+      "stars": 3136,
+      "description": "Agent Skills as a Memory Layer",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "glitternetwork/pinme",
+      "url": "https://github.com/glitternetwork/pinme",
+      "stars": 2990,
+      "description": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mikeyobrien/ralph-orchestrator",
+      "url": "https://github.com/mikeyobrien/ralph-orchestrator",
+      "stars": 2128,
+      "description": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
+      "language": "Rust",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "builderz-labs/mission-control",
+      "url": "https://github.com/builderz-labs/mission-control",
+      "stars": 1970,
+      "description": "The open-source dashboard for AI agent orchestration. Manage agent fleets, track tasks, monitor costs, and orchestrate workflows — with direct CLI integration, GitHub sync, and real-time monitoring.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "blader/Claudeception",
+      "url": "https://github.com/blader/Claudeception",
+      "stars": 1969,
+      "description": "A Claude Code skill for autonomous skill extraction and continuous learning. Have Claude Code get smarter as it works.",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "KhazP/vibe-coding-prompt-template",
+      "url": "https://github.com/KhazP/vibe-coding-prompt-template",
+      "stars": 1944,
+      "description": "Templates and workflow for generating PRDs, Tech Designs, and MVP and more using LLMs for AI IDEs",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "lackeyjb/playwright-skill",
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "stars": 1915,
+      "description": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "nizos/tdd-guard",
+      "url": "https://github.com/nizos/tdd-guard",
+      "stars": 1794,
+      "description": "Automated TDD enforcement for Claude Code",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "abhi1693/openclaw-mission-control",
+      "url": "https://github.com/abhi1693/openclaw-mission-control",
+      "stars": 1782,
+      "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "taylorwilsdon/google_workspace_mcp",
+      "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+      "stars": 1731,
+      "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "anthropics/claude-agent-sdk-demos",
+      "url": "https://github.com/anthropics/claude-agent-sdk-demos",
+      "stars": 1630,
+      "description": "Claude Code SDK Demos",
+      "language": "TypeScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Mirascope/mirascope",
+      "url": "https://github.com/Mirascope/mirascope",
+      "stars": 1422,
+      "description": "The LLM Anti-Framework",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "yctimlin/mcp_excalidraw",
+      "url": "https://github.com/yctimlin/mcp_excalidraw",
+      "stars": 1322,
+      "description": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "covibes/zeroshot",
+      "url": "https://github.com/covibes/zeroshot",
+      "stars": 1284,
+      "description": "Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away, and return to production-grade code. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini CLI.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "crshdn/mission-control",
+      "url": "https://github.com/crshdn/mission-control",
+      "stars": 1240,
+      "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "zed-industries/claude-agent-acp",
+      "url": "https://github.com/zed-industries/claude-agent-acp",
+      "stars": 1110,
+      "description": "Use Claude Agent SDK from any ACP client such as Zed!",
+      "language": "TypeScript",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Ceeon/videocut-skills",
+      "url": "https://github.com/Ceeon/videocut-skills",
+      "stars": 1076,
+      "description": "用 Claude Code Skills 做的视频剪辑 Agent",
+      "language": "JavaScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Nya-Foundation/NyaProxy",
+      "url": "https://github.com/Nya-Foundation/NyaProxy",
+      "stars": 951,
+      "description": "NyaProxy acts like a smart, central manager for accessing various online services (APIs) – think AI tools (like OpenAI, Gemini, Anthropic), image generators, or almost any web service that uses access",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "anthropics/claude-agent-sdk-typescript",
+      "url": "https://github.com/anthropics/claude-agent-sdk-typescript",
+      "stars": 915,
+      "description": "",
+      "language": "Shell",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ArcadeAI/arcade-mcp",
+      "url": "https://github.com/ArcadeAI/arcade-mcp",
+      "stars": 821,
+      "description": "The best way to create, deploy, and share MCP Servers",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "golf-mcp/golf",
+      "url": "https://github.com/golf-mcp/golf",
+      "stars": 813,
+      "description": "Production-Ready MCP Server Framework • Build, deploy & scale secure AI agent infrastructure • Includes Auth, Observability, Debugger, Telemetry & Runtime • Run real-world MCPs powering AI Agents ",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "skills-directory/skill-codex",
+      "url": "https://github.com/skills-directory/skill-codex",
+      "stars": 768,
+      "description": "A claude code skill to delegate prompts to codex",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "sigoden/llm-functions",
+      "url": "https://github.com/sigoden/llm-functions",
+      "stars": 715,
+      "description": "Easily create LLM tools and agents using plain Bash/JavaScript/Python functions.",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "AFK-surf/open-agent",
+      "url": "https://github.com/AFK-surf/open-agent",
+      "stars": 672,
+      "description": "Open-source alternative to Claude Agent SDK, ChatGPT Agents, and Manus.",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "daymade/claude-code-skills",
+      "url": "https://github.com/daymade/claude-code-skills",
+      "stars": 626,
+      "description": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "wshuyi/x-article-publisher-skill",
+      "url": "https://github.com/wshuyi/x-article-publisher-skill",
+      "stars": 624,
+      "description": "Claude Code skill for publishing Markdown articles to X (Twitter) Articles",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "NeoLabHQ/context-engineering-kit",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit",
+      "stars": 601,
+      "description": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.",
+      "language": "TypeScript",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Haervwe/open-webui-tools",
+      "url": "https://github.com/Haervwe/open-webui-tools",
+      "stars": 596,
+      "description": "Open‑WebUI Tools is a modular toolkit designed to extend and enrich your Open WebUI instance, turning it into a powerful AI workstation. With a suite of over 15 specialized tools, function pipelines, ",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "CharlesWiltgen/Axiom",
+      "url": "https://github.com/CharlesWiltgen/Axiom",
+      "stars": 590,
+      "description": "Battle-tested Claude Code skills for modern xOS (iOS, iPadOS, watchOS, tvOS) development",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "PenglongHuang/chinese-novelist-skill",
+      "url": "https://github.com/PenglongHuang/chinese-novelist-skill",
+      "stars": 580,
+      "description": "让 AI 为你写一部完整的中文小说 - AI 驱动的中文小说创作助手 - 超过20章的小说，几分钟全稿完成    Claude Code Skill：自动创作分章节中文小说，每章悬念钩子",
+      "language": "Python",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "alirezarezvani/claude-code-skill-factory",
+      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+      "stars": 571,
+      "description": "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate stru",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ReScienceLab/opc-skills",
+      "url": "https://github.com/ReScienceLab/opc-skills",
+      "stars": 540,
+      "description": "Agent Skills for Solopreneurs",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "23blocks-OS/ai-maestro",
+      "url": "https://github.com/23blocks-OS/ai-maestro",
+      "stars": 505,
+      "description": "AI Agent Orchestrator with Skills System - Give AI Agents superpowers: memory search, code graph queries, agent-to-agent messaging. Manage Claude, Codex or any AI Agent from one dashboard. Move Agents",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Aaronontheweb/dotnet-skills",
+      "url": "https://github.com/Aaronontheweb/dotnet-skills",
+      "stars": 483,
+      "description": "Claude Code skills and sub-agents for .NET Developers",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Chen-zexi/vllm-cli",
+      "url": "https://github.com/Chen-zexi/vllm-cli",
+      "stars": 480,
+      "description": "A command-line interface tool for serving LLM using vLLM.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "lijigang/ljg-skill-xray-paper",
+      "url": "https://github.com/lijigang/ljg-skill-xray-paper",
+      "stars": 474,
+      "description": "论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "utensils/mcp-nixos",
+      "url": "https://github.com/utensils/mcp-nixos",
+      "stars": 468,
+      "description": "MCP-NixOS - Model Context Protocol Server for NixOS resources",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "stars": 451,
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "TypeScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mhattingpete/claude-skills-marketplace",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace",
+      "stars": 444,
+      "description": "Claude Code Skills for software engineering workflows - Git automation, testing, and code review",
+      "language": "HTML",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "DrCatHicks/learning-opportunities",
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
+      "stars": 419,
+      "description": "A Claude Code skill for deliberate skill development during AI-assisted coding",
+      "language": "Shell",
+      "license": "cc-by-4.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Azure-Samples/azure-ai-travel-agents",
+      "url": "https://github.com/Azure-Samples/azure-ai-travel-agents",
+      "stars": 418,
+      "description": "A robust enterprise application sample (deployed on ACA) that leverages MCP and multiple AI agents orchestrated by Langchain.js, Llamaindex.TS and Microsoft Agent Framework.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "RoundTable02/tutor-skills",
+      "url": "https://github.com/RoundTable02/tutor-skills",
+      "stars": 416,
+      "description": "A Claude Code skill that turns PDFs, docs, and codebases into Obsidian study vaults",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "axtonliu/smart-illustrator",
+      "url": "https://github.com/axtonliu/smart-illustrator",
+      "stars": 387,
+      "description": "AI-powered article illustrations with intelligent position detection and cover learning system. Claude Code Skill.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ahmedeltaher/azan-mcp",
+      "url": "https://github.com/ahmedeltaher/azan-mcp",
+      "stars": 382,
+      "description": "Azan + Prayer Time + MCP + AI Agents + Islamic + Salah + A lightweight MCP library to calculate prayer times and trigger Azan with a single tool call. If you’re building an AI agent or prayer applicat",
+      "language": "Kotlin",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "solana-foundation/solana-dev-skill",
+      "url": "https://github.com/solana-foundation/solana-dev-skill",
+      "stars": 381,
+      "description": "Claude Code skill for modern Solana development (Jan 2026 best practices)",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "win4r/team-tasks",
+      "url": "https://github.com/win4r/team-tasks",
+      "stars": 379,
+      "description": "Multi-agent pipeline coordination: Linear, DAG, and Debate modes for AI agent orchestration",
+      "language": "Python",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "graphlit/graphlit-mcp-server",
+      "url": "https://github.com/graphlit/graphlit-mcp-server",
+      "stars": 372,
+      "description": "Model Context Protocol (MCP) Server for Graphlit Platform",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "jlevy/repren",
+      "url": "https://github.com/jlevy/repren",
+      "stars": 370,
+      "description": "Power rename/refactor tool (now with Claude Code skill support!)",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "yunshu0909/yunshu_skillshub",
+      "url": "https://github.com/yunshu0909/yunshu_skillshub",
+      "stars": 340,
+      "description": "云舒精选的 Claude Code Skills 集合，提升开发和产品管理效率",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "lijigang/ljg-skill-xray-book",
+      "url": "https://github.com/lijigang/ljg-skill-xray-book",
+      "stars": 335,
+      "description": "深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "blader/napkin",
+      "url": "https://github.com/blader/napkin",
+      "stars": 333,
+      "description": "A Claude Code skill that gives the agent persistent memory of its mistakes via a per-repo markdown scratchpad.",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "komal-SkyNET/claude-skill-homeassistant",
+      "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+      "stars": 311,
+      "description": "Claude Code skill to supercharge and manage all Home Assistant workflows",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ben-vargas/ai-sdk-provider-claude-code",
+      "url": "https://github.com/ben-vargas/ai-sdk-provider-claude-code",
+      "stars": 304,
+      "description": "Vercel AI SDK community provider for Claude Agent SDK",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "mensfeld/code-on-incus",
+      "url": "https://github.com/mensfeld/code-on-incus",
+      "stars": 303,
+      "description": "Run coding agents in hardened Incus containers with real-time network threat detection, automatic threat response (pause/kill), credential isolation, protected paths, session persistence, and multi-sl",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ericshang98/Perfect-Web-Clone",
+      "url": "https://github.com/ericshang98/Perfect-Web-Clone",
+      "stars": 297,
+      "description": "A true AI agent for pixel-perfect web cloning. Multi-agent architecture built on Claude Agent SDK with 40+ specialized tools. Clones from CSS & structured blocks—not screenshots—enabling perfect repro",
+      "language": "Python",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Arkya-AI/claude-context-os",
+      "url": "https://github.com/Arkya-AI/claude-context-os",
+      "stars": 288,
+      "description": "A complete operating system for Claude that prevents context loss and makes multi-session work reliable",
+      "language": "Unknown",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "michalparkola/tapestry-skills",
+      "url": "https://github.com/michalparkola/tapestry-skills",
+      "stars": 273,
+      "description": "Claude Code skills to download sources (articles, PDFs, YouTube video transcripts)",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "cyanheads/model-context-protocol-resources",
+      "url": "https://github.com/cyanheads/model-context-protocol-resources",
+      "stars": 269,
+      "description": "Exploring the Model Context Protocol (MCP) through practical guides, clients, and servers I've built while learning about this new protocol.",
+      "language": "Unknown",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "detroittommy879/aicodeprep-gui",
+      "url": "https://github.com/detroittommy879/aicodeprep-gui",
+      "stars": 269,
+      "description": "Surgical context engineering with a nice UI, Windows, Mac, Linux, BSD, anywhere where python & Qt run",
+      "language": "Python",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ErlichLiu/Proma",
+      "url": "https://github.com/ErlichLiu/Proma",
+      "stars": 261,
+      "description": "Proma 的开源版本，基于 Claude Agent SDK 的应用实践，可以实现通用 Agent 能力。同时也包含完整的大模型聊天对话能力，支持任意供应渠道的自定义配置。",
+      "language": "TypeScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "langchain-ai/langchainjs-mcp-adapters",
+      "url": "https://github.com/langchain-ai/langchainjs-mcp-adapters",
+      "stars": 246,
+      "description": "** THIS REPO HAS MOVED TO https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mcp-adapters ** Adapters for integrating Model Context Protocol (MCP) tools with LangChain.js application",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "avivl/claude-007-agents",
+      "url": "https://github.com/avivl/claude-007-agents",
+      "stars": 238,
+      "description": " 🤖 A unified AI agent orchestration system featuring 10's of specialized agents across 14 categories for modern software development. Built with advanced coordination intelligence, resilience engineer",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ptnghia-j/ChordMiniApp",
+      "url": "https://github.com/ptnghia-j/ChordMiniApp",
+      "stars": 217,
+      "description": "Music Analysis, Chord Recognition, Beat Tracking, Guitar Diagrams, Piano Visualizer, Lyrics Transcription Application, context-aware LLM inference for analysis from uploaded audio and YouTube video",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "zscole/gru",
+      "url": "https://github.com/zscole/gru",
+      "stars": 213,
+      "description": "Self-hosted AI agent orchestration service controlled via Telegram, Discord, or Slack.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "eqtylab/mcp-guardian",
+      "url": "https://github.com/eqtylab/mcp-guardian",
+      "stars": 193,
+      "description": "Manage / Proxy / Secure your MCP Servers",
+      "language": "Rust",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "pheuter/claude-agent-desktop",
+      "url": "https://github.com/pheuter/claude-agent-desktop",
+      "stars": 191,
+      "description": "Cross-platform desktop app for agentic chat powered by Claude Agent SDK.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ErlichLiu/claude-agent-sdk-master",
+      "url": "https://github.com/ErlichLiu/claude-agent-sdk-master",
+      "stars": 183,
+      "description": " Learn to build real-world applications with Claude Agent SDK. This tutorial takes you from basics to advanced implementations, covering essential integrations (Skills, MCP) and the core principles of",
+      "language": "TypeScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "tegridydev/auto-md",
+      "url": "https://github.com/tegridydev/auto-md",
+      "stars": 161,
+      "description": "Convert Files /  Folders / GitHub Repos Into AI / LLM-ready Files",
+      "language": "Python",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ImGoodBai/goodable",
+      "url": "https://github.com/ImGoodBai/goodable",
+      "stars": 158,
+      "description": "Goodable is a local-first Desktop AI Workspace (Desktop Agent Runtime) powered by Claude Agent SDK, combining OS/file control, browser automation, and coding into composable Skills (tool + app modes) ",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "joewinke/jat",
+      "url": "https://github.com/joewinke/jat",
+      "stars": 156,
+      "description": "  The World's First Agentic IDE. Visual dashboard: live sessions, task management, code editor, terminal. Epic Swarm parallel workflows. Auto-proceed rules. Automation patterns. Beads + Agent Mail + 5",
+      "language": "Svelte",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "smart-mcp-proxy/mcpproxy-go",
+      "url": "https://github.com/smart-mcp-proxy/mcpproxy-go",
+      "stars": 149,
+      "description": "Supercharge AI Agents, Safely",
+      "language": "Go",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "tinyfish-io/agentql-mcp",
+      "url": "https://github.com/tinyfish-io/agentql-mcp",
+      "stars": 149,
+      "description": "Model Context Protocol server that integrates AgentQL's data extraction capabilities.",
+      "language": "JavaScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "iolufemi/Express-REST-API-and-MCP-Server-Framework",
+      "url": "https://github.com/iolufemi/Express-REST-API-and-MCP-Server-Framework",
+      "stars": 149,
+      "description": "Express REST API and MCP Server Framework is a comprehensive development framework for building RESTful APIs and MCP servers with Express.js. It provides a complete template for creating production-re",
+      "language": "TypeScript",
+      "license": "gpl-3.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "minipuft/claude-prompts",
+      "url": "https://github.com/minipuft/claude-prompts",
+      "stars": 141,
+      "description": "MCP prompt template server: hot-reload, thinking frameworks, quality gates",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Ruya-AI/cozempic",
+      "url": "https://github.com/Ruya-AI/cozempic",
+      "stars": 134,
+      "description": "Context cleaning for Claude Code — prune bloated sessions, protect Agent Teams from context loss, auto-guard with tiered pruning",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "kenneth-liao/claude-agent-sdk-intro",
+      "url": "https://github.com/kenneth-liao/claude-agent-sdk-intro",
+      "stars": 124,
+      "description": "",
+      "language": "Python",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "terryso/AutoQA-Agent",
+      "url": "https://github.com/terryso/AutoQA-Agent",
+      "stars": 104,
+      "description": "AutoQA-Agent 是一个基于 Claude Agent SDK 构建的开源自动化测试 CLI 工具",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "21pounder/terminalAgent",
+      "url": "https://github.com/21pounder/terminalAgent",
+      "stars": 103,
+      "description": "A powerful terminal coding agent based on Claude Agent SDK. Better then Claude Code when start up a new project, or u have no idea. Just try it.",
+      "language": "TypeScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "severity1/claude-agent-sdk-go",
+      "url": "https://github.com/severity1/claude-agent-sdk-go",
+      "stars": 101,
+      "description": "Unofficial Go SDK for Claude Code CLI integration. See the Claude Agent SDK documentation for more information. This project has been renamed from claude-code-sdk-go.",
+      "language": "Go",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "agnusdei1207/opencode-orchestrator",
+      "url": "https://github.com/agnusdei1207/opencode-orchestrator",
+      "stars": 100,
+      "description": "Opencode Plugin for AI-Agent Orchestration",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "Harryoung/efka",
+      "url": "https://github.com/Harryoung/efka",
+      "stars": 93,
+      "description": "AI-powered knowledge management without vector embeddings. Built upon Claude Agent SDK, File system based, Agent driven. Maybe slower, but results are much more reliable!",
+      "language": "Python",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "this-rs/project-orchestrator",
+      "url": "https://github.com/this-rs/project-orchestrator",
+      "stars": 90,
+      "description": "A Rust-based AI agent orchestrator with Neo4j knowledge graph, Meilisearch semantic search, and Tree-sitter code parsing.",
+      "language": "Rust",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "receipting/claude-agent-sdk-container",
+      "url": "https://github.com/receipting/claude-agent-sdk-container",
+      "stars": 89,
+      "description": "",
+      "language": "Shell",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "swarmclawai/swarmclaw",
+      "url": "https://github.com/swarmclawai/swarmclaw",
+      "stars": 88,
+      "description": " Self-hosted AI agent orchestration dashboard with OpenClaw integration, multi-provider support, LangGraph workflows, and chat platform connectors.",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "nrrso/swarm_ex",
+      "url": "https://github.com/nrrso/swarm_ex",
+      "stars": 87,
+      "description": "Elixir library for lightweight AI agent orchestration inspired by openai/swarm",
+      "language": "Elixir",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "craigsdennis/claude-in-the-box",
+      "url": "https://github.com/craigsdennis/claude-in-the-box",
+      "stars": 87,
+      "description": "Use Anthropic Claude Agent SDK in a Cloudflare Sandbox",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "ArvorCo/Relentless",
+      "url": "https://github.com/ArvorCo/Relentless",
+      "stars": 86,
+      "description": "Universal AI Agent Orchestrator - Run any AI coding agent (Claude Code, Amp, OpenCode, Codex, Droid, Gemini) repeatedly until all tasks are complete",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "castari/castari-proxy",
+      "url": "https://github.com/castari/castari-proxy",
+      "stars": 85,
+      "description": "Use Claude Agent SDK and Claude Code with other providers/models",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "macaron-software/software-factory",
+      "url": "https://github.com/macaron-software/software-factory",
+      "stars": 78,
+      "description": "Multi-Agent Software Factory — Autonomous AI agents orchestrating the full product lifecycle with SAFe, TDD, and auto-heal capabilities",
+      "language": "Python",
+      "license": "other",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "skindhu/claude-deep-wiki",
+      "url": "https://github.com/skindhu/claude-deep-wiki",
+      "stars": 75,
+      "description": "🚀 基于 Claude Agent SDK 的智能代码分析工具 | AI-powered code analyzer that generates business-oriented knowledge base and PRD docs. Supports 165+ languages.",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "liruifengv/claude-agent-demo",
+      "url": "https://github.com/liruifengv/claude-agent-demo",
+      "stars": 74,
+      "description": "基于 Claude Agent SDK 开发 Agent",
+      "language": "TypeScript",
+      "license": "",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "whiteboardmonk/agcluster-container",
+      "url": "https://github.com/whiteboardmonk/agcluster-container",
+      "stars": 68,
+      "description": "Self-hosted platform for Claude Agent SDK agents. Container isolation, real-time execution tracking, and Web UI dashboard",
+      "language": "Python",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "guess/claude_code",
+      "url": "https://github.com/guess/claude_code",
+      "stars": 65,
+      "description": "Claude Agent SDK for Elixir – Build AI agents with Claude Code",
+      "language": "Elixir",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "dkyazzentwatwa/Cyber-Claude",
+      "url": "https://github.com/dkyazzentwatwa/Cyber-Claude",
+      "stars": 61,
+      "description": "An AI-powered cybersecurity agent inspired by Claude Agent SDK, designed exclusively for defensive security operations.",
+      "language": "TypeScript",
+      "license": "apache-2.0",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "tyrchen/claude-agent-sdk-rs",
+      "url": "https://github.com/tyrchen/claude-agent-sdk-rs",
+      "stars": 56,
+      "description": "",
+      "language": "Rust",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    },
+    {
+      "name": "receipting/claude-agent-sdk-cloudflare",
+      "url": "https://github.com/receipting/claude-agent-sdk-cloudflare",
+      "stars": 53,
+      "description": "",
+      "language": "TypeScript",
+      "license": "mit",
+      "discovered": "2026-03-08",
+      "status": "pending"
+    }
+  ]
+}
