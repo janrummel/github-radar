@@ -221,7 +221,8 @@ td a:hover { text-decoration: underline; }
 .legend .ring-badge.ring-inactive { opacity: 0.3; }
 
 /* Signal column */
-.signal-cell { font-variant-numeric: tabular-nums; text-align: center; font-weight: 600; }
+.signal-cell { font-variant-numeric: tabular-nums; text-align: center; font-weight: 600; line-height: 1.2; }
+.coverage-hint { display: block; font-size: 0.65rem; font-weight: 400; color: var(--text-muted); }
 .signal-high { color: var(--adopt); }
 .signal-mid { color: var(--trial); }
 .signal-low { color: #c9d1d9; }

@@ -307,6 +307,7 @@ function renderTable(filteredEntries) {
     const tr = document.createElement('tr');
     tr.addEventListener('click', () => showDetails(entry));
     const qs = entry.quality_score || 0;
+    const cov = entry.notable_coverage_pct || 0;
     const qClass = qs >= 7 ? 'signal-high' : qs >= 5 ? 'signal-mid' : qs > 0 ? 'signal-low' : 'signal-none';
     tr.innerHTML = `
       <td><a href="${entry.url}" target="_blank">${entry.name}</a></td>
@@ -314,7 +315,7 @@ function renderTable(filteredEntries) {
       <td><span class="ring-badge ${ringClass}">${entry.ring}</span></td>
       <td class="stars-cell">${formatStars(entry.stars)}</td>
       <td>${entry.language}</td>
-      <td class="signal-cell ${qClass}">${qs > 0 ? qs.toFixed(1) : '-'}</td>
+      <td class="signal-cell ${qClass}">${qs > 0 ? `${qs.toFixed(1)}<span class="coverage-hint">${cov}%</span>` : '-'}</td>
       <td>${entry.tested ? 'Ja' : '-'}</td>
     `;
     tbody.appendChild(tr);
