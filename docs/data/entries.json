@@ -5,7 +5,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Trial",
     "url": "https://github.com/gsd-build/get-shit-done",
-    "stars": 26048,
+    "stars": 26351,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Meta-prompting, context engineering und spec-driven development system fuer Claude Code. Multi-Agent Orchestration mit Wave Execution, Context Monitor, Plan-Checker.",
@@ -29,7 +29,30 @@
       }
     ],
     "notable_score": 2,
-    "notable_density": 0.08
+    "notable_density": 0.08,
+    "notable_coverage_pct": 0.8,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "glittercowboy",
+        "commits": 863,
+        "pct": 91.4
+      }
+    ],
+    "days_since_commit": 5,
+    "issue_ratio": 0.76,
+    "open_issues": 123,
+    "closed_issues": 384,
+    "forks": 2243,
+    "age_months": 2.8,
+    "signals": {
+      "notable_density": 0.8,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 9.5,
+      "star_velocity": 4
+    },
+    "quality_score": 4.7
   },
   {
     "id": "openfang",
@@ -37,7 +60,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/RightNow-AI/openfang",
-    "stars": 12311,
+    "stars": 12633,
     "language": "Rust",
     "license": "Apache-2.0",
     "description": "Agent Operating System in Rust. Autonome Agents (Hands) die 24/7 laufen: Lead Gen, OSINT, Social Media, Web Scraping. Single 32MB Binary.",
@@ -61,7 +84,30 @@
       }
     ],
     "notable_score": 3,
-    "notable_density": 0.24
+    "notable_density": 0.24,
+    "notable_coverage_pct": 1.6,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "jaberjaber23",
+        "commits": 72,
+        "pct": 100.0
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.72,
+    "open_issues": 86,
+    "closed_issues": 219,
+    "forks": 1405,
+    "age_months": 1,
+    "signals": {
+      "notable_density": 2.4,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 9.0,
+      "star_velocity": 4
+    },
+    "quality_score": 5.0
   },
   {
     "id": "polars",
@@ -69,7 +115,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Adopt",
     "url": "https://github.com/pola-rs/polars",
-    "stars": 37600,
+    "stars": 37657,
     "language": "Rust/Python",
     "license": "MIT",
     "description": "DataFrame Engine fuer schnelle Datenverarbeitung. Lazy evaluation, zero-copy, multi-threaded. Alternative zu Pandas.",
@@ -100,7 +146,7 @@
       {
         "login": "smorimoto",
         "label": "Sora Morimoto (smorimoto) @ @ocaml @tc39",
-        "followers": 960,
+        "followers": 961,
         "weight": 1
       },
       {
@@ -141,7 +187,50 @@
       }
     ],
     "notable_score": 16,
-    "notable_density": 0.42
+    "notable_density": 0.42,
+    "notable_coverage_pct": 0.5,
+    "bus_factor": 6,
+    "top_contributors": [
+      {
+        "login": "ritchie46",
+        "commits": 6003,
+        "pct": 51.1
+      },
+      {
+        "login": "alexander-beedie",
+        "commits": 1008,
+        "pct": 8.6
+      },
+      {
+        "login": "nameexhaustion",
+        "commits": 739,
+        "pct": 6.3
+      },
+      {
+        "login": "orlp",
+        "commits": 699,
+        "pct": 5.9
+      },
+      {
+        "login": "coastalwhite",
+        "commits": 690,
+        "pct": 5.9
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.8,
+    "open_issues": 2518,
+    "closed_issues": 9925,
+    "forks": 2671,
+    "age_months": 70.8,
+    "signals": {
+      "notable_density": 4.2,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 10.0,
+      "star_velocity": 7
+    },
+    "quality_score": 8.1
   },
   {
     "id": "scrapling",
@@ -149,7 +238,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/D4Vinci/Scrapling",
-    "stars": 8000,
+    "stars": 26136,
     "language": "Python",
     "license": "BSD-3",
     "description": "Web Scraping Framework fuer Python. Schnell, flexibel, mit Anti-Detection Features.",
@@ -179,7 +268,30 @@
       }
     ],
     "notable_score": 3,
-    "notable_density": 0.11
+    "notable_density": 0.11,
+    "notable_coverage_pct": 0.8,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "D4Vinci",
+        "commits": 1187,
+        "pct": 99.2
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.94,
+    "open_issues": 4,
+    "closed_issues": 67,
+    "forks": 1919,
+    "age_months": 17.0,
+    "signals": {
+      "notable_density": 1.1,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 7
+    },
+    "quality_score": 5.3
   },
   {
     "id": "cc-sdd",
@@ -187,7 +299,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/gotalab/cc-sdd",
-    "stars": 2794,
+    "stars": 2795,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kiro-style Spec-Driven Development. Requirements, Design, Tasks Workflow. Multi-Runtime: Claude Code, Codex, OpenCode, Cursor, Copilot, Gemini CLI, Windsurf.",
@@ -217,7 +329,30 @@
       }
     ],
     "notable_score": 3,
-    "notable_density": 1.07
+    "notable_density": 1.07,
+    "notable_coverage_pct": 7.2,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "gotalab",
+        "commits": 201,
+        "pct": 85.5
+      }
+    ],
+    "days_since_commit": 31,
+    "issue_ratio": 0.79,
+    "open_issues": 9,
+    "closed_issues": 33,
+    "forks": 226,
+    "age_months": 7.8,
+    "signals": {
+      "notable_density": 10,
+      "bus_factor": 2,
+      "freshness": 6,
+      "issue_health": 9.9,
+      "star_velocity": 10
+    },
+    "quality_score": 7.2
   },
   {
     "id": "claude-code-spec-workflow",
@@ -225,7 +360,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/Pimzino/claude-code-spec-workflow",
-    "stars": 3497,
+    "stars": 3498,
     "language": "Markdown",
     "license": "MIT",
     "description": "Spec-driven development fuer neue Features (Requirements, Design, Tasks, Implementation) und Bug-Fix Workflow (Report, Analyze, Fix, Verify).",
@@ -243,7 +378,35 @@
       }
     ],
     "notable_score": 1,
-    "notable_density": 0.29
+    "notable_density": 0.29,
+    "notable_coverage_pct": 5.7,
+    "bus_factor": 2,
+    "top_contributors": [
+      {
+        "login": "mquinnv",
+        "commits": 321,
+        "pct": 76.6
+      },
+      {
+        "login": "Pimzino",
+        "commits": 96,
+        "pct": 22.9
+      }
+    ],
+    "days_since_commit": 182,
+    "issue_ratio": 0.92,
+    "open_issues": 2,
+    "closed_issues": 23,
+    "forks": 247,
+    "age_months": 7.8,
+    "signals": {
+      "notable_density": 2.9,
+      "bus_factor": 5,
+      "freshness": 2,
+      "issue_health": 10,
+      "star_velocity": 10
+    },
+    "quality_score": 5.4
   },
   {
     "id": "ruflo",
@@ -251,7 +414,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/ruvnet/ruflo",
-    "stars": 19882,
+    "stars": 19975,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Agent Orchestration Platform. Multi-Agent Swarms, DDD Bounded Contexts, ADR-basierte Architektur. RAG Integration, Claude Code/Codex Integration.",
@@ -269,7 +432,30 @@
       }
     ],
     "notable_score": 2,
-    "notable_density": 0.1
+    "notable_density": 0.1,
+    "notable_coverage_pct": 1.0,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "ruvnet",
+        "commits": 5848,
+        "pct": 98.8
+      }
+    ],
+    "days_since_commit": 3,
+    "issue_ratio": 0.5,
+    "open_issues": 426,
+    "closed_issues": 428,
+    "forks": 2221,
+    "age_months": 9.3,
+    "signals": {
+      "notable_density": 1.0,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 6.2,
+      "star_velocity": 4
+    },
+    "quality_score": 4.3
   },
   {
     "id": "orchestrator-starter",
@@ -277,7 +463,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Adopt",
     "url": "https://github.com/janrummel/claude-orchestrator-starter",
-    "stars": 2,
+    "stars": 3,
     "language": "Markdown/Shell",
     "license": "MIT",
     "description": "Persoenlicher AI-Assistent mit Memory, Skills und strukturierten Workflows. 3-Phasen-Workflow (Klaeren, Machen, Fertig machen), 3-Schicht-Memory, 7 kognitive Skills.",
@@ -288,7 +474,30 @@
     "tested": true,
     "notable_stargazers": [],
     "notable_score": 0,
-    "notable_density": 0.0
+    "notable_density": 0.0,
+    "notable_coverage_pct": 100.0,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "janrummel",
+        "commits": 1,
+        "pct": 100.0
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0,
+    "open_issues": 0,
+    "closed_issues": 0,
+    "forks": 0,
+    "age_months": 1,
+    "signals": {
+      "notable_density": 0.0,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 0.0,
+      "star_velocity": 3
+    },
+    "quality_score": 3.0
   },
   {
     "id": "awesome-claude-skills",
@@ -296,7 +505,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "stars": 41823,
+    "stars": 41935,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Sammlung von Claude Skills, Resources und Tools. Groesste Sammlung im Oekosystem.",
@@ -320,7 +529,40 @@
       }
     ],
     "notable_score": 3,
-    "notable_density": 0.07
+    "notable_density": 0.07,
+    "notable_coverage_pct": 0.5,
+    "bus_factor": 3,
+    "top_contributors": [
+      {
+        "login": "Prat011",
+        "commits": 30,
+        "pct": 56.6
+      },
+      {
+        "login": "sohamganatra",
+        "commits": 11,
+        "pct": 20.8
+      },
+      {
+        "login": "sanjay3290",
+        "commits": 2,
+        "pct": 3.8
+      }
+    ],
+    "days_since_commit": 17,
+    "issue_ratio": 0.07,
+    "open_issues": 54,
+    "closed_issues": 4,
+    "forks": 4175,
+    "age_months": 4.7,
+    "signals": {
+      "notable_density": 0.7,
+      "bus_factor": 7,
+      "freshness": 8,
+      "issue_health": 0.9,
+      "star_velocity": 4
+    },
+    "quality_score": 4.3
   },
   {
     "id": "awesome-claude-code",
@@ -328,7 +570,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "stars": 26817,
+    "stars": 26879,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Liste von Skills, Hooks, Slash-Commands, Agent-Orchestratoren, Apps und Plugins fuer Claude Code.",
@@ -352,7 +594,35 @@
       }
     ],
     "notable_score": 2,
-    "notable_density": 0.07
+    "notable_density": 0.07,
+    "notable_coverage_pct": 0.7,
+    "bus_factor": 2,
+    "top_contributors": [
+      {
+        "login": "github-actions[bot]",
+        "commits": 472,
+        "pct": 63.0
+      },
+      {
+        "login": "hesreallyhim",
+        "commits": 261,
+        "pct": 34.8
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.86,
+    "open_issues": 75,
+    "closed_issues": 461,
+    "forks": 1715,
+    "age_months": 10.7,
+    "signals": {
+      "notable_density": 0.7,
+      "bus_factor": 5,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 4
+    },
+    "quality_score": 5.5
   },
   {
     "id": "context-engineering",
@@ -371,7 +641,35 @@
     "tested": true,
     "notable_stargazers": [],
     "notable_score": 0,
-    "notable_density": 0.0
+    "notable_density": 0.0,
+    "notable_coverage_pct": 6.7,
+    "bus_factor": 2,
+    "top_contributors": [
+      {
+        "login": "Meirtz",
+        "commits": 48,
+        "pct": 77.4
+      },
+      {
+        "login": "Theodyy",
+        "commits": 4,
+        "pct": 6.5
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.2,
+    "open_issues": 12,
+    "closed_issues": 3,
+    "forks": 199,
+    "age_months": 8.3,
+    "signals": {
+      "notable_density": 0.0,
+      "bus_factor": 5,
+      "freshness": 10,
+      "issue_health": 2.5,
+      "star_velocity": 10
+    },
+    "quality_score": 5.1
   },
   {
     "id": "spec-driven-dev",
@@ -379,7 +677,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Trial",
     "url": "https://github.com/github/spec-kit",
-    "stars": 74922,
+    "stars": 74987,
     "language": "Markdown",
     "license": "MIT",
     "description": "Specs als First-Class Artifacts: Erst spezifizieren, dann planen, dann Tasks ableiten, dann implementieren. GitHub's offizielles Toolkit (spec-kit) formalisiert den Workflow fuer AI Coding Agents.",
@@ -421,7 +719,35 @@
       }
     ],
     "notable_score": 8,
-    "notable_density": 0.11
+    "notable_density": 0.11,
+    "notable_coverage_pct": 0.3,
+    "bus_factor": 2,
+    "top_contributors": [
+      {
+        "login": "localden",
+        "commits": 361,
+        "pct": 75.5
+      },
+      {
+        "login": "mnriem",
+        "commits": 22,
+        "pct": 4.6
+      }
+    ],
+    "days_since_commit": 3,
+    "issue_ratio": 0.38,
+    "open_issues": 537,
+    "closed_issues": 336,
+    "forks": 6396,
+    "age_months": 6.6,
+    "signals": {
+      "notable_density": 1.1,
+      "bus_factor": 5,
+      "freshness": 10,
+      "issue_health": 4.8,
+      "star_velocity": 4
+    },
+    "quality_score": 4.8
   },
   {
     "id": "claude-md-convention",
@@ -459,6 +785,29 @@
     "tested": true,
     "notable_stargazers": [],
     "notable_score": 0,
-    "notable_density": 0.0
+    "notable_density": 0.0,
+    "notable_coverage_pct": 5.6,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "nibzard",
+        "commits": 140,
+        "pct": 92.1
+      }
+    ],
+    "days_since_commit": 7,
+    "issue_ratio": 0.75,
+    "open_issues": 1,
+    "closed_issues": 3,
+    "forks": 221,
+    "age_months": 9.4,
+    "signals": {
+      "notable_density": 0.0,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 9.4,
+      "star_velocity": 10
+    },
+    "quality_score": 5.4
   }
 ]

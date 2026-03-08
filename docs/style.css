@@ -224,9 +224,22 @@ td a:hover { text-decoration: underline; }
 .signal-cell { font-variant-numeric: tabular-nums; text-align: center; font-weight: 600; }
 .signal-high { color: var(--adopt); }
 .signal-mid { color: var(--trial); }
-.signal-low { color: var(--text-muted); }
-.signal-none { color: var(--text-muted); opacity: 0.5; }
+.signal-low { color: #c9d1d9; }
+.signal-none { color: var(--text-muted); }
 .signal-meta { font-size: 0.75rem; color: var(--text-muted); font-weight: 400; margin-left: 0.5rem; }
+
+/* Signal bars in detail panel */
+.signals-section { margin-top: 1rem; }
+.signal-bars { display: flex; flex-direction: column; gap: 0.4rem; margin: 0.75rem 0; }
+.signal-bar-row { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; }
+.signal-bar-label { min-width: 110px; color: var(--text-muted); }
+.signal-bar-track { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.signal-bar-fill { height: 100%; border-radius: 4px; transition: width 0.3s; }
+.bar-high { background: var(--adopt); }
+.bar-mid { background: var(--trial); }
+.bar-low { background: #f85149; }
+.signal-bar-val { min-width: 24px; text-align: right; font-weight: 600; font-size: 0.75rem; }
+.signal-details { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem; }
 
 /* Methodology */
 .methodology { margin: 1.5rem 0; }

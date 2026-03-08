@@ -47,7 +47,7 @@
             <th>Ring</th>
             <th>Stars</th>
             <th>Sprache</th>
-            <th class="sortable" data-sort="density">Signal <span class="sort-hint">&#9432;</span></th>
+            <th>Quality</th>
             <th>Getestet</th>
           </tr>
         </thead>
@@ -56,21 +56,23 @@
     </section>
 
     <details class="methodology">
-      <summary>Wie wird der Signal-Score berechnet?</summary>
+      <summary>Wie wird der Quality-Score berechnet?</summary>
       <div class="methodology-content">
-        <p>Der <strong>Signal-Score</strong> misst, ob relevante Entwickler ein Repo gestarrt haben — nicht nur wie viele.</p>
+        <p>Der <strong>Quality-Score</strong> (0–10) kombiniert 5 unabhaengige Signale, jeweils normalisiert auf 0–10:</p>
         <table class="method-table">
-          <thead><tr><th>Follower</th><th>Gewicht</th><th>Bedeutung</th></tr></thead>
+          <thead><tr><th>Signal</th><th>Gewicht</th><th>Was es misst</th></tr></thead>
           <tbody>
-            <tr><td>500–999</td><td>1 Punkt</td><td>Aktiver Entwickler</td></tr>
-            <tr><td>1.000–4.999</td><td>2 Punkte</td><td>Bekannter Entwickler</td></tr>
-            <tr><td>5.000–9.999</td><td>4 Punkte</td><td>Einflussreicher Entwickler</td></tr>
-            <tr><td>10.000+</td><td>8 Punkte</td><td>Top-Developer / Thought Leader</td></tr>
+            <tr><td>Notable Density</td><td>25%</td><td>Anteil relevanter Stargazers (500+ Followers) relativ zur Repo-Groesse</td></tr>
+            <tr><td>Bus Factor</td><td>25%</td><td>Wie viele Core-Devs fuer 80% der Commits verantwortlich sind (mehr = stabiler)</td></tr>
+            <tr><td>Freshness</td><td>20%</td><td>Tage seit dem letzten Commit (aktueller = besser)</td></tr>
+            <tr><td>Issue Health</td><td>15%</td><td>Verhaeltnis geschlossene / offene Issues (hoeher = aktive Pflege)</td></tr>
+            <tr><td>Star Velocity</td><td>15%</td><td>Stars pro Monat — organisches Wachstum vs. verdaechtiger Spike</td></tr>
           </tbody>
         </table>
-        <p><strong>Notable Density</strong> = Score &divide; (Stars / 1.000) — normalisiert fuer Repo-Groesse.<br>
-        Hoher Wert = proportional viele relevante Stargazer. Niedriger Wert bei vielen Stars = moegliches Red Flag.</p>
-        <p class="method-note">Stichprobe: je 100 frueheste + 100 neueste Stargazers pro Repo (max. 200 von allen).</p>
+        <p><strong>Notable Stargazers</strong> werden gewichtet: 500–999 Followers = 1 Punkt, 1k–5k = 2, 5k–10k = 4, 10k+ = 8 Punkte.<br>
+        Notable Density = Punktsumme &divide; (Stars / 1.000).</p>
+        <p><strong>Star Velocity</strong> bestraft extrem schnelles Wachstum: &gt;2.000 Stars/Monat bei jungen Repos wird als potenzielles Red Flag gewertet (Score sinkt auf 4/10).</p>
+        <p class="method-note">Stichprobe Notable: je 100 frueheste + 100 neueste Stargazers (max. 200). Bus Factor: Top-20-Contributors via GitHub API.</p>
       </div>
     </details>
 

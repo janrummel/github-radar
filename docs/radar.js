@@ -263,9 +263,27 @@ function showDetails(entry) {
     <div class="detail-section"><h4>Staerken</h4><p>${entry.strengths}</p></div>
     <div class="detail-section"><h4>Schwaechen</h4><p>${entry.weaknesses}</p></div>
     <div class="detail-section"><h4>Was ich gelernt habe</h4><p>${entry.learned}</p></div>
+    ${entry.signals ? `
+    <div class="detail-section signals-section">
+      <h4>Quality Score: ${entry.quality_score}/10</h4>
+      <div class="signal-bars">
+        ${Object.entries(entry.signals).map(([key, val]) => {
+          const labels = {notable_density:'Notable Density',bus_factor:'Bus Factor',freshness:'Freshness',issue_health:'Issue Health',star_velocity:'Star Velocity'};
+          const barClass = val >= 7 ? 'bar-high' : val >= 4 ? 'bar-mid' : 'bar-low';
+          return `<div class="signal-bar-row">
+            <span class="signal-bar-label">${labels[key] || key}</span>
+            <div class="signal-bar-track"><div class="signal-bar-fill ${barClass}" style="width:${val*10}%"></div></div>
+            <span class="signal-bar-val">${val}</span>
+          </div>`;
+        }).join('')}
+      </div>
+      <div class="signal-details">
+        Bus Factor: ${entry.bus_factor || '?'} · Letzter Commit: ${entry.days_since_commit != null ? (entry.days_since_commit === 0 ? 'heute' : entry.days_since_commit + 'd') : '?'} · Issues: ${entry.closed_issues || 0}/${(entry.open_issues||0)+(entry.closed_issues||0)} geschlossen · Forks: ${entry.forks || 0}
+      </div>
+    </div>` : ''}
     ${entry.notable_stargazers && entry.notable_stargazers.length > 0 ? `
     <div class="detail-section notable-section">
-      <h4>Notable Stargazers <span class="signal-meta">Score: ${entry.notable_score || 0} · Density: ${(entry.notable_density || 0).toFixed(2)}</span></h4>
+      <h4>Notable Stargazers <span class="signal-meta">Coverage: ${entry.notable_coverage_pct || '?'}%</span></h4>
       <ul class="notable-list">
         ${entry.notable_stargazers.map(u => `<li><a href="https://github.com/${u.login}" target="_blank">${u.label}</a> <span class="follower-count">${formatStars(u.followers)} Followers</span></li>`).join('')}
       </ul>
@@ -288,15 +306,15 @@ function renderTable(filteredEntries) {
     const ringClass = entry.ring.toLowerCase();
     const tr = document.createElement('tr');
     tr.addEventListener('click', () => showDetails(entry));
-    const density = entry.notable_density || 0;
-    const densityClass = density >= 1.0 ? 'signal-high' : density >= 0.2 ? 'signal-mid' : density > 0 ? 'signal-low' : 'signal-none';
+    const qs = entry.quality_score || 0;
+    const qClass = qs >= 7 ? 'signal-high' : qs >= 5 ? 'signal-mid' : qs > 0 ? 'signal-low' : 'signal-none';
     tr.innerHTML = `
       <td><a href="${entry.url}" target="_blank">${entry.name}</a></td>
       <td>${entry.quadrant}</td>
       <td><span class="ring-badge ${ringClass}">${entry.ring}</span></td>
       <td class="stars-cell">${formatStars(entry.stars)}</td>
       <td>${entry.language}</td>
-      <td class="signal-cell ${densityClass}">${density > 0 ? density.toFixed(2) : '-'}</td>
+      <td class="signal-cell ${qClass}">${qs > 0 ? qs.toFixed(1) : '-'}</td>
       <td>${entry.tested ? 'Ja' : '-'}</td>
     `;
     tbody.appendChild(tr);
