@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub-Radar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>GitHub-Radar</h1>
+    <p class="subtitle">Persoenlicher Technologie-Radar fuer das Dev-Universum rund um Claude Code &amp; AI Agents</p>
+    <div class="legend">
+      <span class="ring-badge adopt">Adopt</span>
+      <span class="ring-badge trial">Trial</span>
+      <span class="ring-badge scout">Scout</span>
+      <span class="ring-badge hold">Hold</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="radar-container">
+      <svg id="radar" viewBox="0 0 800 800"></svg>
+      <div id="tooltip" class="tooltip"></div>
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Alle</button>
+      <button class="filter-btn" data-quadrant="AI Workflow & Orchestration">AI Workflow</button>
+      <button class="filter-btn" data-quadrant="Libraries & Frameworks">Libraries</button>
+      <button class="filter-btn" data-quadrant="Developer Tools & Infra">Dev Tools</button>
+      <button class="filter-btn" data-quadrant="Patterns & Methods">Patterns</button>
+    </div>
+
+    <div id="details-panel" class="details-panel hidden">
+      <button class="close-btn" onclick="closeDetails()">&times;</button>
+      <div id="details-content"></div>
+    </div>
+
+    <section class="table-section">
+      <h2>Alle Eintraege</h2>
+      <table id="entries-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Quadrant</th>
+            <th>Ring</th>
+            <th>Stars</th>
+            <th>Sprache</th>
+            <th>Getestet</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="stats-section">
+      <div class="stat-card">
+        <span class="stat-number" id="stat-total">0</span>
+        <span class="stat-label">Eintraege</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-tested">0</span>
+        <span class="stat-label">Getestet</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-adopted">0</span>
+        <span class="stat-label">Adopt</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-updated">-</span>
+        <span class="stat-label">Letztes Update</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>GitHub-Radar &mdash; ein <a href="https://github.com/janrummel/claude-orchestrator-starter">AgentField</a> Projekt</p>
+  </footer>
+
+  <script src="radar.js"></script>
+</body>
+</html>
