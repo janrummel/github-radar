@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "min_stars": 50,
+  "per_query_limit": 30,
+  "schedule_days": ["mon", "thu"],
+  "schedule_hour": 7,
+  "telegram": {
+    "enabled": true,
+    "chat_id": "8532549014",
+    "token_file": "/Users/botadmin/github-radar/secrets/telegram_bot_token.txt"
+  }
+}
