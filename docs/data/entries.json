@@ -5,7 +5,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Trial",
     "url": "https://github.com/gsd-build/get-shit-done",
-    "stars": 26351,
+    "stars": 26372,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Meta-prompting, context engineering und spec-driven development system fuer Claude Code. Multi-Agent Orchestration mit Wave Execution, Context Monitor, Plan-Checker.",
@@ -16,20 +16,14 @@
     "tested": true,
     "notable_stargazers": [
       {
-        "login": "aluxian",
-        "label": "Alexandru Rosianu (aluxian) @ @molin-ai ",
-        "followers": 726,
-        "weight": 1
-      },
-      {
         "login": "kieranklaassen",
         "label": "Kieran Klaassen (kieranklaassen)",
         "followers": 596,
         "weight": 1
       }
     ],
-    "notable_score": 2,
-    "notable_density": 0.08,
+    "notable_score": 1,
+    "notable_density": 0.04,
     "notable_coverage_pct": 0.8,
     "bus_factor": 1,
     "top_contributors": [
@@ -43,16 +37,16 @@
     "issue_ratio": 0.76,
     "open_issues": 123,
     "closed_issues": 384,
-    "forks": 2243,
+    "forks": 2244,
     "age_months": 2.8,
     "signals": {
-      "notable_density": 0.8,
+      "notable_density": 0.4,
       "bus_factor": 2,
       "freshness": 10,
       "issue_health": 9.5,
       "star_velocity": 4
     },
-    "quality_score": 4.7
+    "quality_score": 4.6
   },
   {
     "id": "openfang",
@@ -60,7 +54,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/RightNow-AI/openfang",
-    "stars": 12633,
+    "stars": 12650,
     "language": "Rust",
     "license": "Apache-2.0",
     "description": "Agent Operating System in Rust. Autonome Agents (Hands) die 24/7 laufen: Lead Gen, OSINT, Social Media, Web Scraping. Single 32MB Binary.",
@@ -79,7 +73,7 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 729,
         "weight": 1
       }
     ],
@@ -90,7 +84,7 @@
     "top_contributors": [
       {
         "login": "jaberjaber23",
-        "commits": 72,
+        "commits": 74,
         "pct": 100.0
       }
     ],
@@ -98,7 +92,7 @@
     "issue_ratio": 0.72,
     "open_issues": 86,
     "closed_issues": 219,
-    "forks": 1405,
+    "forks": 1408,
     "age_months": 1,
     "signals": {
       "notable_density": 2.4,
@@ -140,7 +134,7 @@
       {
         "login": "mattsse",
         "label": "Matthias Seitz (mattsse)",
-        "followers": 1886,
+        "followers": 1887,
         "weight": 2
       },
       {
@@ -238,7 +232,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/D4Vinci/Scrapling",
-    "stars": 26136,
+    "stars": 26159,
     "language": "Python",
     "license": "BSD-3",
     "description": "Web Scraping Framework fuer Python. Schnell, flexibel, mit Anti-Detection Features.",
@@ -279,10 +273,10 @@
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.94,
-    "open_issues": 4,
+    "issue_ratio": 0.93,
+    "open_issues": 5,
     "closed_issues": 67,
-    "forks": 1919,
+    "forks": 1921,
     "age_months": 17.0,
     "signals": {
       "notable_density": 1.1,
@@ -310,9 +304,27 @@
     "tested": false,
     "notable_stargazers": [
       {
+        "login": "rootsongjc",
+        "label": "Jimmy Song (rootsongjc) @ @dynamia-ai",
+        "followers": 4033,
+        "weight": 2
+      },
+      {
         "login": "shunkakinoki",
         "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
         "followers": 855,
+        "weight": 1
+      },
+      {
+        "login": "goodjack",
+        "label": "小克 (goodjack) @ @104corp",
+        "followers": 659,
+        "weight": 1
+      },
+      {
+        "login": "ikesyo",
+        "label": "IKEDA Sho (ikesyo) @ LY Corporation",
+        "followers": 657,
         "weight": 1
       },
       {
@@ -322,15 +334,27 @@
         "weight": 1
       },
       {
+        "login": "Glavin001",
+        "label": "Glavin Wiechert (Glavin001) @ Remote Software Developer",
+        "followers": 565,
+        "weight": 1
+      },
+      {
         "login": "davidkimai",
         "label": "davidkimai",
         "followers": 513,
         "weight": 1
+      },
+      {
+        "login": "kawamataryo",
+        "label": "ryo (kawamataryo)",
+        "followers": 500,
+        "weight": 1
       }
     ],
-    "notable_score": 3,
-    "notable_density": 1.07,
-    "notable_coverage_pct": 7.2,
+    "notable_score": 9,
+    "notable_density": 3.22,
+    "notable_coverage_pct": 35.8,
     "bus_factor": 1,
     "top_contributors": [
       {
@@ -371,15 +395,69 @@
     "tested": false,
     "notable_stargazers": [
       {
+        "login": "rootsongjc",
+        "label": "Jimmy Song (rootsongjc) @ @dynamia-ai",
+        "followers": 4033,
+        "weight": 2
+      },
+      {
+        "login": "Ridter",
+        "label": "evi1cg (Ridter)",
+        "followers": 2835,
+        "weight": 2
+      },
+      {
+        "login": "airingursb",
+        "label": "Airing (airingursb) @ ByteDance",
+        "followers": 1846,
+        "weight": 2
+      },
+      {
         "login": "johannesjo",
         "label": "Johannes Millan (johannesjo) @ Frontend Developer",
         "followers": 855,
         "weight": 1
+      },
+      {
+        "login": "wujunze",
+        "label": "Panda (wujunze) @ Open Source",
+        "followers": 764,
+        "weight": 1
+      },
+      {
+        "login": "owenthereal",
+        "label": "Owen Ou (owenthereal)",
+        "followers": 750,
+        "weight": 1
+      },
+      {
+        "login": "tkersey",
+        "label": "Tim Kersey (tkersey) @ @thisisartium",
+        "followers": 729,
+        "weight": 1
+      },
+      {
+        "login": "XiaoliChan",
+        "label": "XiaoliChan (XiaoliChan)",
+        "followers": 608,
+        "weight": 1
+      },
+      {
+        "login": "beriberikix",
+        "label": "Jonathan Beri (beriberikix) @ @golioth @canonical",
+        "followers": 580,
+        "weight": 1
+      },
+      {
+        "login": "debasishsahoo",
+        "label": "Debasish Sahoo (debasishsahoo)",
+        "followers": 527,
+        "weight": 1
       }
     ],
-    "notable_score": 1,
-    "notable_density": 0.29,
-    "notable_coverage_pct": 5.7,
+    "notable_score": 13,
+    "notable_density": 3.72,
+    "notable_coverage_pct": 28.6,
     "bus_factor": 2,
     "top_contributors": [
       {
@@ -400,13 +478,13 @@
     "forks": 247,
     "age_months": 7.8,
     "signals": {
-      "notable_density": 2.9,
+      "notable_density": 10,
       "bus_factor": 5,
       "freshness": 2,
       "issue_health": 10,
       "star_velocity": 10
     },
-    "quality_score": 5.4
+    "quality_score": 7.2
   },
   {
     "id": "ruflo",
@@ -414,7 +492,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/ruvnet/ruflo",
-    "stars": 19975,
+    "stars": 19983,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Agent Orchestration Platform. Multi-Agent Swarms, DDD Bounded Contexts, ADR-basierte Architektur. RAG Integration, Claude Code/Codex Integration.",
@@ -446,7 +524,7 @@
     "issue_ratio": 0.5,
     "open_issues": 426,
     "closed_issues": 428,
-    "forks": 2221,
+    "forks": 2225,
     "age_months": 9.3,
     "signals": {
       "notable_density": 1.0,
@@ -505,7 +583,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "stars": 41935,
+    "stars": 41939,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Sammlung von Claude Skills, Resources und Tools. Groesste Sammlung im Oekosystem.",
@@ -553,7 +631,7 @@
     "issue_ratio": 0.07,
     "open_issues": 54,
     "closed_issues": 4,
-    "forks": 4175,
+    "forks": 4177,
     "age_months": 4.7,
     "signals": {
       "notable_density": 0.7,
@@ -570,7 +648,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "stars": 26879,
+    "stars": 26881,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Liste von Skills, Hooks, Slash-Commands, Agent-Orchestratoren, Apps und Plugins fuer Claude Code.",
@@ -589,7 +667,7 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 729,
         "weight": 1
       }
     ],
@@ -613,8 +691,8 @@
     "issue_ratio": 0.86,
     "open_issues": 75,
     "closed_issues": 461,
-    "forks": 1715,
-    "age_months": 10.7,
+    "forks": 1716,
+    "age_months": 10.8,
     "signals": {
       "notable_density": 0.7,
       "bus_factor": 5,
@@ -639,10 +717,71 @@
     "learned": "Context Rot ist real. Frische Subagents (GSD-Ansatz) und Context Monitors (Hook-basiert) sind die beste Gegenmassnahme.",
     "added": "2026-03-08",
     "tested": true,
-    "notable_stargazers": [],
-    "notable_score": 0,
-    "notable_density": 0.0,
-    "notable_coverage_pct": 6.7,
+    "notable_stargazers": [
+      {
+        "login": "doggy8088",
+        "label": "Will 保哥 (doggy8088) @ 多奇數位創意有限公司",
+        "followers": 4286,
+        "weight": 2
+      },
+      {
+        "login": "sigridjineth",
+        "label": "Sigrid Jin (ง'̀-'́)ง oO (sigridjineth) @ Backpacker in @ubc campuses",
+        "followers": 1334,
+        "weight": 2
+      },
+      {
+        "login": "Naville",
+        "label": "Zhang (Naville) @ Unemployed",
+        "followers": 1317,
+        "weight": 2
+      },
+      {
+        "login": "gmh5225",
+        "label": "gmh5225.eth (gmh5225) @ NeverSight",
+        "followers": 1164,
+        "weight": 2
+      },
+      {
+        "login": "caesar0301",
+        "label": "Xiaming Chen (caesar0301)",
+        "followers": 1127,
+        "weight": 2
+      },
+      {
+        "login": "KalyanKS-NLP",
+        "label": "Kalyan KS (KalyanKS-NLP)",
+        "followers": 927,
+        "weight": 1
+      },
+      {
+        "login": "artob",
+        "label": "Arto Bendiken (artob) @ @asimov-platform",
+        "followers": 667,
+        "weight": 1
+      },
+      {
+        "login": "shiyanhui",
+        "label": "Lime (shiyanhui)",
+        "followers": 650,
+        "weight": 1
+      },
+      {
+        "login": "WhaleFell",
+        "label": "WhaleFall (WhaleFell) @ 223.220.138.213",
+        "followers": 606,
+        "weight": 1
+      },
+      {
+        "login": "ProfSynapse",
+        "label": "Professor Synapse (ProfSynapse) @ Synaptic Labs",
+        "followers": 527,
+        "weight": 1
+      }
+    ],
+    "notable_score": 18,
+    "notable_density": 6.07,
+    "notable_coverage_pct": 33.7,
     "bus_factor": 2,
     "top_contributors": [
       {
@@ -663,13 +802,13 @@
     "forks": 199,
     "age_months": 8.3,
     "signals": {
-      "notable_density": 0.0,
+      "notable_density": 10,
       "bus_factor": 5,
       "freshness": 10,
       "issue_health": 2.5,
       "star_velocity": 10
     },
-    "quality_score": 5.1
+    "quality_score": 7.6
   },
   {
     "id": "spec-driven-dev",
@@ -677,7 +816,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Trial",
     "url": "https://github.com/github/spec-kit",
-    "stars": 74987,
+    "stars": 75000,
     "language": "Markdown",
     "license": "MIT",
     "description": "Specs als First-Class Artifacts: Erst spezifizieren, dann planen, dann Tasks ableiten, dann implementieren. GitHub's offizielles Toolkit (spec-kit) formalisiert den Workflow fuer AI Coding Agents.",
@@ -738,7 +877,7 @@
     "issue_ratio": 0.38,
     "open_issues": 537,
     "closed_issues": 336,
-    "forks": 6396,
+    "forks": 6397,
     "age_months": 6.6,
     "signals": {
       "notable_density": 1.1,
@@ -783,10 +922,35 @@
     "learned": "Gutes mentales Modell fuer Agent-Design. Hilft beim Einordnen neuer Tools im Radar.",
     "added": "2026-03-08",
     "tested": true,
-    "notable_stargazers": [],
-    "notable_score": 0,
-    "notable_density": 0.0,
-    "notable_coverage_pct": 5.6,
+    "notable_stargazers": [
+      {
+        "login": "Freelander",
+        "label": "高军 (GoJun) (Freelander) @ @GitHubDaily ",
+        "followers": 1165,
+        "weight": 2
+      },
+      {
+        "login": "maoruibin",
+        "label": "咕咚 (maoruibin)",
+        "followers": 800,
+        "weight": 1
+      },
+      {
+        "login": "yanqiangmiffy",
+        "label": "yanqiangmiffy (yanqiangmiffy) @ ICT-CAS",
+        "followers": 707,
+        "weight": 1
+      },
+      {
+        "login": "MHaggis",
+        "label": "Michael Haag (MHaggis) @ @Splunk",
+        "followers": 601,
+        "weight": 1
+      }
+    ],
+    "notable_score": 5,
+    "notable_density": 1.41,
+    "notable_coverage_pct": 28.2,
     "bus_factor": 1,
     "top_contributors": [
       {
@@ -802,12 +966,523 @@
     "forks": 221,
     "age_months": 9.4,
     "signals": {
-      "notable_density": 0.0,
+      "notable_density": 10,
       "bus_factor": 2,
       "freshness": 10,
       "issue_health": 9.4,
       "star_velocity": 10
     },
+    "quality_score": 7.9
+  },
+  {
+    "id": "fastmcp",
+    "name": "FastMCP",
+    "quadrant": "Libraries & Frameworks",
+    "ring": "Trial",
+    "url": "https://github.com/PrefectHQ/fastmcp",
+    "stars": 23501,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "description": "Pythonic Framework fuer MCP Server und Clients. Dekorator-basierte API, automatische Tool-Generierung aus Funktionen, Server-Composition, Auth, OpenAPI-Import.",
+    "strengths": "Schnellster Weg MCP-Server zu bauen, von Prefect (serioeser Maintainer), saubere API, gute Doku, aktive Community",
+    "weaknesses": "Noch nicht getestet, Python-only, MCP-Standard noch jung",
+    "learned": "Noch nicht getestet. Kandidat fuer eigene MCP-Server.",
+    "added": "2026-03-08",
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "jlowin",
+        "label": "Jeremiah Lowin (jlowin) @ @PrefectHQ ",
+        "followers": 2196,
+        "weight": 2
+      },
+      {
+        "login": "MarkEdmondson1234",
+        "label": "Mark Edmondson (MarkEdmondson1234) @ @sunholo-data",
+        "followers": 927,
+        "weight": 1
+      }
+    ],
+    "notable_score": 3,
+    "notable_density": 0.13,
+    "notable_coverage_pct": 0.9,
+    "bus_factor": 2,
+    "top_contributors": [
+      {
+        "login": "jlowin",
+        "commits": 2218,
+        "pct": 77.1
+      },
+      {
+        "login": "strawgate",
+        "commits": 245,
+        "pct": 8.5
+      }
+    ],
+    "days_since_commit": 1,
+    "issue_ratio": 0.84,
+    "open_issues": 216,
+    "closed_issues": 1150,
+    "forks": 1806,
+    "age_months": 15.4,
+    "signals": {
+      "notable_density": 1.3,
+      "bus_factor": 5,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 7
+    },
+    "quality_score": 6.1
+  },
+  {
+    "id": "markitdown",
+    "name": "MarkItDown",
+    "quadrant": "Libraries & Frameworks",
+    "ring": "Scout",
+    "url": "https://github.com/microsoft/markitdown",
+    "stars": 90374,
+    "language": "Python",
+    "license": "MIT",
+    "description": "Microsoft-Tool zur Konvertierung von Office-Dokumenten, PDFs, Bildern und anderen Dateiformaten nach Markdown. CLI und Python-API.",
+    "strengths": "90k Stars, Microsoft-backed, breite Format-Unterstuetzung (DOCX, XLSX, PPTX, PDF, Images), CLI + Library",
+    "weaknesses": "Nicht getestet, Qualitaet der Konvertierung variiert je Format, OCR-Abhaengigkeiten",
+    "learned": "Noch nicht getestet. Potentiell nuetzlich fuer Document-to-Context Pipelines.",
+    "added": "2026-03-08",
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "yihong0618",
+        "label": "yihong (yihong0618) @ @apache",
+        "followers": 6379,
+        "weight": 4
+      },
+      {
+        "login": "frostming",
+        "label": "Frost Ming (frostming)",
+        "followers": 1615,
+        "weight": 2
+      },
+      {
+        "login": "win4r",
+        "label": "Chao Qin (win4r) @ Fitneess king Company",
+        "followers": 963,
+        "weight": 1
+      },
+      {
+        "login": "wey-gu",
+        "label": "Wey Gu (wey-gu) @ @nowledge-co",
+        "followers": 957,
+        "weight": 1
+      },
+      {
+        "login": "geraldb",
+        "label": "Gerald Bauer (geraldb)",
+        "followers": 866,
+        "weight": 1
+      }
+    ],
+    "notable_score": 9,
+    "notable_density": 0.1,
+    "notable_coverage_pct": 0.2,
+    "bus_factor": 6,
+    "top_contributors": [
+      {
+        "login": "afourney",
+        "commits": 99,
+        "pct": 40.9
+      },
+      {
+        "login": "gagb",
+        "commits": 70,
+        "pct": 28.9
+      },
+      {
+        "login": "sugatoray",
+        "commits": 9,
+        "pct": 3.7
+      },
+      {
+        "login": "PetrAPConsulting",
+        "commits": 8,
+        "pct": 3.3
+      },
+      {
+        "login": "Josh-XT",
+        "commits": 7,
+        "pct": 2.9
+      }
+    ],
+    "days_since_commit": 16,
+    "issue_ratio": 0.22,
+    "open_issues": 304,
+    "closed_issues": 84,
+    "forks": 5320,
+    "age_months": 16.0,
+    "signals": {
+      "notable_density": 1.0,
+      "bus_factor": 10,
+      "freshness": 8,
+      "issue_health": 2.7,
+      "star_velocity": 4
+    },
     "quality_score": 5.4
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB",
+    "quadrant": "Libraries & Frameworks",
+    "ring": "Adopt",
+    "url": "https://github.com/duckdb/duckdb",
+    "stars": 36496,
+    "language": "C++",
+    "license": "MIT",
+    "description": "Analytische In-Process SQL-Datenbank. Columnar Storage, Zero-Copy, direktes Lesen von Parquet/CSV/JSON. Perfekter Companion zu Polars fuer SQL-basierte Analysen.",
+    "strengths": "36k Stars, 900+ Contributors, Production-ready, embedded (kein Server noetig), liest direkt Parquet/CSV/JSON, hervorragende Python-Integration",
+    "weaknesses": "Nicht fuer OLTP/Transaktionen, kein Multi-User-Server-Modus, grosse Binary",
+    "learned": "Idealer Companion zu Polars: DuckDB fuer SQL-Queries, Polars fuer DataFrame-Pipelines.",
+    "added": "2026-03-08",
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "wesm",
+        "label": "Wes McKinney (wesm) @ @posit-pbc",
+        "followers": 16170,
+        "weight": 8
+      },
+      {
+        "login": "timelyportfolio",
+        "label": "timelyportfolio (timelyportfolio) @ available",
+        "followers": 1158,
+        "weight": 2
+      },
+      {
+        "login": "krlmlr",
+        "label": "Kirill Müller (krlmlr) @ @cynkra ",
+        "followers": 1091,
+        "weight": 2
+      },
+      {
+        "login": "renkun-ken",
+        "label": "Kun Ren (renkun-ken)",
+        "followers": 873,
+        "weight": 1
+      },
+      {
+        "login": "yingjunwu",
+        "label": "Yingjun Wu (yingjunwu) @ RisingWave Labs",
+        "followers": 676,
+        "weight": 1
+      },
+      {
+        "login": "cderv",
+        "label": "Christophe Dervieux (cderv) @ https://posit.co",
+        "followers": 622,
+        "weight": 1
+      },
+      {
+        "login": "noamross",
+        "label": "Noam Ross (noamross) @ rOpenSci",
+        "followers": 566,
+        "weight": 1
+      },
+      {
+        "login": "svmiller",
+        "label": "Steven V. Miller (svmiller) @ Stockholm University",
+        "followers": 563,
+        "weight": 1
+      },
+      {
+        "login": "c4milo",
+        "label": "Camilo Aguilar (c4milo) @ @hooklift ",
+        "followers": 537,
+        "weight": 1
+      },
+      {
+        "login": "denji",
+        "label": "Denis Denisov (denji)",
+        "followers": 526,
+        "weight": 1
+      }
+    ],
+    "notable_score": 20,
+    "notable_density": 0.55,
+    "notable_coverage_pct": 0.5,
+    "bus_factor": 7,
+    "top_contributors": [
+      {
+        "login": "Mytherin",
+        "commits": 22804,
+        "pct": 41.8
+      },
+      {
+        "login": "Tishj",
+        "commits": 6837,
+        "pct": 12.5
+      },
+      {
+        "login": "pdet",
+        "commits": 4845,
+        "pct": 8.9
+      },
+      {
+        "login": "hannes",
+        "commits": 3492,
+        "pct": 6.4
+      },
+      {
+        "login": "taniabogatsch",
+        "commits": 2323,
+        "pct": 4.3
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.92,
+    "open_issues": 538,
+    "closed_issues": 6051,
+    "forks": 2976,
+    "age_months": 93.7,
+    "signals": {
+      "notable_density": 5.5,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 10
+    },
+    "quality_score": 8.9
+  },
+  {
+    "id": "uv",
+    "name": "uv",
+    "quadrant": "Developer Tools & Infra",
+    "ring": "Adopt",
+    "url": "https://github.com/astral-sh/uv",
+    "stars": 80504,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "description": "Extrem schneller Python Package- und Projektmanager in Rust. Ersetzt pip, pip-tools, pipx, poetry, pyenv, virtualenv in einem Tool. 10-100x schneller als pip.",
+    "strengths": "80k Stars, Astral (Ruff-Macher), Rust-Performance, Drop-in pip-Replacement, Lockfile-Support, Python-Version-Management",
+    "weaknesses": "Relativ jung (seit 2023), noch nicht alle Edge-Cases abgedeckt, Astral als VC-funded Company (Nachhaltigkeit?)",
+    "learned": "Noch nicht getestet. Standard-Empfehlung fuer neue Python-Projekte.",
+    "added": "2026-03-08",
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "ekzhang",
+        "label": "Eric Zhang (ekzhang) @ @thinking-machines-lab",
+        "followers": 3045,
+        "weight": 2
+      },
+      {
+        "login": "pcaversaccio",
+        "label": "sudo rm -rf --no-preserve-root / (pcaversaccio)",
+        "followers": 2106,
+        "weight": 2
+      },
+      {
+        "login": "abidlabs",
+        "label": "Abubakar Abid (abidlabs)",
+        "followers": 1374,
+        "weight": 2
+      },
+      {
+        "login": "araffin",
+        "label": "Antonin RAFFIN (araffin) @ @DLR-RM",
+        "followers": 1319,
+        "weight": 2
+      },
+      {
+        "login": "max-sixty",
+        "label": "Maximilian Roos (max-sixty)",
+        "followers": 924,
+        "weight": 1
+      },
+      {
+        "login": "alvarobartt",
+        "label": "Alvaro Bartolome (alvarobartt) @ @huggingface",
+        "followers": 872,
+        "weight": 1
+      },
+      {
+        "login": "shunkakinoki",
+        "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
+        "followers": 855,
+        "weight": 1
+      },
+      {
+        "login": "slowkow",
+        "label": "Kamil Slowikowski (slowkow) @ Mass General Brigham",
+        "followers": 803,
+        "weight": 1
+      },
+      {
+        "login": "isidentical",
+        "label": "Batuhan Taskaya (isidentical) @ @fal-ai",
+        "followers": 781,
+        "weight": 1
+      },
+      {
+        "login": "hmarr",
+        "label": "Harry Marr (hmarr) @ Anthropic",
+        "followers": 758,
+        "weight": 1
+      }
+    ],
+    "notable_score": 20,
+    "notable_density": 0.25,
+    "notable_coverage_pct": 0.2,
+    "bus_factor": 4,
+    "top_contributors": [
+      {
+        "login": "charliermarsh",
+        "commits": 2978,
+        "pct": 38.6
+      },
+      {
+        "login": "zanieb",
+        "commits": 1823,
+        "pct": 23.6
+      },
+      {
+        "login": "konstin",
+        "commits": 1047,
+        "pct": 13.6
+      },
+      {
+        "login": "renovate[bot]",
+        "commits": 911,
+        "pct": 11.8
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.73,
+    "open_issues": 2361,
+    "closed_issues": 6263,
+    "forks": 2653,
+    "age_months": 29.6,
+    "signals": {
+      "notable_density": 2.5,
+      "bus_factor": 8,
+      "freshness": 10,
+      "issue_health": 9.1,
+      "star_velocity": 4
+    },
+    "quality_score": 6.6
+  },
+  {
+    "id": "claude-agent-sdk",
+    "name": "Claude Agent SDK",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Trial",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python",
+    "stars": 5254,
+    "language": "Python",
+    "license": "MIT",
+    "description": "Anthropics offizielles SDK zum Bau von AI Agents. Agentic Loops, Tool Use, Multi-Turn, Guardrails. Python-first, minimal-opinionated.",
+    "strengths": "Anthropic-offiziell, direkter Claude-Zugang, saubere Agent-Loop-Abstraktion, MIT-Lizenz",
+    "weaknesses": "5k Stars (noch frueh), Python-only, wenig Community-Ecosystem bisher",
+    "learned": "Noch nicht getestet. Relevant wenn wir eigene Agents ausserhalb Claude Code bauen.",
+    "added": "2026-03-08",
+    "tested": false,
+    "notable_stargazers": [
+      {
+        "login": "bcherny",
+        "label": "Boris Cherny (bcherny) @ @Anthropic",
+        "followers": 5126,
+        "weight": 4
+      },
+      {
+        "login": "nikivdev",
+        "label": "Nikita (nikivdev)",
+        "followers": 4978,
+        "weight": 2
+      },
+      {
+        "login": "zu1k",
+        "label": "zu1k (zu1k)",
+        "followers": 3412,
+        "weight": 2
+      },
+      {
+        "login": "tavisrudd",
+        "label": "Tavis Rudd (tavisrudd)",
+        "followers": 1001,
+        "weight": 2
+      },
+      {
+        "login": "lawlite19",
+        "label": "lawlite (lawlite19) @ Southeast University",
+        "followers": 895,
+        "weight": 1
+      },
+      {
+        "login": "tkersey",
+        "label": "Tim Kersey (tkersey) @ @thisisartium",
+        "followers": 729,
+        "weight": 1
+      },
+      {
+        "login": "charlenopires",
+        "label": "Charleno Pires (charlenopires)",
+        "followers": 579,
+        "weight": 1
+      },
+      {
+        "login": "kaichen",
+        "label": "Kai (kaichen) @ @imtoken",
+        "followers": 536,
+        "weight": 1
+      },
+      {
+        "login": "CNFeffery",
+        "label": "Feffery (CNFeffery)",
+        "followers": 531,
+        "weight": 1
+      }
+    ],
+    "notable_score": 15,
+    "notable_density": 2.85,
+    "notable_coverage_pct": 11.4,
+    "bus_factor": 5,
+    "top_contributors": [
+      {
+        "login": "github-actions[bot]",
+        "commits": 82,
+        "pct": 25.1
+      },
+      {
+        "login": "actions-user",
+        "commits": 70,
+        "pct": 21.4
+      },
+      {
+        "login": "ashwin-ant",
+        "commits": 61,
+        "pct": 18.7
+      },
+      {
+        "login": "dicksontsai",
+        "commits": 40,
+        "pct": 12.2
+      },
+      {
+        "login": "ltawfik",
+        "commits": 38,
+        "pct": 11.6
+      }
+    ],
+    "days_since_commit": 1,
+    "issue_ratio": 0.31,
+    "open_issues": 220,
+    "closed_issues": 99,
+    "forks": 704,
+    "age_months": 9.0,
+    "signals": {
+      "notable_density": 10,
+      "bus_factor": 9,
+      "freshness": 10,
+      "issue_health": 3.9,
+      "star_velocity": 7
+    },
+    "quality_score": 8.4
   }
 ]

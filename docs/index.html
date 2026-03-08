@@ -38,7 +38,10 @@
     </div>
 
     <section class="table-section">
-      <h2>Alle Eintraege</h2>
+      <div class="table-header">
+        <h2>Alle Eintraege</h2>
+        <input type="text" id="search-input" placeholder="Suchen (Name, Sprache, Beschreibung...)" autocomplete="off">
+      </div>
       <table id="entries-table">
         <thead>
           <tr>
@@ -72,7 +75,7 @@
         <p><strong>Notable Stargazers</strong> werden gewichtet: 500–999 Followers = 1 Punkt, 1k–5k = 2, 5k–10k = 4, 10k+ = 8 Punkte.<br>
         Notable Density = Punktsumme &divide; (Stars / 1.000).</p>
         <p><strong>Star Velocity</strong> bestraft extrem schnelles Wachstum: &gt;2.000 Stars/Monat bei jungen Repos wird als potenzielles Red Flag gewertet (Score sinkt auf 4/10).</p>
-        <p class="method-note">Stichprobe Notable: je 100 frueheste + 100 neueste Stargazers (max. 200). Bus Factor: Top-20-Contributors via GitHub API.</p>
+        <p class="method-note">Stichprobe Notable: Dynamisch je nach Repo-Groesse — kleine Repos (&lt;5k Stars) werden tiefer abgetastet (bis 1.000 Stargazers) fuer hoehere Coverage. Bus Factor: Top-20-Contributors via GitHub API.</p>
       </div>
     </details>
 

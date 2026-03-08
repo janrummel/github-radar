@@ -19,6 +19,7 @@ const CX = 400, CY = 400, MAX_R = 360;
 let entries = [];
 let activeFilter = 'all';
 let activeRingFilter = 'all';
+let searchQuery = '';
 
 // Seed-based pseudo-random for consistent dot placement
 function seededRandom(seed) {
@@ -343,6 +344,18 @@ function applyFilters() {
   if (activeRingFilter !== 'all') {
     filtered = filtered.filter(e => e.ring === activeRingFilter);
   }
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter(e =>
+      e.name.toLowerCase().includes(q) ||
+      (e.description || '').toLowerCase().includes(q) ||
+      (e.language || '').toLowerCase().includes(q) ||
+      (e.quadrant || '').toLowerCase().includes(q) ||
+      (e.ring || '').toLowerCase().includes(q) ||
+      (e.strengths || '').toLowerCase().includes(q) ||
+      (e.weaknesses || '').toLowerCase().includes(q)
+    );
+  }
   renderRadar(filtered);
   renderTable(filtered);
   updateStats(filtered);
@@ -376,6 +389,12 @@ document.querySelectorAll('.legend .ring-badge').forEach(badge => {
     }
     applyFilters();
   });
+});
+
+// Search input
+document.getElementById('search-input').addEventListener('input', (e) => {
+  searchQuery = e.target.value.trim();
+  applyFilters();
 });
 
 // Load data

@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse
 
 NOTABLE_THRESHOLD = 500
-SAMPLE_SIZE = 100
+PAGE_SIZE = 100  # GitHub GraphQL max per request
 
 TIERS = [
     (10000, 8),
@@ -89,63 +89,93 @@ def gh_rest(endpoint):
 
 # --- Signal 1: Notable Stargazers ---
 
+def pages_for_stars(total_stars):
+    """More pages for smaller repos to improve coverage.
+    <5k: 5 pages/direction (up to 1000 sampled), <10k: 3, else: 1."""
+    if total_stars < 5000:
+        return 5
+    if total_stars < 10000:
+        return 3
+    return 1
+
+
 def get_notable_signal(owner, repo):
     notables = []
     score = 0
     total_stars = 0
+    sampled = 0
 
     for direction in ["ASC", "DESC"]:
-        query = """
-        query($owner: String!, $repo: String!, $first: Int!) {
-          repository(owner: $owner, name: $repo) {
-            stargazers(first: $first, orderBy: {field: STARRED_AT, direction: %s}) {
-              totalCount
-              nodes {
-                login
-                name
-                followers { totalCount }
-                company
+        cursor = None
+        max_pages = 1  # default, updated after first response
+        page = 0
+        while page < max_pages:
+            after_clause = f', after: "{cursor}"' if cursor else ''
+            query = """
+            query($owner: String!, $repo: String!, $first: Int!) {
+              repository(owner: $owner, name: $repo) {
+                stargazers(first: $first, orderBy: {field: STARRED_AT, direction: %s}%s) {
+                  totalCount
+                  pageInfo { hasNextPage endCursor }
+                  nodes {
+                    login
+                    name
+                    followers { totalCount }
+                    company
+                  }
+                }
               }
             }
-          }
-        }
-        """ % direction
-        data = gh_graphql(query, owner=owner, repo=repo, first=SAMPLE_SIZE)
-        if not data or 'data' not in data:
-            continue
-        repo_data = data['data'].get('repository')
-        if not repo_data:
-            continue
-        sg = repo_data['stargazers']
-        total_stars = sg['totalCount']
+            """ % (direction, after_clause)
+            data = gh_graphql(query, owner=owner, repo=repo, first=PAGE_SIZE)
+            if not data or 'data' not in data:
+                break
+            repo_data = data['data'].get('repository')
+            if not repo_data:
+                break
+            sg = repo_data['stargazers']
+            total_stars = sg['totalCount']
 
-        seen = {n['login'] for n in notables}
-        for user in sg['nodes']:
-            login = user['login']
-            followers = user['followers']['totalCount']
-            if login in seen or followers < NOTABLE_THRESHOLD:
-                continue
-            seen.add(login)
-            weight = follower_weight(followers)
-            score += weight
+            # After first page, decide how many pages per direction
+            if page == 0:
+                max_pages = pages_for_stars(total_stars)
 
-            name = user.get('name') or ''
-            company = user.get('company') or ''
-            label = login
-            if name:
-                label = f"{name} ({login})"
-            if company:
-                label += f" @ {company}"
-            notables.append({
-                'login': login,
-                'label': label,
-                'followers': followers,
-                'weight': weight
-            })
+            sampled += len(sg['nodes'])
+
+            seen = {n['login'] for n in notables}
+            for user in sg['nodes']:
+                login = user['login']
+                followers = user['followers']['totalCount']
+                if login in seen or followers < NOTABLE_THRESHOLD:
+                    continue
+                seen.add(login)
+                weight = follower_weight(followers)
+                score += weight
+
+                name = user.get('name') or ''
+                company = user.get('company') or ''
+                label = login
+                if name:
+                    label = f"{name} ({login})"
+                if company:
+                    label += f" @ {company}"
+                notables.append({
+                    'login': login,
+                    'label': label,
+                    'followers': followers,
+                    'weight': weight
+                })
+
+            # Pagination
+            page_info = sg.get('pageInfo', {})
+            if not page_info.get('hasNextPage'):
+                break
+            cursor = page_info.get('endCursor')
+            page += 1
 
     notables.sort(key=lambda x: x['followers'], reverse=True)
     density = round(score / max(total_stars / 1000, 0.1), 2)
-    coverage = round(min(200, total_stars) / max(total_stars, 1) * 100, 1)
+    coverage = round(min(sampled, total_stars) / max(total_stars, 1) * 100, 1)
 
     return {
         'notables': notables[:10],
