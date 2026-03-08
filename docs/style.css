@@ -190,7 +190,12 @@ th {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  user-select: none;
+  white-space: nowrap;
 }
+th[data-sort]:hover { color: var(--text); }
+th.sorted { color: var(--accent); }
+.sort-arrow { font-size: 0.7rem; }
 
 td {
   padding: 0.6rem 0.75rem;
@@ -291,4 +296,10 @@ footer a { color: var(--accent); text-decoration: none; }
 @media (max-width: 600px) {
   .stats-section { grid-template-columns: repeat(2, 1fr); }
   .detail-row { flex-direction: column; gap: 0.1rem; }
+  .table-section { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { min-width: 600px; }
+  #search-input { width: 100%; }
+  .table-header { flex-direction: column; align-items: stretch; }
+  .filters { gap: 0.3rem; }
+  .filter-btn { padding: 0.3rem 0.6rem; font-size: 0.8rem; }
 }

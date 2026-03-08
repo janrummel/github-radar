@@ -5,7 +5,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Trial",
     "url": "https://github.com/gsd-build/get-shit-done",
-    "stars": 26372,
+    "stars": 26381,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Meta-prompting, context engineering und spec-driven development system fuer Claude Code. Multi-Agent Orchestration mit Wave Execution, Context Monitor, Plan-Checker.",
@@ -46,7 +46,8 @@
       "issue_health": 9.5,
       "star_velocity": 4
     },
-    "quality_score": 4.6
+    "quality_score": 4.6,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "openfang",
@@ -54,7 +55,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/RightNow-AI/openfang",
-    "stars": 12650,
+    "stars": 12670,
     "language": "Rust",
     "license": "Apache-2.0",
     "description": "Agent Operating System in Rust. Autonome Agents (Hands) die 24/7 laufen: Lead Gen, OSINT, Social Media, Web Scraping. Single 32MB Binary.",
@@ -92,7 +93,7 @@
     "issue_ratio": 0.72,
     "open_issues": 86,
     "closed_issues": 219,
-    "forks": 1408,
+    "forks": 1411,
     "age_months": 1,
     "signals": {
       "notable_density": 2.4,
@@ -101,7 +102,8 @@
       "issue_health": 9.0,
       "star_velocity": 4
     },
-    "quality_score": 5.0
+    "quality_score": 5.0,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "polars",
@@ -224,7 +226,8 @@
       "issue_health": 10.0,
       "star_velocity": 7
     },
-    "quality_score": 8.1
+    "quality_score": 8.1,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "scrapling",
@@ -232,7 +235,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/D4Vinci/Scrapling",
-    "stars": 26159,
+    "stars": 26178,
     "language": "Python",
     "license": "BSD-3",
     "description": "Web Scraping Framework fuer Python. Schnell, flexibel, mit Anti-Detection Features.",
@@ -273,10 +276,10 @@
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.93,
-    "open_issues": 5,
-    "closed_issues": 67,
-    "forks": 1921,
+    "issue_ratio": 0.94,
+    "open_issues": 4,
+    "closed_issues": 68,
+    "forks": 1923,
     "age_months": 17.0,
     "signals": {
       "notable_density": 1.1,
@@ -285,7 +288,8 @@
       "issue_health": 10,
       "star_velocity": 7
     },
-    "quality_score": 5.3
+    "quality_score": 5.3,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "cc-sdd",
@@ -376,7 +380,8 @@
       "issue_health": 9.9,
       "star_velocity": 10
     },
-    "quality_score": 7.2
+    "quality_score": 7.2,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "claude-code-spec-workflow",
@@ -484,7 +489,8 @@
       "issue_health": 10,
       "star_velocity": 10
     },
-    "quality_score": 7.2
+    "quality_score": 7.2,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "ruflo",
@@ -492,7 +498,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/ruvnet/ruflo",
-    "stars": 19983,
+    "stars": 19988,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Agent Orchestration Platform. Multi-Agent Swarms, DDD Bounded Contexts, ADR-basierte Architektur. RAG Integration, Claude Code/Codex Integration.",
@@ -524,7 +530,7 @@
     "issue_ratio": 0.5,
     "open_issues": 426,
     "closed_issues": 428,
-    "forks": 2225,
+    "forks": 2226,
     "age_months": 9.3,
     "signals": {
       "notable_density": 1.0,
@@ -533,7 +539,8 @@
       "issue_health": 6.2,
       "star_velocity": 4
     },
-    "quality_score": 4.3
+    "quality_score": 4.3,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "orchestrator-starter",
@@ -575,7 +582,8 @@
       "issue_health": 0.0,
       "star_velocity": 3
     },
-    "quality_score": 3.0
+    "quality_score": 3.0,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "awesome-claude-skills",
@@ -583,7 +591,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "stars": 41939,
+    "stars": 41944,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Sammlung von Claude Skills, Resources und Tools. Groesste Sammlung im Oekosystem.",
@@ -640,7 +648,8 @@
       "issue_health": 0.9,
       "star_velocity": 4
     },
-    "quality_score": 4.3
+    "quality_score": 4.3,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "awesome-claude-code",
@@ -648,7 +657,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "stars": 26881,
+    "stars": 26890,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Liste von Skills, Hooks, Slash-Commands, Agent-Orchestratoren, Apps und Plugins fuer Claude Code.",
@@ -700,7 +709,8 @@
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 5.5
+    "quality_score": 5.5,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "context-engineering",
@@ -808,7 +818,8 @@
       "issue_health": 2.5,
       "star_velocity": 10
     },
-    "quality_score": 7.6
+    "quality_score": 7.6,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "spec-driven-dev",
@@ -816,7 +827,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Trial",
     "url": "https://github.com/github/spec-kit",
-    "stars": 75000,
+    "stars": 75006,
     "language": "Markdown",
     "license": "MIT",
     "description": "Specs als First-Class Artifacts: Erst spezifizieren, dann planen, dann Tasks ableiten, dann implementieren. GitHub's offizielles Toolkit (spec-kit) formalisiert den Workflow fuer AI Coding Agents.",
@@ -886,7 +897,8 @@
       "issue_health": 4.8,
       "star_velocity": 4
     },
-    "quality_score": 4.8
+    "quality_score": 4.8,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "claude-md-convention",
@@ -972,7 +984,8 @@
       "issue_health": 9.4,
       "star_velocity": 10
     },
-    "quality_score": 7.9
+    "quality_score": 7.9,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "fastmcp",
@@ -1032,7 +1045,8 @@
       "issue_health": 10,
       "star_velocity": 7
     },
-    "quality_score": 6.1
+    "quality_score": 6.1,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "markitdown",
@@ -1125,7 +1139,8 @@
       "issue_health": 2.7,
       "star_velocity": 4
     },
-    "quality_score": 5.4
+    "quality_score": 5.4,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "duckdb",
@@ -1133,7 +1148,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Adopt",
     "url": "https://github.com/duckdb/duckdb",
-    "stars": 36496,
+    "stars": 36497,
     "language": "C++",
     "license": "MIT",
     "description": "Analytische In-Process SQL-Datenbank. Columnar Storage, Zero-Copy, direktes Lesen von Parquet/CSV/JSON. Perfekter Companion zu Polars fuer SQL-basierte Analysen.",
@@ -1248,7 +1263,8 @@
       "issue_health": 10,
       "star_velocity": 10
     },
-    "quality_score": 8.9
+    "quality_score": 8.9,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "uv",
@@ -1256,7 +1272,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Adopt",
     "url": "https://github.com/astral-sh/uv",
-    "stars": 80504,
+    "stars": 80505,
     "language": "Rust",
     "license": "Apache-2.0",
     "description": "Extrem schneller Python Package- und Projektmanager in Rust. Ersetzt pip, pip-tools, pipx, poetry, pyenv, virtualenv in einem Tool. 10-100x schneller als pip.",
@@ -1366,7 +1382,8 @@
       "issue_health": 9.1,
       "star_velocity": 4
     },
-    "quality_score": 6.6
+    "quality_score": 6.6,
+    "last_updated": "2026-03-08"
   },
   {
     "id": "claude-agent-sdk",
@@ -1374,7 +1391,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Trial",
     "url": "https://github.com/anthropics/claude-agent-sdk-python",
-    "stars": 5254,
+    "stars": 5255,
     "language": "Python",
     "license": "MIT",
     "description": "Anthropics offizielles SDK zum Bau von AI Agents. Agentic Loops, Tool Use, Multi-Turn, Guardrails. Python-first, minimal-opinionated.",
@@ -1483,6 +1500,183 @@
       "issue_health": 3.9,
       "star_velocity": 7
     },
-    "quality_score": 8.4
+    "quality_score": 8.4,
+    "last_updated": "2026-03-08"
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Hold",
+    "url": "https://github.com/langchain-ai/langchain",
+    "stars": 128646,
+    "language": "Python",
+    "license": "MIT",
+    "description": "Agent Engineering Platform. Chains, Agents, RAG, Memory. Eines der populaersten AI-Frameworks — aber zunehmend als over-abstracted und fragil kritisiert.",
+    "strengths": "129k Stars, riesiges Ecosystem, viele Integrationen, aktive Entwicklung, LangSmith fuer Observability",
+    "weaknesses": "Over-abstraction: zu viele Wrapper-Layer, Breaking Changes bei Minor-Updates, schwer zu debuggen, Performance-Overhead. Fuer Claude Code irrelevant — wir arbeiten direkt mit der API",
+    "learned": "Abstraction Tax ist real. Direkte API-Nutzung (Claude SDK) ist zuverlaessiger als Framework-Wrapper. LangChain loest Probleme die man ohne LangChain nicht haette.",
+    "added": "2026-03-08",
+    "tested": true,
+    "notable_stargazers": [
+      {
+        "login": "fxia22",
+        "label": "Fei Xia (fxia22) @ Google, Inc.",
+        "followers": 1175,
+        "weight": 2
+      },
+      {
+        "login": "Nyandwi",
+        "label": "Jean de Dieu Nyandwi (Nyandwi) @ Carnegie Mellon",
+        "followers": 838,
+        "weight": 1
+      },
+      {
+        "login": "Aniket762",
+        "label": "Aniket Pal (Aniket762) @ NIT Rourkela",
+        "followers": 754,
+        "weight": 1
+      },
+      {
+        "login": "hinthornw",
+        "label": "William FH (hinthornw) @ LangChain",
+        "followers": 742,
+        "weight": 1
+      },
+      {
+        "login": "tkersey",
+        "label": "Tim Kersey (tkersey) @ @thisisartium",
+        "followers": 729,
+        "weight": 1
+      },
+      {
+        "login": "mihail911",
+        "label": "Mihail Eric (mihail911)",
+        "followers": 626,
+        "weight": 1
+      },
+      {
+        "login": "aidangomez",
+        "label": "Aidan Gomez (aidangomez) @ @cohere-ai ",
+        "followers": 606,
+        "weight": 1
+      }
+    ],
+    "notable_score": 8,
+    "notable_density": 0.06,
+    "notable_coverage_pct": 0.2,
+    "bus_factor": 9,
+    "top_contributors": [
+      {
+        "login": "baskaryan",
+        "commits": 1398,
+        "pct": 18.3
+      },
+      {
+        "login": "hwchase17",
+        "commits": 1235,
+        "pct": 16.1
+      },
+      {
+        "login": "ccurme",
+        "commits": 966,
+        "pct": 12.6
+      },
+      {
+        "login": "eyurtsev",
+        "commits": 728,
+        "pct": 9.5
+      },
+      {
+        "login": "mdrxy",
+        "commits": 643,
+        "pct": 8.4
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.97,
+    "open_issues": 245,
+    "closed_issues": 8878,
+    "forks": 21132,
+    "age_months": 41.3,
+    "signals": {
+      "notable_density": 0.6,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 4
+    },
+    "quality_score": 6.8,
+    "last_updated": "2026-03-08"
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Hold",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "stars": 182264,
+    "language": "Python",
+    "license": "Other",
+    "description": "Einer der ersten 'autonomen AI Agents'. Hype-Pionier von 2023. Versuch, GPT vollstaendig autonom arbeiten zu lassen — Loops, Tool Use, Memory.",
+    "strengths": "182k Stars (historisch), hat die AI-Agent-Bewegung angestossen, viele Forks und Varianten",
+    "weaknesses": "Endlose Loops ohne Ergebnis, hohe API-Kosten, keine zuverlaessige Task-Completion. Pivot zu 'Platform' hat Fokus verloren. Viel Hype, wenig Production-Einsatz",
+    "learned": "Autonome Agents ohne menschliches Steering scheitern. Die Zukunft sind Human-in-the-Loop Agents (Claude Code, Cursor) — nicht vollautonome Systeme.",
+    "added": "2026-03-08",
+    "tested": true,
+    "notable_stargazers": [
+      {
+        "login": "jonatas",
+        "label": "Jônatas Davi Paganini (jonatas) @ @bax-energy",
+        "followers": 506,
+        "weight": 1
+      }
+    ],
+    "notable_score": 1,
+    "notable_density": 0.01,
+    "notable_coverage_pct": 0.1,
+    "bus_factor": 10,
+    "top_contributors": [
+      {
+        "login": "Auto-GPT-Bot",
+        "commits": 1076,
+        "pct": 17.0
+      },
+      {
+        "login": "Pwuts",
+        "commits": 884,
+        "pct": 14.0
+      },
+      {
+        "login": "majdyz",
+        "commits": 569,
+        "pct": 9.0
+      },
+      {
+        "login": "Swiftyos",
+        "commits": 516,
+        "pct": 8.1
+      },
+      {
+        "login": "Torantulino",
+        "commits": 470,
+        "pct": 7.4
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.94,
+    "open_issues": 229,
+    "closed_issues": 3512,
+    "forks": 46200,
+    "age_months": 36.3,
+    "signals": {
+      "notable_density": 0.1,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 4
+    },
+    "quality_score": 6.6,
+    "last_updated": "2026-03-08"
   }
 ]

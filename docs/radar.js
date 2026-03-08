@@ -20,6 +20,8 @@ let entries = [];
 let activeFilter = 'all';
 let activeRingFilter = 'all';
 let searchQuery = '';
+let sortColumn = 'quality';
+let sortDesc = true;
 
 // Seed-based pseudo-random for consistent dot placement
 function seededRandom(seed) {
@@ -298,11 +300,42 @@ function closeDetails() {
   document.getElementById('details-panel').classList.add('hidden');
 }
 
+function getSortValue(entry, col) {
+  switch (col) {
+    case 'name': return entry.name.toLowerCase();
+    case 'quadrant': return entry.quadrant.toLowerCase();
+    case 'ring': return ['Adopt','Trial','Scout','Hold'].indexOf(entry.ring);
+    case 'stars': return entry.stars || 0;
+    case 'language': return (entry.language || '').toLowerCase();
+    case 'quality': return entry.quality_score || 0;
+    case 'tested': return entry.tested ? 1 : 0;
+    default: return 0;
+  }
+}
+
 function renderTable(filteredEntries) {
   const tbody = document.querySelector('#entries-table tbody');
   tbody.innerHTML = '';
 
-  const sorted = [...filteredEntries].sort((a, b) => b.stars - a.stars);
+  const sorted = [...filteredEntries].sort((a, b) => {
+    const va = getSortValue(a, sortColumn);
+    const vb = getSortValue(b, sortColumn);
+    const cmp = typeof va === 'string' ? va.localeCompare(vb) : va - vb;
+    return sortDesc ? -cmp : cmp;
+  });
+
+  // Update sort arrows
+  document.querySelectorAll('#entries-table th').forEach(th => {
+    const arrow = th.querySelector('.sort-arrow');
+    if (!arrow) return;
+    if (th.dataset.sort === sortColumn) {
+      arrow.textContent = sortDesc ? ' ↓' : ' ↑';
+      th.classList.add('sorted');
+    } else {
+      arrow.textContent = '';
+      th.classList.remove('sorted');
+    }
+  });
 
   sorted.forEach(entry => {
     const ringClass = entry.ring.toLowerCase();
@@ -386,6 +419,21 @@ document.querySelectorAll('.legend .ring-badge').forEach(badge => {
       document.querySelectorAll('.legend .ring-badge').forEach(b => {
         b.classList.toggle('ring-inactive', b.textContent.trim() !== ring);
       });
+    }
+    applyFilters();
+  });
+});
+
+// Table sorting
+document.querySelectorAll('#entries-table th[data-sort]').forEach(th => {
+  th.style.cursor = 'pointer';
+  th.addEventListener('click', () => {
+    const col = th.dataset.sort;
+    if (sortColumn === col) {
+      sortDesc = !sortDesc;
+    } else {
+      sortColumn = col;
+      sortDesc = ['stars', 'quality', 'tested'].includes(col);
     }
     applyFilters();
   });

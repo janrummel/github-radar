@@ -306,8 +306,11 @@ def normalize_freshness(days):
     return 0
 
 
-def normalize_issue_health(ratio):
-    """Higher close ratio = better. 0.8+ = 10, 0 = 0."""
+def normalize_issue_health(ratio, total_issues):
+    """Higher close ratio = better. 0.8+ = 10, 0 = 0.
+    Exception: repos with <5 total issues get neutral 5 (insufficient data)."""
+    if total_issues < 5:
+        return 5
     return min(ratio / 0.8 * 10, 10)
 
 
@@ -358,7 +361,7 @@ def analyze_entry(entry):
         'notable_density': round(normalize_notable_density(notable['density']), 1),
         'bus_factor': round(normalize_bus_factor(bus_factor), 1),
         'freshness': round(normalize_freshness(meta.get('days_since_commit', 999)), 1),
-        'issue_health': round(normalize_issue_health(meta.get('issue_ratio', 0)), 1),
+        'issue_health': round(normalize_issue_health(meta.get('issue_ratio', 0), meta.get('open_issues', 0) + meta.get('closed_issues', 0)), 1),
         'star_velocity': round(normalize_star_velocity(total_stars, age_months), 1),
     }
 
@@ -422,6 +425,7 @@ def main():
         entry['signals'] = result['signals']
         entry['quality_score'] = result['quality_score']
         entry['stars'] = result['stars']
+        entry['last_updated'] = NOW.strftime('%Y-%m-%d')
 
         s = result['signals']
         print(f"Q={result['quality_score']}/10")
