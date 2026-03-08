@@ -18,6 +18,7 @@ const RINGS = [
 const CX = 400, CY = 400, MAX_R = 360;
 let entries = [];
 let activeFilter = 'all';
+let activeRingFilter = 'all';
 
 // Seed-based pseudo-random for consistent dot placement
 function seededRandom(seed) {
@@ -183,7 +184,8 @@ function renderRadar(filteredEntries) {
     dot.setAttribute('stroke-width', entry.tested ? '1.5' : '0');
     g.appendChild(dot);
 
-    // Label
+    // Label — hidden by default, visible on hover (always visible for Adopt)
+    const isAdopt = entry.ring === 'Adopt';
     const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     text.setAttribute('x', pos.x);
     text.setAttribute('y', pos.y - 12);
@@ -191,12 +193,24 @@ function renderRadar(filteredEntries) {
     text.setAttribute('font-size', '10');
     text.setAttribute('font-weight', '600');
     text.setAttribute('text-anchor', 'middle');
+    text.setAttribute('class', 'dot-label');
+    if (!isAdopt) text.setAttribute('opacity', '0');
     text.textContent = entry.name.length > 20 ? entry.name.substring(0, 18) + '..' : entry.name;
     g.appendChild(text);
 
     // Events
-    g.addEventListener('mouseenter', (e) => showTooltip(e, entry));
-    g.addEventListener('mouseleave', hideTooltip);
+    g.addEventListener('mouseenter', (e) => {
+      showTooltip(e, entry);
+      if (!isAdopt) text.setAttribute('opacity', '1');
+      glow.setAttribute('r', entry.tested ? 14 : 10);
+      glow.setAttribute('opacity', '0.3');
+    });
+    g.addEventListener('mouseleave', () => {
+      hideTooltip();
+      if (!isAdopt) text.setAttribute('opacity', '0');
+      glow.setAttribute('r', entry.tested ? 10 : 7);
+      glow.setAttribute('opacity', '0.15');
+    });
     g.addEventListener('click', () => showDetails(entry));
 
     svg.appendChild(g);
@@ -274,12 +288,14 @@ function renderTable(filteredEntries) {
     const ringClass = entry.ring.toLowerCase();
     const tr = document.createElement('tr');
     tr.addEventListener('click', () => showDetails(entry));
+    const notableCount = (entry.notable_stargazers || []).length;
     tr.innerHTML = `
       <td><a href="${entry.url}" target="_blank">${entry.name}</a></td>
       <td>${entry.quadrant}</td>
       <td><span class="ring-badge ${ringClass}">${entry.ring}</span></td>
       <td class="stars-cell">${formatStars(entry.stars)}</td>
       <td>${entry.language}</td>
+      <td class="notable-cell">${notableCount > 0 ? notableCount : '-'}</td>
       <td>${entry.tested ? 'Ja' : '-'}</td>
     `;
     tbody.appendChild(tr);
@@ -295,26 +311,46 @@ function updateStats(filteredEntries) {
   document.getElementById('stat-updated').textContent = dates[0] || '-';
 }
 
-function applyFilter(filter) {
+function applyFilters() {
   let filtered = entries;
-  if (filter !== 'all') {
-    filtered = entries.filter(e => e.quadrant === filter);
+  if (activeFilter !== 'all') {
+    filtered = filtered.filter(e => e.quadrant === activeFilter);
+  }
+  if (activeRingFilter !== 'all') {
+    filtered = filtered.filter(e => e.ring === activeRingFilter);
   }
   renderRadar(filtered);
   renderTable(filtered);
   updateStats(filtered);
 }
 
-// Filter buttons
+// Quadrant filter buttons
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
     const quadrant = btn.dataset.quadrant;
-    const filter = btn.dataset.filter || quadrant;
-    activeFilter = filter;
-    applyFilter(filter);
+    activeFilter = btn.dataset.filter || quadrant;
+    applyFilters();
+  });
+});
+
+// Ring filter badges (in legend)
+document.querySelectorAll('.legend .ring-badge').forEach(badge => {
+  badge.style.cursor = 'pointer';
+  badge.addEventListener('click', () => {
+    const ring = badge.textContent.trim();
+    if (activeRingFilter === ring) {
+      activeRingFilter = 'all';
+      document.querySelectorAll('.legend .ring-badge').forEach(b => b.classList.remove('ring-inactive'));
+    } else {
+      activeRingFilter = ring;
+      document.querySelectorAll('.legend .ring-badge').forEach(b => {
+        b.classList.toggle('ring-inactive', b.textContent.trim() !== ring);
+      });
+    }
+    applyFilters();
   });
 });
 
@@ -327,7 +363,7 @@ async function init() {
     console.error('Could not load entries.json', e);
     return;
   }
-  applyFilter('all');
+  applyFilters();
 }
 
 init();

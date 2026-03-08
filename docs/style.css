@@ -212,6 +212,17 @@ td a:hover { text-decoration: underline; }
 .stat-number { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
 .stat-label { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem; }
 
+/* Dot labels */
+.dot-label { transition: opacity 0.15s; pointer-events: none; }
+
+/* Ring filter */
+.legend .ring-badge { cursor: pointer; transition: opacity 0.15s; }
+.legend .ring-badge:hover { opacity: 0.8; }
+.legend .ring-badge.ring-inactive { opacity: 0.3; }
+
+/* Notable column */
+.notable-cell { font-variant-numeric: tabular-nums; text-align: center; }
+
 /* Notable Stargazers */
 .notable-list { list-style: none; padding: 0; }
 .notable-list li { padding: 0.3rem 0; border-bottom: 1px solid var(--border); font-size: 0.85rem; display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; }
