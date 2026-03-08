@@ -47,7 +47,8 @@
       "star_velocity": 4
     },
     "quality_score": 4.6,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "openfang",
@@ -103,7 +104,8 @@
       "star_velocity": 4
     },
     "quality_score": 5.0,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "polars",
@@ -227,7 +229,8 @@
       "star_velocity": 7
     },
     "quality_score": 8.1,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "scrapling",
@@ -289,7 +292,8 @@
       "star_velocity": 7
     },
     "quality_score": 5.3,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "cc-sdd",
@@ -381,7 +385,8 @@
       "star_velocity": 10
     },
     "quality_score": 7.2,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "claude-code-spec-workflow",
@@ -490,7 +495,8 @@
       "star_velocity": 10
     },
     "quality_score": 7.2,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "ruflo",
@@ -540,7 +546,8 @@
       "star_velocity": 4
     },
     "quality_score": 4.3,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "orchestrator-starter",
@@ -583,7 +590,8 @@
       "star_velocity": 3
     },
     "quality_score": 3.0,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "awesome-claude-skills",
@@ -649,7 +657,8 @@
       "star_velocity": 4
     },
     "quality_score": 4.3,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "landscape"
   },
   {
     "id": "awesome-claude-code",
@@ -710,7 +719,8 @@
       "star_velocity": 4
     },
     "quality_score": 5.5,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "landscape"
   },
   {
     "id": "context-engineering",
@@ -819,7 +829,8 @@
       "star_velocity": 10
     },
     "quality_score": 7.6,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "spec-driven-dev",
@@ -898,7 +909,8 @@
       "star_velocity": 4
     },
     "quality_score": 4.8,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "claude-md-convention",
@@ -917,7 +929,8 @@
     "tested": true,
     "notable_stargazers": [],
     "notable_score": 0,
-    "notable_density": 0.0
+    "notable_density": 0.0,
+    "category": "radar"
   },
   {
     "id": "agentic-design-patterns",
@@ -985,7 +998,8 @@
       "star_velocity": 10
     },
     "quality_score": 7.9,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "fastmcp",
@@ -1046,7 +1060,8 @@
       "star_velocity": 7
     },
     "quality_score": 6.1,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "markitdown",
@@ -1140,7 +1155,8 @@
       "star_velocity": 4
     },
     "quality_score": 5.4,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "duckdb",
@@ -1264,7 +1280,8 @@
       "star_velocity": 10
     },
     "quality_score": 8.9,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "uv",
@@ -1383,7 +1400,8 @@
       "star_velocity": 4
     },
     "quality_score": 6.6,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "claude-agent-sdk",
@@ -1501,7 +1519,8 @@
       "star_velocity": 7
     },
     "quality_score": 8.4,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "radar"
   },
   {
     "id": "langchain",
@@ -1607,7 +1626,8 @@
       "star_velocity": 4
     },
     "quality_score": 6.8,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "landscape"
   },
   {
     "id": "autogpt",
@@ -1677,6 +1697,7 @@
       "star_velocity": 4
     },
     "quality_score": 6.6,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-03-08",
+    "category": "landscape"
   }
 ]

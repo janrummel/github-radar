@@ -282,6 +282,12 @@ td a:hover { text-decoration: underline; }
 .follower-count { color: var(--text-muted); font-size: 0.75rem; white-space: nowrap; }
 .no-notables { color: var(--text-muted); font-style: italic; }
 
+/* Landscape */
+.landscape-section { margin-top: 2.5rem; }
+.landscape-section h2 { font-size: 1.2rem; margin-bottom: 0.25rem; }
+.landscape-intro { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+.reason-cell { color: var(--text-muted); font-size: 0.8rem; max-width: 300px; }
+
 footer {
   text-align: center;
   padding: 2rem 1rem;

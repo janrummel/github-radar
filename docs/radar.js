@@ -370,7 +370,8 @@ function updateStats(filteredEntries) {
 }
 
 function applyFilters() {
-  let filtered = entries;
+  const radarEntries = entries.filter(e => e.category !== 'landscape');
+  let filtered = radarEntries;
   if (activeFilter !== 'all') {
     filtered = filtered.filter(e => e.quadrant === activeFilter);
   }
@@ -392,6 +393,31 @@ function applyFilters() {
   renderRadar(filtered);
   renderTable(filtered);
   updateStats(filtered);
+  renderLandscape();
+}
+
+function renderLandscape() {
+  const tbody = document.querySelector('#landscape-table tbody');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+  const landscape = entries.filter(e => e.category === 'landscape');
+  landscape.sort((a, b) => (b.quality_score || 0) - (a.quality_score || 0));
+  landscape.forEach(entry => {
+    const tr = document.createElement('tr');
+    tr.addEventListener('click', () => showDetails(entry));
+    tr.style.cursor = 'pointer';
+    const qs = entry.quality_score || 0;
+    const qClass = qs >= 7 ? 'signal-high' : qs >= 5 ? 'signal-mid' : 'signal-low';
+    const reason = entry.ring === 'Hold' ? entry.learned || entry.weaknesses : (entry.weaknesses || '');
+    const short = reason.length > 80 ? reason.substring(0, 77) + '...' : reason;
+    tr.innerHTML = `
+      <td><a href="${entry.url}" target="_blank">${entry.name}</a></td>
+      <td class="stars-cell">${formatStars(entry.stars)}</td>
+      <td class="signal-cell ${qClass}">${qs.toFixed(1)}</td>
+      <td class="reason-cell">${short}</td>
+    `;
+    tbody.appendChild(tr);
+  });
 }
 
 // Quadrant filter buttons
