@@ -314,17 +314,11 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 // Load data
 async function init() {
   try {
-    const response = await fetch('../data/entries.json');
+    const response = await fetch('data/entries.json');
     entries = await response.json();
   } catch (e) {
-    // Fallback: try relative path for GitHub Pages
-    try {
-      const response = await fetch('./data/entries.json');
-      entries = await response.json();
-    } catch (e2) {
-      console.error('Could not load entries.json', e2);
-      return;
-    }
+    console.error('Could not load entries.json', e);
+    return;
   }
   applyFilter('all');
 }
