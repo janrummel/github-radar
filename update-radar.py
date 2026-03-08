@@ -427,6 +427,25 @@ def main():
         entry['stars'] = result['stars']
         entry['last_updated'] = NOW.strftime('%Y-%m-%d')
 
+        # Score-Trend-Tracking: append to score_history (dedup per day)
+        today = NOW.strftime('%Y-%m-%d')
+        history = entry.get('score_history', [])
+        data_point = {
+            'date': today,
+            'score': result['quality_score'],
+            'signals': result['signals'],
+        }
+        # Replace existing entry for today, or append
+        replaced = False
+        for i, h in enumerate(history):
+            if h.get('date') == today:
+                history[i] = data_point
+                replaced = True
+                break
+        if not replaced:
+            history.append(data_point)
+        entry['score_history'] = history
+
         s = result['signals']
         print(f"Q={result['quality_score']}/10")
         print(f"    Notable={s['notable_density']:.0f} Bus={s['bus_factor']:.0f} "

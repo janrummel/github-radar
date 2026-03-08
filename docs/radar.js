@@ -249,6 +249,42 @@ function hideTooltip() {
   document.getElementById('tooltip').classList.remove('visible');
 }
 
+function renderSparkline(history) {
+  const w = 280, h = 60, pad = 4;
+  const points = history.map(p => p.score);
+  const dates = history.map(p => p.date);
+  const min = Math.min(...points, 0);
+  const max = Math.max(...points, 10);
+  const range = max - min || 1;
+  const n = points.length;
+
+  const coords = points.map((v, i) => ({
+    x: pad + (n > 1 ? i / (n - 1) : 0.5) * (w - 2 * pad),
+    y: pad + (1 - (v - min) / range) * (h - 2 * pad)
+  }));
+
+  const pathD = coords.map((c, i) => `${i === 0 ? 'M' : 'L'}${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(' ');
+
+  const first = points[0], last = points[n - 1];
+  const delta = last - first;
+  const arrow = delta > 0 ? '↑' : delta < 0 ? '↓' : '→';
+  const deltaClass = delta > 0 ? 'trend-up' : delta < 0 ? 'trend-down' : 'trend-flat';
+
+  const dotsSvg = coords.map((c, i) =>
+    `<circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="3" fill="var(--accent)">` +
+    `<title>${dates[i]}: ${points[i]}</title></circle>`
+  ).join('');
+
+  return `<div class="sparkline-wrap">
+    <svg class="sparkline" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+      <path d="${pathD}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      ${dotsSvg}
+    </svg>
+    <span class="trend-delta ${deltaClass}">${arrow} ${Math.abs(delta).toFixed(1)}</span>
+    <span class="trend-range">${dates[0]} → ${dates[n - 1]}</span>
+  </div>`;
+}
+
 function showDetails(entry) {
   const panel = document.getElementById('details-panel');
   const content = document.getElementById('details-content');
@@ -283,6 +319,11 @@ function showDetails(entry) {
       <div class="signal-details">
         Bus Factor: ${entry.bus_factor || '?'} · Letzter Commit: ${entry.days_since_commit != null ? (entry.days_since_commit === 0 ? 'heute' : entry.days_since_commit + 'd') : '?'} · Issues: ${entry.closed_issues || 0}/${(entry.open_issues||0)+(entry.closed_issues||0)} geschlossen · Forks: ${entry.forks || 0}
       </div>
+    </div>` : ''}
+    ${entry.score_history && entry.score_history.length > 1 ? `
+    <div class="detail-section trend-section">
+      <h4>Score-Trend</h4>
+      ${renderSparkline(entry.score_history)}
     </div>` : ''}
     ${entry.notable_stargazers && entry.notable_stargazers.length > 0 ? `
     <div class="detail-section notable-section">

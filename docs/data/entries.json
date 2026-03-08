@@ -48,7 +48,20 @@
     },
     "quality_score": 4.6,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 4.6,
+        "signals": {
+          "notable_density": 0.4,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 9.5,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "openfang",
@@ -105,7 +118,20 @@
     },
     "quality_score": 5.0,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 5.0,
+        "signals": {
+          "notable_density": 2.4,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 9.0,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "polars",
@@ -230,7 +256,20 @@
     },
     "quality_score": 8.1,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 8.1,
+        "signals": {
+          "notable_density": 4.2,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10.0,
+          "star_velocity": 7
+        }
+      }
+    ]
   },
   {
     "id": "scrapling",
@@ -293,7 +332,20 @@
     },
     "quality_score": 5.3,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 5.3,
+        "signals": {
+          "notable_density": 1.1,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      }
+    ]
   },
   {
     "id": "cc-sdd",
@@ -386,7 +438,20 @@
     },
     "quality_score": 7.2,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 7.2,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 2,
+          "freshness": 6,
+          "issue_health": 9.9,
+          "star_velocity": 10
+        }
+      }
+    ]
   },
   {
     "id": "claude-code-spec-workflow",
@@ -496,7 +561,20 @@
     },
     "quality_score": 7.2,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 7.2,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 5,
+          "freshness": 2,
+          "issue_health": 10,
+          "star_velocity": 10
+        }
+      }
+    ]
   },
   {
     "id": "ruflo",
@@ -547,7 +625,20 @@
     },
     "quality_score": 4.3,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 4.3,
+        "signals": {
+          "notable_density": 1.0,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 6.2,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "orchestrator-starter",
@@ -591,7 +682,20 @@
     },
     "quality_score": 3.0,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 3.0,
+        "signals": {
+          "notable_density": 0.0,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 0.0,
+          "star_velocity": 3
+        }
+      }
+    ]
   },
   {
     "id": "awesome-claude-skills",
@@ -658,7 +762,20 @@
     },
     "quality_score": 4.3,
     "last_updated": "2026-03-08",
-    "category": "landscape"
+    "category": "landscape",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 4.3,
+        "signals": {
+          "notable_density": 0.7,
+          "bus_factor": 7,
+          "freshness": 8,
+          "issue_health": 0.9,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "awesome-claude-code",
@@ -720,7 +837,20 @@
     },
     "quality_score": 5.5,
     "last_updated": "2026-03-08",
-    "category": "landscape"
+    "category": "landscape",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 5.5,
+        "signals": {
+          "notable_density": 0.7,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "context-engineering",
@@ -830,7 +960,20 @@
     },
     "quality_score": 7.6,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 7.6,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 2.5,
+          "star_velocity": 10
+        }
+      }
+    ]
   },
   {
     "id": "spec-driven-dev",
@@ -910,7 +1053,20 @@
     },
     "quality_score": 4.8,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 4.8,
+        "signals": {
+          "notable_density": 1.1,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 4.8,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "claude-md-convention",
@@ -999,7 +1155,20 @@
     },
     "quality_score": 7.9,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 7.9,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 9.4,
+          "star_velocity": 10
+        }
+      }
+    ]
   },
   {
     "id": "fastmcp",
@@ -1061,7 +1230,20 @@
     },
     "quality_score": 6.1,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 6.1,
+        "signals": {
+          "notable_density": 1.3,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      }
+    ]
   },
   {
     "id": "markitdown",
@@ -1156,7 +1338,20 @@
     },
     "quality_score": 5.4,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 5.4,
+        "signals": {
+          "notable_density": 1.0,
+          "bus_factor": 10,
+          "freshness": 8,
+          "issue_health": 2.7,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "duckdb",
@@ -1281,7 +1476,20 @@
     },
     "quality_score": 8.9,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 8.9,
+        "signals": {
+          "notable_density": 5.5,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 10
+        }
+      }
+    ]
   },
   {
     "id": "uv",
@@ -1401,7 +1609,20 @@
     },
     "quality_score": 6.6,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 6.6,
+        "signals": {
+          "notable_density": 2.5,
+          "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 9.1,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "claude-agent-sdk",
@@ -1520,7 +1741,20 @@
     },
     "quality_score": 8.4,
     "last_updated": "2026-03-08",
-    "category": "radar"
+    "category": "radar",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 8.4,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 3.9,
+          "star_velocity": 7
+        }
+      }
+    ]
   },
   {
     "id": "langchain",
@@ -1627,7 +1861,20 @@
     },
     "quality_score": 6.8,
     "last_updated": "2026-03-08",
-    "category": "landscape"
+    "category": "landscape",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 6.8,
+        "signals": {
+          "notable_density": 0.6,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      }
+    ]
   },
   {
     "id": "autogpt",
@@ -1698,6 +1945,19 @@
     },
     "quality_score": 6.6,
     "last_updated": "2026-03-08",
-    "category": "landscape"
+    "category": "landscape",
+    "score_history": [
+      {
+        "date": "2026-03-08",
+        "score": 6.6,
+        "signals": {
+          "notable_density": 0.1,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      }
+    ]
   }
 ]

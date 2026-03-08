@@ -282,6 +282,16 @@ td a:hover { text-decoration: underline; }
 .follower-count { color: var(--text-muted); font-size: 0.75rem; white-space: nowrap; }
 .no-notables { color: var(--text-muted); font-style: italic; }
 
+/* Score Trend Sparkline */
+.trend-section { margin-top: 1rem; }
+.sparkline-wrap { display: flex; align-items: center; gap: 0.75rem; margin-top: 0.5rem; flex-wrap: wrap; }
+.sparkline { width: 280px; height: 60px; }
+.trend-delta { font-weight: 700; font-size: 0.95rem; }
+.trend-up { color: var(--adopt); }
+.trend-down { color: #f85149; }
+.trend-flat { color: var(--text-muted); }
+.trend-range { font-size: 0.75rem; color: var(--text-muted); }
+
 /* Landscape */
 .landscape-section { margin-top: 2.5rem; }
 .landscape-section h2 { font-size: 1.2rem; margin-bottom: 0.25rem; }
