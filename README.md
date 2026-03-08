@@ -4,6 +4,15 @@ Persoenlicher Technologie-Radar fuer das Dev-Universum rund um Claude Code & AI 
 
 Kein Link-Dump. Getestete Bewertungen aus Anwender-Perspektive.
 
+## Website
+
+Interaktive SVG-Visualisierung mit Filter, Tooltips und Detail-Panel.
+
+```bash
+cd docs && python3 -m http.server 8080
+# → http://localhost:8080
+```
+
 ## Konzept
 
 Inspiriert vom [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar) — aber persoenlich, fuer GitHub Repos und Developer Tools.
@@ -26,13 +35,9 @@ Inspiriert vom [ThoughtWorks Technology Radar](https://www.thoughtworks.com/rada
 | **Developer Tools & Infra** | MCP-Server, awesome-Listen, SDKs |
 | **Patterns & Methods** | Spec-Driven Dev, Context Engineering |
 
-## Website
-
-[GitHub-Radar Live](https://janrummel.github.io/github-radar/)
-
 ## Neuen Eintrag hinzufuegen
 
-Eintrag in `data/entries.json` ergaenzen:
+Eintrag in `docs/data/entries.json` ergaenzen:
 
 ```json
 {
