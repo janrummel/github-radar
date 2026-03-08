@@ -181,7 +181,10 @@ def write_candidates(new_candidates, prev_data):
 
 
 def push_changes():
-    """Commit and push candidates."""
+    """Pull, commit, and push candidates."""
+    # Pull first to avoid conflicts on Mac Mini
+    subprocess.run(["git", "pull", "--ff-only", "origin", "main"], check=True)
+
     subprocess.run(["git", "add", "candidates/pending.json"], check=True)
     result = subprocess.run(
         ["git", "diff", "--cached", "--quiet"],
