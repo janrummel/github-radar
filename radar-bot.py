@@ -224,16 +224,21 @@ def handle_command(token, chat_id, text):
         send_reply(token, chat_id, f"Schedule auf *{', '.join(days)}* um {cfg.get('schedule_hour', 7)}:00 gesetzt.")
 
     elif cmd == "/radar_run":
-        send_reply(token, chat_id, "Starte Discovery...")
+        send_reply(token, chat_id, "Starte Discovery (kann 2-3 Min dauern)...")
         repo_dir = Path(__file__).parent
-        result = subprocess.run(
-            ["python3", "discover-repos.py", "--push"],
-            cwd=repo_dir,
-            capture_output=True, text=True, timeout=300,
-        )
-        # The discovery script sends its own Telegram notification
-        if result.returncode != 0:
-            send_reply(token, chat_id, f"Discovery fehlgeschlagen:\n```\n{result.stderr[-500:]}\n```")
+        try:
+            result = subprocess.run(
+                ["python3", "discover-repos.py", "--push"],
+                cwd=repo_dir,
+                capture_output=True, text=True, timeout=600,
+            )
+            if result.returncode != 0:
+                err = (result.stderr or result.stdout or "unbekannter Fehler")[-400:]
+                send_reply(token, chat_id, f"Discovery fehlgeschlagen:\n```\n{err}\n```")
+            elif "No new candidates" in result.stdout:
+                send_reply(token, chat_id, "Keine neuen Kandidaten gefunden.")
+        except subprocess.TimeoutExpired:
+            send_reply(token, chat_id, "Discovery Timeout (>10 Min). Prüfe Logs.")
 
     elif cmd == "/radar_help":
         msg = (
