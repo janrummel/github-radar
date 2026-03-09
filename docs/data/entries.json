@@ -2453,5 +2453,75 @@
         }
       }
     ]
+  },
+  {
+    "id": "paperclip",
+    "name": "Paperclip",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Scout",
+    "url": "https://github.com/paperclipai/paperclip",
+    "stars": 13686,
+    "language": "TypeScript",
+    "license": "MIT",
+    "description": "Open-Source Orchestrierung fuer 'Zero-Human Companies'. Koordiniert mehrere AI Agents (OpenClaw, Claude Code, Codex) mit Org-Charts, Budgets, Scheduling und Audit Trails.",
+    "strengths": "Spannendes Konzept (Agent-Organisationen mit Rollen, Hierarchien, Budgets), MIT-Lizenz, Multi-Agent Support, Mobile-ready UI, Multi-Tenancy",
+    "weaknesses": "7 Tage alt mit 13.7k Stars (verdaechtiges Wachstum), Bus Factor 1 (90% ein Dev), Issue-Health 0.25 (Issues haeufeln sich), Notable Density niedrig fuer Repo-Groesse",
+    "learned": "Noch nicht getestet. Beobachten ob nachhaltiges Projekt oder Hype-Blase. Aehnliches Pattern wie OpenFang.",
+    "added": "2026-03-09",
+    "tested": false,
+    "category": "radar",
+    "notable_stargazers": [
+      {
+        "login": "birobirobiro",
+        "label": "João Inácio Neto (birobirobiro) @ Nemu",
+        "followers": 2611,
+        "weight": 2
+      },
+      {
+        "login": "andfanilo",
+        "label": "Fanilo Andrianasolo (andfanilo) @ Worldline",
+        "followers": 710,
+        "weight": 1
+      }
+    ],
+    "notable_score": 3,
+    "notable_density": 0.22,
+    "notable_coverage_pct": 1.5,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "cryppadotta",
+        "commits": 618,
+        "pct": 90.4
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.25,
+    "open_issues": 113,
+    "closed_issues": 38,
+    "forks": 1564,
+    "age_months": 1,
+    "signals": {
+      "notable_density": 2.2,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 3.1,
+      "star_velocity": 4
+    },
+    "quality_score": 4.1,
+    "last_updated": "2026-03-09",
+    "score_history": [
+      {
+        "date": "2026-03-09",
+        "score": 4.1,
+        "signals": {
+          "notable_density": 2.2,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 3.1,
+          "star_velocity": 4
+        }
+      }
+    ]
   }
 ]
