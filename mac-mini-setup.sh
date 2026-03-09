@@ -9,11 +9,15 @@
 set -euo pipefail
 
 REPO_DIR="$HOME/github-radar"
-PLIST_NAME="com.github-radar.discovery"
-PLIST_PATH="$HOME/Library/LaunchAgents/${PLIST_NAME}.plist"
 LOG_DIR="$HOME/Library/Logs/github-radar"
 
-echo "=== GitHub-Radar Discovery Setup ==="
+DISCOVERY_PLIST_NAME="com.github-radar.discovery"
+DISCOVERY_PLIST_PATH="$HOME/Library/LaunchAgents/${DISCOVERY_PLIST_NAME}.plist"
+
+SCORES_PLIST_NAME="com.github-radar.scores"
+SCORES_PLIST_PATH="$HOME/Library/LaunchAgents/${SCORES_PLIST_NAME}.plist"
+
+echo "=== GitHub-Radar Setup ==="
 
 # 1. Clone or pull repo
 if [ -d "$REPO_DIR" ]; then
@@ -31,8 +35,9 @@ gh auth status 2>&1 | head -3
 # 3. Create log directory
 mkdir -p "$LOG_DIR"
 
-# 4. Install LaunchAgent (runs Mon + Thu at 07:00)
-cat > "$PLIST_PATH" << 'PLIST'
+# 4a. Install Discovery LaunchAgent (Mon + Thu at 07:00)
+echo "  Installing discovery agent (Mon+Thu 07:00)..."
+cat > "$DISCOVERY_PLIST_PATH" << 'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -79,21 +84,69 @@ cat > "$PLIST_PATH" << 'PLIST'
 </plist>
 PLIST
 
-# Replace placeholders with actual paths
-sed -i '' "s|REPO_DIR_PLACEHOLDER|${REPO_DIR}|g" "$PLIST_PATH"
-sed -i '' "s|LOG_DIR_PLACEHOLDER|${LOG_DIR}|g" "$PLIST_PATH"
+# Replace placeholders
+sed -i '' "s|REPO_DIR_PLACEHOLDER|${REPO_DIR}|g" "$DISCOVERY_PLIST_PATH"
+sed -i '' "s|LOG_DIR_PLACEHOLDER|${LOG_DIR}|g" "$DISCOVERY_PLIST_PATH"
 
-# 5. Load the agent
-launchctl bootout "gui/$(id -u)/${PLIST_NAME}" 2>/dev/null || true
-launchctl bootstrap "gui/$(id -u)" "$PLIST_PATH"
+# 4b. Install Score-Update LaunchAgent (Sun at 08:00)
+echo "  Installing score-update agent (Sun 08:00)..."
+cat > "$SCORES_PLIST_PATH" << 'PLIST'
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.github-radar.scores</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>update-radar.py</string>
+        <string>--push</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>REPO_DIR_PLACEHOLDER</string>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>0</integer>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>LOG_DIR_PLACEHOLDER/scores.log</string>
+    <key>StandardErrorPath</key>
+    <string>LOG_DIR_PLACEHOLDER/scores-error.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+</dict>
+</plist>
+PLIST
+
+sed -i '' "s|REPO_DIR_PLACEHOLDER|${REPO_DIR}|g" "$SCORES_PLIST_PATH"
+sed -i '' "s|LOG_DIR_PLACEHOLDER|${LOG_DIR}|g" "$SCORES_PLIST_PATH"
+
+# 5. Load both agents
+launchctl bootout "gui/$(id -u)/${DISCOVERY_PLIST_NAME}" 2>/dev/null || true
+launchctl bootstrap "gui/$(id -u)" "$DISCOVERY_PLIST_PATH"
+
+launchctl bootout "gui/$(id -u)/${SCORES_PLIST_NAME}" 2>/dev/null || true
+launchctl bootstrap "gui/$(id -u)" "$SCORES_PLIST_PATH"
 
 echo ""
 echo "=== Setup complete ==="
 echo "  Repo:      $REPO_DIR"
-echo "  Schedule:  Mon + Thu at 07:00"
 echo "  Logs:      $LOG_DIR/"
-echo "  Plist:     $PLIST_PATH"
 echo ""
-echo "  Manual run:  cd $REPO_DIR && python3 discover-repos.py --push"
-echo "  Check logs:  tail -50 $LOG_DIR/discovery.log"
-echo "  Disable:     launchctl bootout gui/$(id -u)/${PLIST_NAME}"
+echo "  Discovery:     Mon + Thu at 07:00"
+echo "  Score Update:  Sun at 08:00"
+echo ""
+echo "  Manual discovery:  cd $REPO_DIR && python3 discover-repos.py --push"
+echo "  Manual scores:     cd $REPO_DIR && python3 update-radar.py --push"
+echo "  Check logs:        tail -50 $LOG_DIR/scores.log"
+echo "  Disable discovery: launchctl bootout gui/\$(id -u)/${DISCOVERY_PLIST_NAME}"
+echo "  Disable scores:    launchctl bootout gui/\$(id -u)/${SCORES_PLIST_NAME}"

@@ -390,10 +390,24 @@ def analyze_entry(entry):
     }
 
 
+def push_changes(path):
+    """Pull, commit, and push updated scores."""
+    subprocess.run(["git", "pull", "--ff-only", "origin", "main"], check=True)
+    subprocess.run(["git", "add", path], check=True)
+    result = subprocess.run(["git", "diff", "--cached", "--quiet"], capture_output=True)
+    if result.returncode == 0:
+        print("  No changes to commit.")
+        return
+    msg = f"scores: {NOW.strftime('%Y-%m-%d')} — update quality scores ({path})"
+    subprocess.run(["git", "commit", "-m", msg], check=True)
+    subprocess.run(["git", "push", "origin", "main"], check=True)
+    print("  Pushed to origin/main.")
+
+
 def main():
-    path = 'docs/data/entries.json'
-    if len(sys.argv) > 1:
-        path = sys.argv[1]
+    do_push = "--push" in sys.argv
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    path = args[0] if args else 'docs/data/entries.json'
 
     with open(path) as f:
         entries = json.load(f)
@@ -468,6 +482,10 @@ def main():
         qs = e.get('quality_score', '-')
         print(f"  {e['name']:40} {qs:>6}")
     print("=" * 72)
+
+    if do_push:
+        print("\n  Pushing changes...")
+        push_changes(path)
 
 
 if __name__ == '__main__':
