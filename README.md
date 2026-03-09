@@ -3,7 +3,7 @@
 > Persoenlicher Technologie-Radar fuer das Dev-Universum rund um Claude Code & AI Agents.
 > Kein Link-Dump — getestete Bewertungen aus Anwender-Perspektive.
 
-**[Website oeffnen](https://janrummel.github.io/github-radar/)** · 26 Eintraege · 4 Quadranten · Quality Score 0–10
+**[Website oeffnen](https://janrummel.github.io/github-radar/)** · 59 Eintraege · 4 Quadranten · Quality Score 0–10
 
 ---
 
