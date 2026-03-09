@@ -30,7 +30,7 @@ PENDING_PATH = 'candidates/pending.json'
 QUADRANTS = [
     'AI Workflow & Orchestration',
     'Libraries & Frameworks',
-    'Dev Tools & Infrastructure',
+    'Developer Tools & Infra',
     'Patterns & Methods',
 ]
 

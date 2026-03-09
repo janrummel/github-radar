@@ -1963,7 +1963,7 @@
   {
     "id": "github-mcp-server",
     "name": "GitHub MCP Server",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Trial",
     "url": "https://github.com/github/github-mcp-server",
     "language": "Go",
@@ -2101,7 +2101,7 @@
   {
     "id": "playwright-mcp",
     "name": "Playwright MCP",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/microsoft/playwright-mcp",
     "language": "TypeScript",
@@ -2193,7 +2193,7 @@
   {
     "id": "repomix",
     "name": "Repomix",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/yamadashy/repomix",
     "language": "TypeScript",
@@ -2527,7 +2527,7 @@
   {
     "id": "e2b",
     "name": "E2B",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Trial",
     "url": "https://github.com/e2b-dev/E2B",
     "stars": 11190,
@@ -2648,7 +2648,7 @@
   {
     "id": "awslabs-mcp",
     "name": "AWS MCP Servers",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/awslabs/mcp",
     "stars": 8392,
@@ -3029,7 +3029,7 @@
   {
     "id": "trailofbits-skills",
     "name": "Trail of Bits Skills",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/trailofbits/skills",
     "stars": 3425,
@@ -3167,7 +3167,7 @@
   {
     "id": "chrome-devtools-mcp",
     "name": "Chrome DevTools MCP",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Trial",
     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
     "stars": 28222,
@@ -3300,7 +3300,7 @@
   {
     "id": "firecrawl-mcp-server",
     "name": "Firecrawl MCP Server",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/firecrawl/firecrawl-mcp-server",
     "stars": 5709,
@@ -3806,7 +3806,7 @@
   {
     "id": "claude-plugins-official",
     "name": "Claude Plugins Official",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Trial",
     "url": "https://github.com/anthropics/claude-plugins-official",
     "stars": 9565,
@@ -3932,7 +3932,7 @@
   {
     "id": "continue",
     "name": "Continue",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/continuedev/continue",
     "stars": 31742,
@@ -4064,7 +4064,7 @@
   {
     "id": "google-workspace-mcp",
     "name": "Google Workspace MCP",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
     "stars": 1742,
@@ -4410,7 +4410,7 @@
   {
     "id": "cua",
     "name": "CUA",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/trycua/cua",
     "stars": 12947,
@@ -4614,7 +4614,7 @@
   {
     "id": "context7",
     "name": "Context7",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/upstash/context7",
     "stars": 48268,
@@ -4865,7 +4865,7 @@
   {
     "id": "daytona",
     "name": "Daytona",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/daytonaio/daytona",
     "stars": 63292,
@@ -5169,7 +5169,7 @@
   {
     "id": "browser-tools-mcp",
     "name": "Browser Tools MCP",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
     "stars": 7111,
@@ -5292,7 +5292,7 @@
   {
     "id": "vibe-kanban",
     "name": "Vibe Kanban",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/BloopAI/vibe-kanban",
     "stars": 22798,
@@ -5388,7 +5388,7 @@
   {
     "id": "serena",
     "name": "Serena",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/oraios/serena",
     "stars": 21211,
@@ -5550,7 +5550,7 @@
   {
     "id": "beads",
     "name": "Beads",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/steveyegge/beads",
     "stars": 18612,
@@ -5713,7 +5713,7 @@
   {
     "id": "n8n-mcp",
     "name": "n8n MCP",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/czlonkowski/n8n-mcp",
     "stars": 14680,
@@ -5770,7 +5770,7 @@
   {
     "id": "claude-mem",
     "name": "Claude-Mem",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/thedotmack/claude-mem",
     "stars": 33670,
@@ -5834,7 +5834,7 @@
   {
     "id": "awesome-mcp-servers",
     "name": "Awesome MCP Servers",
-    "quadrant": "Dev Tools & Infrastructure",
+    "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/punkpeye/awesome-mcp-servers",
     "stars": 82586,
