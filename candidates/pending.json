@@ -1,8 +1,8 @@
 {
   "last_discovery": "2026-03-08T22:55:48Z",
-  "total_pending": 230,
-  "total_accepted": 0,
-  "total_rejected": 0,
+  "total_pending": 0,
+  "total_accepted": 37,
+  "total_rejected": 193,
   "candidates": [
     {
       "name": "n8n-io/n8n",
@@ -12,7 +12,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "f/prompts.chat",
@@ -22,7 +22,7 @@
       "language": "HTML",
       "license": "cc0-1.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "langgenius/dify",
@@ -32,7 +32,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "open-webui/open-webui",
@@ -42,7 +42,7 @@
       "language": "Python",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "google-gemini/gemini-cli",
@@ -52,7 +52,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "firecrawl/firecrawl",
@@ -62,7 +62,7 @@
       "language": "TypeScript",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "ChatGPTNextWeb/NextChat",
@@ -72,7 +72,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "punkpeye/awesome-mcp-servers",
@@ -82,7 +82,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "browser-use/browser-use",
@@ -92,7 +92,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "netdata/netdata",
@@ -102,7 +102,7 @@
       "language": "C",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "infiniflow/ragflow",
@@ -112,7 +112,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "lobehub/lobehub",
@@ -122,7 +122,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "dair-ai/Prompt-Engineering-Guide",
@@ -132,7 +132,7 @@
       "language": "MDX",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "affaan-m/everything-claude-code",
@@ -142,7 +142,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "daytonaio/daytona",
@@ -152,7 +152,7 @@
       "language": "TypeScript",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "Mintplex-Labs/anything-llm",
@@ -162,7 +162,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "microsoft/ai-agents-for-beginners",
@@ -172,7 +172,7 @@
       "language": "Jupyter Notebook",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mem0ai/mem0",
@@ -182,7 +182,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "sansan0/TrendRadar",
@@ -192,7 +192,7 @@
       "language": "Python",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "upstash/context7",
@@ -202,7 +202,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "tw93/Pake",
@@ -212,7 +212,7 @@
       "language": "Rust",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "crewAIInc/crewAI",
@@ -222,7 +222,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "jeecgboot/JeecgBoot",
@@ -232,7 +232,7 @@
       "language": "Java",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mudler/LocalAI",
@@ -242,7 +242,7 @@
       "language": "Go",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Kong/kong",
@@ -252,7 +252,7 @@
       "language": "Lua",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "zhayujie/chatgpt-on-wechat",
@@ -262,7 +262,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "CherryHQ/cherry-studio",
@@ -272,7 +272,7 @@
       "language": "TypeScript",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "chatboxai/chatbox",
@@ -282,7 +282,7 @@
       "language": "TypeScript",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mindsdb/mindsdb",
@@ -292,7 +292,7 @@
       "language": "Python",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "agno-agi/agno",
@@ -302,7 +302,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -312,7 +312,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "code-yeongyu/oh-my-openagent",
@@ -322,7 +322,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "chatanywhere/GPT_API_free",
@@ -332,7 +332,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "reworkd/AgentGPT",
@@ -342,7 +342,7 @@
       "language": "TypeScript",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "danny-avila/LibreChat",
@@ -352,7 +352,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "asgeirtj/system_prompts_leaks",
@@ -362,7 +362,7 @@
       "language": "HTML",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "thedotmack/claude-mem",
@@ -372,7 +372,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "alibaba/nacos",
@@ -382,7 +382,7 @@
       "language": "Java",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "block/goose",
@@ -392,7 +392,7 @@
       "language": "Rust",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "ItzCrazyKns/Perplexica",
@@ -402,7 +402,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "PDFMathTranslate/PDFMathTranslate",
@@ -412,7 +412,7 @@
       "language": "Python",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "continuedev/continue",
@@ -422,7 +422,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "patchy631/ai-engineering-hub",
@@ -432,7 +432,7 @@
       "language": "Jupyter Notebook",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "wshobson/agents",
@@ -442,7 +442,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "songquanpeng/one-api",
@@ -452,7 +452,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "CopilotKit/CopilotKit",
@@ -462,7 +462,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "bytedance/UI-TARS-desktop",
@@ -472,7 +472,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "microsoft/playwright-mcp",
@@ -482,7 +482,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "voideditor/void",
@@ -492,7 +492,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ChromeDevTools/chrome-devtools-mcp",
@@ -502,7 +502,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "github/github-mcp-server",
@@ -512,7 +512,7 @@
       "language": "Go",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "ComposioHQ/composio",
@@ -522,7 +522,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "labring/FastGPT",
@@ -532,7 +532,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "chroma-core/chroma",
@@ -542,7 +542,7 @@
       "language": "Rust",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "bytedance/deer-flow",
@@ -552,7 +552,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "langchain-ai/langgraph",
@@ -562,7 +562,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ashishpatel26/500-AI-Agents-Projects",
@@ -572,7 +572,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "assafelovic/gpt-researcher",
@@ -582,7 +582,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "farion1231/cc-switch",
@@ -592,7 +592,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "shareAI-lab/learn-claude-code",
@@ -602,7 +602,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "BloopAI/vibe-kanban",
@@ -612,7 +612,7 @@
       "language": "Rust",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "davila7/claude-code-templates",
@@ -622,7 +622,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "yamadashy/repomix",
@@ -632,7 +632,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "sickn33/antigravity-awesome-skills",
@@ -642,7 +642,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "letta-ai/letta",
@@ -652,7 +652,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "oraios/serena",
@@ -662,7 +662,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "activepieces/activepieces",
@@ -672,7 +672,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "VectifyAI/PageIndex",
@@ -682,7 +682,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "winfunc/opcode",
@@ -692,7 +692,7 @@
       "language": "TypeScript",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "dolthub/dolt",
@@ -702,7 +702,7 @@
       "language": "Go",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "qwibitai/nanoclaw",
@@ -712,7 +712,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "1Panel-dev/MaxKB",
@@ -722,7 +722,7 @@
       "language": "Python",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "QuantumNous/new-api",
@@ -732,7 +732,7 @@
       "language": "Go",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "kortix-ai/suna",
@@ -742,7 +742,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "steveyegge/beads",
@@ -752,7 +752,7 @@
       "language": "Go",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "iOfficeAI/AionUi",
@@ -762,7 +762,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Kilo-Org/kilocode",
@@ -772,7 +772,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "googleworkspace/cli",
@@ -782,7 +782,7 @@
       "language": "Rust",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "OthmanAdi/planning-with-files",
@@ -792,7 +792,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "GaiZhenbiao/ChuanhuChatGPT",
@@ -802,7 +802,7 @@
       "language": "Python",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "microsoft/mcp-for-beginners",
@@ -812,7 +812,7 @@
       "language": "Jupyter Notebook",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "czlonkowski/n8n-mcp",
@@ -822,7 +822,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "cheahjs/free-llm-api-resources",
@@ -832,7 +832,7 @@
       "language": "Python",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "slopus/happy",
@@ -842,7 +842,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "router-for-me/CLIProxyAPI",
@@ -852,7 +852,7 @@
       "language": "Go",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "triggerdotdev/trigger.dev",
@@ -862,7 +862,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "trycua/cua",
@@ -872,7 +872,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "shanraisshan/claude-code-best-practice",
@@ -882,7 +882,7 @@
       "language": "HTML",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "tadata-org/fastapi_mcp",
@@ -892,7 +892,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "e2b-dev/E2B",
@@ -902,7 +902,7 @@
       "language": "MDX",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "xpzouying/xiaohongshu-mcp",
@@ -912,7 +912,7 @@
       "language": "Go",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "0xJacky/nginx-ui",
@@ -922,7 +922,7 @@
       "language": "Go",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "yusufkaraaslan/Skill_Seekers",
@@ -932,7 +932,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "JoeanAmier/XHS-Downloader",
@@ -942,7 +942,7 @@
       "language": "Python",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "VoltAgent/awesome-agent-skills",
@@ -952,7 +952,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "humanlayer/humanlayer",
@@ -962,7 +962,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "anthropics/claude-plugins-official",
@@ -972,7 +972,7 @@
       "language": "Python",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "mcp-use/mcp-use",
@@ -982,7 +982,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "xonsh/xonsh",
@@ -992,7 +992,7 @@
       "language": "Python",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Wei-Shaw/claude-relay-service",
@@ -1002,7 +1002,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "rowboatlabs/rowboat",
@@ -1012,7 +1012,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "open-metadata/OpenMetadata",
@@ -1022,7 +1022,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "xinnan-tech/xiaozhi-esp32-server",
@@ -1032,7 +1032,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "saturndec/waoowaoo",
@@ -1042,7 +1042,7 @@
       "language": "TypeScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "awslabs/mcp",
@@ -1052,7 +1052,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "blader/humanizer",
@@ -1062,7 +1062,7 @@
       "language": "Unknown",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "firerpa/lamda",
@@ -1072,7 +1072,7 @@
       "language": "Python",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "frankbria/ralph-claude-code",
@@ -1082,7 +1082,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "0x4m4/hexstrike-ai",
@@ -1092,7 +1092,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Panniantong/Agent-Reach",
@@ -1102,7 +1102,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "AgentDeskAI/browser-tools-mcp",
@@ -1112,7 +1112,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "alibaba/OpenSandbox",
@@ -1122,7 +1122,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "crestalnetwork/intentkit",
@@ -1132,7 +1132,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "yzfly/Awesome-MCP-ZH",
@@ -1142,7 +1142,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mrexodia/ida-pro-mcp",
@@ -1152,7 +1152,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "firecrawl/firecrawl-mcp-server",
@@ -1162,7 +1162,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "UfoMiao/zcf",
@@ -1172,7 +1172,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Integuru-AI/Integuru",
@@ -1182,7 +1182,7 @@
       "language": "Python",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mahseema/awesome-ai-tools",
@@ -1192,7 +1192,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "presenton/presenton",
@@ -1202,7 +1202,7 @@
       "language": "HTML",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "FedML-AI/FedML",
@@ -1212,7 +1212,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "op7418/Humanizer-zh",
@@ -1222,7 +1222,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Agenta-AI/agenta",
@@ -1232,7 +1232,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "UnicomAI/wanwu",
@@ -1242,7 +1242,7 @@
       "language": "Go",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "groupultra/telegram-search",
@@ -1252,7 +1252,7 @@
       "language": "TypeScript",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "LazyAGI/LazyLLM",
@@ -1262,7 +1262,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "zebbern/claude-code-guide",
@@ -1272,7 +1272,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "smallcloudai/refact",
@@ -1282,7 +1282,7 @@
       "language": "Rust",
       "license": "bsd-3-clause",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "filipecalegario/awesome-vibe-coding",
@@ -1292,7 +1292,7 @@
       "language": "Unknown",
       "license": "cc0-1.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "trailofbits/skills",
@@ -1302,7 +1302,7 @@
       "language": "Python",
       "license": "cc-by-sa-4.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "mindfold-ai/Trellis",
@@ -1312,7 +1312,7 @@
       "language": "Python",
       "license": "agpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "SWE-agent/mini-swe-agent",
@@ -1322,7 +1322,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Intelligent-Internet/ii-agent",
@@ -1332,7 +1332,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "i-am-bee/beeai-framework",
@@ -1342,7 +1342,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "memodb-io/Acontext",
@@ -1352,7 +1352,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "glitternetwork/pinme",
@@ -1362,7 +1362,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mikeyobrien/ralph-orchestrator",
@@ -1372,7 +1372,7 @@
       "language": "Rust",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "builderz-labs/mission-control",
@@ -1382,7 +1382,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "blader/Claudeception",
@@ -1392,7 +1392,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "KhazP/vibe-coding-prompt-template",
@@ -1402,7 +1402,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "lackeyjb/playwright-skill",
@@ -1412,7 +1412,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "nizos/tdd-guard",
@@ -1422,7 +1422,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "abhi1693/openclaw-mission-control",
@@ -1432,7 +1432,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "taylorwilsdon/google_workspace_mcp",
@@ -1442,7 +1442,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "anthropics/claude-agent-sdk-demos",
@@ -1452,7 +1452,7 @@
       "language": "TypeScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "Mirascope/mirascope",
@@ -1462,7 +1462,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "yctimlin/mcp_excalidraw",
@@ -1472,7 +1472,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "covibes/zeroshot",
@@ -1482,7 +1482,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "crshdn/mission-control",
@@ -1492,7 +1492,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "zed-industries/claude-agent-acp",
@@ -1502,7 +1502,7 @@
       "language": "TypeScript",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Ceeon/videocut-skills",
@@ -1512,7 +1512,7 @@
       "language": "JavaScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Nya-Foundation/NyaProxy",
@@ -1522,7 +1522,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "anthropics/claude-agent-sdk-typescript",
@@ -1532,7 +1532,7 @@
       "language": "Shell",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "name": "ArcadeAI/arcade-mcp",
@@ -1542,7 +1542,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "golf-mcp/golf",
@@ -1552,7 +1552,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "skills-directory/skill-codex",
@@ -1562,7 +1562,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "sigoden/llm-functions",
@@ -1572,7 +1572,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "AFK-surf/open-agent",
@@ -1582,7 +1582,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "daymade/claude-code-skills",
@@ -1592,7 +1592,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "wshuyi/x-article-publisher-skill",
@@ -1602,7 +1602,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "NeoLabHQ/context-engineering-kit",
@@ -1612,7 +1612,7 @@
       "language": "TypeScript",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Haervwe/open-webui-tools",
@@ -1622,7 +1622,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "CharlesWiltgen/Axiom",
@@ -1632,7 +1632,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "PenglongHuang/chinese-novelist-skill",
@@ -1642,7 +1642,7 @@
       "language": "Python",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "alirezarezvani/claude-code-skill-factory",
@@ -1652,7 +1652,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ReScienceLab/opc-skills",
@@ -1662,7 +1662,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "23blocks-OS/ai-maestro",
@@ -1672,7 +1672,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Aaronontheweb/dotnet-skills",
@@ -1682,7 +1682,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Chen-zexi/vllm-cli",
@@ -1692,7 +1692,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "lijigang/ljg-skill-xray-paper",
@@ -1702,7 +1702,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "utensils/mcp-nixos",
@@ -1712,7 +1712,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "browserbase/skills",
@@ -1722,7 +1722,7 @@
       "language": "TypeScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mhattingpete/claude-skills-marketplace",
@@ -1732,7 +1732,7 @@
       "language": "HTML",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "DrCatHicks/learning-opportunities",
@@ -1742,7 +1742,7 @@
       "language": "Shell",
       "license": "cc-by-4.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Azure-Samples/azure-ai-travel-agents",
@@ -1752,7 +1752,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "RoundTable02/tutor-skills",
@@ -1762,7 +1762,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "axtonliu/smart-illustrator",
@@ -1772,7 +1772,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ahmedeltaher/azan-mcp",
@@ -1782,7 +1782,7 @@
       "language": "Kotlin",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "solana-foundation/solana-dev-skill",
@@ -1792,7 +1792,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "win4r/team-tasks",
@@ -1802,7 +1802,7 @@
       "language": "Python",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "graphlit/graphlit-mcp-server",
@@ -1812,7 +1812,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "jlevy/repren",
@@ -1822,7 +1822,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "yunshu0909/yunshu_skillshub",
@@ -1832,7 +1832,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "lijigang/ljg-skill-xray-book",
@@ -1842,7 +1842,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "blader/napkin",
@@ -1852,7 +1852,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "komal-SkyNET/claude-skill-homeassistant",
@@ -1862,7 +1862,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ben-vargas/ai-sdk-provider-claude-code",
@@ -1872,7 +1872,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "mensfeld/code-on-incus",
@@ -1882,7 +1882,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ericshang98/Perfect-Web-Clone",
@@ -1892,7 +1892,7 @@
       "language": "Python",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Arkya-AI/claude-context-os",
@@ -1902,7 +1902,7 @@
       "language": "Unknown",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "michalparkola/tapestry-skills",
@@ -1912,7 +1912,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "cyanheads/model-context-protocol-resources",
@@ -1922,7 +1922,7 @@
       "language": "Unknown",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "detroittommy879/aicodeprep-gui",
@@ -1932,7 +1932,7 @@
       "language": "Python",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ErlichLiu/Proma",
@@ -1942,7 +1942,7 @@
       "language": "TypeScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "langchain-ai/langchainjs-mcp-adapters",
@@ -1952,7 +1952,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "avivl/claude-007-agents",
@@ -1962,7 +1962,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ptnghia-j/ChordMiniApp",
@@ -1972,7 +1972,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "zscole/gru",
@@ -1982,7 +1982,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "eqtylab/mcp-guardian",
@@ -1992,7 +1992,7 @@
       "language": "Rust",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "pheuter/claude-agent-desktop",
@@ -2002,7 +2002,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ErlichLiu/claude-agent-sdk-master",
@@ -2012,7 +2012,7 @@
       "language": "TypeScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "tegridydev/auto-md",
@@ -2022,7 +2022,7 @@
       "language": "Python",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ImGoodBai/goodable",
@@ -2032,7 +2032,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "joewinke/jat",
@@ -2042,7 +2042,7 @@
       "language": "Svelte",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "smart-mcp-proxy/mcpproxy-go",
@@ -2052,7 +2052,7 @@
       "language": "Go",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "tinyfish-io/agentql-mcp",
@@ -2062,7 +2062,7 @@
       "language": "JavaScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "iolufemi/Express-REST-API-and-MCP-Server-Framework",
@@ -2072,7 +2072,7 @@
       "language": "TypeScript",
       "license": "gpl-3.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "minipuft/claude-prompts",
@@ -2082,7 +2082,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Ruya-AI/cozempic",
@@ -2092,7 +2092,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "kenneth-liao/claude-agent-sdk-intro",
@@ -2102,7 +2102,7 @@
       "language": "Python",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "terryso/AutoQA-Agent",
@@ -2112,7 +2112,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "21pounder/terminalAgent",
@@ -2122,7 +2122,7 @@
       "language": "TypeScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "severity1/claude-agent-sdk-go",
@@ -2132,7 +2132,7 @@
       "language": "Go",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "agnusdei1207/opencode-orchestrator",
@@ -2142,7 +2142,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "Harryoung/efka",
@@ -2152,7 +2152,7 @@
       "language": "Python",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "this-rs/project-orchestrator",
@@ -2162,7 +2162,7 @@
       "language": "Rust",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "receipting/claude-agent-sdk-container",
@@ -2172,7 +2172,7 @@
       "language": "Shell",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "swarmclawai/swarmclaw",
@@ -2182,7 +2182,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "nrrso/swarm_ex",
@@ -2192,7 +2192,7 @@
       "language": "Elixir",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "craigsdennis/claude-in-the-box",
@@ -2202,7 +2202,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "ArvorCo/Relentless",
@@ -2212,7 +2212,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "castari/castari-proxy",
@@ -2222,7 +2222,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "macaron-software/software-factory",
@@ -2232,7 +2232,7 @@
       "language": "Python",
       "license": "other",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "skindhu/claude-deep-wiki",
@@ -2242,7 +2242,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "liruifengv/claude-agent-demo",
@@ -2252,7 +2252,7 @@
       "language": "TypeScript",
       "license": "",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "whiteboardmonk/agcluster-container",
@@ -2262,7 +2262,7 @@
       "language": "Python",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "guess/claude_code",
@@ -2272,7 +2272,7 @@
       "language": "Elixir",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "dkyazzentwatwa/Cyber-Claude",
@@ -2282,7 +2282,7 @@
       "language": "TypeScript",
       "license": "apache-2.0",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "tyrchen/claude-agent-sdk-rs",
@@ -2292,7 +2292,7 @@
       "language": "Rust",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "name": "receipting/claude-agent-sdk-cloudflare",
@@ -2302,7 +2302,7 @@
       "language": "TypeScript",
       "license": "mit",
       "discovered": "2026-03-08",
-      "status": "pending"
+      "status": "rejected"
     }
   ]
 }

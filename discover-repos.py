@@ -3,6 +3,7 @@
 
 Searches GitHub for new repos matching configured topics and keywords.
 Filters out already-tracked entries, writes candidates to candidates/pending.json.
+Sends Telegram notification when new candidates are found.
 
 Usage:
   python3 discover-repos.py                  # search and write candidates
@@ -13,6 +14,8 @@ Usage:
 import json
 import subprocess
 import sys
+import urllib.request
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -36,12 +39,7 @@ KEYWORD_SEARCHES = [
     "llm developer tools",
 ]
 
-# Minimum stars to consider
-MIN_STARS = 50
-
-# Maximum results per query
-PER_QUERY_LIMIT = 30
-
+CONFIG_PATH = Path(__file__).parent / "config.json"
 ENTRIES_PATH = Path(__file__).parent / "docs" / "data" / "entries.json"
 CANDIDATES_DIR = Path(__file__).parent / "candidates"
 CANDIDATES_PATH = CANDIDATES_DIR / "pending.json"
@@ -49,7 +47,63 @@ CANDIDATES_PATH = CANDIDATES_DIR / "pending.json"
 NOW = datetime.now(timezone.utc)
 
 
-def gh_search(query, limit=PER_QUERY_LIMIT):
+def load_config():
+    """Load config.json, return defaults if missing."""
+    defaults = {
+        "enabled": True,
+        "min_stars": 50,
+        "per_query_limit": 30,
+        "telegram": {"enabled": False},
+    }
+    if not CONFIG_PATH.exists():
+        return defaults
+    with open(CONFIG_PATH) as f:
+        cfg = json.load(f)
+    return {**defaults, **cfg}
+
+
+def save_config(cfg):
+    """Write config back to disk."""
+    with open(CONFIG_PATH, "w") as f:
+        json.dump(cfg, f, indent=2, ensure_ascii=False)
+
+
+def get_telegram_token(cfg):
+    """Read bot token from token_file."""
+    token_file = cfg.get("telegram", {}).get("token_file", "")
+    if not token_file:
+        return None
+    try:
+        return Path(token_file).read_text().strip()
+    except (FileNotFoundError, PermissionError):
+        return None
+
+
+def send_telegram(cfg, text, parse_mode="Markdown"):
+    """Send a Telegram message."""
+    tg = cfg.get("telegram", {})
+    if not tg.get("enabled"):
+        return
+    token = get_telegram_token(cfg)
+    chat_id = tg.get("chat_id")
+    if not token or not chat_id:
+        print("  WARN: Telegram not configured (missing token or chat_id)")
+        return
+
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    data = urllib.parse.urlencode({
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": parse_mode,
+    }).encode()
+    try:
+        req = urllib.request.Request(url, data=data)
+        urllib.request.urlopen(req, timeout=10)
+    except Exception as e:
+        print(f"  WARN: Telegram send failed: {e}")
+
+
+def gh_search(query, limit=30):
     """Search GitHub repos via gh CLI."""
     cmd = [
         "gh", "search", "repos", query,
@@ -92,8 +146,11 @@ def normalize_url(url):
     return url.rstrip("/").lower()
 
 
-def discover():
+def discover(cfg):
     """Run all searches, return deduplicated candidates."""
+    min_stars = cfg.get("min_stars", 50)
+    limit = cfg.get("per_query_limit", 30)
+
     existing_urls = load_existing_urls()
     prev_data, prev_candidate_urls = load_existing_candidates()
     seen = set()
@@ -102,14 +159,14 @@ def discover():
     # Topic searches
     for topic in TOPIC_SEARCHES:
         print(f"  Searching: {topic}...", end=" ", flush=True)
-        results = gh_search(topic)
+        results = gh_search(topic, limit)
         print(f"{len(results)} results")
         raw_results.extend(results)
 
     # Keyword searches
     for kw in KEYWORD_SEARCHES:
         print(f"  Searching: \"{kw}\"...", end=" ", flush=True)
-        results = gh_search(kw)
+        results = gh_search(kw, limit)
         print(f"{len(results)} results")
         raw_results.extend(results)
 
@@ -132,7 +189,7 @@ def discover():
             continue
 
         stars = repo.get("stargazersCount", 0)
-        if stars < MIN_STARS:
+        if stars < min_stars:
             continue
 
         license_info = repo.get("license", {})
@@ -201,6 +258,13 @@ def push_changes():
 
 
 def main():
+    cfg = load_config()
+
+    # Check if discovery is enabled
+    if not cfg.get("enabled", True):
+        print("  Discovery is PAUSED (config.enabled=false)")
+        return
+
     dry_run = "--dry-run" in sys.argv
     do_push = "--push" in sys.argv
 
@@ -208,7 +272,7 @@ def main():
     print("  GitHub-Radar Repo Discovery")
     print("=" * 60)
 
-    candidates, prev_data = discover()
+    candidates, prev_data = discover(cfg)
 
     if not candidates:
         print(f"\n  No new candidates found.")
@@ -230,6 +294,21 @@ def main():
     else:
         new_count, total = write_candidates(candidates, prev_data)
         print(f"  Written to {CANDIDATES_PATH} ({new_count} new, {total} total)")
+
+        # Send Telegram notification
+        top5 = candidates[:5]
+        top_lines = "\n".join(
+            f"  {c['name']} ({c['stars']} Stars)"
+            for c in top5
+        )
+        msg = (
+            f"*GitHub-Radar Discovery*\n"
+            f"{new_count} neue Kandidaten gefunden\n\n"
+            f"Top 5:\n{top_lines}"
+        )
+        if new_count > 5:
+            msg += f"\n  ... +{new_count - 5} weitere"
+        send_telegram(cfg, msg)
 
         if do_push:
             push_changes()

@@ -1959,5 +1959,499 @@
         }
       }
     ]
+  },
+  {
+    "id": "github-mcp-server",
+    "name": "GitHub MCP Server",
+    "quadrant": "Dev Tools & Infrastructure",
+    "ring": "Trial",
+    "url": "https://github.com/github/github-mcp-server",
+    "language": "Go",
+    "license": "MIT",
+    "description": "GitHubs offizieller MCP-Server. Voller Zugriff auf Repos, Issues, PRs, Code Search und Actions via Model Context Protocol.",
+    "strengths": "Offiziell von GitHub maintained, exzellenter Bus Factor (10), Top-Notables (Google, Docker, Charm), sehr aktiv (3d since commit), hohe Issue-Health (0.79)",
+    "weaknesses": "Noch relativ jung (12 Monate), Go-only Implementation",
+    "learned": "Noch nicht getestet. Evaluieren fuer direkte GitHub-Integration in Agent-Workflows.",
+    "tested": false,
+    "category": "radar",
+    "stars": 27675,
+    "added": "2026-03-09",
+    "notable_stargazers": [
+      {
+        "login": "rakyll",
+        "label": "Jaana Dogan (rakyll) @ Google",
+        "followers": 12986,
+        "weight": 8
+      },
+      {
+        "login": "caarlos0",
+        "label": "Carlos Alexandro Becker (caarlos0) @ @charmbracelet @goreleaser",
+        "followers": 4466,
+        "weight": 2
+      },
+      {
+        "login": "crazy-max",
+        "label": "CrazyMax (crazy-max) @ @docker",
+        "followers": 2715,
+        "weight": 2
+      },
+      {
+        "login": "mikedemarais",
+        "label": "Michael Demarais (mikedemarais) @ @rainbow-me",
+        "followers": 1830,
+        "weight": 2
+      },
+      {
+        "login": "Link-",
+        "label": "Bassem Dghaidi (Link-)",
+        "followers": 958,
+        "weight": 1
+      },
+      {
+        "login": "wobsoriano",
+        "label": "Robert Soriano (wobsoriano)",
+        "followers": 885,
+        "weight": 1
+      },
+      {
+        "login": "tatsuyafujisaki",
+        "label": "Tatsuya Fujisaki (tatsuyafujisaki)",
+        "followers": 824,
+        "weight": 1
+      },
+      {
+        "login": "jsoref",
+        "label": "Josh Soref (jsoref) @ @GarnerCorp ",
+        "followers": 712,
+        "weight": 1
+      },
+      {
+        "login": "peaceiris",
+        "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
+        "followers": 609,
+        "weight": 1
+      },
+      {
+        "login": "ronami",
+        "label": "Ronen Amiel (ronami) @ @wix ",
+        "followers": 543,
+        "weight": 1
+      }
+    ],
+    "notable_score": 25,
+    "notable_density": 0.9,
+    "notable_coverage_pct": 0.7,
+    "bus_factor": 10,
+    "top_contributors": [
+      {
+        "login": "SamMorrowDrums",
+        "commits": 151,
+        "pct": 23.4
+      },
+      {
+        "login": "dependabot[bot]",
+        "commits": 55,
+        "pct": 8.5
+      },
+      {
+        "login": "Copilot",
+        "commits": 53,
+        "pct": 8.2
+      },
+      {
+        "login": "JoannaaKL",
+        "commits": 50,
+        "pct": 7.8
+      },
+      {
+        "login": "williammartin",
+        "commits": 44,
+        "pct": 6.8
+      }
+    ],
+    "days_since_commit": 3,
+    "issue_ratio": 0.79,
+    "open_issues": 164,
+    "closed_issues": 611,
+    "forks": 3719,
+    "age_months": 12.3,
+    "signals": {
+      "notable_density": 9.0,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 9.9,
+      "star_velocity": 4
+    },
+    "quality_score": 8.8,
+    "last_updated": "2026-03-09",
+    "score_history": [
+      {
+        "date": "2026-03-09",
+        "score": 8.8,
+        "signals": {
+          "notable_density": 9.0,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 9.9,
+          "star_velocity": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "playwright-mcp",
+    "name": "Playwright MCP",
+    "quadrant": "Dev Tools & Infrastructure",
+    "ring": "Scout",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "description": "Playwright-basierter MCP-Server fuer Browser-Automatisierung. E2E-Tests und Web-Interaktion direkt aus AI Agents steuerbar.",
+    "strengths": "Microsoft-backed, Bus Factor 3, exzellente Issue-Health (0.97), aktive Entwicklung",
+    "weaknesses": "Zwei Haupt-Contributor dominieren (pavelfeldman 52%, yury-s 24%), Notable Density niedrig",
+    "learned": "Noch nicht getestet. Potenzial fuer Browser-basierte Agent-Workflows und Testing.",
+    "tested": false,
+    "category": "radar",
+    "stars": 28490,
+    "added": "2026-03-09",
+    "notable_stargazers": [
+      {
+        "login": "mxschmitt",
+        "label": "Max Schmitt (mxschmitt) @ @Microsoft",
+        "followers": 2002,
+        "weight": 2
+      },
+      {
+        "login": "coderyi",
+        "label": "coderyi (coderyi)",
+        "followers": 1326,
+        "weight": 2
+      },
+      {
+        "login": "tkersey",
+        "label": "Tim Kersey (tkersey) @ @thisisartium",
+        "followers": 728,
+        "weight": 1
+      },
+      {
+        "login": "hkjang",
+        "label": "hkjang (hkjang) @ Korea Credit Bureau",
+        "followers": 636,
+        "weight": 1
+      }
+    ],
+    "notable_score": 6,
+    "notable_density": 0.21,
+    "notable_coverage_pct": 0.7,
+    "bus_factor": 3,
+    "top_contributors": [
+      {
+        "login": "pavelfeldman",
+        "commits": 235,
+        "pct": 52.5
+      },
+      {
+        "login": "yury-s",
+        "commits": 107,
+        "pct": 23.9
+      },
+      {
+        "login": "Skn0tt",
+        "commits": 38,
+        "pct": 8.5
+      }
+    ],
+    "days_since_commit": 4,
+    "issue_ratio": 0.97,
+    "open_issues": 21,
+    "closed_issues": 738,
+    "forks": 2302,
+    "age_months": 11.7,
+    "signals": {
+      "notable_density": 2.1,
+      "bus_factor": 7,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 4
+    },
+    "quality_score": 6.4,
+    "last_updated": "2026-03-09",
+    "score_history": [
+      {
+        "date": "2026-03-09",
+        "score": 6.4,
+        "signals": {
+          "notable_density": 2.1,
+          "bus_factor": 7,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "repomix",
+    "name": "Repomix",
+    "quadrant": "Dev Tools & Infrastructure",
+    "ring": "Scout",
+    "url": "https://github.com/yamadashy/repomix",
+    "language": "TypeScript",
+    "license": "MIT",
+    "description": "Packt ein komplettes Repository in eine AI-optimierte Textdatei. Ideal fuer Context Engineering mit grossen Codebasen.",
+    "strengths": "Praktisches Problem geloest (Repo → AI Context), MIT-Lizenz, aktive Entwicklung (1d since commit), gute Star Velocity",
+    "weaknesses": "Bus Factor 1 (yamadashy 83%), niedrige Issue-Ratio (0.47), wenig Notable Stargazers",
+    "learned": "Noch nicht getestet. Alternative zu manuellem Context-Zusammenstellen fuer Claude Code Sessions.",
+    "tested": false,
+    "category": "radar",
+    "stars": 22315,
+    "added": "2026-03-09",
+    "notable_stargazers": [
+      {
+        "login": "galaris",
+        "label": "Dominik Antal (galaris)",
+        "followers": 720,
+        "weight": 1
+      },
+      {
+        "login": "ahmadrosid",
+        "label": "ahmadrosid (ahmadrosid)",
+        "followers": 506,
+        "weight": 1
+      }
+    ],
+    "notable_score": 2,
+    "notable_density": 0.09,
+    "notable_coverage_pct": 0.9,
+    "bus_factor": 1,
+    "top_contributors": [
+      {
+        "login": "yamadashy",
+        "commits": 2440,
+        "pct": 82.8
+      }
+    ],
+    "days_since_commit": 1,
+    "issue_ratio": 0.47,
+    "open_issues": 124,
+    "closed_issues": 108,
+    "forks": 1034,
+    "age_months": 20.1,
+    "signals": {
+      "notable_density": 0.9,
+      "bus_factor": 2,
+      "freshness": 10,
+      "issue_health": 5.9,
+      "star_velocity": 7
+    },
+    "quality_score": 4.7,
+    "last_updated": "2026-03-09",
+    "score_history": [
+      {
+        "date": "2026-03-09",
+        "score": 4.7,
+        "signals": {
+          "notable_density": 0.9,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 5.9,
+          "star_velocity": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "browser-use",
+    "name": "browser-use",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Scout",
+    "url": "https://github.com/browser-use/browser-use",
+    "language": "Python",
+    "license": "MIT",
+    "description": "Browser-Automatisierung fuer AI Agents. Macht Websites als interaktive Umgebung fuer autonome Agent-Aktionen zugaenglich.",
+    "strengths": "80k Stars, exzellenter Bus Factor (5), hohe Issue-Health (0.92), breite Contributor-Basis, MIT-Lizenz",
+    "weaknesses": "Schnelles Wachstum (80k in 16 Monaten), Notable Density niedrig relativ zur Groesse",
+    "learned": "Noch nicht getestet. Interessant fuer Web-Interaktion in Agent-Pipelines.",
+    "tested": false,
+    "category": "radar",
+    "stars": 80005,
+    "added": "2026-03-09",
+    "notable_stargazers": [
+      {
+        "login": "antiboredom",
+        "label": "Sam Lavigne (antiboredom)",
+        "followers": 1313,
+        "weight": 2
+      },
+      {
+        "login": "amrrs",
+        "label": "amrrs (amrrs)",
+        "followers": 1089,
+        "weight": 2
+      },
+      {
+        "login": "irazasyed",
+        "label": "Irfaq Syed (irazasyed) @ @lukonet",
+        "followers": 652,
+        "weight": 1
+      },
+      {
+        "login": "mishushakov",
+        "label": "Mish Ushakov (mishushakov) @ @e2b-dev",
+        "followers": 607,
+        "weight": 1
+      }
+    ],
+    "notable_score": 6,
+    "notable_density": 0.07,
+    "notable_coverage_pct": 0.2,
+    "bus_factor": 5,
+    "top_contributors": [
+      {
+        "login": "MagMueller",
+        "commits": 3098,
+        "pct": 39.8
+      },
+      {
+        "login": "pirate",
+        "commits": 1810,
+        "pct": 23.3
+      },
+      {
+        "login": "mertunsall",
+        "commits": 817,
+        "pct": 10.5
+      },
+      {
+        "login": "gregpr07",
+        "commits": 472,
+        "pct": 6.1
+      },
+      {
+        "login": "sauravpanda",
+        "commits": 452,
+        "pct": 5.8
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.92,
+    "open_issues": 109,
+    "closed_issues": 1297,
+    "forks": 9448,
+    "age_months": 16.4,
+    "signals": {
+      "notable_density": 0.7,
+      "bus_factor": 9,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 4
+    },
+    "quality_score": 6.5,
+    "last_updated": "2026-03-09",
+    "score_history": [
+      {
+        "date": "2026-03-09",
+        "score": 6.5,
+        "signals": {
+          "notable_density": 0.7,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "firecrawl",
+    "name": "Firecrawl",
+    "quadrant": "Libraries & Frameworks",
+    "ring": "Scout",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "description": "Web-Scraping API fuer AI-Anwendungen. Konvertiert Websites in LLM-ready Markdown mit Crawl, Scrape und Extract Endpoints.",
+    "strengths": "90k Stars, Bus Factor 3, exzellente Issue-Health (0.95), aktive Entwicklung, auch als MCP-Server verfuegbar",
+    "weaknesses": "AGPL-3.0 Lizenz (Einschraenkung fuer kommerzielle Nutzung), Notable Density niedrig fuer 90k Repo",
+    "learned": "Noch nicht getestet. Evaluieren fuer Web-Content-Ingestion in Research-Pipelines.",
+    "tested": false,
+    "category": "radar",
+    "stars": 89995,
+    "added": "2026-03-09",
+    "notable_stargazers": [
+      {
+        "login": "JimmyLv",
+        "label": "JimmyLv_吕立青 (JimmyLv) @ EvergreenAI",
+        "followers": 1959,
+        "weight": 2
+      },
+      {
+        "login": "johnil",
+        "label": "johnil",
+        "followers": 1004,
+        "weight": 2
+      },
+      {
+        "login": "nicobailon",
+        "label": "Nico Bailon (nicobailon) @ Saje Natural Wellness",
+        "followers": 651,
+        "weight": 1
+      },
+      {
+        "login": "Sandalots",
+        "label": "Sandalots (Sandalots)",
+        "followers": 531,
+        "weight": 1
+      }
+    ],
+    "notable_score": 6,
+    "notable_density": 0.07,
+    "notable_coverage_pct": 0.2,
+    "bus_factor": 3,
+    "top_contributors": [
+      {
+        "login": "nickscamara",
+        "commits": 1839,
+        "pct": 39.1
+      },
+      {
+        "login": "mogery",
+        "commits": 1441,
+        "pct": 30.6
+      },
+      {
+        "login": "rafaelsideguide",
+        "commits": 586,
+        "pct": 12.5
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.95,
+    "open_issues": 43,
+    "closed_issues": 781,
+    "forks": 6282,
+    "age_months": 23.1,
+    "signals": {
+      "notable_density": 0.7,
+      "bus_factor": 7,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 4
+    },
+    "quality_score": 6.0,
+    "last_updated": "2026-03-09",
+    "score_history": [
+      {
+        "date": "2026-03-09",
+        "score": 6.0,
+        "signals": {
+          "notable_density": 0.7,
+          "bus_factor": 7,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      }
+    ]
   }
 ]
