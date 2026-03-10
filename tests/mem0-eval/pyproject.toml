@@ -1,0 +1,11 @@
+[project]
+name = "mem0-eval"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.84.0",
+    "mem0ai>=1.0.5",
+    "ollama>=0.6.1",
+    "sentence-transformers>=5.2.3",
+]
