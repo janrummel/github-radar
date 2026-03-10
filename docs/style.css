@@ -309,6 +309,85 @@ footer {
 
 footer a { color: var(--accent); text-decoration: none; }
 
+/* Tag filters */
+.tag-filters {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.tag-btn {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: all 0.15s;
+}
+.tag-btn:hover { border-color: var(--accent); color: var(--text); }
+.tag-btn.active { background: rgba(88,166,255,0.15); color: var(--accent); border-color: var(--accent); }
+.tag-count { opacity: 0.5; font-size: 0.65rem; margin-left: 0.15rem; }
+
+/* Detail tags + related */
+.detail-tags { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-top: 0.25rem; }
+.detail-tag {
+  background: rgba(88,166,255,0.1);
+  color: var(--accent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.detail-tag:hover { background: rgba(88,166,255,0.25); }
+
+.related-list { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.25rem; }
+.related-entry {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+}
+.related-entry:hover { text-decoration: underline; }
+.ring-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.ring-dot.adopt { background: var(--adopt); }
+.ring-dot.trial { background: var(--trial); }
+.ring-dot.scout { background: var(--scout); }
+.ring-dot.hold { background: var(--hold); }
+
+/* Status badges */
+.status-cell { text-align: center; }
+.status-badge {
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+.status-in-use { background: rgba(63,185,80,0.15); color: var(--adopt); border: 1px solid rgba(63,185,80,0.25); }
+.status-tested { background: rgba(210,153,34,0.15); color: var(--trial); border: 1px solid rgba(210,153,34,0.25); }
+.status-evaluated { background: rgba(139,148,158,0.1); color: var(--text-muted); border: 1px solid rgba(139,148,158,0.15); }
+
+/* Convention badge (instead of score) */
+.convention-badge {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 @media (max-width: 600px) {
   .stats-section { grid-template-columns: repeat(2, 1fr); }
   .detail-row { flex-direction: column; gap: 0.1rem; }

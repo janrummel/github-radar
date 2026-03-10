@@ -61,6 +61,15 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "tested",
+    "tags": [
+      "dev-workflow",
+      "orchestration"
+    ],
+    "related": [
+      "spec-driven-development",
+      "cc-sdd"
     ]
   },
   {
@@ -131,6 +140,10 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "agent-framework"
     ]
   },
   {
@@ -269,6 +282,13 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "in-use",
+    "tags": [
+      "data-lib"
+    ],
+    "related": [
+      "duckdb"
     ]
   },
   {
@@ -345,6 +365,10 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "scraping"
     ]
   },
   {
@@ -451,6 +475,16 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "dev-workflow"
+    ],
+    "related": [
+      "spec-driven-development",
+      "gsd",
+      "claude-code-spec-workflow"
     ]
   },
   {
@@ -574,6 +608,15 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "dev-workflow"
+    ],
+    "related": [
+      "spec-driven-development",
+      "cc-sdd"
     ]
   },
   {
@@ -638,7 +681,8 @@
           "star_velocity": 4
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "orchestrator-starter",
@@ -695,7 +739,8 @@
           "star_velocity": 3
         }
       }
-    ]
+    ],
+    "status": "in-use"
   },
   {
     "id": "awesome-claude-skills",
@@ -775,6 +820,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "awesome-list"
     ]
   },
   {
@@ -850,6 +900,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "awesome-list"
     ]
   },
   {
@@ -973,6 +1028,17 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "in-use",
+    "tags": [
+      "memory-context",
+      "pattern"
+    ],
+    "related": [
+      "mem0",
+      "context7",
+      "beads",
+      "claude-mem"
     ]
   },
   {
@@ -1066,7 +1132,8 @@
           "star_velocity": 4
         }
       }
-    ]
+    ],
+    "status": "tested"
   },
   {
     "id": "claude-md-convention",
@@ -1086,7 +1153,13 @@
     "notable_stargazers": [],
     "notable_score": 0,
     "notable_density": 0.0,
-    "category": "radar"
+    "category": "radar",
+    "type": "convention",
+    "status": "in-use",
+    "tags": [
+      "claude-ecosystem",
+      "pattern"
+    ]
   },
   {
     "id": "agentic-design-patterns",
@@ -1168,6 +1241,11 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "tested",
+    "tags": [
+      "pattern",
+      "agent-framework"
     ]
   },
   {
@@ -1243,6 +1321,14 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "framework"
+    ],
+    "related": [
+      "fastapi-mcp"
     ]
   },
   {
@@ -1351,6 +1437,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "ai-data"
     ]
   },
   {
@@ -1367,7 +1458,7 @@
     "weaknesses": "Nicht fuer OLTP/Transaktionen, kein Multi-User-Server-Modus, grosse Binary",
     "learned": "Idealer Companion zu Polars: DuckDB fuer SQL-Queries, Polars fuer DataFrame-Pipelines.",
     "added": "2026-03-08",
-    "tested": false,
+    "tested": true,
     "notable_stargazers": [
       {
         "login": "wesm",
@@ -1489,6 +1580,13 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "in-use",
+    "tags": [
+      "data-lib"
+    ],
+    "related": [
+      "polars"
     ]
   },
   {
@@ -1505,7 +1603,7 @@
     "weaknesses": "Relativ jung (seit 2023), noch nicht alle Edge-Cases abgedeckt, Astral als VC-funded Company (Nachhaltigkeit?)",
     "learned": "Noch nicht getestet. Standard-Empfehlung fuer neue Python-Projekte.",
     "added": "2026-03-08",
-    "tested": false,
+    "tested": true,
     "notable_stargazers": [
       {
         "login": "ekzhang",
@@ -1622,6 +1720,10 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "in-use",
+    "tags": [
+      "package-manager"
     ]
   },
   {
@@ -1754,6 +1856,16 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "sdk",
+      "agent-framework"
+    ],
+    "related": [
+      "claude-agent-sdk-ts",
+      "claude-agent-sdk-demos"
     ]
   },
   {
@@ -1874,7 +1986,8 @@
           "star_velocity": 4
         }
       }
-    ]
+    ],
+    "status": "tested"
   },
   {
     "id": "autogpt",
@@ -1958,7 +2071,8 @@
           "star_velocity": 4
         }
       }
-    ]
+    ],
+    "status": "tested"
   },
   {
     "id": "github-mcp-server",
@@ -2096,6 +2210,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "github"
     ]
   },
   {
@@ -2188,6 +2307,17 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "browser",
+      "testing"
+    ],
+    "related": [
+      "browser-use",
+      "chrome-devtools-mcp",
+      "browser-tools-mcp"
     ]
   },
   {
@@ -2258,6 +2388,11 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "ai-data"
     ]
   },
   {
@@ -2360,6 +2495,16 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "browser",
+      "agent-tool"
+    ],
+    "related": [
+      "playwright-mcp",
+      "chrome-devtools-mcp",
+      "browser-tools-mcp"
     ]
   },
   {
@@ -2452,6 +2597,14 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "scraping",
+      "ai-data"
+    ],
+    "related": [
+      "firecrawl-mcp-server"
     ]
   },
   {
@@ -2522,7 +2675,8 @@
           "star_velocity": 4
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "e2b",
@@ -2643,6 +2797,11 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "sandbox"
     ]
   },
   {
@@ -2781,7 +2940,8 @@
           "star_velocity": 7
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "trigger-dev",
@@ -2903,6 +3063,11 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "agent-framework",
+      "automation"
     ]
   },
   {
@@ -3024,6 +3189,11 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "agent-tool"
     ]
   },
   {
@@ -3162,7 +3332,8 @@
           "star_velocity": 7
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "chrome-devtools-mcp",
@@ -3295,6 +3466,16 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "browser"
+    ],
+    "related": [
+      "browser-use",
+      "playwright-mcp",
+      "browser-tools-mcp"
     ]
   },
   {
@@ -3428,6 +3609,14 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "scraping"
+    ],
+    "related": [
+      "firecrawl"
     ]
   },
   {
@@ -3548,7 +3737,8 @@
           "star_velocity": 7
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "letta",
@@ -3680,6 +3870,14 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "agent-framework",
+      "memory"
+    ],
+    "related": [
+      "mem0"
     ]
   },
   {
@@ -3801,7 +3999,8 @@
           "star_velocity": 7
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "claude-plugins-official",
@@ -3927,7 +4126,8 @@
           "star_velocity": 4
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "continue",
@@ -4059,7 +4259,8 @@
           "star_velocity": 7
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "google-workspace-mcp",
@@ -4177,6 +4378,11 @@
           "star_velocity": 8
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "productivity"
     ]
   },
   {
@@ -4297,6 +4503,16 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "memory-context"
+    ],
+    "related": [
+      "context-engineering",
+      "beads",
+      "claude-mem",
+      "letta"
     ]
   },
   {
@@ -4405,6 +4621,14 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "agent-framework"
+    ],
+    "related": [
+      "goose",
+      "agents-wshobson"
     ]
   },
   {
@@ -4507,7 +4731,8 @@
           "star_velocity": 7
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "goose",
@@ -4609,6 +4834,15 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "agent-framework",
+      "dev-tool"
+    ],
+    "related": [
+      "crewai",
+      "agents-wshobson"
     ]
   },
   {
@@ -4742,6 +4976,14 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "memory-context"
+    ],
+    "related": [
+      "context-engineering",
+      "repomix"
     ]
   },
   {
@@ -4860,6 +5102,16 @@
           "star_velocity": 8
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "sdk",
+      "agent-framework"
+    ],
+    "related": [
+      "claude-agent-sdk",
+      "claude-agent-sdk-demos"
     ]
   },
   {
@@ -4956,6 +5208,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "cloud"
     ]
   },
   {
@@ -5041,6 +5298,11 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "agent-tool"
     ]
   },
   {
@@ -5164,6 +5426,16 @@
           "star_velocity": 10
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "sdk",
+      "examples"
+    ],
+    "related": [
+      "claude-agent-sdk",
+      "claude-agent-sdk-ts"
     ]
   },
   {
@@ -5287,6 +5559,16 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "browser"
+    ],
+    "related": [
+      "browser-use",
+      "playwright-mcp",
+      "chrome-devtools-mcp"
     ]
   },
   {
@@ -5383,6 +5665,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "productivity"
     ]
   },
   {
@@ -5452,6 +5739,11 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "code-nav"
     ]
   },
   {
@@ -5545,7 +5837,8 @@
           "star_velocity": 4
         }
       }
-    ]
+    ],
+    "status": "evaluated"
   },
   {
     "id": "beads",
@@ -5633,6 +5926,15 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "memory-context"
+    ],
+    "related": [
+      "context-engineering",
+      "mem0",
+      "claude-mem"
     ]
   },
   {
@@ -5708,6 +6010,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "awesome-list"
     ]
   },
   {
@@ -5765,6 +6072,11 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "automation"
     ]
   },
   {
@@ -5829,6 +6141,15 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "memory-context"
+    ],
+    "related": [
+      "context-engineering",
+      "mem0",
+      "beads"
     ]
   },
   {
@@ -5899,6 +6220,11 @@
           "star_velocity": 4
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "awesome-list"
     ]
   },
   {
@@ -5969,6 +6295,83 @@
           "star_velocity": 7
         }
       }
+    ],
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "framework"
+    ],
+    "related": [
+      "fastmcp"
+    ]
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Hold",
+    "url": "https://github.com/run-llama/llama_index",
+    "stars": 40200,
+    "language": "Python",
+    "license": "MIT",
+    "description": "Data Framework fuer LLM-Anwendungen. RAG-Pipeline, Document Loaders, Vector Stores.",
+    "strengths": "40k Stars, 1.5k Contributors, umfassendes RAG-Oekosystem",
+    "weaknesses": "Hohe Abstraktions-Komplexitaet, viele Breaking Changes zwischen Versionen, starke Vendor-Kopplung an OpenAI",
+    "learned": "RAG-Patterns als Referenz nuetzlich, direkter Einsatz zu schwergewichtig fuer unser Setup",
+    "added": "2026-03-09",
+    "tested": false,
+    "status": "evaluated",
+    "quality_score": 7.2,
+    "category": "landscape",
+    "tags": [
+      "agent-framework",
+      "rag"
+    ]
+  },
+  {
+    "id": "semantic-kernel",
+    "name": "Semantic Kernel",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Hold",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "stars": 25800,
+    "language": "C#/Python",
+    "license": "MIT",
+    "description": "Microsofts AI Orchestration SDK. Plugin-System, Planner, Memory fuer Enterprise-LLM-Anwendungen.",
+    "strengths": "Microsoft-backed, Enterprise-ready, gute .NET-Integration, stabiles Plugin-System",
+    "weaknesses": "C#-zentriert, Python-SDK hinter .NET zurueck, Enterprise-Overhead fuer kleine Projekte",
+    "learned": "Plugin-Architektur als Referenz fuer modulare Agent-Systeme",
+    "added": "2026-03-09",
+    "tested": false,
+    "status": "evaluated",
+    "quality_score": 7.8,
+    "category": "landscape",
+    "tags": [
+      "agent-framework",
+      "sdk"
+    ]
+  },
+  {
+    "id": "openai-agents-sdk",
+    "name": "OpenAI Agents SDK",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Hold",
+    "url": "https://github.com/openai/openai-agents-python",
+    "stars": 18500,
+    "language": "Python",
+    "license": "MIT",
+    "description": "OpenAIs Agent Framework. Handoffs, Guardrails, Tracing fuer Multi-Agent-Systeme.",
+    "strengths": "OpenAI-backed, sauberes Handoff-Pattern, guter Tracing-Support",
+    "weaknesses": "Stark an OpenAI-Modelle gekoppelt, kein Claude-Support, junges Projekt",
+    "learned": "Handoff-Pattern als Architektur-Referenz, aber keine direkte Nutzung mit Claude",
+    "added": "2026-03-09",
+    "tested": false,
+    "status": "evaluated",
+    "quality_score": 6.5,
+    "category": "landscape",
+    "tags": [
+      "agent-framework",
+      "sdk"
     ]
   }
 ]

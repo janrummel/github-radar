@@ -19,6 +19,7 @@ const CX = 400, CY = 400, MAX_R = 360;
 let entries = [];
 let activeFilter = 'all';
 let activeRingFilter = 'all';
+let activeTagFilter = null;
 let searchQuery = '';
 let sortColumn = 'quality';
 let sortDesc = true;
@@ -51,7 +52,7 @@ function getRingIndex(ring) {
   return RINGS.findIndex(r => r.name === ring);
 }
 
-function getEntryPosition(entry) {
+function getInitialPosition(entry) {
   const qi = getQuadrantIndex(entry.quadrant);
   const ri = getRingIndex(entry.ring);
   if (qi < 0 || ri < 0) return null;
@@ -65,6 +66,45 @@ function getEntryPosition(entry) {
   const angle = baseAngle + 10 + rng() * 70;
 
   return polarToCartesian(angle, r);
+}
+
+const MIN_DOT_DIST = 18;
+
+function resolveCollisions(posMap) {
+  const ids = Object.keys(posMap);
+  for (let iter = 0; iter < 12; iter++) {
+    let moved = false;
+    for (let i = 0; i < ids.length; i++) {
+      for (let j = i + 1; j < ids.length; j++) {
+        const a = posMap[ids[i]], b = posMap[ids[j]];
+        const dx = b.x - a.x, dy = b.y - a.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < MIN_DOT_DIST && dist > 0) {
+          const push = (MIN_DOT_DIST - dist) / 2 + 0.5;
+          const nx = dx / dist, ny = dy / dist;
+          a.x -= nx * push; a.y -= ny * push;
+          b.x += nx * push; b.y += ny * push;
+          moved = true;
+        }
+      }
+    }
+    if (!moved) break;
+  }
+}
+
+let positionCache = {};
+
+function computePositions(filteredEntries) {
+  positionCache = {};
+  filteredEntries.forEach(e => {
+    const pos = getInitialPosition(e);
+    if (pos) positionCache[e.id] = pos;
+  });
+  resolveCollisions(positionCache);
+}
+
+function getEntryPosition(entry) {
+  return positionCache[entry.id] || getInitialPosition(entry);
 }
 
 function formatStars(n) {
@@ -232,7 +272,7 @@ function showTooltip(event, entry) {
       <span style="color:${ringColor}">${entry.ring}</span> ·
       ${formatStars(entry.stars)} Stars ·
       ${entry.language} ·
-      ${entry.tested ? 'Getestet' : 'Nicht getestet'}
+      ${STATUS_LABELS[entry.status] || 'Evaluiert'}
     </div>
   `;
   tooltip.classList.add('visible');
@@ -332,7 +372,39 @@ function showDetails(entry) {
         ${entry.notable_stargazers.map(u => `<li><a href="https://github.com/${u.login}" target="_blank">${u.label}</a> <span class="follower-count">${formatStars(u.followers)} Followers</span></li>`).join('')}
       </ul>
     </div>` : `<div class="detail-section notable-section"><h4>Notable Stargazers</h4><p class="no-notables">Keine (in Stichprobe von 200)</p></div>`}
+    ${entry.tags && entry.tags.length > 0 ? `
+    <div class="detail-section tags-section">
+      <h4>Tags</h4>
+      <div class="detail-tags">${entry.tags.map(t => `<span class="detail-tag" data-tag="${t}">${TAG_LABELS[t] || t}</span>`).join('')}</div>
+    </div>` : ''}
+    ${entry.related && entry.related.length > 0 ? `
+    <div class="detail-section related-section">
+      <h4>Verwandte Eintraege</h4>
+      <div class="related-list">${entry.related.map(rid => {
+        const rel = entries.find(e => e.id === rid);
+        if (!rel) return '';
+        const ringClass = rel.ring.toLowerCase();
+        return `<a href="#" class="related-entry" data-id="${rid}"><span class="ring-dot ${ringClass}"></span>${rel.name}</a>`;
+      }).join('')}</div>
+    </div>` : ''}
   `;
+  // Wire up related entry clicks
+  panel.querySelectorAll('.related-entry').forEach(a => {
+    a.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      const rel = entries.find(e => e.id === a.dataset.id);
+      if (rel) showDetails(rel);
+    });
+  });
+  // Wire up tag clicks to filter
+  panel.querySelectorAll('.detail-tag').forEach(tag => {
+    tag.addEventListener('click', () => {
+      activeTagFilter = tag.dataset.tag;
+      renderTagFilters();
+      applyFilters();
+      closeDetails();
+    });
+  });
   panel.classList.remove('hidden');
   panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -340,6 +412,9 @@ function showDetails(entry) {
 function closeDetails() {
   document.getElementById('details-panel').classList.add('hidden');
 }
+
+const STATUS_ORDER = {'in-use': 3, 'tested': 2, 'evaluated': 1};
+const STATUS_LABELS = {'in-use': 'Im Einsatz', 'tested': 'Getestet', 'evaluated': 'Evaluiert'};
 
 function getSortValue(entry, col) {
   switch (col) {
@@ -349,7 +424,7 @@ function getSortValue(entry, col) {
     case 'stars': return entry.stars || 0;
     case 'language': return (entry.language || '').toLowerCase();
     case 'quality': return entry.quality_score || 0;
-    case 'tested': return entry.tested ? 1 : 0;
+    case 'status': return STATUS_ORDER[entry.status] || 0;
     default: return 0;
   }
 }
@@ -394,8 +469,8 @@ function renderTable(filteredEntries) {
       <td><span class="ring-badge ${ringClass}">${entry.ring}</span></td>
       <td class="stars-cell">${formatStars(entry.stars)}</td>
       <td>${entry.language}</td>
-      <td class="signal-cell ${qClass}">${qs > 0 ? `${qs.toFixed(1)}<span class="coverage-hint">${cov}%</span>` : '-'}</td>
-      <td>${entry.tested ? 'Ja' : '-'}</td>
+      <td class="signal-cell ${qClass}">${entry.type === 'convention' ? '<span class="convention-badge">Convention</span>' : qs > 0 ? `${qs.toFixed(1)}<span class="coverage-hint">${cov}%</span>` : '-'}</td>
+      <td class="status-cell"><span class="status-badge status-${entry.status || 'evaluated'}">${STATUS_LABELS[entry.status] || 'Evaluiert'}</span></td>
     `;
     tbody.appendChild(tr);
   });
@@ -403,7 +478,7 @@ function renderTable(filteredEntries) {
 
 function updateStats(filteredEntries) {
   document.getElementById('stat-total').textContent = filteredEntries.length;
-  document.getElementById('stat-tested').textContent = filteredEntries.filter(e => e.tested).length;
+  document.getElementById('stat-tested').textContent = filteredEntries.filter(e => e.status === 'tested' || e.status === 'in-use').length;
   document.getElementById('stat-adopted').textContent = filteredEntries.filter(e => e.ring === 'Adopt').length;
 
   const dates = filteredEntries.map(e => e.added).sort().reverse();
@@ -419,6 +494,9 @@ function applyFilters() {
   if (activeRingFilter !== 'all') {
     filtered = filtered.filter(e => e.ring === activeRingFilter);
   }
+  if (activeTagFilter) {
+    filtered = filtered.filter(e => (e.tags || []).includes(activeTagFilter));
+  }
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
     filtered = filtered.filter(e =>
@@ -428,13 +506,52 @@ function applyFilters() {
       (e.quadrant || '').toLowerCase().includes(q) ||
       (e.ring || '').toLowerCase().includes(q) ||
       (e.strengths || '').toLowerCase().includes(q) ||
-      (e.weaknesses || '').toLowerCase().includes(q)
+      (e.weaknesses || '').toLowerCase().includes(q) ||
+      (e.tags || []).some(t => t.includes(q))
     );
   }
+  computePositions(filtered);
   renderRadar(filtered);
   renderTable(filtered);
   updateStats(filtered);
   renderLandscape();
+}
+
+const TAG_LABELS = {
+  'mcp-server': 'MCP Server',
+  'claude-ecosystem': 'Claude Ecosystem',
+  'agent-framework': 'Agent Frameworks',
+  'memory-context': 'Memory & Context',
+  'browser': 'Browser',
+  'scraping': 'Scraping',
+  'dev-workflow': 'Dev Workflow',
+  'dev-tool': 'Dev Tools',
+  'pattern': 'Patterns',
+  'sdk': 'SDKs',
+  'data-lib': 'Data Libraries'
+};
+
+function renderTagFilters() {
+  const container = document.getElementById('tag-filters');
+  if (!container) return;
+  const radarEntries = entries.filter(e => e.category !== 'landscape');
+  const tagCounts = {};
+  radarEntries.forEach(e => (e.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+  // Only show tags with 3+ entries
+  const visibleTags = Object.entries(tagCounts)
+    .filter(([, c]) => c >= 3)
+    .sort((a, b) => b[1] - a[1]);
+  container.innerHTML = visibleTags.map(([tag, count]) =>
+    `<button class="tag-btn${activeTagFilter === tag ? ' active' : ''}" data-tag="${tag}">${TAG_LABELS[tag] || tag} <span class="tag-count">${count}</span></button>`
+  ).join('');
+  container.querySelectorAll('.tag-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.dataset.tag;
+      activeTagFilter = activeTagFilter === tag ? null : tag;
+      renderTagFilters();
+      applyFilters();
+    });
+  });
 }
 
 function renderLandscape() {
@@ -521,6 +638,7 @@ async function init() {
     console.error('Could not load entries.json', e);
     return;
   }
+  renderTagFilters();
   applyFilters();
 }
 
