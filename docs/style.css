@@ -242,9 +242,9 @@ td a:hover { text-decoration: underline; }
 /* Signal column */
 .signal-cell { font-variant-numeric: tabular-nums; text-align: center; font-weight: 600; line-height: 1.2; }
 .coverage-hint { display: block; font-size: 0.65rem; font-weight: 400; color: var(--text-muted); }
-.signal-high { color: var(--adopt); }
-.signal-mid { color: var(--trial); }
-.signal-low { color: #c9d1d9; }
+.signal-high { color: #e0e0e0; }
+.signal-mid { color: #a0a0a0; }
+.signal-low { color: #666; }
 .signal-none { color: var(--text-muted); }
 .signal-meta { font-size: 0.75rem; color: var(--text-muted); font-weight: 400; margin-left: 0.5rem; }
 
@@ -255,9 +255,9 @@ td a:hover { text-decoration: underline; }
 .signal-bar-label { min-width: 110px; color: var(--text-muted); }
 .signal-bar-track { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
 .signal-bar-fill { height: 100%; border-radius: 4px; transition: width 0.3s; }
-.bar-high { background: var(--adopt); }
-.bar-mid { background: var(--trial); }
-.bar-low { background: #f85149; }
+.bar-high { background: #e0e0e0; }
+.bar-mid { background: #888; }
+.bar-low { background: #555; }
 .signal-bar-val { min-width: 24px; text-align: right; font-weight: 600; font-size: 0.75rem; }
 .signal-details { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem; }
 
@@ -377,9 +377,9 @@ footer a { color: var(--accent); text-decoration: none; }
   letter-spacing: 0.03em;
   white-space: nowrap;
 }
-.status-in-use { background: rgba(63,185,80,0.15); color: var(--adopt); border: 1px solid rgba(63,185,80,0.25); }
-.status-tested { background: rgba(210,153,34,0.15); color: var(--trial); border: 1px solid rgba(210,153,34,0.25); }
-.status-evaluated { background: rgba(139,148,158,0.1); color: var(--text-muted); border: 1px solid rgba(139,148,158,0.15); }
+.status-in-use { background: rgba(255,255,255,0.1); color: #e0e0e0; border: 1px solid rgba(255,255,255,0.2); }
+.status-tested { background: rgba(255,255,255,0.05); color: #a0a0a0; border: 1px solid rgba(255,255,255,0.1); }
+.status-evaluated { background: rgba(139,148,158,0.05); color: #666; border: 1px solid rgba(139,148,158,0.1); }
 
 /* Convention badge (instead of score) */
 .convention-badge {
