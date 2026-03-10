@@ -334,7 +334,7 @@ function showDetails(entry) {
   const ringClass = entry.ring.toLowerCase();
 
   content.innerHTML = `
-    <h3><a href="${entry.url}" target="_blank">${entry.name}</a> <span class="ring-badge ${ringClass}">${entry.ring}</span></h3>
+    <h3><a href="${entry.url}" target="_blank">${entry.name}</a> <span class="ring-badge ${ringClass}">${entry.ring}</span>${entry.own_project ? ' <span class="own-project-badge">Eigenes Projekt</span>' : ''}${entry.crypto_token ? ' <span class="crypto-badge">⚠️ Crypto-Token</span>' : ''}</h3>
     <div class="detail-row"><span class="detail-label">Quadrant</span><span class="detail-value">${entry.quadrant}</span></div>
     <div class="detail-row"><span class="detail-label">Stars</span><span class="detail-value">${formatStars(entry.stars)}</span></div>
     <div class="detail-row"><span class="detail-label">Sprache</span><span class="detail-value">${entry.language}</span></div>
@@ -466,7 +466,7 @@ function renderTable(filteredEntries) {
     const cov = entry.notable_coverage_pct || 0;
     const qClass = qs >= 7 ? 'signal-high' : qs >= 5 ? 'signal-mid' : qs > 0 ? 'signal-low' : 'signal-none';
     tr.innerHTML = `
-      <td><a href="${entry.url}" target="_blank">${entry.name}</a></td>
+      <td><a href="${entry.url}" target="_blank">${entry.name}</a>${entry.own_project ? ' <span class="own-project-badge">Eigenes Projekt</span>' : ''}${entry.crypto_token ? ' <span class="crypto-badge">⚠️ $Token</span>' : ''}</td>
       <td>${entry.quadrant}</td>
       <td><span class="ring-badge ${ringClass}">${entry.ring}</span></td>
       <td class="stars-cell">${formatStars(entry.stars)}</td>

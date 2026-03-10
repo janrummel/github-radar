@@ -10,7 +10,7 @@
 <body>
   <header>
     <h1>GitHub-Radar</h1>
-    <p class="subtitle">Persoenlicher Stack-Kompass fuer das Dev-Universum rund um Claude Code &amp; AI Agents.<br>Nur Repos die ich aktiv evaluiere, teste oder nutze — kein Link-Dump.</p>
+    <p class="subtitle">Persoenlicher Stack-Kompass fuer das Claude Code Oekosystem.<br>Nur Repos die ich aktiv evaluiere, teste oder nutze — kein Link-Dump.</p>
     <div class="legend">
       <span class="ring-badge adopt">Adopt</span>
       <span class="ring-badge trial">Trial</span>
@@ -79,6 +79,19 @@
         Notable Density = Punktsumme &divide; (Stars / 1.000).</p>
         <p><strong>Star Velocity</strong> bestraft extrem schnelles Wachstum: &gt;2.000 Stars/Monat bei jungen Repos wird als potenzielles Red Flag gewertet (Score sinkt auf 4/10).</p>
         <p class="method-note">Stichprobe Notable: Dynamisch je nach Repo-Groesse — kleine Repos (&lt;5k Stars) werden tiefer abgetastet (bis 1.000 Stargazers) fuer hoehere Coverage. Bus Factor: Top-20-Contributors via GitHub API.</p>
+      </div>
+    </details>
+
+    <details class="methodology risks">
+      <summary>Risiken &amp; Einschraenkungen</summary>
+      <div class="methodology-content">
+        <p>Beim Einsatz von Tools aus diesem Radar gelten typische Risiken des AI-Tooling-Oekosystems:</p>
+        <ul class="risk-list">
+          <li><strong>MCP Data Leakage:</strong> MCP-Server koennen Daten an LLMs weiterleiten. Sensible Daten (Credentials, interne Dokumente) sollten nie ueber ungepruefte MCP-Server fliessen.</li>
+          <li><strong>Prompt Injection:</strong> Browser-Tools und Web-Scraping-Agents sind anfaellig fuer Prompt Injection ueber manipulierte Webseiten.</li>
+          <li><strong>Vendor Lock-in:</strong> Viele Tools sind eng an spezifische LLM-Anbieter gekoppelt. Wechselkosten bei Modellwechsel beachten.</li>
+          <li><strong>API-Kosten:</strong> Agent-Frameworks mit Loop-Patterns koennen unerwartet hohe API-Kosten verursachen. Budget-Limits setzen.</li>
+        </ul>
       </div>
     </details>
 

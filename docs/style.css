@@ -272,6 +272,9 @@ td a:hover { text-decoration: underline; }
 .method-table th { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.75rem; }
 .method-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border); }
 .method-note { color: var(--text-muted); font-size: 0.8rem; font-style: italic; }
+.risk-list { margin: 0.5rem 0 0 1.2rem; }
+.risk-list li { margin-bottom: 0.5rem; }
+.risk-list li:last-child { margin-bottom: 0; }
 
 /* Notable Stargazers */
 .notable-list { list-style: none; padding: 0; }
@@ -386,6 +389,34 @@ footer a { color: var(--accent); text-decoration: none; }
   font-size: 0.7rem;
   color: var(--text-muted);
   font-style: italic;
+}
+
+/* Crypto-Token warning badge */
+.crypto-badge {
+  font-size: 0.65rem;
+  color: #f85149;
+  background: rgba(248,81,73,0.1);
+  border: 1px solid rgba(248,81,73,0.3);
+  padding: 0.1rem 0.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+
+/* Own Project badge */
+.own-project-badge {
+  font-size: 0.65rem;
+  color: var(--trial);
+  background: rgba(210,153,34,0.12);
+  border: 1px solid rgba(210,153,34,0.3);
+  padding: 0.1rem 0.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-left: 0.3rem;
+  vertical-align: middle;
 }
 
 @media (max-width: 600px) {

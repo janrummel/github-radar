@@ -5,25 +5,26 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Trial",
     "url": "https://github.com/gsd-build/get-shit-done",
-    "stars": 26381,
+    "stars": 27572,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Meta-prompting, context engineering und spec-driven development system fuer Claude Code. Multi-Agent Orchestration mit Wave Execution, Context Monitor, Plan-Checker.",
     "strengths": "Context Rot Loesung durch frische Subagents, Wave Execution, Analysis Paralysis Guard, ausgereiftes Oekosystem mit 26k Stars",
-    "weaknesses": "Nur fuer Software-Entwicklung, kein Knowledge Management, hat einen Crypto-Token ($GSD)",
+    "weaknesses": "Nur fuer Software-Entwicklung, kein Knowledge Management. ⚠️ Hat einen Crypto-Token ($GSD) — kommerzielles Interesse hinter dem Open-Source-Projekt",
+    "crypto_token": true,
     "learned": "Context Monitor Hook, Analysis Paralysis Guard, Deviation Rules — in unser AgentField-System uebernommen",
     "added": "2026-03-08",
     "notable_stargazers": [
       {
         "login": "kieranklaassen",
         "label": "Kieran Klaassen (kieranklaassen)",
-        "followers": 596,
+        "followers": 598,
         "weight": 1
       }
     ],
     "notable_score": 1,
     "notable_density": 0.04,
-    "notable_coverage_pct": 0.8,
+    "notable_coverage_pct": 0.7,
     "bus_factor": 1,
     "top_contributors": [
       {
@@ -32,21 +33,21 @@
         "pct": 91.4
       }
     ],
-    "days_since_commit": 5,
-    "issue_ratio": 0.76,
-    "open_issues": 123,
-    "closed_issues": 384,
-    "forks": 2244,
-    "age_months": 2.8,
+    "days_since_commit": 7,
+    "issue_ratio": 0.75,
+    "open_issues": 131,
+    "closed_issues": 385,
+    "forks": 2336,
+    "age_months": 2.9,
     "signals": {
       "notable_density": 0.4,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 9.5,
+      "issue_health": 9.4,
       "star_velocity": 4
     },
     "quality_score": 4.6,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
@@ -57,6 +58,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 9.5,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 4.6,
+        "signals": {
+          "notable_density": 0.4,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 9.4,
           "star_velocity": 4
         }
       }
@@ -77,7 +89,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/RightNow-AI/openfang",
-    "stars": 12670,
+    "stars": 13546,
     "language": "Rust",
     "license": "Apache-2.0",
     "description": "Agent Operating System in Rust. Autonome Agents (Hands) die 24/7 laufen: Lead Gen, OSINT, Social Media, Web Scraping. Single 32MB Binary.",
@@ -87,44 +99,56 @@
     "added": "2026-03-08",
     "notable_stargazers": [
       {
+        "login": "simonw",
+        "label": "Simon Willison (simonw) @ Datasette",
+        "followers": 13058,
+        "weight": 8
+      },
+      {
         "login": "Freelander",
         "label": "高军 (GoJun) (Freelander) @ @GitHubDaily ",
         "followers": 1165,
         "weight": 2
       },
       {
+        "login": "Raphasha27",
+        "label": "Raphasha27 (Raphasha27) @ CAPACITI ",
+        "followers": 782,
+        "weight": 1
+      },
+      {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 729,
+        "followers": 734,
         "weight": 1
       }
     ],
-    "notable_score": 3,
-    "notable_density": 0.24,
-    "notable_coverage_pct": 1.6,
+    "notable_score": 12,
+    "notable_density": 0.89,
+    "notable_coverage_pct": 1.5,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "jaberjaber23",
-        "commits": 74,
+        "commits": 91,
         "pct": 100.0
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.72,
-    "open_issues": 86,
-    "closed_issues": 219,
-    "forks": 1411,
+    "issue_ratio": 0.82,
+    "open_issues": 65,
+    "closed_issues": 287,
+    "forks": 1548,
     "age_months": 1,
     "signals": {
-      "notable_density": 2.4,
+      "notable_density": 8.9,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 9.0,
+      "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 5.0,
-    "last_updated": "2026-03-08",
+    "quality_score": 6.8,
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
@@ -135,6 +159,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 9.0,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.8,
+        "signals": {
+          "notable_density": 8.9,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10,
           "star_velocity": 4
         }
       }
@@ -150,7 +185,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Adopt",
     "url": "https://github.com/pola-rs/polars",
-    "stars": 37657,
+    "stars": 37680,
     "language": "Rust/Python",
     "license": "MIT",
     "description": "DataFrame Engine fuer schnelle Datenverarbeitung. Lazy evaluation, zero-copy, multi-threaded. Alternative zu Pandas.",
@@ -162,19 +197,19 @@
       {
         "login": "minimaxir",
         "label": "Max Woolf (minimaxir) @ @buzzfeed ",
-        "followers": 5047,
+        "followers": 5050,
         "weight": 4
       },
       {
         "login": "trishume",
         "label": "Tristan Hume (trishume)",
-        "followers": 3691,
+        "followers": 3727,
         "weight": 2
       },
       {
         "login": "mattsse",
         "label": "Matthias Seitz (mattsse)",
-        "followers": 1887,
+        "followers": 1889,
         "weight": 2
       },
       {
@@ -186,7 +221,7 @@
       {
         "login": "softprops",
         "label": "Doug Tangren (softprops) @ https://www.mongodb.com/atlas",
-        "followers": 954,
+        "followers": 953,
         "weight": 1
       },
       {
@@ -198,25 +233,25 @@
       {
         "login": "Kerollmops",
         "label": "Clément Renault (Kerollmops) @ @meilisearch",
-        "followers": 671,
+        "followers": 672,
         "weight": 1
       },
       {
         "login": "robbert-vdh",
         "label": "Robbert van der Helm (robbert-vdh) @ @channable",
-        "followers": 648,
+        "followers": 649,
         "weight": 1
       },
       {
         "login": "scrogson",
         "label": "Sonny Scroggin (scrogson) @ @squidinklabs",
-        "followers": 564,
+        "followers": 565,
         "weight": 1
       },
       {
         "login": "ik5",
         "label": "ik5 (ik5)",
-        "followers": 533,
+        "followers": 534,
         "weight": 1
       }
     ],
@@ -228,16 +263,16 @@
       {
         "login": "ritchie46",
         "commits": 6003,
-        "pct": 51.1
+        "pct": 51.0
       },
       {
         "login": "alexander-beedie",
-        "commits": 1008,
+        "commits": 1009,
         "pct": 8.6
       },
       {
         "login": "nameexhaustion",
-        "commits": 739,
+        "commits": 742,
         "pct": 6.3
       },
       {
@@ -247,16 +282,16 @@
       },
       {
         "login": "coastalwhite",
-        "commits": 690,
+        "commits": 692,
         "pct": 5.9
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.8,
-    "open_issues": 2518,
-    "closed_issues": 9925,
-    "forks": 2671,
-    "age_months": 70.8,
+    "open_issues": 2500,
+    "closed_issues": 9949,
+    "forks": 2674,
+    "age_months": 70.9,
     "signals": {
       "notable_density": 4.2,
       "bus_factor": 10,
@@ -265,11 +300,22 @@
       "star_velocity": 7
     },
     "quality_score": 8.1,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 8.1,
+        "signals": {
+          "notable_density": 4.2,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10.0,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 8.1,
         "signals": {
           "notable_density": 4.2,
@@ -294,7 +340,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/D4Vinci/Scrapling",
-    "stars": 26178,
+    "stars": 28053,
     "language": "Python",
     "license": "BSD-3",
     "description": "Web Scraping Framework fuer Python. Schnell, flexibel, mit Anti-Detection Features.",
@@ -306,48 +352,42 @@
       {
         "login": "dsfb",
         "label": "Daniel Bruno (dsfb) @ Octaplus Financial Analytics Ltda.",
-        "followers": 794,
-        "weight": 1
-      },
-      {
-        "login": "ArtSabintsev",
-        "label": "Arthur Ariel Sabintsev (ArtSabintsev) @ @BuildWithGrove",
-        "followers": 549,
+        "followers": 789,
         "weight": 1
       },
       {
         "login": "GONZOsint",
         "label": "GOΠZO (GONZOsint)",
-        "followers": 517,
+        "followers": 518,
         "weight": 1
       }
     ],
-    "notable_score": 3,
-    "notable_density": 0.11,
-    "notable_coverage_pct": 0.8,
+    "notable_score": 2,
+    "notable_density": 0.07,
+    "notable_coverage_pct": 0.7,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "D4Vinci",
-        "commits": 1187,
-        "pct": 99.2
+        "commits": 1211,
+        "pct": 98.8
       }
     ],
-    "days_since_commit": 0,
-    "issue_ratio": 0.94,
-    "open_issues": 4,
-    "closed_issues": 68,
-    "forks": 1923,
-    "age_months": 17.0,
+    "days_since_commit": 1,
+    "issue_ratio": 0.97,
+    "open_issues": 2,
+    "closed_issues": 70,
+    "forks": 2079,
+    "age_months": 17.1,
     "signals": {
-      "notable_density": 1.1,
+      "notable_density": 0.7,
       "bus_factor": 2,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 7
     },
-    "quality_score": 5.3,
-    "last_updated": "2026-03-08",
+    "quality_score": 5.2,
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
@@ -355,6 +395,17 @@
         "score": 5.3,
         "signals": {
           "notable_density": 1.1,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 5.2,
+        "signals": {
+          "notable_density": 0.7,
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 10,
@@ -373,7 +424,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/gotalab/cc-sdd",
-    "stars": 2795,
+    "stars": 2825,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kiro-style Spec-Driven Development. Requirements, Design, Tasks Workflow. Multi-Runtime: Claude Code, Codex, OpenCode, Cursor, Copilot, Gemini CLI, Windsurf.",
@@ -385,13 +436,13 @@
       {
         "login": "rootsongjc",
         "label": "Jimmy Song (rootsongjc) @ @dynamia-ai",
-        "followers": 4033,
+        "followers": 4034,
         "weight": 2
       },
       {
         "login": "shunkakinoki",
         "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
-        "followers": 855,
+        "followers": 860,
         "weight": 1
       },
       {
@@ -409,13 +460,13 @@
       {
         "login": "peaceiris",
         "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
-        "followers": 609,
+        "followers": 610,
         "weight": 1
       },
       {
         "login": "Glavin001",
         "label": "Glavin Wiechert (Glavin001) @ Remote Software Developer",
-        "followers": 565,
+        "followers": 566,
         "weight": 1
       },
       {
@@ -432,8 +483,8 @@
       }
     ],
     "notable_score": 9,
-    "notable_density": 3.22,
-    "notable_coverage_pct": 35.8,
+    "notable_density": 3.19,
+    "notable_coverage_pct": 35.4,
     "bus_factor": 1,
     "top_contributors": [
       {
@@ -442,12 +493,12 @@
         "pct": 85.5
       }
     ],
-    "days_since_commit": 31,
+    "days_since_commit": 33,
     "issue_ratio": 0.79,
     "open_issues": 9,
     "closed_issues": 33,
-    "forks": 226,
-    "age_months": 7.8,
+    "forks": 227,
+    "age_months": 7.9,
     "signals": {
       "notable_density": 10,
       "bus_factor": 2,
@@ -456,11 +507,22 @@
       "star_velocity": 10
     },
     "quality_score": 7.2,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 7.2,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 2,
+          "freshness": 6,
+          "issue_health": 9.9,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 7.2,
         "signals": {
           "notable_density": 10,
@@ -487,7 +549,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/Pimzino/claude-code-spec-workflow",
-    "stars": 3498,
+    "stars": 3511,
     "language": "Markdown",
     "license": "MIT",
     "description": "Spec-driven development fuer neue Features (Requirements, Design, Tasks, Implementation) und Bug-Fix Workflow (Report, Analyze, Fix, Verify).",
@@ -499,25 +561,25 @@
       {
         "login": "rootsongjc",
         "label": "Jimmy Song (rootsongjc) @ @dynamia-ai",
-        "followers": 4033,
+        "followers": 4034,
         "weight": 2
       },
       {
         "login": "Ridter",
         "label": "evi1cg (Ridter)",
-        "followers": 2835,
+        "followers": 2837,
         "weight": 2
       },
       {
         "login": "airingursb",
         "label": "Airing (airingursb) @ ByteDance",
-        "followers": 1846,
+        "followers": 1847,
         "weight": 2
       },
       {
         "login": "johannesjo",
         "label": "Johannes Millan (johannesjo) @ Frontend Developer",
-        "followers": 855,
+        "followers": 856,
         "weight": 1
       },
       {
@@ -535,31 +597,31 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 729,
+        "followers": 734,
         "weight": 1
       },
       {
         "login": "XiaoliChan",
         "label": "XiaoliChan (XiaoliChan)",
-        "followers": 608,
+        "followers": 609,
         "weight": 1
       },
       {
         "login": "beriberikix",
         "label": "Jonathan Beri (beriberikix) @ @golioth @canonical",
-        "followers": 580,
+        "followers": 579,
         "weight": 1
       },
       {
         "login": "debasishsahoo",
         "label": "Debasish Sahoo (debasishsahoo)",
-        "followers": 527,
+        "followers": 521,
         "weight": 1
       }
     ],
     "notable_score": 13,
-    "notable_density": 3.72,
-    "notable_coverage_pct": 28.6,
+    "notable_density": 3.7,
+    "notable_coverage_pct": 28.5,
     "bus_factor": 2,
     "top_contributors": [
       {
@@ -573,11 +635,11 @@
         "pct": 22.9
       }
     ],
-    "days_since_commit": 182,
+    "days_since_commit": 184,
     "issue_ratio": 0.92,
     "open_issues": 2,
     "closed_issues": 23,
-    "forks": 247,
+    "forks": 248,
     "age_months": 7.8,
     "signals": {
       "notable_density": 10,
@@ -587,11 +649,22 @@
       "star_velocity": 10
     },
     "quality_score": 7.2,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 7.2,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 5,
+          "freshness": 2,
+          "issue_health": 10,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 7.2,
         "signals": {
           "notable_density": 10,
@@ -618,7 +691,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/ruvnet/ruflo",
-    "stars": 19988,
+    "stars": 20401,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Agent Orchestration Platform. Multi-Agent Swarms, DDD Bounded Contexts, ADR-basierte Architektur. RAG Integration, Claude Code/Codex Integration.",
@@ -641,15 +714,15 @@
     "top_contributors": [
       {
         "login": "ruvnet",
-        "commits": 5848,
+        "commits": 5852,
         "pct": 98.8
       }
     ],
-    "days_since_commit": 3,
+    "days_since_commit": 1,
     "issue_ratio": 0.5,
-    "open_issues": 426,
+    "open_issues": 430,
     "closed_issues": 428,
-    "forks": 2226,
+    "forks": 2257,
     "age_months": 9.3,
     "signals": {
       "notable_density": 1.0,
@@ -659,11 +732,22 @@
       "star_velocity": 4
     },
     "quality_score": 4.3,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 4.3,
+        "signals": {
+          "notable_density": 1.0,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 6.2,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 4.3,
         "signals": {
           "notable_density": 1.0,
@@ -684,7 +768,8 @@
     "id": "orchestrator-starter",
     "name": "Claude Orchestrator Starter Kit",
     "quadrant": "AI Workflow & Orchestration",
-    "ring": "Adopt",
+    "ring": "Trial",
+    "own_project": true,
     "url": "https://github.com/janrummel/claude-orchestrator-starter",
     "stars": 3,
     "language": "Markdown/Shell",
@@ -716,11 +801,11 @@
       "notable_density": 0.0,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 0.0,
+      "issue_health": 5,
       "star_velocity": 3
     },
-    "quality_score": 3.0,
-    "last_updated": "2026-03-08",
+    "quality_score": 3.7,
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
@@ -731,6 +816,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 0.0,
+          "star_velocity": 3
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 3.7,
+        "signals": {
+          "notable_density": 0.0,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 5,
           "star_velocity": 3
         }
       }
@@ -747,7 +843,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "stars": 41944,
+    "stars": 42680,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Sammlung von Claude Skills, Resources und Tools. Groesste Sammlung im Oekosystem.",
@@ -759,18 +855,12 @@
       {
         "login": "doggy8088",
         "label": "Will 保哥 (doggy8088) @ 多奇數位創意有限公司",
-        "followers": 4286,
+        "followers": 4291,
         "weight": 2
-      },
-      {
-        "login": "h2non",
-        "label": "Tom (h2non) @ Dissident",
-        "followers": 925,
-        "weight": 1
       }
     ],
-    "notable_score": 3,
-    "notable_density": 0.07,
+    "notable_score": 2,
+    "notable_density": 0.05,
     "notable_coverage_pct": 0.5,
     "bus_factor": 3,
     "top_contributors": [
@@ -790,21 +880,21 @@
         "pct": 3.8
       }
     ],
-    "days_since_commit": 17,
+    "days_since_commit": 19,
     "issue_ratio": 0.07,
-    "open_issues": 54,
+    "open_issues": 56,
     "closed_issues": 4,
-    "forks": 4177,
-    "age_months": 4.7,
+    "forks": 4255,
+    "age_months": 4.8,
     "signals": {
-      "notable_density": 0.7,
+      "notable_density": 0.5,
       "bus_factor": 7,
       "freshness": 8,
       "issue_health": 0.9,
       "star_velocity": 4
     },
-    "quality_score": 4.3,
-    "last_updated": "2026-03-08",
+    "quality_score": 4.2,
+    "last_updated": "2026-03-10",
     "category": "landscape",
     "score_history": [
       {
@@ -812,6 +902,17 @@
         "score": 4.3,
         "signals": {
           "notable_density": 0.7,
+          "bus_factor": 7,
+          "freshness": 8,
+          "issue_health": 0.9,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 4.2,
+        "signals": {
+          "notable_density": 0.5,
           "bus_factor": 7,
           "freshness": 8,
           "issue_health": 0.9,
@@ -831,7 +932,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "stars": 26890,
+    "stars": 27352,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Liste von Skills, Hooks, Slash-Commands, Agent-Orchestratoren, Apps und Plugins fuer Claude Code.",
@@ -849,7 +950,7 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 729,
+        "followers": 734,
         "weight": 1
       }
     ],
@@ -860,20 +961,20 @@
     "top_contributors": [
       {
         "login": "github-actions[bot]",
-        "commits": 472,
-        "pct": 63.0
+        "commits": 482,
+        "pct": 63.5
       },
       {
         "login": "hesreallyhim",
         "commits": 261,
-        "pct": 34.8
+        "pct": 34.4
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.86,
-    "open_issues": 75,
-    "closed_issues": 461,
-    "forks": 1716,
+    "open_issues": 78,
+    "closed_issues": 475,
+    "forks": 1766,
     "age_months": 10.8,
     "signals": {
       "notable_density": 0.7,
@@ -883,11 +984,22 @@
       "star_velocity": 4
     },
     "quality_score": 5.5,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "landscape",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 5.5,
+        "signals": {
+          "notable_density": 0.7,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 5.5,
         "signals": {
           "notable_density": 0.7,
@@ -910,7 +1022,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Adopt",
     "url": "https://github.com/Meirtz/Awesome-Context-Engineering",
-    "stars": 2966,
+    "stars": 2973,
     "language": "Concept",
     "license": "MIT",
     "description": "Die Kunst, das Context Window mit genau den richtigen Informationen fuer den naechsten Schritt zu fuellen (Karpathy). Umfasst Memory-Tiers, Context Monitors, Prompt-Struktur, Tool-Ergebnis-Management.",
@@ -922,13 +1034,13 @@
       {
         "login": "doggy8088",
         "label": "Will 保哥 (doggy8088) @ 多奇數位創意有限公司",
-        "followers": 4286,
+        "followers": 4291,
         "weight": 2
       },
       {
         "login": "sigridjineth",
         "label": "Sigrid Jin (ง'̀-'́)ง oO (sigridjineth) @ Backpacker in @ubc campuses",
-        "followers": 1334,
+        "followers": 1338,
         "weight": 2
       },
       {
@@ -940,31 +1052,31 @@
       {
         "login": "gmh5225",
         "label": "gmh5225.eth (gmh5225) @ NeverSight",
-        "followers": 1164,
+        "followers": 1165,
         "weight": 2
       },
       {
         "login": "caesar0301",
         "label": "Xiaming Chen (caesar0301)",
-        "followers": 1127,
+        "followers": 1128,
         "weight": 2
       },
       {
         "login": "KalyanKS-NLP",
         "label": "Kalyan KS (KalyanKS-NLP)",
-        "followers": 927,
+        "followers": 928,
         "weight": 1
       },
       {
         "login": "artob",
         "label": "Arto Bendiken (artob) @ @asimov-platform",
-        "followers": 667,
+        "followers": 658,
         "weight": 1
       },
       {
         "login": "shiyanhui",
         "label": "Lime (shiyanhui)",
-        "followers": 650,
+        "followers": 655,
         "weight": 1
       },
       {
@@ -981,27 +1093,27 @@
       }
     ],
     "notable_score": 18,
-    "notable_density": 6.07,
-    "notable_coverage_pct": 33.7,
+    "notable_density": 6.05,
+    "notable_coverage_pct": 33.6,
     "bus_factor": 2,
     "top_contributors": [
       {
         "login": "Meirtz",
-        "commits": 48,
-        "pct": 77.4
+        "commits": 50,
+        "pct": 75.8
       },
       {
         "login": "Theodyy",
         "commits": 4,
-        "pct": 6.5
+        "pct": 6.1
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.2,
     "open_issues": 12,
     "closed_issues": 3,
-    "forks": 199,
-    "age_months": 8.3,
+    "forks": 200,
+    "age_months": 8.4,
     "signals": {
       "notable_density": 10,
       "bus_factor": 5,
@@ -1010,11 +1122,22 @@
       "star_velocity": 10
     },
     "quality_score": 7.6,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 7.6,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 2.5,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 7.6,
         "signals": {
           "notable_density": 10,
@@ -1043,7 +1166,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Trial",
     "url": "https://github.com/github/spec-kit",
-    "stars": 75006,
+    "stars": 75577,
     "language": "Markdown",
     "license": "MIT",
     "description": "Specs als First-Class Artifacts: Erst spezifizieren, dann planen, dann Tasks ableiten, dann implementieren. GitHub's offizielles Toolkit (spec-kit) formalisiert den Workflow fuer AI Coding Agents.",
@@ -1055,13 +1178,13 @@
       {
         "login": "rootsongjc",
         "label": "Jimmy Song (rootsongjc) @ @dynamia-ai",
-        "followers": 4033,
+        "followers": 4034,
         "weight": 2
       },
       {
         "login": "LadyKerr",
         "label": "Kedasha Kerr (LadyKerr) @ Developer Advocate",
-        "followers": 1185,
+        "followers": 1187,
         "weight": 2
       },
       {
@@ -1079,7 +1202,7 @@
       {
         "login": "peaceiris",
         "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
-        "followers": 609,
+        "followers": 610,
         "weight": 1
       }
     ],
@@ -1091,29 +1214,29 @@
       {
         "login": "localden",
         "commits": 361,
-        "pct": 75.5
+        "pct": 75.4
       },
       {
         "login": "mnriem",
-        "commits": 22,
-        "pct": 4.6
+        "commits": 23,
+        "pct": 4.8
       }
     ],
-    "days_since_commit": 3,
-    "issue_ratio": 0.38,
-    "open_issues": 537,
-    "closed_issues": 336,
-    "forks": 6397,
-    "age_months": 6.6,
+    "days_since_commit": 0,
+    "issue_ratio": 0.4,
+    "open_issues": 527,
+    "closed_issues": 349,
+    "forks": 6433,
+    "age_months": 6.7,
     "signals": {
       "notable_density": 1.1,
       "bus_factor": 5,
       "freshness": 10,
-      "issue_health": 4.8,
+      "issue_health": 5.0,
       "star_velocity": 4
     },
-    "quality_score": 4.8,
-    "last_updated": "2026-03-08",
+    "quality_score": 4.9,
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
@@ -1124,6 +1247,17 @@
           "bus_factor": 5,
           "freshness": 10,
           "issue_health": 4.8,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 4.9,
+        "signals": {
+          "notable_density": 1.1,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 5.0,
           "star_velocity": 4
         }
       }
@@ -1165,7 +1299,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Trial",
     "url": "https://github.com/nibzard/awesome-agentic-patterns",
-    "stars": 3547,
+    "stars": 3558,
     "language": "Concept",
     "license": "MIT",
     "description": "Andrew Ng's 4 Kernmuster fuer AI Agents: Reflection (Selbstkorrektur), Tool Use (externe Werkzeuge), Planning (Aufgabenzerlegung), Multi-Agent Collaboration (Rollen-Aufteilung). Framework fuer Agent-Architektur-Entscheidungen.",
@@ -1189,42 +1323,36 @@
       {
         "login": "yanqiangmiffy",
         "label": "yanqiangmiffy (yanqiangmiffy) @ ICT-CAS",
-        "followers": 707,
-        "weight": 1
-      },
-      {
-        "login": "MHaggis",
-        "label": "Michael Haag (MHaggis) @ @Splunk",
-        "followers": 601,
+        "followers": 708,
         "weight": 1
       }
     ],
-    "notable_score": 5,
-    "notable_density": 1.41,
-    "notable_coverage_pct": 28.2,
+    "notable_score": 4,
+    "notable_density": 1.12,
+    "notable_coverage_pct": 28.1,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "nibzard",
-        "commits": 140,
-        "pct": 92.1
+        "commits": 147,
+        "pct": 91.3
       }
     ],
-    "days_since_commit": 7,
-    "issue_ratio": 0.75,
+    "days_since_commit": 0,
+    "issue_ratio": 0.8,
     "open_issues": 1,
-    "closed_issues": 3,
-    "forks": 221,
+    "closed_issues": 4,
+    "forks": 223,
     "age_months": 9.4,
     "signals": {
       "notable_density": 10,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 9.4,
+      "issue_health": 10.0,
       "star_velocity": 10
     },
-    "quality_score": 7.9,
-    "last_updated": "2026-03-08",
+    "quality_score": 8.0,
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
@@ -1235,6 +1363,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 9.4,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 8.0,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10.0,
           "star_velocity": 10
         }
       }
@@ -1251,7 +1390,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Trial",
     "url": "https://github.com/PrefectHQ/fastmcp",
-    "stars": 23501,
+    "stars": 23565,
     "language": "Python",
     "license": "Apache-2.0",
     "description": "Pythonic Framework fuer MCP Server und Clients. Dekorator-basierte API, automatische Tool-Generierung aus Funktionen, Server-Composition, Auth, OpenAPI-Import.",
@@ -1263,7 +1402,7 @@
       {
         "login": "jlowin",
         "label": "Jeremiah Lowin (jlowin) @ @PrefectHQ ",
-        "followers": 2196,
+        "followers": 2200,
         "weight": 2
       },
       {
@@ -1275,13 +1414,13 @@
     ],
     "notable_score": 3,
     "notable_density": 0.13,
-    "notable_coverage_pct": 0.9,
+    "notable_coverage_pct": 0.8,
     "bus_factor": 2,
     "top_contributors": [
       {
         "login": "jlowin",
-        "commits": 2218,
-        "pct": 77.1
+        "commits": 2219,
+        "pct": 77.2
       },
       {
         "login": "strawgate",
@@ -1291,10 +1430,10 @@
     ],
     "days_since_commit": 1,
     "issue_ratio": 0.84,
-    "open_issues": 216,
-    "closed_issues": 1150,
-    "forks": 1806,
-    "age_months": 15.4,
+    "open_issues": 221,
+    "closed_issues": 1152,
+    "forks": 1810,
+    "age_months": 15.5,
     "signals": {
       "notable_density": 1.3,
       "bus_factor": 5,
@@ -1303,11 +1442,22 @@
       "star_velocity": 7
     },
     "quality_score": 6.1,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 6.1,
+        "signals": {
+          "notable_density": 1.3,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 6.1,
         "signals": {
           "notable_density": 1.3,
@@ -1333,7 +1483,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/microsoft/markitdown",
-    "stars": 90374,
+    "stars": 90511,
     "language": "Python",
     "license": "MIT",
     "description": "Microsoft-Tool zur Konvertierung von Office-Dokumenten, PDFs, Bildern und anderen Dateiformaten nach Markdown. CLI und Python-API.",
@@ -1345,7 +1495,7 @@
       {
         "login": "yihong0618",
         "label": "yihong (yihong0618) @ @apache",
-        "followers": 6379,
+        "followers": 6382,
         "weight": 4
       },
       {
@@ -1357,19 +1507,19 @@
       {
         "login": "win4r",
         "label": "Chao Qin (win4r) @ Fitneess king Company",
-        "followers": 963,
+        "followers": 991,
         "weight": 1
       },
       {
         "login": "wey-gu",
         "label": "Wey Gu (wey-gu) @ @nowledge-co",
-        "followers": 957,
+        "followers": 958,
         "weight": 1
       },
       {
-        "login": "geraldb",
-        "label": "Gerald Bauer (geraldb)",
-        "followers": 866,
+        "login": "alienzhou",
+        "label": "Alien ZHOU (alienzhou) @ Kwai Inc.",
+        "followers": 688,
         "weight": 1
       }
     ],
@@ -1381,12 +1531,12 @@
       {
         "login": "afourney",
         "commits": 99,
-        "pct": 40.9
+        "pct": 40.7
       },
       {
         "login": "gagb",
         "commits": 70,
-        "pct": 28.9
+        "pct": 28.8
       },
       {
         "login": "sugatoray",
@@ -1399,26 +1549,26 @@
         "pct": 3.3
       },
       {
-        "login": "Josh-XT",
+        "login": "l-lumin",
         "commits": 7,
         "pct": 2.9
       }
     ],
-    "days_since_commit": 16,
+    "days_since_commit": 0,
     "issue_ratio": 0.22,
     "open_issues": 304,
     "closed_issues": 84,
-    "forks": 5320,
-    "age_months": 16.0,
+    "forks": 5335,
+    "age_months": 16.1,
     "signals": {
       "notable_density": 1.0,
       "bus_factor": 10,
-      "freshness": 8,
+      "freshness": 10,
       "issue_health": 2.7,
       "star_velocity": 4
     },
-    "quality_score": 5.4,
-    "last_updated": "2026-03-08",
+    "quality_score": 5.8,
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
@@ -1428,6 +1578,17 @@
           "notable_density": 1.0,
           "bus_factor": 10,
           "freshness": 8,
+          "issue_health": 2.7,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 5.8,
+        "signals": {
+          "notable_density": 1.0,
+          "bus_factor": 10,
+          "freshness": 10,
           "issue_health": 2.7,
           "star_velocity": 4
         }
@@ -1445,7 +1606,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Adopt",
     "url": "https://github.com/duckdb/duckdb",
-    "stars": 36497,
+    "stars": 36542,
     "language": "C++",
     "license": "MIT",
     "description": "Analytische In-Process SQL-Datenbank. Columnar Storage, Zero-Copy, direktes Lesen von Parquet/CSV/JSON. Perfekter Companion zu Polars fuer SQL-basierte Analysen.",
@@ -1457,7 +1618,7 @@
       {
         "login": "wesm",
         "label": "Wes McKinney (wesm) @ @posit-pbc",
-        "followers": 16170,
+        "followers": 16180,
         "weight": 8
       },
       {
@@ -1469,7 +1630,7 @@
       {
         "login": "krlmlr",
         "label": "Kirill Müller (krlmlr) @ @cynkra ",
-        "followers": 1091,
+        "followers": 1092,
         "weight": 2
       },
       {
@@ -1522,7 +1683,7 @@
     "top_contributors": [
       {
         "login": "Mytherin",
-        "commits": 22804,
+        "commits": 22837,
         "pct": 41.8
       },
       {
@@ -1548,10 +1709,10 @@
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.92,
-    "open_issues": 538,
-    "closed_issues": 6051,
-    "forks": 2976,
-    "age_months": 93.7,
+    "open_issues": 544,
+    "closed_issues": 6058,
+    "forks": 2983,
+    "age_months": 93.8,
     "signals": {
       "notable_density": 5.5,
       "bus_factor": 10,
@@ -1560,11 +1721,22 @@
       "star_velocity": 10
     },
     "quality_score": 8.9,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 8.9,
+        "signals": {
+          "notable_density": 5.5,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 8.9,
         "signals": {
           "notable_density": 5.5,
@@ -1589,7 +1761,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Adopt",
     "url": "https://github.com/astral-sh/uv",
-    "stars": 80505,
+    "stars": 80660,
     "language": "Rust",
     "license": "Apache-2.0",
     "description": "Extrem schneller Python Package- und Projektmanager in Rust. Ersetzt pip, pip-tools, pipx, poetry, pyenv, virtualenv in einem Tool. 10-100x schneller als pip.",
@@ -1601,31 +1773,31 @@
       {
         "login": "ekzhang",
         "label": "Eric Zhang (ekzhang) @ @thinking-machines-lab",
-        "followers": 3045,
+        "followers": 3048,
         "weight": 2
       },
       {
         "login": "pcaversaccio",
         "label": "sudo rm -rf --no-preserve-root / (pcaversaccio)",
-        "followers": 2106,
+        "followers": 2105,
         "weight": 2
       },
       {
         "login": "abidlabs",
         "label": "Abubakar Abid (abidlabs)",
-        "followers": 1374,
+        "followers": 1376,
         "weight": 2
       },
       {
         "login": "araffin",
         "label": "Antonin RAFFIN (araffin) @ @DLR-RM",
-        "followers": 1319,
+        "followers": 1320,
         "weight": 2
       },
       {
         "login": "max-sixty",
         "label": "Maximilian Roos (max-sixty)",
-        "followers": 924,
+        "followers": 928,
         "weight": 1
       },
       {
@@ -1637,7 +1809,7 @@
       {
         "login": "shunkakinoki",
         "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
-        "followers": 855,
+        "followers": 860,
         "weight": 1
       },
       {
@@ -1655,7 +1827,7 @@
       {
         "login": "hmarr",
         "label": "Harry Marr (hmarr) @ Anthropic",
-        "followers": 758,
+        "followers": 757,
         "weight": 1
       }
     ],
@@ -1666,8 +1838,8 @@
     "top_contributors": [
       {
         "login": "charliermarsh",
-        "commits": 2978,
-        "pct": 38.6
+        "commits": 2980,
+        "pct": 38.5
       },
       {
         "login": "zanieb",
@@ -1676,21 +1848,21 @@
       },
       {
         "login": "konstin",
-        "commits": 1047,
-        "pct": 13.6
+        "commits": 1048,
+        "pct": 13.5
       },
       {
         "login": "renovate[bot]",
-        "commits": 911,
-        "pct": 11.8
+        "commits": 921,
+        "pct": 11.9
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.73,
-    "open_issues": 2361,
-    "closed_issues": 6263,
-    "forks": 2653,
-    "age_months": 29.6,
+    "open_issues": 2347,
+    "closed_issues": 6284,
+    "forks": 2659,
+    "age_months": 29.7,
     "signals": {
       "notable_density": 2.5,
       "bus_factor": 8,
@@ -1699,11 +1871,22 @@
       "star_velocity": 4
     },
     "quality_score": 6.6,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 6.6,
+        "signals": {
+          "notable_density": 2.5,
+          "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 9.1,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 6.6,
         "signals": {
           "notable_density": 2.5,
@@ -1725,7 +1908,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Trial",
     "url": "https://github.com/anthropics/claude-agent-sdk-python",
-    "stars": 5255,
+    "stars": 5313,
     "language": "Python",
     "license": "MIT",
     "description": "Anthropics offizielles SDK zum Bau von AI Agents. Agentic Loops, Tool Use, Multi-Turn, Guardrails. Python-first, minimal-opinionated.",
@@ -1737,19 +1920,25 @@
       {
         "login": "bcherny",
         "label": "Boris Cherny (bcherny) @ @Anthropic",
-        "followers": 5126,
+        "followers": 5211,
         "weight": 4
       },
       {
         "login": "nikivdev",
         "label": "Nikita (nikivdev)",
-        "followers": 4978,
+        "followers": 4982,
         "weight": 2
       },
       {
         "login": "zu1k",
         "label": "zu1k (zu1k)",
         "followers": 3412,
+        "weight": 2
+      },
+      {
+        "login": "ZoomQuiet",
+        "label": "Zoom.Quiet (ZoomQuiet) @ https://www.buymeacoffee.com/zoomquiet",
+        "followers": 1278,
         "weight": 2
       },
       {
@@ -1767,64 +1956,64 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 729,
+        "followers": 734,
+        "weight": 1
+      },
+      {
+        "login": "chickenlj",
+        "label": "Ken Liu (chickenlj) @ Alibaba",
+        "followers": 732,
         "weight": 1
       },
       {
         "login": "charlenopires",
         "label": "Charleno Pires (charlenopires)",
-        "followers": 579,
+        "followers": 582,
         "weight": 1
       },
       {
         "login": "kaichen",
         "label": "Kai (kaichen) @ @imtoken",
-        "followers": 536,
-        "weight": 1
-      },
-      {
-        "login": "CNFeffery",
-        "label": "Feffery (CNFeffery)",
-        "followers": 531,
+        "followers": 537,
         "weight": 1
       }
     ],
-    "notable_score": 15,
-    "notable_density": 2.85,
-    "notable_coverage_pct": 11.4,
+    "notable_score": 18,
+    "notable_density": 3.39,
+    "notable_coverage_pct": 11.3,
     "bus_factor": 5,
     "top_contributors": [
       {
         "login": "github-actions[bot]",
         "commits": 82,
-        "pct": 25.1
+        "pct": 24.8
       },
       {
         "login": "actions-user",
-        "commits": 70,
-        "pct": 21.4
+        "commits": 71,
+        "pct": 21.5
       },
       {
         "login": "ashwin-ant",
         "commits": 61,
-        "pct": 18.7
+        "pct": 18.5
       },
       {
         "login": "dicksontsai",
         "commits": 40,
-        "pct": 12.2
+        "pct": 12.1
       },
       {
         "login": "ltawfik",
         "commits": 38,
-        "pct": 11.6
+        "pct": 11.5
       }
     ],
-    "days_since_commit": 1,
+    "days_since_commit": 0,
     "issue_ratio": 0.31,
-    "open_issues": 220,
-    "closed_issues": 99,
-    "forks": 704,
+    "open_issues": 221,
+    "closed_issues": 100,
+    "forks": 710,
     "age_months": 9.0,
     "signals": {
       "notable_density": 10,
@@ -1834,11 +2023,22 @@
       "star_velocity": 7
     },
     "quality_score": 8.4,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "radar",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 8.4,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 3.9,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 8.4,
         "signals": {
           "notable_density": 10,
@@ -1866,7 +2066,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/langchain-ai/langchain",
-    "stars": 128646,
+    "stars": 129018,
     "language": "Python",
     "license": "MIT",
     "description": "Agent Engineering Platform. Chains, Agents, RAG, Memory. Eines der populaersten AI-Frameworks — aber zunehmend als over-abstracted und fragil kritisiert.",
@@ -1884,13 +2084,7 @@
       {
         "login": "Nyandwi",
         "label": "Jean de Dieu Nyandwi (Nyandwi) @ Carnegie Mellon",
-        "followers": 838,
-        "weight": 1
-      },
-      {
-        "login": "Aniket762",
-        "label": "Aniket Pal (Aniket762) @ NIT Rourkela",
-        "followers": 754,
+        "followers": 839,
         "weight": 1
       },
       {
@@ -1902,31 +2096,31 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 729,
+        "followers": 734,
         "weight": 1
       },
       {
         "login": "mihail911",
         "label": "Mihail Eric (mihail911)",
-        "followers": 626,
+        "followers": 630,
         "weight": 1
       },
       {
         "login": "aidangomez",
         "label": "Aidan Gomez (aidangomez) @ @cohere-ai ",
-        "followers": 606,
+        "followers": 607,
         "weight": 1
       }
     ],
-    "notable_score": 8,
-    "notable_density": 0.06,
+    "notable_score": 7,
+    "notable_density": 0.05,
     "notable_coverage_pct": 0.2,
     "bus_factor": 9,
     "top_contributors": [
       {
         "login": "baskaryan",
         "commits": 1398,
-        "pct": 18.3
+        "pct": 18.2
       },
       {
         "login": "hwchase17",
@@ -1935,7 +2129,7 @@
       },
       {
         "login": "ccurme",
-        "commits": 966,
+        "commits": 969,
         "pct": 12.6
       },
       {
@@ -1945,25 +2139,25 @@
       },
       {
         "login": "mdrxy",
-        "commits": 643,
-        "pct": 8.4
+        "commits": 651,
+        "pct": 8.5
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.97,
-    "open_issues": 245,
-    "closed_issues": 8878,
-    "forks": 21132,
+    "open_issues": 252,
+    "closed_issues": 8881,
+    "forks": 21177,
     "age_months": 41.3,
     "signals": {
-      "notable_density": 0.6,
+      "notable_density": 0.5,
       "bus_factor": 10,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 6.8,
-    "last_updated": "2026-03-08",
+    "quality_score": 6.7,
+    "last_updated": "2026-03-10",
     "category": "landscape",
     "score_history": [
       {
@@ -1971,6 +2165,17 @@
         "score": 6.8,
         "signals": {
           "notable_density": 0.6,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.7,
+        "signals": {
+          "notable_density": 0.5,
           "bus_factor": 10,
           "freshness": 10,
           "issue_health": 10,
@@ -1986,7 +2191,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "stars": 182264,
+    "stars": 182336,
     "language": "Python",
     "license": "Other",
     "description": "Einer der ersten 'autonomen AI Agents'. Hype-Pionier von 2023. Versuch, GPT vollstaendig autonom arbeiten zu lassen — Loops, Tool Use, Memory.",
@@ -2033,11 +2238,11 @@
         "pct": 7.4
       }
     ],
-    "days_since_commit": 0,
+    "days_since_commit": 2,
     "issue_ratio": 0.94,
-    "open_issues": 229,
-    "closed_issues": 3512,
-    "forks": 46200,
+    "open_issues": 228,
+    "closed_issues": 3514,
+    "forks": 46210,
     "age_months": 36.3,
     "signals": {
       "notable_density": 0.1,
@@ -2047,11 +2252,22 @@
       "star_velocity": 4
     },
     "quality_score": 6.6,
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-10",
     "category": "landscape",
     "score_history": [
       {
         "date": "2026-03-08",
+        "score": 6.6,
+        "signals": {
+          "notable_density": 0.1,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 6.6,
         "signals": {
           "notable_density": 0.1,
@@ -2077,7 +2293,7 @@
     "weaknesses": "Noch relativ jung (12 Monate), Go-only Implementation",
     "learned": "Noch nicht getestet. Evaluieren fuer direkte GitHub-Integration in Agent-Workflows.",
     "category": "radar",
-    "stars": 27675,
+    "stars": 27723,
     "added": "2026-03-09",
     "notable_stargazers": [
       {
@@ -2095,13 +2311,13 @@
       {
         "login": "crazy-max",
         "label": "CrazyMax (crazy-max) @ @docker",
-        "followers": 2715,
+        "followers": 2716,
         "weight": 2
       },
       {
         "login": "mikedemarais",
         "label": "Michael Demarais (mikedemarais) @ @rainbow-me",
-        "followers": 1830,
+        "followers": 1829,
         "weight": 2
       },
       {
@@ -2117,44 +2333,44 @@
         "weight": 1
       },
       {
-        "login": "tatsuyafujisaki",
-        "label": "Tatsuya Fujisaki (tatsuyafujisaki)",
-        "followers": 824,
+        "login": "robjtede",
+        "label": "Rob Ede (robjtede) @ @krakenfx",
+        "followers": 878,
         "weight": 1
       },
       {
         "login": "jsoref",
         "label": "Josh Soref (jsoref) @ @GarnerCorp ",
-        "followers": 712,
+        "followers": 713,
         "weight": 1
       },
       {
         "login": "peaceiris",
         "label": "Shohei Ueda (peaceiris) @ @abema, @CyberAgent",
-        "followers": 609,
+        "followers": 610,
         "weight": 1
       },
       {
-        "login": "ronami",
-        "label": "Ronen Amiel (ronami) @ @wix ",
-        "followers": 543,
+        "login": "brc-dd",
+        "label": "Divyansh Singh (brc-dd)",
+        "followers": 544,
         "weight": 1
       }
     ],
-    "notable_score": 25,
-    "notable_density": 0.9,
+    "notable_score": 24,
+    "notable_density": 0.87,
     "notable_coverage_pct": 0.7,
     "bus_factor": 10,
     "top_contributors": [
       {
         "login": "SamMorrowDrums",
         "commits": 151,
-        "pct": 23.4
+        "pct": 23.3
       },
       {
         "login": "dependabot[bot]",
-        "commits": 55,
-        "pct": 8.5
+        "commits": 58,
+        "pct": 9.0
       },
       {
         "login": "Copilot",
@@ -2164,7 +2380,7 @@
       {
         "login": "JoannaaKL",
         "commits": 50,
-        "pct": 7.8
+        "pct": 7.7
       },
       {
         "login": "williammartin",
@@ -2172,27 +2388,38 @@
         "pct": 6.8
       }
     ],
-    "days_since_commit": 3,
+    "days_since_commit": 0,
     "issue_ratio": 0.79,
     "open_issues": 164,
-    "closed_issues": 611,
-    "forks": 3719,
-    "age_months": 12.3,
+    "closed_issues": 613,
+    "forks": 3725,
+    "age_months": 12.4,
     "signals": {
-      "notable_density": 9.0,
+      "notable_density": 8.7,
       "bus_factor": 10,
       "freshness": 10,
       "issue_health": 9.9,
       "star_velocity": 4
     },
     "quality_score": 8.8,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 8.8,
         "signals": {
           "notable_density": 9.0,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 9.9,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 8.8,
+        "signals": {
+          "notable_density": 8.7,
           "bus_factor": 10,
           "freshness": 10,
           "issue_health": 9.9,
@@ -2219,36 +2446,30 @@
     "weaknesses": "Zwei Haupt-Contributor dominieren (pavelfeldman 52%, yury-s 24%), Notable Density niedrig",
     "learned": "Noch nicht getestet. Potenzial fuer Browser-basierte Agent-Workflows und Testing.",
     "category": "radar",
-    "stars": 28490,
+    "stars": 28586,
     "added": "2026-03-09",
     "notable_stargazers": [
       {
-        "login": "mxschmitt",
-        "label": "Max Schmitt (mxschmitt) @ @Microsoft",
-        "followers": 2002,
-        "weight": 2
+        "login": "diego3g",
+        "label": "Diego Fernandes (diego3g) @ @Rocketseat ",
+        "followers": 32622,
+        "weight": 8
       },
       {
-        "login": "coderyi",
-        "label": "coderyi (coderyi)",
-        "followers": 1326,
+        "login": "mxschmitt",
+        "label": "Max Schmitt (mxschmitt) @ @Microsoft",
+        "followers": 2004,
         "weight": 2
       },
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
-        "weight": 1
-      },
-      {
-        "login": "hkjang",
-        "label": "hkjang (hkjang) @ Korea Credit Bureau",
-        "followers": 636,
+        "followers": 734,
         "weight": 1
       }
     ],
-    "notable_score": 6,
-    "notable_density": 0.21,
+    "notable_score": 11,
+    "notable_density": 0.38,
     "notable_coverage_pct": 0.7,
     "bus_factor": 3,
     "top_contributors": [
@@ -2268,27 +2489,38 @@
         "pct": 8.5
       }
     ],
-    "days_since_commit": 4,
-    "issue_ratio": 0.97,
-    "open_issues": 21,
-    "closed_issues": 738,
-    "forks": 2302,
-    "age_months": 11.7,
+    "days_since_commit": 0,
+    "issue_ratio": 0.98,
+    "open_issues": 18,
+    "closed_issues": 742,
+    "forks": 2309,
+    "age_months": 11.8,
     "signals": {
-      "notable_density": 2.1,
+      "notable_density": 3.8,
       "bus_factor": 7,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 6.4,
-    "last_updated": "2026-03-09",
+    "quality_score": 6.8,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 6.4,
         "signals": {
           "notable_density": 2.1,
+          "bus_factor": 7,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.8,
+        "signals": {
+          "notable_density": 3.8,
           "bus_factor": 7,
           "freshness": 10,
           "issue_health": 10,
@@ -2321,7 +2553,7 @@
     "weaknesses": "Bus Factor 1 (yamadashy 83%), niedrige Issue-Ratio (0.47), wenig Notable Stargazers",
     "learned": "Noch nicht getestet. Alternative zu manuellem Context-Zusammenstellen fuer Claude Code Sessions.",
     "category": "radar",
-    "stars": 22315,
+    "stars": 22352,
     "added": "2026-03-09",
     "notable_stargazers": [
       {
@@ -2344,25 +2576,25 @@
     "top_contributors": [
       {
         "login": "yamadashy",
-        "commits": 2440,
+        "commits": 2446,
         "pct": 82.8
       }
     ],
-    "days_since_commit": 1,
-    "issue_ratio": 0.47,
-    "open_issues": 124,
+    "days_since_commit": 0,
+    "issue_ratio": 0.46,
+    "open_issues": 125,
     "closed_issues": 108,
-    "forks": 1034,
-    "age_months": 20.1,
+    "forks": 1038,
+    "age_months": 20.2,
     "signals": {
       "notable_density": 0.9,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 5.9,
+      "issue_health": 5.8,
       "star_velocity": 7
     },
-    "quality_score": 4.7,
-    "last_updated": "2026-03-09",
+    "quality_score": 4.6,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
@@ -2372,6 +2604,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 5.9,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 4.6,
+        "signals": {
+          "notable_density": 0.9,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 5.8,
           "star_velocity": 7
         }
       }
@@ -2395,7 +2638,7 @@
     "weaknesses": "Schnelles Wachstum (80k in 16 Monaten), Notable Density niedrig relativ zur Groesse",
     "learned": "Noch nicht getestet. Interessant fuer Web-Interaktion in Agent-Pipelines.",
     "category": "radar",
-    "stars": 80005,
+    "stars": 80210,
     "added": "2026-03-09",
     "notable_stargazers": [
       {
@@ -2419,12 +2662,18 @@
       {
         "login": "mishushakov",
         "label": "Mish Ushakov (mishushakov) @ @e2b-dev",
-        "followers": 607,
+        "followers": 608,
+        "weight": 1
+      },
+      {
+        "login": "tigefa4u",
+        "label": "Sugeng Tigefa (tigefa4u)",
+        "followers": 525,
         "weight": 1
       }
     ],
-    "notable_score": 6,
-    "notable_density": 0.07,
+    "notable_score": 7,
+    "notable_density": 0.09,
     "notable_coverage_pct": 0.2,
     "bus_factor": 5,
     "top_contributors": [
@@ -2454,27 +2703,38 @@
         "pct": 5.8
       }
     ],
-    "days_since_commit": 0,
+    "days_since_commit": 1,
     "issue_ratio": 0.92,
-    "open_issues": 109,
+    "open_issues": 110,
     "closed_issues": 1297,
-    "forks": 9448,
-    "age_months": 16.4,
+    "forks": 9469,
+    "age_months": 16.5,
     "signals": {
-      "notable_density": 0.7,
+      "notable_density": 0.9,
       "bus_factor": 9,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 6.5,
-    "last_updated": "2026-03-09",
+    "quality_score": 6.6,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 6.5,
         "signals": {
           "notable_density": 0.7,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.6,
+        "signals": {
+          "notable_density": 0.9,
           "bus_factor": 9,
           "freshness": 10,
           "issue_health": 10,
@@ -2506,9 +2766,21 @@
     "weaknesses": "AGPL-3.0 Lizenz (Einschraenkung fuer kommerzielle Nutzung), Notable Density niedrig fuer 90k Repo",
     "learned": "Noch nicht getestet. Evaluieren fuer Web-Content-Ingestion in Research-Pipelines.",
     "category": "radar",
-    "stars": 89995,
+    "stars": 90759,
     "added": "2026-03-09",
     "notable_stargazers": [
+      {
+        "login": "cuixiaorui",
+        "label": "阿崔cxr (cuixiaorui)",
+        "followers": 3234,
+        "weight": 2
+      },
+      {
+        "login": "limbopro",
+        "label": "毒奶博主 (limbopro) @ limbopro.inc",
+        "followers": 2376,
+        "weight": 2
+      },
       {
         "login": "JimmyLv",
         "label": "JimmyLv_吕立青 (JimmyLv) @ EvergreenAI",
@@ -2516,15 +2788,9 @@
         "weight": 2
       },
       {
-        "login": "johnil",
-        "label": "johnil",
-        "followers": 1004,
-        "weight": 2
-      },
-      {
         "login": "nicobailon",
         "label": "Nico Bailon (nicobailon) @ Saje Natural Wellness",
-        "followers": 651,
+        "followers": 662,
         "weight": 1
       },
       {
@@ -2534,15 +2800,15 @@
         "weight": 1
       }
     ],
-    "notable_score": 6,
-    "notable_density": 0.07,
+    "notable_score": 8,
+    "notable_density": 0.09,
     "notable_coverage_pct": 0.2,
     "bus_factor": 3,
     "top_contributors": [
       {
         "login": "nickscamara",
         "commits": 1839,
-        "pct": 39.1
+        "pct": 39.0
       },
       {
         "login": "mogery",
@@ -2552,30 +2818,41 @@
       {
         "login": "rafaelsideguide",
         "commits": 586,
-        "pct": 12.5
+        "pct": 12.4
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.95,
-    "open_issues": 43,
-    "closed_issues": 781,
-    "forks": 6282,
+    "open_issues": 42,
+    "closed_issues": 782,
+    "forks": 6324,
     "age_months": 23.1,
     "signals": {
-      "notable_density": 0.7,
+      "notable_density": 0.9,
       "bus_factor": 7,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 6.0,
-    "last_updated": "2026-03-09",
+    "quality_score": 6.1,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 6.0,
         "signals": {
           "notable_density": 0.7,
+          "bus_factor": 7,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.1,
+        "signals": {
+          "notable_density": 0.9,
           "bus_factor": 7,
           "freshness": 10,
           "issue_health": 10,
@@ -2598,7 +2875,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/paperclipai/paperclip",
-    "stars": 13686,
+    "stars": 16024,
     "language": "TypeScript",
     "license": "MIT",
     "description": "Open-Source Orchestrierung fuer 'Zero-Human Companies'. Koordiniert mehrere AI Agents (OpenClaw, Claude Code, Codex) mit Org-Charts, Budgets, Scheduling und Audit Trails.",
@@ -2615,38 +2892,44 @@
         "weight": 2
       },
       {
-        "login": "andfanilo",
-        "label": "Fanilo Andrianasolo (andfanilo) @ Worldline",
-        "followers": 710,
+        "login": "heynemann",
+        "label": "Bernardo Heynemann (heynemann) @ @NSXBet ",
+        "followers": 810,
+        "weight": 1
+      },
+      {
+        "login": "adamjonas",
+        "label": "Jonas (adamjonas) @ Chaincode Labs",
+        "followers": 524,
         "weight": 1
       }
     ],
-    "notable_score": 3,
-    "notable_density": 0.22,
-    "notable_coverage_pct": 1.5,
+    "notable_score": 4,
+    "notable_density": 0.25,
+    "notable_coverage_pct": 1.2,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "cryppadotta",
-        "commits": 618,
+        "commits": 659,
         "pct": 90.4
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.25,
-    "open_issues": 113,
-    "closed_issues": 38,
-    "forks": 1564,
+    "issue_ratio": 0.24,
+    "open_issues": 139,
+    "closed_issues": 43,
+    "forks": 1926,
     "age_months": 1,
     "signals": {
-      "notable_density": 2.2,
+      "notable_density": 2.5,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 3.1,
+      "issue_health": 3.0,
       "star_velocity": 4
     },
-    "quality_score": 4.1,
-    "last_updated": "2026-03-09",
+    "quality_score": 4.2,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
@@ -2656,6 +2939,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 3.1,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 4.2,
+        "signals": {
+          "notable_density": 2.5,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 3.0,
           "star_velocity": 4
         }
       }
@@ -2672,7 +2966,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Trial",
     "url": "https://github.com/e2b-dev/E2B",
-    "stars": 11190,
+    "stars": 11211,
     "language": "MDX",
     "license": "apache-2.0",
     "description": "Sichere Cloud-Sandboxes fuer AI Agents. Isolierte Umgebungen mit echten Tools (Shell, Filesystem, Browser) fuer autonome Code-Ausfuehrung.",
@@ -2685,19 +2979,13 @@
       {
         "login": "PatrickJS",
         "label": "PatrickJS (PatrickJS) @ @kunai-consulting",
-        "followers": 3496,
+        "followers": 3497,
         "weight": 2
       },
       {
         "login": "zu1k",
         "label": "zu1k (zu1k)",
         "followers": 3412,
-        "weight": 2
-      },
-      {
-        "login": "lexburner",
-        "label": "daofeng (lexburner) @ alibaba.inc",
-        "followers": 2248,
         "weight": 2
       },
       {
@@ -2709,19 +2997,19 @@
       {
         "login": "No-Github",
         "label": "r0fus0d (No-Github) @ @wgpsec",
-        "followers": 1013,
+        "followers": 1016,
         "weight": 2
+      },
+      {
+        "login": "theowenyoung",
+        "label": "Owen (theowenyoung)",
+        "followers": 937,
+        "weight": 1
       },
       {
         "login": "stevenheidel",
         "label": "Steven Heidel (stevenheidel) @ @openai ",
         "followers": 741,
-        "weight": 1
-      },
-      {
-        "login": "austinsonger",
-        "label": "Austin Songer, CISSP (austinsonger)",
-        "followers": 587,
         "weight": 1
       },
       {
@@ -2731,8 +3019,8 @@
         "weight": 1
       }
     ],
-    "notable_score": 13,
-    "notable_density": 1.16,
+    "notable_score": 11,
+    "notable_density": 0.98,
     "notable_coverage_pct": 1.8,
     "bus_factor": 4,
     "top_contributors": [
@@ -2748,36 +3036,47 @@
       },
       {
         "login": "jakubno",
-        "commits": 745,
+        "commits": 746,
         "pct": 15.9
       },
       {
         "login": "github-actions[bot]",
-        "commits": 383,
+        "commits": 384,
         "pct": 8.2
       }
     ],
-    "days_since_commit": 3,
+    "days_since_commit": 0,
     "issue_ratio": 0.88,
-    "open_issues": 39,
-    "closed_issues": 274,
+    "open_issues": 38,
+    "closed_issues": 275,
     "forks": 792,
     "age_months": 36.7,
     "signals": {
-      "notable_density": 10,
+      "notable_density": 9.8,
       "bus_factor": 8,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 10
     },
-    "quality_score": 9.5,
-    "last_updated": "2026-03-09",
+    "quality_score": 9.4,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 9.5,
         "signals": {
           "notable_density": 10,
+          "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 9.4,
+        "signals": {
+          "notable_density": 9.8,
           "bus_factor": 8,
           "freshness": 10,
           "issue_health": 10,
@@ -2797,7 +3096,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/awslabs/mcp",
-    "stars": 8392,
+    "stars": 8401,
     "language": "Python",
     "license": "apache-2.0",
     "description": "Offizielle MCP-Server von AWS. Zugriff auf S3, Lambda, DynamoDB, CloudWatch und weitere AWS-Dienste via Model Context Protocol.",
@@ -2858,7 +3157,7 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 734,
         "weight": 1
       },
       {
@@ -2875,35 +3174,35 @@
     "top_contributors": [
       {
         "login": "awslabs-mcp",
-        "commits": 242,
-        "pct": 28.1
+        "commits": 245,
+        "pct": 28.0
       },
       {
         "login": "scottschreckengaust",
-        "commits": 199,
-        "pct": 23.1
+        "commits": 200,
+        "pct": 22.9
       },
       {
         "login": "dependabot[bot]",
         "commits": 60,
-        "pct": 7.0
+        "pct": 6.9
       },
       {
         "login": "arnewouters",
         "commits": 59,
-        "pct": 6.9
+        "pct": 6.8
       },
       {
         "login": "krokoko",
         "commits": 38,
-        "pct": 4.4
+        "pct": 4.3
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.76,
-    "open_issues": 123,
+    "open_issues": 125,
     "closed_issues": 394,
-    "forks": 1335,
+    "forks": 1341,
     "age_months": 11.8,
     "signals": {
       "notable_density": 10,
@@ -2913,10 +3212,21 @@
       "star_velocity": 7
     },
     "quality_score": 9.5,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 9.5,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 9.5,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 9.5,
         "signals": {
           "notable_density": 10,
@@ -2939,7 +3249,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/triggerdotdev/trigger.dev",
-    "stars": 13977,
+    "stars": 13983,
     "language": "TypeScript",
     "license": "apache-2.0",
     "description": "Plattform fuer AI Agent Workflows. Build and deploy managed agents mit Background Jobs, Scheduling und Observability.",
@@ -2952,19 +3262,19 @@
       {
         "login": "zenorocha",
         "label": "Zeno Rocha (zenorocha) @ @resend",
-        "followers": 11429,
+        "followers": 11427,
         "weight": 8
       },
       {
         "login": "ericelliott",
         "label": "Eric Elliott (ericelliott)",
-        "followers": 6551,
+        "followers": 6552,
         "weight": 4
       },
       {
         "login": "nikivdev",
         "label": "Nikita (nikivdev)",
-        "followers": 4979,
+        "followers": 4982,
         "weight": 2
       },
       {
@@ -3000,7 +3310,7 @@
       {
         "login": "arikchakma",
         "label": "Arik Chakma (arikchakma) @ @roadmapsh ",
-        "followers": 502,
+        "followers": 505,
         "weight": 1
       }
     ],
@@ -3027,10 +3337,10 @@
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.76,
-    "open_issues": 170,
+    "open_issues": 172,
     "closed_issues": 546,
-    "forks": 1076,
-    "age_months": 39.8,
+    "forks": 1078,
+    "age_months": 39.9,
     "signals": {
       "notable_density": 10,
       "bus_factor": 7,
@@ -3039,10 +3349,21 @@
       "star_velocity": 10
     },
     "quality_score": 9.2,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 9.2,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 7,
+          "freshness": 10,
+          "issue_health": 9.5,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 9.2,
         "signals": {
           "notable_density": 10,
@@ -3065,7 +3386,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/mcp-use/mcp-use",
-    "stars": 9404,
+    "stars": 9417,
     "language": "TypeScript",
     "license": "mit",
     "description": "Fullstack MCP Framework. Entwickle MCP Apps fuer ChatGPT, Claude und andere LLMs mit einheitlicher API.",
@@ -3078,13 +3399,13 @@
       {
         "login": "hwchase17",
         "label": "Harrison Chase (hwchase17)",
-        "followers": 9524,
+        "followers": 9529,
         "weight": 4
       },
       {
         "login": "wshobson",
         "label": "Seth Hobson (wshobson) @ UDT | Major 7 Apps",
-        "followers": 1614,
+        "followers": 1620,
         "weight": 2
       },
       {
@@ -3108,13 +3429,13 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 734,
         "weight": 1
       },
       {
         "login": "artob",
         "label": "Arto Bendiken (artob) @ @asimov-platform",
-        "followers": 666,
+        "followers": 658,
         "weight": 1
       },
       {
@@ -3150,12 +3471,12 @@
         "pct": 11.2
       }
     ],
-    "days_since_commit": 0,
-    "issue_ratio": 0.83,
+    "days_since_commit": 1,
+    "issue_ratio": 0.84,
     "open_issues": 45,
-    "closed_issues": 227,
-    "forks": 1155,
-    "age_months": 11.5,
+    "closed_issues": 229,
+    "forks": 1157,
+    "age_months": 11.6,
     "signals": {
       "notable_density": 10,
       "bus_factor": 8,
@@ -3164,10 +3485,21 @@
       "star_velocity": 7
     },
     "quality_score": 9.1,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 9.1,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 9.1,
         "signals": {
           "notable_density": 10,
@@ -3190,7 +3522,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/trailofbits/skills",
-    "stars": 3425,
+    "stars": 3455,
     "language": "Python",
     "license": "cc-by-sa-4.0",
     "description": "Claude Code Skills fuer Security Research von Trail of Bits. Vulnerability Analysis, Fuzzing, Binary Analysis.",
@@ -3209,19 +3541,19 @@
       {
         "login": "dwisiswant0",
         "label": "Dwi Siswanto (dwisiswant0) @ @projectdiscovery",
-        "followers": 2133,
+        "followers": 2134,
         "weight": 2
       },
       {
         "login": "wajahatkarim3",
         "label": "Wajahat Karim (wajahatkarim3)",
-        "followers": 1826,
+        "followers": 1827,
         "weight": 2
       },
       {
         "login": "wh1t3p1g",
         "label": "wh1t3P1g (wh1t3p1g) @ Never Stop Exploiting",
-        "followers": 1392,
+        "followers": 1394,
         "weight": 2
       },
       {
@@ -3257,13 +3589,13 @@
       {
         "login": "achiurizo",
         "label": "Arthur Chiu (achiurizo)",
-        "followers": 1039,
+        "followers": 1040,
         "weight": 2
       }
     ],
     "notable_score": 36,
-    "notable_density": 10.51,
-    "notable_coverage_pct": 29.2,
+    "notable_density": 10.42,
+    "notable_coverage_pct": 28.9,
     "bus_factor": 6,
     "top_contributors": [
       {
@@ -3292,11 +3624,11 @@
         "pct": 5.5
       }
     ],
-    "days_since_commit": 5,
+    "days_since_commit": 6,
     "issue_ratio": 0.38,
     "open_issues": 10,
     "closed_issues": 6,
-    "forks": 267,
+    "forks": 270,
     "age_months": 1.8,
     "signals": {
       "notable_density": 10,
@@ -3306,10 +3638,21 @@
       "star_velocity": 7
     },
     "quality_score": 8.8,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 8.8,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 4.8,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 8.8,
         "signals": {
           "notable_density": 10,
@@ -3332,7 +3675,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Trial",
     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-    "stars": 28222,
+    "stars": 28366,
     "language": "TypeScript",
     "license": "apache-2.0",
     "description": "Chrome DevTools als MCP-Server. Browser-Debugging, DOM-Inspektion und Performance-Analyse direkt aus AI Agents.",
@@ -3345,25 +3688,25 @@
       {
         "login": "addyosmani",
         "label": "Addy Osmani (addyosmani) @ Google",
-        "followers": 45301,
+        "followers": 45312,
         "weight": 8
       },
       {
         "login": "paulirish",
         "label": "Paul Irish (paulirish) @ Google Chrome, ♥z",
-        "followers": 31806,
+        "followers": 31807,
         "weight": 8
       },
       {
         "login": "mathiasbynens",
         "label": "Mathias Bynens (mathiasbynens) @ @Google",
-        "followers": 12874,
+        "followers": 12878,
         "weight": 8
       },
       {
         "login": "schickling",
         "label": "Johannes Schickling (schickling) @ Overengineering Studio",
-        "followers": 2426,
+        "followers": 2427,
         "weight": 2
       },
       {
@@ -3375,19 +3718,19 @@
       {
         "login": "stefanjudis",
         "label": "Stefan Judis (stefanjudis)",
-        "followers": 1221,
+        "followers": 1222,
         "weight": 2
       },
       {
         "login": "nucliweb",
         "label": "Joan León (nucliweb) @ @PerfReviews",
-        "followers": 1048,
+        "followers": 1049,
         "weight": 2
       },
       {
         "login": "win4r",
         "label": "Chao Qin (win4r) @ Fitneess king Company",
-        "followers": 974,
+        "followers": 991,
         "weight": 1
       },
       {
@@ -3404,19 +3747,19 @@
       }
     ],
     "notable_score": 37,
-    "notable_density": 1.31,
+    "notable_density": 1.3,
     "notable_coverage_pct": 0.7,
     "bus_factor": 4,
     "top_contributors": [
       {
         "login": "OrKoN",
         "commits": 267,
-        "pct": 43.8
+        "pct": 43.6
       },
       {
         "login": "dependabot[bot]",
-        "commits": 115,
-        "pct": 18.9
+        "commits": 117,
+        "pct": 19.1
       },
       {
         "login": "Lightning00Blade",
@@ -3430,20 +3773,20 @@
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.8,
-    "open_issues": 64,
-    "closed_issues": 250,
-    "forks": 1657,
+    "issue_ratio": 0.79,
+    "open_issues": 65,
+    "closed_issues": 252,
+    "forks": 1663,
     "age_months": 6.0,
     "signals": {
       "notable_density": 10,
       "bus_factor": 8,
       "freshness": 10,
-      "issue_health": 10.0,
+      "issue_health": 9.9,
       "star_velocity": 4
     },
     "quality_score": 8.6,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
@@ -3453,6 +3796,17 @@
           "bus_factor": 8,
           "freshness": 10,
           "issue_health": 10.0,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 8.6,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 9.9,
           "star_velocity": 4
         }
       }
@@ -3474,7 +3828,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/firecrawl/firecrawl-mcp-server",
-    "stars": 5709,
+    "stars": 5725,
     "language": "JavaScript",
     "license": "mit",
     "description": "Offizieller MCP-Server fuer Firecrawl. Web-Scraping und Content-Extraction direkt als MCP-Tool fuer AI Agents.",
@@ -3493,7 +3847,7 @@
       {
         "login": "mikedemarais",
         "label": "Michael Demarais (mikedemarais) @ @rainbow-me",
-        "followers": 1830,
+        "followers": 1829,
         "weight": 2
       },
       {
@@ -3505,13 +3859,13 @@
       {
         "login": "johndpope",
         "label": "John D. Pope (johndpope)",
-        "followers": 1285,
+        "followers": 1277,
         "weight": 2
       },
       {
         "login": "joelhooks",
         "label": "Joel Hooks (joelhooks) @ egghead.io",
-        "followers": 1249,
+        "followers": 1251,
         "weight": 2
       },
       {
@@ -3529,13 +3883,13 @@
       {
         "login": "nickscamara",
         "label": "Nicolas (nickscamara) @ Firecrawl",
-        "followers": 802,
+        "followers": 803,
         "weight": 1
       },
       {
         "login": "mjunaidca",
         "label": "Muhammad Junaid (mjunaidca)",
-        "followers": 735,
+        "followers": 736,
         "weight": 1
       },
       {
@@ -3546,7 +3900,7 @@
       }
     ],
     "notable_score": 18,
-    "notable_density": 3.15,
+    "notable_density": 3.14,
     "notable_coverage_pct": 10.5,
     "bus_factor": 4,
     "top_contributors": [
@@ -3571,9 +3925,9 @@
         "pct": 4.5
       }
     ],
-    "days_since_commit": 5,
-    "issue_ratio": 0.33,
-    "open_issues": 47,
+    "days_since_commit": 7,
+    "issue_ratio": 0.32,
+    "open_issues": 48,
     "closed_issues": 23,
     "forks": 640,
     "age_months": 15.3,
@@ -3581,11 +3935,11 @@
       "notable_density": 10,
       "bus_factor": 8,
       "freshness": 10,
-      "issue_health": 4.1,
+      "issue_health": 4.0,
       "star_velocity": 10
     },
     "quality_score": 8.6,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
@@ -3595,6 +3949,17 @@
           "bus_factor": 8,
           "freshness": 10,
           "issue_health": 4.1,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 8.6,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 4.0,
           "star_velocity": 10
         }
       }
@@ -3614,7 +3979,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/chroma-core/chroma",
-    "stars": 26521,
+    "stars": 26542,
     "language": "Rust",
     "license": "apache-2.0",
     "description": "Open-Source Vector-Datenbank fuer AI. Embedding Storage, Similarity Search und Retrieval fuer RAG-Pipelines.",
@@ -3627,31 +3992,43 @@
       {
         "login": "swyxio",
         "label": "swyx.io (swyxio) @ smol.ai",
-        "followers": 7298,
+        "followers": 7302,
         "weight": 4
       },
       {
         "login": "nikivdev",
         "label": "Nikita (nikivdev)",
-        "followers": 4979,
+        "followers": 4982,
         "weight": 2
       },
       {
         "login": "transitive-bullshit",
         "label": "Travis Fischer (transitive-bullshit)",
-        "followers": 4485,
+        "followers": 4487,
         "weight": 2
       },
       {
         "login": "bdougie",
         "label": "Brian Douglas (bdougie) @ @papercomputeco",
-        "followers": 2488,
+        "followers": 2487,
         "weight": 2
       },
       {
         "login": "mahmoud",
         "label": "Mahmoud Hashemi (mahmoud) @ @hatnote",
         "followers": 2449,
+        "weight": 2
+      },
+      {
+        "login": "bvolpato",
+        "label": "Bruno Volpato (bvolpato) @ @DataDog",
+        "followers": 1765,
+        "weight": 2
+      },
+      {
+        "login": "SergioChan",
+        "label": "Sergio (SergioChan) @ @t54-labs",
+        "followers": 1084,
         "weight": 2
       },
       {
@@ -3667,19 +4044,19 @@
         "weight": 1
       }
     ],
-    "notable_score": 14,
-    "notable_density": 0.53,
+    "notable_score": 18,
+    "notable_density": 0.68,
     "notable_coverage_pct": 0.8,
     "bus_factor": 10,
     "top_contributors": [
       {
         "login": "HammadB",
         "commits": 531,
-        "pct": 14.1
+        "pct": 14.0
       },
       {
         "login": "rescrv",
-        "commits": 522,
+        "commits": 523,
         "pct": 13.8
       },
       {
@@ -3698,27 +4075,38 @@
         "pct": 7.8
       }
     ],
-    "days_since_commit": 0,
+    "days_since_commit": -1,
     "issue_ratio": 0.84,
-    "open_issues": 252,
-    "closed_issues": 1330,
-    "forks": 2091,
+    "open_issues": 250,
+    "closed_issues": 1332,
+    "forks": 2095,
     "age_months": 41.7,
     "signals": {
-      "notable_density": 5.3,
+      "notable_density": 6.8,
       "bus_factor": 10,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 7
     },
-    "quality_score": 8.4,
-    "last_updated": "2026-03-09",
+    "quality_score": 8.8,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 8.4,
         "signals": {
           "notable_density": 5.3,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 8.8,
+        "signals": {
+          "notable_density": 6.8,
           "bus_factor": 10,
           "freshness": 10,
           "issue_health": 10,
@@ -3738,7 +4126,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/letta-ai/letta",
-    "stars": 21478,
+    "stars": 21504,
     "language": "Python",
     "license": "apache-2.0",
     "description": "Plattform fuer Stateful AI Agents. Persistenter Speicher, Tool-Use und Multi-Step Reasoning ueber Sessions hinweg.",
@@ -3751,7 +4139,7 @@
       {
         "login": "transitive-bullshit",
         "label": "Travis Fischer (transitive-bullshit)",
-        "followers": 4485,
+        "followers": 4487,
         "weight": 2
       },
       {
@@ -3793,18 +4181,18 @@
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 734,
         "weight": 1
       },
       {
         "login": "b0o",
         "label": "Maddison Hellstrom (b0o) @ Founder @Sodium-AI",
-        "followers": 609,
+        "followers": 610,
         "weight": 1
       }
     ],
     "notable_score": 13,
-    "notable_density": 0.61,
+    "notable_density": 0.6,
     "notable_coverage_pct": 0.9,
     "bus_factor": 5,
     "top_contributors": [
@@ -3834,27 +4222,38 @@
         "pct": 5.0
       }
     ],
-    "days_since_commit": 5,
+    "days_since_commit": 6,
     "issue_ratio": 0.96,
-    "open_issues": 49,
+    "open_issues": 48,
     "closed_issues": 1086,
-    "forks": 2254,
-    "age_months": 29.3,
+    "forks": 2255,
+    "age_months": 29.4,
     "signals": {
-      "notable_density": 6.1,
+      "notable_density": 6.0,
       "bus_factor": 9,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 7
     },
     "quality_score": 8.3,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 8.3,
         "signals": {
           "notable_density": 6.1,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 8.3,
+        "signals": {
+          "notable_density": 6.0,
           "bus_factor": 9,
           "freshness": 10,
           "issue_health": 10,
@@ -3877,7 +4276,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/humanlayer/humanlayer",
-    "stars": 9742,
+    "stars": 9766,
     "language": "TypeScript",
     "license": "other",
     "description": "Human-in-the-Loop fuer AI Agents. Approval-Workflows, Eskalationen und Oversight fuer autonome Agent-Aktionen.",
@@ -3890,13 +4289,13 @@
       {
         "login": "wesm",
         "label": "Wes McKinney (wesm) @ @posit-pbc",
-        "followers": 16178,
+        "followers": 16180,
         "weight": 8
       },
       {
         "login": "eltociear",
         "label": "Ikko Eltociear Ashimine (eltociear)",
-        "followers": 1476,
+        "followers": 1478,
         "weight": 2
       },
       {
@@ -3908,19 +4307,19 @@
       {
         "login": "dexhorthy",
         "label": "Dex (dexhorthy)",
-        "followers": 1081,
+        "followers": 1082,
         "weight": 2
       },
       {
         "login": "MilleniumSpark",
         "label": "MilleniumSpark",
-        "followers": 781,
+        "followers": 775,
         "weight": 1
       },
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 734,
         "weight": 1
       },
       {
@@ -3937,8 +4336,8 @@
       }
     ],
     "notable_score": 18,
-    "notable_density": 1.85,
-    "notable_coverage_pct": 6.2,
+    "notable_density": 1.84,
+    "notable_coverage_pct": 6.1,
     "bus_factor": 4,
     "top_contributors": [
       {
@@ -3962,12 +4361,12 @@
         "pct": 7.8
       }
     ],
-    "days_since_commit": 60,
+    "days_since_commit": 62,
     "issue_ratio": 0.85,
     "open_issues": 41,
     "closed_issues": 224,
-    "forks": 831,
-    "age_months": 19.3,
+    "forks": 835,
+    "age_months": 19.4,
     "signals": {
       "notable_density": 10,
       "bus_factor": 8,
@@ -3976,10 +4375,21 @@
       "star_velocity": 7
     },
     "quality_score": 8.2,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 8.2,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 8,
+          "freshness": 6,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 8.2,
         "signals": {
           "notable_density": 10,
@@ -4002,7 +4412,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Trial",
     "url": "https://github.com/anthropics/claude-plugins-official",
-    "stars": 9565,
+    "stars": 9676,
     "language": "Python",
     "license": "",
     "description": "Offizielles Anthropic-Verzeichnis fuer hochwertige Claude Code Plugins. Kuratierte, getestete Erweiterungen.",
@@ -4015,7 +4425,13 @@
       {
         "login": "azu",
         "label": "azu (azu)",
-        "followers": 2803,
+        "followers": 2804,
+        "weight": 2
+      },
+      {
+        "login": "birobirobiro",
+        "label": "João Inácio Neto (birobirobiro) @ Nemu",
+        "followers": 2611,
         "weight": 2
       },
       {
@@ -4029,6 +4445,12 @@
         "label": "D_clock爱吃葱花 (D-clock) @ HuYa",
         "followers": 1008,
         "weight": 2
+      },
+      {
+        "login": "Mahmoudz",
+        "label": "Mahmoud Zalt (Mahmoudz) @ @sista-ai | @laradock | @apiato",
+        "followers": 977,
+        "weight": 1
       },
       {
         "login": "takahirom",
@@ -4057,47 +4479,47 @@
       {
         "login": "artemnovichkov",
         "label": "Artem Novichkov (artemnovichkov) @ Salmon Group Ltd",
-        "followers": 536,
+        "followers": 537,
         "weight": 1
       }
     ],
-    "notable_score": 11,
-    "notable_density": 1.15,
-    "notable_coverage_pct": 6.3,
-    "bus_factor": 6,
+    "notable_score": 14,
+    "notable_density": 1.45,
+    "notable_coverage_pct": 6.2,
+    "bus_factor": 7,
     "top_contributors": [
       {
         "login": "noahzweben",
         "commits": 29,
-        "pct": 35.4
+        "pct": 33.7
       },
       {
         "login": "ThariqS",
         "commits": 10,
-        "pct": 12.2
+        "pct": 11.6
       },
       {
         "login": "dicksontsai",
         "commits": 8,
-        "pct": 9.8
+        "pct": 9.3
       },
       {
         "login": "kencheeto",
         "commits": 7,
-        "pct": 8.5
+        "pct": 8.1
       },
       {
         "login": "isabella-anthropic",
         "commits": 7,
-        "pct": 8.5
+        "pct": 8.1
       }
     ],
-    "days_since_commit": 5,
+    "days_since_commit": 0,
     "issue_ratio": 0.14,
-    "open_issues": 179,
+    "open_issues": 182,
     "closed_issues": 30,
-    "forks": 964,
-    "age_months": 3.6,
+    "forks": 981,
+    "age_months": 3.7,
     "signals": {
       "notable_density": 10,
       "bus_factor": 10,
@@ -4106,10 +4528,21 @@
       "star_velocity": 4
     },
     "quality_score": 7.9,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 7.9,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 1.8,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 7.9,
         "signals": {
           "notable_density": 10,
@@ -4132,7 +4565,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/continuedev/continue",
-    "stars": 31742,
+    "stars": 31760,
     "language": "TypeScript",
     "license": "apache-2.0",
     "description": "Source-controlled AI Checks, enforceable in CI. AI-gestuetzte Code-Qualitaet als Teil der Development-Pipeline.",
@@ -4151,7 +4584,7 @@
       {
         "login": "lucasfcosta",
         "label": "Lucas da Costa (lucasfcosta) @ @resend",
-        "followers": 1264,
+        "followers": 1263,
         "weight": 2
       },
       {
@@ -4163,25 +4596,19 @@
       {
         "login": "omeraplak",
         "label": "Omer Aplak (omeraplak) @ @VoltAgent",
-        "followers": 835,
+        "followers": 836,
         "weight": 1
       },
       {
         "login": "HenryHengZJ",
         "label": "Henry Heng (HenryHengZJ)",
-        "followers": 755,
+        "followers": 757,
         "weight": 1
       },
       {
         "login": "guillaumegenthial",
         "label": "Guillaume Genthial (guillaumegenthial)",
         "followers": 669,
-        "weight": 1
-      },
-      {
-        "login": "LayZeeDK",
-        "label": "Lars Gyrup Brink Nielsen (LayZeeDK) @ @this-is-learning",
-        "followers": 540,
         "weight": 1
       },
       {
@@ -4197,19 +4624,19 @@
         "weight": 1
       }
     ],
-    "notable_score": 11,
-    "notable_density": 0.35,
+    "notable_score": 10,
+    "notable_density": 0.31,
     "notable_coverage_pct": 0.6,
     "bus_factor": 5,
     "top_contributors": [
       {
         "login": "sestinj",
-        "commits": 9618,
+        "commits": 9625,
         "pct": 49.1
       },
       {
         "login": "RomneyDa",
-        "commits": 2945,
+        "commits": 2947,
         "pct": 15.0
       },
       {
@@ -4224,31 +4651,42 @@
       },
       {
         "login": "uinstinct",
-        "commits": 733,
-        "pct": 3.7
+        "commits": 736,
+        "pct": 3.8
       }
     ],
-    "days_since_commit": 4,
+    "days_since_commit": 0,
     "issue_ratio": 0.8,
-    "open_issues": 1121,
-    "closed_issues": 4521,
-    "forks": 4234,
+    "open_issues": 1148,
+    "closed_issues": 4529,
+    "forks": 4235,
     "age_months": 34.0,
     "signals": {
-      "notable_density": 3.5,
+      "notable_density": 3.1,
       "bus_factor": 9,
       "freshness": 10,
       "issue_health": 10.0,
       "star_velocity": 7
     },
-    "quality_score": 7.7,
-    "last_updated": "2026-03-09",
+    "quality_score": 7.6,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 7.7,
         "signals": {
           "notable_density": 3.5,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 10.0,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 7.6,
+        "signals": {
+          "notable_density": 3.1,
           "bus_factor": 9,
           "freshness": 10,
           "issue_health": 10.0,
@@ -4268,7 +4706,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
-    "stars": 1742,
+    "stars": 1754,
     "language": "Python",
     "license": "mit",
     "description": "MCP-Server fuer Google Workspace. Gmail, Calendar, Docs, Sheets und Drive via Model Context Protocol steuern.",
@@ -4287,75 +4725,75 @@
       {
         "login": "CelaDaniel",
         "label": "Daniel Cela (CelaDaniel) @ @and-digital, @deltatre-innovation-lab, @deltatre-vxp",
-        "followers": 9933,
+        "followers": 9926,
         "weight": 4
       },
       {
         "login": "trinhminhtriet",
         "label": "Triet Trinh (trinhminhtriet) @ 🤖",
-        "followers": 7265,
+        "followers": 7258,
         "weight": 4
       },
       {
         "login": "danielroe",
         "label": "Daniel Roe (danielroe)",
-        "followers": 5728,
+        "followers": 5732,
         "weight": 4
       },
       {
         "login": "nikivdev",
         "label": "Nikita (nikivdev)",
-        "followers": 4979,
+        "followers": 4982,
         "weight": 2
       },
       {
         "login": "transitive-bullshit",
         "label": "Travis Fischer (transitive-bullshit)",
-        "followers": 4485,
+        "followers": 4487,
         "weight": 2
       },
       {
         "login": "omarsar",
         "label": "Elvis Saravia (omarsar) @ DAIR.AI",
-        "followers": 4091,
+        "followers": 4093,
         "weight": 2
       },
       {
         "login": "terrytangyuan",
         "label": "Yuan Tang (terrytangyuan) @ Red Hat",
-        "followers": 3793,
+        "followers": 3795,
         "weight": 2
       },
       {
         "login": "slavaGanzin",
         "label": "Slava (slavaGanzin)",
-        "followers": 2949,
+        "followers": 2948,
         "weight": 2
       },
       {
         "login": "jlowin",
         "label": "Jeremiah Lowin (jlowin) @ @PrefectHQ ",
-        "followers": 2198,
+        "followers": 2200,
         "weight": 2
       }
     ],
     "notable_score": 46,
-    "notable_density": 26.41,
-    "notable_coverage_pct": 57.4,
+    "notable_density": 26.23,
+    "notable_coverage_pct": 57.0,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "taylorwilsdon",
-        "commits": 1321,
-        "pct": 90.2
+        "commits": 1328,
+        "pct": 90.1
       }
     ],
-    "days_since_commit": 3,
-    "issue_ratio": 0.83,
-    "open_issues": 37,
-    "closed_issues": 185,
-    "forks": 508,
-    "age_months": 10.5,
+    "days_since_commit": 0,
+    "issue_ratio": 0.84,
+    "open_issues": 36,
+    "closed_issues": 187,
+    "forks": 515,
+    "age_months": 10.6,
     "signals": {
       "notable_density": 10,
       "bus_factor": 2,
@@ -4364,10 +4802,21 @@
       "star_velocity": 8
     },
     "quality_score": 7.7,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 7.7,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 8
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 7.7,
         "signals": {
           "notable_density": 10,
@@ -4390,7 +4839,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/mem0ai/mem0",
-    "stars": 49163,
+    "stars": 49317,
     "language": "Python",
     "license": "apache-2.0",
     "description": "Universelle Memory-Schicht fuer AI Agents. Persistenter, strukturierter Speicher ueber Sessions und Agents hinweg.",
@@ -4401,39 +4850,27 @@
     "category": "radar",
     "notable_stargazers": [
       {
-        "login": "guo-yu",
-        "label": "Guo Yu (guo-yu) @ Retired",
-        "followers": 5331,
-        "weight": 4
-      },
-      {
         "login": "naman14",
         "label": "Naman Dwivedi (naman14) @ @glip-gg @hks-epod",
         "followers": 1642,
         "weight": 2
       },
       {
-        "login": "wfnuser",
-        "label": "Qinghao Huang (wfnuser) @ @36node @ArkTicketTech",
-        "followers": 1285,
-        "weight": 2
-      },
-      {
         "login": "adithya-s-k",
         "label": "Adithya S K (adithya-s-k) @ Cognitivelab",
-        "followers": 1229,
+        "followers": 1230,
         "weight": 2
       },
       {
         "login": "JiuBanA1",
         "label": "久绊A (JiuBanA1)",
-        "followers": 951,
+        "followers": 942,
         "weight": 1
       },
       {
         "login": "rmax",
         "label": "R Max Espinoza (rmax) @ Milence",
-        "followers": 660,
+        "followers": 661,
         "weight": 1
       },
       {
@@ -4443,8 +4880,8 @@
         "weight": 1
       }
     ],
-    "notable_score": 13,
-    "notable_density": 0.26,
+    "notable_score": 7,
+    "notable_density": 0.14,
     "notable_coverage_pct": 0.4,
     "bus_factor": 7,
     "top_contributors": [
@@ -4476,25 +4913,36 @@
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.67,
-    "open_issues": 459,
-    "closed_issues": 944,
-    "forks": 5489,
+    "open_issues": 457,
+    "closed_issues": 949,
+    "forks": 5505,
     "age_months": 33.1,
     "signals": {
-      "notable_density": 2.6,
+      "notable_density": 1.4,
       "bus_factor": 10,
       "freshness": 10,
       "issue_health": 8.4,
       "star_velocity": 7
     },
-    "quality_score": 7.5,
-    "last_updated": "2026-03-09",
+    "quality_score": 7.2,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 7.5,
         "signals": {
           "notable_density": 2.6,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 8.4,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 7.2,
+        "signals": {
+          "notable_density": 1.4,
           "bus_factor": 10,
           "freshness": 10,
           "issue_health": 8.4,
@@ -4519,7 +4967,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/crewAIInc/crewAI",
-    "stars": 45591,
+    "stars": 45701,
     "language": "Python",
     "license": "mit",
     "description": "Framework fuer Multi-Agent-Orchestrierung. Rollenbasierte AI Agents die als Team zusammenarbeiten.",
@@ -4544,7 +4992,7 @@
       {
         "login": "jmorganca",
         "label": "Jeffrey Morgan (jmorganca) @ @ollama",
-        "followers": 2659,
+        "followers": 2661,
         "weight": 2
       },
       {
@@ -4567,7 +5015,7 @@
     "top_contributors": [
       {
         "login": "joaomdmoura",
-        "commits": 562,
+        "commits": 563,
         "pct": 33.6
       },
       {
@@ -4577,25 +5025,25 @@
       },
       {
         "login": "lorenzejay",
-        "commits": 177,
+        "commits": 178,
         "pct": 10.6
       },
       {
         "login": "bhancockio",
         "commits": 145,
-        "pct": 8.7
+        "pct": 8.6
       },
       {
         "login": "lucasgomide",
-        "commits": 124,
-        "pct": 7.4
+        "commits": 125,
+        "pct": 7.5
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.96,
-    "open_issues": 78,
-    "closed_issues": 1695,
-    "forks": 6133,
+    "open_issues": 77,
+    "closed_issues": 1698,
+    "forks": 6152,
     "age_months": 28.8,
     "signals": {
       "notable_density": 1.8,
@@ -4605,10 +5053,21 @@
       "star_velocity": 7
     },
     "quality_score": 7.5,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 7.5,
+        "signals": {
+          "notable_density": 1.8,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 7.5,
         "signals": {
           "notable_density": 1.8,
@@ -4634,7 +5093,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/trycua/cua",
-    "stars": 12947,
+    "stars": 12975,
     "language": "Python",
     "license": "mit",
     "description": "Open-Source Infrastruktur fuer Computer-Use Agents. Sandboxed Environments fuer GUI-Interaktion und Desktop-Automatisierung.",
@@ -4647,13 +5106,13 @@
       {
         "login": "shunkakinoki",
         "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
-        "followers": 855,
+        "followers": 860,
         "weight": 1
       },
       {
         "login": "tombuildsstuff",
         "label": "Tom Harvey (tombuildsstuff)",
-        "followers": 833,
+        "followers": 832,
         "weight": 1
       },
       {
@@ -4665,7 +5124,7 @@
       {
         "login": "alebcay",
         "label": "Caleb Xu (alebcay)",
-        "followers": 501,
+        "followers": 502,
         "weight": 1
       }
     ],
@@ -4691,18 +5150,18 @@
       },
       {
         "login": "github-actions[bot]",
-        "commits": 252,
+        "commits": 253,
         "pct": 9.5
       },
       {
         "login": "sarinali",
-        "commits": 169,
+        "commits": 171,
         "pct": 6.4
       }
     ],
-    "days_since_commit": 3,
+    "days_since_commit": 0,
     "issue_ratio": 0.64,
-    "open_issues": 83,
+    "open_issues": 84,
     "closed_issues": 149,
     "forks": 797,
     "age_months": 13.4,
@@ -4714,10 +5173,21 @@
       "star_velocity": 7
     },
     "quality_score": 7.5,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 7.5,
+        "signals": {
+          "notable_density": 3.1,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 8.0,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 7.5,
         "signals": {
           "notable_density": 3.1,
@@ -4740,7 +5210,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/block/goose",
-    "stars": 32710,
+    "stars": 32792,
     "language": "Rust",
     "license": "apache-2.0",
     "description": "Erweiterbarer AI Agent von Block (Square). Geht ueber Code hinaus: Dateien, APIs, Datenbanken. Rust-basiert, Plugin-System.",
@@ -4759,13 +5229,13 @@
       {
         "login": "BalestraPatrick",
         "label": "Patrick Balestra (BalestraPatrick) @ Spotify",
-        "followers": 839,
+        "followers": 838,
         "weight": 1
       },
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 734,
         "weight": 1
       },
       {
@@ -4773,10 +5243,16 @@
         "label": "Hugo (hugomd) @ @CashApp @Block",
         "followers": 591,
         "weight": 1
+      },
+      {
+        "login": "muety",
+        "label": "Ferdinand Mütsch (muety) @ Path to Zero GmbH",
+        "followers": 519,
+        "weight": 1
       }
     ],
-    "notable_score": 4,
-    "notable_density": 0.12,
+    "notable_score": 5,
+    "notable_density": 0.15,
     "notable_coverage_pct": 0.6,
     "bus_factor": 10,
     "top_contributors": [
@@ -4807,26 +5283,37 @@
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.85,
-    "open_issues": 282,
-    "closed_issues": 1539,
-    "forks": 3007,
-    "age_months": 18.7,
+    "issue_ratio": 0.86,
+    "open_issues": 250,
+    "closed_issues": 1580,
+    "forks": 3013,
+    "age_months": 18.8,
     "signals": {
-      "notable_density": 1.2,
+      "notable_density": 1.5,
       "bus_factor": 10,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 7
     },
-    "quality_score": 7.3,
-    "last_updated": "2026-03-09",
+    "quality_score": 7.4,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 7.3,
         "signals": {
           "notable_density": 1.2,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 7.4,
+        "signals": {
+          "notable_density": 1.5,
           "bus_factor": 10,
           "freshness": 10,
           "issue_health": 10,
@@ -4850,7 +5337,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/upstash/context7",
-    "stars": 48268,
+    "stars": 48437,
     "language": "TypeScript",
     "license": "mit",
     "description": "MCP-Server fuer aktuelle Code-Dokumentation. Liefert LLMs immer die neueste API-Referenz statt veraltetes Training-Wissen.",
@@ -4869,13 +5356,13 @@
       {
         "login": "transitive-bullshit",
         "label": "Travis Fischer (transitive-bullshit)",
-        "followers": 4485,
+        "followers": 4487,
         "weight": 2
       },
       {
         "login": "wong2",
         "label": "wong2 (wong2)",
-        "followers": 2375,
+        "followers": 2376,
         "weight": 2
       },
       {
@@ -4883,18 +5370,6 @@
         "label": "M Haidar Hanif (mhaidarhanif) @ @bearmentor @bearmentor-community",
         "followers": 1670,
         "weight": 2
-      },
-      {
-        "login": "aylei",
-        "label": "Aylei (aylei) @ Matrix Origin",
-        "followers": 1493,
-        "weight": 2
-      },
-      {
-        "login": "maomao1996",
-        "label": "maomao (maomao1996)",
-        "followers": 841,
-        "weight": 1
       },
       {
         "login": "wandergis",
@@ -4905,13 +5380,7 @@
       {
         "login": "nicobailon",
         "label": "Nico Bailon (nicobailon) @ Saje Natural Wellness",
-        "followers": 652,
-        "weight": 1
-      },
-      {
-        "login": "GEJ1",
-        "label": "Gustavo Ezequiel Juantorena (GEJ1)",
-        "followers": 564,
+        "followers": 662,
         "weight": 1
       },
       {
@@ -4921,47 +5390,42 @@
         "weight": 1
       }
     ],
-    "notable_score": 17,
-    "notable_density": 0.35,
+    "notable_score": 13,
+    "notable_density": 0.27,
     "notable_coverage_pct": 0.4,
-    "bus_factor": 4,
+    "bus_factor": 3,
     "top_contributors": [
       {
         "login": "enesgules",
-        "commits": 342,
-        "pct": 57.8
+        "commits": 343,
+        "pct": 57.2
       },
       {
         "login": "enesakar",
-        "commits": 70,
-        "pct": 11.8
+        "commits": 73,
+        "pct": 12.2
       },
       {
         "login": "fahreddinozcan",
-        "commits": 61,
-        "pct": 10.3
-      },
-      {
-        "login": "github-actions[bot]",
-        "commits": 19,
-        "pct": 3.2
+        "commits": 64,
+        "pct": 10.7
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.9,
-    "open_issues": 165,
-    "closed_issues": 1541,
-    "forks": 2280,
+    "open_issues": 176,
+    "closed_issues": 1548,
+    "forks": 2287,
     "age_months": 11.6,
     "signals": {
-      "notable_density": 3.5,
-      "bus_factor": 8,
+      "notable_density": 2.7,
+      "bus_factor": 7,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 7.0,
-    "last_updated": "2026-03-09",
+    "quality_score": 6.5,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
@@ -4969,6 +5433,17 @@
         "signals": {
           "notable_density": 3.5,
           "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.5,
+        "signals": {
+          "notable_density": 2.7,
+          "bus_factor": 7,
           "freshness": 10,
           "issue_health": 10,
           "star_velocity": 4
@@ -4990,7 +5465,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/anthropics/claude-agent-sdk-typescript",
-    "stars": 922,
+    "stars": 930,
     "language": "Shell",
     "license": "",
     "description": "Offizielle TypeScript-Implementation des Claude Agent SDK. Build AI Agents mit TypeScript und Claude.",
@@ -5003,37 +5478,37 @@
       {
         "login": "fengmk2",
         "label": "MK (fengmk2) (fengmk2) @ @voidzero-dev",
-        "followers": 8288,
+        "followers": 8289,
         "weight": 4
       },
       {
         "login": "transitive-bullshit",
         "label": "Travis Fischer (transitive-bullshit)",
-        "followers": 4485,
+        "followers": 4487,
         "weight": 2
       },
       {
         "login": "omarsar",
         "label": "Elvis Saravia (omarsar) @ DAIR.AI",
-        "followers": 4091,
+        "followers": 4093,
         "weight": 2
       },
       {
         "login": "visualGravitySense",
         "label": "Dmitri Gornakov (visualGravitySense) @ Designlytics",
-        "followers": 3833,
+        "followers": 3829,
         "weight": 2
       },
       {
         "login": "webdevcody",
         "label": "Web Dev Cody (webdevcody)",
-        "followers": 3253,
+        "followers": 3254,
         "weight": 2
       },
       {
         "login": "ipenywis",
         "label": "Islem Maboud (ipenywis) @ Perigon",
-        "followers": 3053,
+        "followers": 3054,
         "weight": 2
       },
       {
@@ -5045,7 +5520,7 @@
       {
         "login": "0Darkn",
         "label": "jose (0Darkn)",
-        "followers": 2526,
+        "followers": 2533,
         "weight": 2
       },
       {
@@ -5062,31 +5537,31 @@
       }
     ],
     "notable_score": 49,
-    "notable_density": 53.15,
+    "notable_density": 52.69,
     "notable_coverage_pct": 100.0,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "actions-user",
-        "commits": 120,
-        "pct": 91.6
+        "commits": 121,
+        "pct": 91.7
       }
     ],
-    "days_since_commit": 2,
-    "issue_ratio": 0.35,
-    "open_issues": 135,
-    "closed_issues": 72,
-    "forks": 99,
-    "age_months": 5.4,
+    "days_since_commit": 0,
+    "issue_ratio": 0.36,
+    "open_issues": 133,
+    "closed_issues": 76,
+    "forks": 101,
+    "age_months": 5.5,
     "signals": {
       "notable_density": 10,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 4.4,
+      "issue_health": 4.5,
       "star_velocity": 8
     },
     "quality_score": 6.9,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
@@ -5096,6 +5571,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 4.4,
+          "star_velocity": 8
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.9,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 4.5,
           "star_velocity": 8
         }
       }
@@ -5117,7 +5603,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/daytonaio/daytona",
-    "stars": 63292,
+    "stars": 63553,
     "language": "TypeScript",
     "license": "agpl-3.0",
     "description": "Sichere und elastische Infrastruktur fuer AI Workloads. Managed Development Environments mit Agent-Support.",
@@ -5130,13 +5616,13 @@
       {
         "login": "FrancescoXX",
         "label": "Francesco Ciulla (FrancescoXX) @ @dailydotdev ",
-        "followers": 3209,
+        "followers": 3210,
         "weight": 2
       },
       {
         "login": "bdougie",
         "label": "Brian Douglas (bdougie) @ @papercomputeco",
-        "followers": 2488,
+        "followers": 2487,
         "weight": 2
       },
       {
@@ -5153,23 +5639,23 @@
     "top_contributors": [
       {
         "login": "Tpuljak",
-        "commits": 577,
+        "commits": 580,
         "pct": 33.4
       },
       {
         "login": "idagelic",
-        "commits": 373,
+        "commits": 376,
         "pct": 21.6
       },
       {
         "login": "fabjanvucina",
         "commits": 124,
-        "pct": 7.2
+        "pct": 7.1
       },
       {
         "login": "MDzaja",
         "commits": 110,
-        "pct": 6.4
+        "pct": 6.3
       },
       {
         "login": "lbrecic",
@@ -5179,9 +5665,9 @@
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.78,
-    "open_issues": 237,
-    "closed_issues": 835,
-    "forks": 5069,
+    "open_issues": 236,
+    "closed_issues": 836,
+    "forks": 5071,
     "age_months": 25.4,
     "signals": {
       "notable_density": 0.8,
@@ -5191,10 +5677,21 @@
       "star_velocity": 4
     },
     "quality_score": 6.8,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 6.8,
+        "signals": {
+          "notable_density": 0.8,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 9.8,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 6.8,
         "signals": {
           "notable_density": 0.8,
@@ -5217,7 +5714,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/ComposioHQ/composio",
-    "stars": 27331,
+    "stars": 27340,
     "language": "TypeScript",
     "license": "mit",
     "description": "1000+ Tool-Integrationen fuer AI Agents. Tool Search, Context Management und Auth-Handling fuer Agent-Frameworks.",
@@ -5236,7 +5733,7 @@
       {
         "login": "kaichen",
         "label": "Kai (kaichen) @ @imtoken",
-        "followers": 536,
+        "followers": 537,
         "weight": 1
       }
     ],
@@ -5247,18 +5744,18 @@
     "top_contributors": [
       {
         "login": "Sushmithamallesh",
-        "commits": 1288,
-        "pct": 42.9
+        "commits": 1323,
+        "pct": 43.6
       },
       {
         "login": "haxzie",
-        "commits": 657,
-        "pct": 21.9
+        "commits": 659,
+        "pct": 21.7
       },
       {
         "login": "jkomyno",
         "commits": 423,
-        "pct": 14.1
+        "pct": 13.9
       },
       {
         "login": "alt-glitch",
@@ -5266,12 +5763,12 @@
         "pct": 5.9
       }
     ],
-    "days_since_commit": 2,
-    "issue_ratio": 0.93,
-    "open_issues": 37,
+    "days_since_commit": 0,
+    "issue_ratio": 0.92,
+    "open_issues": 38,
     "closed_issues": 457,
-    "forks": 4470,
-    "age_months": 24.8,
+    "forks": 4473,
+    "age_months": 24.9,
     "signals": {
       "notable_density": 1.1,
       "bus_factor": 8,
@@ -5280,10 +5777,21 @@
       "star_velocity": 7
     },
     "quality_score": 6.8,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 6.8,
+        "signals": {
+          "notable_density": 1.1,
+          "bus_factor": 8,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 6.8,
         "signals": {
           "notable_density": 1.1,
@@ -5306,7 +5814,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/anthropics/claude-agent-sdk-demos",
-    "stars": 1636,
+    "stars": 1651,
     "language": "TypeScript",
     "license": "",
     "description": "Offizielle Demo-Projekte fuer das Claude Agent SDK. Lern-Ressource fuer Agent-Entwicklung mit Claude.",
@@ -5319,49 +5827,49 @@
       {
         "login": "wasabeef",
         "label": "Daichi Furiya (wasabeef) @ CyberAgent, Inc.",
-        "followers": 9614,
+        "followers": 9615,
         "weight": 4
       },
       {
         "login": "dennisivy",
         "label": "Dennis Ivy (dennisivy)",
-        "followers": 7120,
+        "followers": 7121,
         "weight": 4
       },
       {
         "login": "JimLiu",
         "label": "Jim Liu 宝玉 (JimLiu)",
-        "followers": 2604,
+        "followers": 2631,
         "weight": 2
       },
       {
         "login": "koala73",
         "label": "Elie Habib (koala73)",
-        "followers": 1863,
+        "followers": 1889,
         "weight": 2
       },
       {
         "login": "mikedemarais",
         "label": "Michael Demarais (mikedemarais) @ @rainbow-me",
-        "followers": 1830,
+        "followers": 1829,
         "weight": 2
       },
       {
         "login": "wshobson",
         "label": "Seth Hobson (wshobson) @ UDT | Major 7 Apps",
-        "followers": 1614,
+        "followers": 1620,
         "weight": 2
       },
       {
         "login": "mannaandpoem",
         "label": "Manna Liang (mannaandpoem)",
-        "followers": 1406,
+        "followers": 1408,
         "weight": 2
       },
       {
         "login": "rudrankriyam",
         "label": "Rudrank Riyam (rudrankriyam) @ @rryam",
-        "followers": 849,
+        "followers": 850,
         "weight": 1
       },
       {
@@ -5378,8 +5886,8 @@
       }
     ],
     "notable_score": 32,
-    "notable_density": 19.56,
-    "notable_coverage_pct": 61.1,
+    "notable_density": 19.38,
+    "notable_coverage_pct": 60.6,
     "bus_factor": 2,
     "top_contributors": [
       {
@@ -5393,11 +5901,11 @@
         "pct": 18.2
       }
     ],
-    "days_since_commit": 60,
+    "days_since_commit": 61,
     "issue_ratio": 0.2,
     "open_issues": 8,
     "closed_issues": 2,
-    "forks": 255,
+    "forks": 257,
     "age_months": 5.8,
     "signals": {
       "notable_density": 10,
@@ -5407,10 +5915,21 @@
       "star_velocity": 10
     },
     "quality_score": 6.8,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 6.8,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 5,
+          "freshness": 6,
+          "issue_health": 2.5,
+          "star_velocity": 10
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 6.8,
         "signals": {
           "notable_density": 10,
@@ -5438,7 +5957,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Hold",
     "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
-    "stars": 7111,
+    "stars": 7112,
     "language": "JavaScript",
     "license": "mit",
     "description": "MCP-Server fuer Browser-Monitoring. Console Logs, Network Requests und Performance-Metriken direkt in AI Agents.",
@@ -5475,37 +5994,37 @@
       {
         "login": "mikedemarais",
         "label": "Michael Demarais (mikedemarais) @ @rainbow-me",
-        "followers": 1830,
+        "followers": 1829,
         "weight": 2
       },
       {
         "login": "code-yeongyu",
         "label": "YeonGyu-Kim (code-yeongyu) @ @indentcorp",
-        "followers": 1725,
+        "followers": 1734,
         "weight": 2
       },
       {
         "login": "shunkakinoki",
         "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
-        "followers": 855,
+        "followers": 860,
         "weight": 1
       },
       {
         "login": "mo-xiaoxi",
         "label": "moxiaoxi (mo-xiaoxi) @ Tsinghua University",
-        "followers": 802,
+        "followers": 803,
         "weight": 1
       },
       {
         "login": "nicobailon",
         "label": "Nico Bailon (nicobailon) @ Saje Natural Wellness",
-        "followers": 652,
+        "followers": 662,
         "weight": 1
       },
       {
         "login": "kieranklaassen",
         "label": "Kieran Klaassen (kieranklaassen)",
-        "followers": 596,
+        "followers": 598,
         "weight": 1
       }
     ],
@@ -5525,7 +6044,7 @@
         "pct": 26.6
       }
     ],
-    "days_since_commit": 348,
+    "days_since_commit": 349,
     "issue_ratio": 0.93,
     "open_issues": 11,
     "closed_issues": 147,
@@ -5539,10 +6058,21 @@
       "star_velocity": 7
     },
     "quality_score": 6.7,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 6.7,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 5,
+          "freshness": 2,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 6.7,
         "signals": {
           "notable_density": 10,
@@ -5570,7 +6100,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/BloopAI/vibe-kanban",
-    "stars": 22798,
+    "stars": 22885,
     "language": "Rust",
     "license": "apache-2.0",
     "description": "Kanban-Board fuer AI Coding Agents. Visuelles Task-Management fuer Claude Code, Codex und andere Coding Agents.",
@@ -5581,76 +6111,75 @@
     "category": "radar",
     "notable_stargazers": [
       {
-        "login": "retme7",
-        "label": "retme7",
-        "followers": 828,
-        "weight": 1
-      },
-      {
-        "login": "vincentdchan",
-        "label": "DZ Chen (vincentdchan)",
-        "followers": 509,
-        "weight": 1
-      },
-      {
         "login": "hugs",
         "label": "Jason Huggins (hugs)",
         "followers": 504,
         "weight": 1
       }
     ],
-    "notable_score": 3,
-    "notable_density": 0.13,
+    "notable_score": 1,
+    "notable_density": 0.04,
     "notable_coverage_pct": 0.9,
     "bus_factor": 5,
     "top_contributors": [
       {
         "login": "stunningpixels",
-        "commits": 850,
-        "pct": 44.8
+        "commits": 853,
+        "pct": 44.7
       },
       {
         "login": "abcpro1",
-        "commits": 240,
-        "pct": 12.7
+        "commits": 244,
+        "pct": 12.8
       },
       {
         "login": "LSRCT",
         "commits": 218,
-        "pct": 11.5
+        "pct": 11.4
       },
       {
         "login": "actions-user",
-        "commits": 187,
+        "commits": 189,
         "pct": 9.9
       },
       {
         "login": "ggordonhall",
         "commits": 187,
-        "pct": 9.9
+        "pct": 9.8
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.6,
-    "open_issues": 303,
-    "closed_issues": 456,
-    "forks": 2220,
-    "age_months": 8.9,
+    "open_issues": 304,
+    "closed_issues": 457,
+    "forks": 2239,
+    "age_months": 9.0,
     "signals": {
-      "notable_density": 1.3,
+      "notable_density": 0.4,
       "bus_factor": 9,
       "freshness": 10,
       "issue_health": 7.5,
       "star_velocity": 4
     },
-    "quality_score": 6.3,
-    "last_updated": "2026-03-09",
+    "quality_score": 6.1,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 6.3,
         "signals": {
           "notable_density": 1.3,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 7.5,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 6.1,
+        "signals": {
+          "notable_density": 0.4,
           "bus_factor": 9,
           "freshness": 10,
           "issue_health": 7.5,
@@ -5670,7 +6199,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/oraios/serena",
-    "stars": 21211,
+    "stars": 21291,
     "language": "Python",
     "license": "mit",
     "description": "Coding Agent Toolkit mit semantischem Code-Verstaendnis. AST-basierte Navigation und intelligente Code-Suche.",
@@ -5681,9 +6210,9 @@
     "category": "radar",
     "notable_stargazers": [
       {
-        "login": "naufaldi",
-        "label": "Naufaldi (naufaldi) @ Sukanda Djaya",
-        "followers": 614,
+        "login": "starcraft66",
+        "label": "Tristan (starcraft66) @ TZoNE",
+        "followers": 520,
         "weight": 1
       }
     ],
@@ -5694,20 +6223,20 @@
     "top_contributors": [
       {
         "login": "opcode81",
-        "commits": 1076,
-        "pct": 50.4
+        "commits": 1081,
+        "pct": 50.5
       },
       {
         "login": "MischaPanch",
         "commits": 869,
-        "pct": 40.7
+        "pct": 40.6
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.9,
-    "open_issues": 53,
-    "closed_issues": 492,
-    "forks": 1437,
+    "issue_ratio": 0.91,
+    "open_issues": 51,
+    "closed_issues": 496,
+    "forks": 1441,
     "age_months": 11.7,
     "signals": {
       "notable_density": 0.5,
@@ -5717,10 +6246,21 @@
       "star_velocity": 7
     },
     "quality_score": 5.9,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 5.9,
+        "signals": {
+          "notable_density": 0.5,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 5.9,
         "signals": {
           "notable_density": 0.5,
@@ -5743,7 +6283,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/wshobson/agents",
-    "stars": 30792,
+    "stars": 30913,
     "language": "Python",
     "license": "mit",
     "description": "Multi-Agent-Orchestrierung fuer Claude. Intelligente Automatisierung und Agent-Koordination.",
@@ -5760,32 +6300,26 @@
         "weight": 2
       },
       {
-        "login": "gatieme",
-        "label": "CHENG Jean (gatieme) @ Harbin Institute Of Technology",
-        "followers": 808,
-        "weight": 1
-      },
-      {
         "login": "youtube-jocoding",
         "label": "조코딩 JoCoding (youtube-jocoding)",
-        "followers": 791,
+        "followers": 792,
         "weight": 1
       },
       {
         "login": "czlonkowski",
         "label": "Romuald Członkowski (czlonkowski) @ AiAdvisors",
-        "followers": 743,
+        "followers": 748,
         "weight": 1
       },
       {
         "login": "Delta456",
         "label": "Swastik Baranwal (Delta456) @ @lambdatest",
-        "followers": 609,
+        "followers": 610,
         "weight": 1
       }
     ],
-    "notable_score": 6,
-    "notable_density": 0.19,
+    "notable_score": 5,
+    "notable_density": 0.16,
     "notable_coverage_pct": 0.6,
     "bus_factor": 2,
     "top_contributors": [
@@ -5800,27 +6334,38 @@
         "pct": 2.7
       }
     ],
-    "days_since_commit": 2,
+    "days_since_commit": 3,
     "issue_ratio": 0.98,
     "open_issues": 1,
     "closed_issues": 58,
-    "forks": 3380,
+    "forks": 3392,
     "age_months": 7.6,
     "signals": {
-      "notable_density": 1.9,
+      "notable_density": 1.6,
       "bus_factor": 5,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
     "quality_score": 5.8,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 5.8,
         "signals": {
           "notable_density": 1.9,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 5.8,
+        "signals": {
+          "notable_density": 1.6,
           "bus_factor": 5,
           "freshness": 10,
           "issue_health": 10,
@@ -5839,7 +6384,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/steveyegge/beads",
-    "stars": 18612,
+    "stars": 18704,
     "language": "Go",
     "license": "mit",
     "description": "Memory-Upgrade fuer Coding Agents. Persistenter Kontext ueber Sessions hinweg von Steve Yegge.",
@@ -5850,12 +6395,6 @@
     "category": "radar",
     "notable_stargazers": [
       {
-        "login": "atinux",
-        "label": "Sébastien Chopin (atinux) @ @nuxt . @vercel",
-        "followers": 5424,
-        "weight": 4
-      },
-      {
         "login": "killvxk",
         "label": "killvxk",
         "followers": 1577,
@@ -5864,13 +6403,13 @@
       {
         "login": "shunkakinoki",
         "label": "Shun Kakinoki (shunkakinoki) @ @0xSequence",
-        "followers": 855,
+        "followers": 860,
         "weight": 1
       },
       {
         "login": "tkersey",
         "label": "Tim Kersey (tkersey) @ @thisisartium",
-        "followers": 728,
+        "followers": 734,
         "weight": 1
       },
       {
@@ -5880,38 +6419,49 @@
         "weight": 1
       }
     ],
-    "notable_score": 9,
-    "notable_density": 0.48,
+    "notable_score": 5,
+    "notable_density": 0.27,
     "notable_coverage_pct": 1.1,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "steveyegge",
-        "commits": 4309,
-        "pct": 86.1
+        "commits": 4324,
+        "pct": 86.2
       }
     ],
-    "days_since_commit": 0,
-    "issue_ratio": 0.93,
-    "open_issues": 75,
-    "closed_issues": 964,
-    "forks": 1180,
-    "age_months": 4.9,
+    "days_since_commit": -1,
+    "issue_ratio": 0.94,
+    "open_issues": 65,
+    "closed_issues": 983,
+    "forks": 1188,
+    "age_months": 5.0,
     "signals": {
-      "notable_density": 4.8,
+      "notable_density": 2.7,
       "bus_factor": 2,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 5.8,
-    "last_updated": "2026-03-09",
+    "quality_score": 5.3,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 5.8,
         "signals": {
           "notable_density": 4.8,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 5.3,
+        "signals": {
+          "notable_density": 2.7,
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 10,
@@ -5935,7 +6485,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/affaan-m/everything-claude-code",
-    "stars": 68855,
+    "stars": 70419,
     "language": "JavaScript",
     "license": "mit",
     "description": "Agent Harness Performance-Optimierung fuer Claude Code. Skills, Workflows und Konfiguration in einem System.",
@@ -5948,7 +6498,7 @@
       {
         "login": "affaan-m",
         "label": "Affaan Mustafa (affaan-m) @ Itô",
-        "followers": 1982,
+        "followers": 2037,
         "weight": 2
       },
       {
@@ -5965,20 +6515,20 @@
     "top_contributors": [
       {
         "login": "affaan-m",
-        "commits": 322,
-        "pct": 73.7
+        "commits": 326,
+        "pct": 73.9
       },
       {
         "login": "pangerlkr",
         "commits": 41,
-        "pct": 9.4
+        "pct": 9.3
       }
     ],
-    "days_since_commit": 1,
-    "issue_ratio": 0.93,
-    "open_issues": 9,
-    "closed_issues": 129,
-    "forks": 8593,
+    "days_since_commit": 0,
+    "issue_ratio": 0.98,
+    "open_issues": 3,
+    "closed_issues": 136,
+    "forks": 8840,
     "age_months": 1.7,
     "signals": {
       "notable_density": 0.6,
@@ -5988,10 +6538,21 @@
       "star_velocity": 4
     },
     "quality_score": 5.5,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 5.5,
+        "signals": {
+          "notable_density": 0.6,
+          "bus_factor": 5,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 5.5,
         "signals": {
           "notable_density": 0.6,
@@ -6014,7 +6575,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/czlonkowski/n8n-mcp",
-    "stars": 14680,
+    "stars": 14824,
     "language": "TypeScript",
     "license": "mit",
     "description": "MCP-Server fuer n8n Workflow-Automatisierung. n8n-Workflows direkt aus AI Agents triggern und steuern.",
@@ -6026,7 +6587,7 @@
     "notable_stargazers": [],
     "notable_score": 0,
     "notable_density": 0.0,
-    "notable_coverage_pct": 1.4,
+    "notable_coverage_pct": 1.3,
     "bus_factor": 1,
     "top_contributors": [
       {
@@ -6035,21 +6596,21 @@
         "pct": 92.7
       }
     ],
-    "days_since_commit": 1,
-    "issue_ratio": 0.71,
-    "open_issues": 81,
+    "days_since_commit": 2,
+    "issue_ratio": 0.7,
+    "open_issues": 85,
     "closed_issues": 203,
-    "forks": 2591,
+    "forks": 2604,
     "age_months": 9.2,
     "signals": {
       "notable_density": 0.0,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 8.9,
+      "issue_health": 8.7,
       "star_velocity": 7
     },
     "quality_score": 4.9,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
@@ -6059,6 +6620,17 @@
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 8.9,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 4.9,
+        "signals": {
+          "notable_density": 0.0,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 8.7,
           "star_velocity": 7
         }
       }
@@ -6075,7 +6647,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/thedotmack/claude-mem",
-    "stars": 33670,
+    "stars": 33975,
     "language": "TypeScript",
     "license": "other",
     "description": "Claude Code Plugin fuer automatische Memory-Erfassung. Speichert Kontext, Entscheidungen und Learnings persistent.",
@@ -6088,7 +6660,7 @@
       {
         "login": "rennf93",
         "label": "Renzo F (rennf93)",
-        "followers": 1371,
+        "followers": 1364,
         "weight": 2
       }
     ],
@@ -6103,12 +6675,12 @@
         "pct": 90.9
       }
     ],
-    "days_since_commit": 0,
+    "days_since_commit": 1,
     "issue_ratio": 0.92,
-    "open_issues": 51,
+    "open_issues": 57,
     "closed_issues": 625,
-    "forks": 2332,
-    "age_months": 6.3,
+    "forks": 2364,
+    "age_months": 6.4,
     "signals": {
       "notable_density": 0.6,
       "bus_factor": 2,
@@ -6117,10 +6689,21 @@
       "star_velocity": 4
     },
     "quality_score": 4.8,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 4.8,
+        "signals": {
+          "notable_density": 0.6,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 4.8,
         "signals": {
           "notable_density": 0.6,
@@ -6147,7 +6730,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/punkpeye/awesome-mcp-servers",
-    "stars": 82586,
+    "stars": 82699,
     "language": "Unknown",
     "license": "mit",
     "description": "Kuratierte Sammlung von MCP-Servern. Umfassendstes Verzeichnis des MCP-Ecosystems.",
@@ -6157,6 +6740,12 @@
     "added": "2026-03-09",
     "category": "landscape",
     "notable_stargazers": [
+      {
+        "login": "Raphasha27",
+        "label": "Raphasha27 (Raphasha27) @ CAPACITI ",
+        "followers": 782,
+        "weight": 1
+      },
       {
         "login": "prabirshrestha",
         "label": "Prabir Shrestha (prabirshrestha) @ Microsoft",
@@ -6170,38 +6759,49 @@
         "weight": 1
       }
     ],
-    "notable_score": 2,
-    "notable_density": 0.02,
+    "notable_score": 3,
+    "notable_density": 0.04,
     "notable_coverage_pct": 0.2,
     "bus_factor": 1,
     "top_contributors": [
       {
         "login": "punkpeye",
-        "commits": 1914,
+        "commits": 1915,
         "pct": 84.9
       }
     ],
-    "days_since_commit": 0,
-    "issue_ratio": 0.99,
-    "open_issues": 3,
+    "days_since_commit": 1,
+    "issue_ratio": 0.96,
+    "open_issues": 8,
     "closed_issues": 216,
-    "forks": 7984,
+    "forks": 8030,
     "age_months": 15.5,
     "signals": {
-      "notable_density": 0.2,
+      "notable_density": 0.4,
       "bus_factor": 2,
       "freshness": 10,
       "issue_health": 10,
       "star_velocity": 4
     },
-    "quality_score": 4.6,
-    "last_updated": "2026-03-09",
+    "quality_score": 4.7,
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
         "score": 4.6,
         "signals": {
           "notable_density": 0.2,
+          "bus_factor": 2,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 4
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "score": 4.7,
+        "signals": {
+          "notable_density": 0.4,
           "bus_factor": 2,
           "freshness": 10,
           "issue_health": 10,
@@ -6221,7 +6821,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Hold",
     "url": "https://github.com/tadata-org/fastapi_mcp",
-    "stars": 11632,
+    "stars": 11639,
     "language": "Python",
     "license": "mit",
     "description": "Bridge zwischen FastAPI und MCP. Exponiert FastAPI-Endpoints automatisch als MCP-Tools fuer AI Agents.",
@@ -6255,7 +6855,7 @@
         "pct": 81.0
       }
     ],
-    "days_since_commit": 211,
+    "days_since_commit": 212,
     "issue_ratio": 0.45,
     "open_issues": 78,
     "closed_issues": 64,
@@ -6269,10 +6869,21 @@
       "star_velocity": 7
     },
     "quality_score": 3.2,
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-10",
     "score_history": [
       {
         "date": "2026-03-09",
+        "score": 3.2,
+        "signals": {
+          "notable_density": 1.7,
+          "bus_factor": 2,
+          "freshness": 2,
+          "issue_health": 5.6,
+          "star_velocity": 7
+        }
+      },
+      {
+        "date": "2026-03-10",
         "score": 3.2,
         "signals": {
           "notable_density": 1.7,
@@ -6298,7 +6909,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/run-llama/llama_index",
-    "stars": 40200,
+    "stars": 47556,
     "language": "Python",
     "license": "MIT",
     "description": "Data Framework fuer LLM-Anwendungen. RAG-Pipeline, Document Loaders, Vector Stores.",
@@ -6307,11 +6918,83 @@
     "learned": "RAG-Patterns als Referenz nuetzlich, direkter Einsatz zu schwergewichtig fuer unser Setup",
     "added": "2026-03-09",
     "status": "evaluated",
-    "quality_score": 7.2,
+    "quality_score": 7.1,
     "category": "landscape",
     "tags": [
       "agent-framework",
       "rag"
+    ],
+    "notable_stargazers": [
+      {
+        "login": "hammer",
+        "label": "Jeff Hammerbacher (hammer)",
+        "followers": 989,
+        "weight": 1
+      },
+      {
+        "login": "hinthornw",
+        "label": "William FH (hinthornw) @ LangChain",
+        "followers": 742,
+        "weight": 1
+      }
+    ],
+    "notable_score": 2,
+    "notable_density": 0.04,
+    "notable_coverage_pct": 0.4,
+    "bus_factor": 6,
+    "top_contributors": [
+      {
+        "login": "logan-markewich",
+        "commits": 1251,
+        "pct": 31.9
+      },
+      {
+        "login": "jerryjliu",
+        "commits": 922,
+        "pct": 23.5
+      },
+      {
+        "login": "dependabot[bot]",
+        "commits": 435,
+        "pct": 11.1
+      },
+      {
+        "login": "Disiok",
+        "commits": 210,
+        "pct": 5.4
+      },
+      {
+        "login": "nerdai",
+        "commits": 169,
+        "pct": 4.3
+      }
+    ],
+    "days_since_commit": 0,
+    "issue_ratio": 0.97,
+    "open_issues": 205,
+    "closed_issues": 6739,
+    "forks": 6948,
+    "age_months": 40.8,
+    "signals": {
+      "notable_density": 0.4,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 7
+    },
+    "last_updated": "2026-03-10",
+    "score_history": [
+      {
+        "date": "2026-03-10",
+        "score": 7.1,
+        "signals": {
+          "notable_density": 0.4,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      }
     ]
   },
   {
@@ -6320,7 +7003,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/microsoft/semantic-kernel",
-    "stars": 25800,
+    "stars": 27409,
     "language": "C#/Python",
     "license": "MIT",
     "description": "Microsofts AI Orchestration SDK. Plugin-System, Planner, Memory fuer Enterprise-LLM-Anwendungen.",
@@ -6329,11 +7012,113 @@
     "learned": "Plugin-Architektur als Referenz fuer modulare Agent-Systeme",
     "added": "2026-03-09",
     "status": "evaluated",
-    "quality_score": 7.8,
+    "quality_score": 9.1,
     "category": "landscape",
     "tags": [
       "agent-framework",
       "sdk"
+    ],
+    "notable_stargazers": [
+      {
+        "login": "rakyll",
+        "label": "Jaana Dogan (rakyll) @ Google",
+        "followers": 12986,
+        "weight": 8
+      },
+      {
+        "login": "shanselman",
+        "label": "Scott Hanselman (shanselman) @ @Microsoft ",
+        "followers": 12287,
+        "weight": 8
+      },
+      {
+        "login": "0Darkn",
+        "label": "jose (0Darkn)",
+        "followers": 2533,
+        "weight": 2
+      },
+      {
+        "login": "ryancheung",
+        "label": "Ryan Cheung (ryancheung)",
+        "followers": 943,
+        "weight": 1
+      },
+      {
+        "login": "erictraut",
+        "label": "Eric Traut (erictraut)",
+        "followers": 747,
+        "weight": 1
+      },
+      {
+        "login": "chuongmep",
+        "label": "Chuong Ho (chuongmep)",
+        "followers": 612,
+        "weight": 1
+      },
+      {
+        "login": "qingyun-wu",
+        "label": "Qingyun Wu (qingyun-wu) @ AG2",
+        "followers": 565,
+        "weight": 1
+      }
+    ],
+    "notable_score": 22,
+    "notable_density": 0.8,
+    "notable_coverage_pct": 0.7,
+    "bus_factor": 10,
+    "top_contributors": [
+      {
+        "login": "dependabot[bot]",
+        "commits": 595,
+        "pct": 15.4
+      },
+      {
+        "login": "markwallace-microsoft",
+        "commits": 421,
+        "pct": 10.9
+      },
+      {
+        "login": "moonbox3",
+        "commits": 357,
+        "pct": 9.2
+      },
+      {
+        "login": "SergeyMenshykh",
+        "commits": 268,
+        "pct": 6.9
+      },
+      {
+        "login": "eavanvalkenburg",
+        "commits": 248,
+        "pct": 6.4
+      }
+    ],
+    "days_since_commit": 4,
+    "issue_ratio": 0.91,
+    "open_issues": 432,
+    "closed_issues": 4437,
+    "forks": 4492,
+    "age_months": 36.9,
+    "signals": {
+      "notable_density": 8.0,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 7
+    },
+    "last_updated": "2026-03-10",
+    "score_history": [
+      {
+        "date": "2026-03-10",
+        "score": 9.1,
+        "signals": {
+          "notable_density": 8.0,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      }
     ]
   },
   {
@@ -6342,7 +7127,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/openai/openai-agents-python",
-    "stars": 18500,
+    "stars": 19637,
     "language": "Python",
     "license": "MIT",
     "description": "OpenAIs Agent Framework. Handoffs, Guardrails, Tracing fuer Multi-Agent-Systeme.",
@@ -6351,11 +7136,101 @@
     "learned": "Handoff-Pattern als Architektur-Referenz, aber keine direkte Nutzung mit Claude",
     "added": "2026-03-09",
     "status": "evaluated",
-    "quality_score": 6.5,
+    "quality_score": 8.7,
     "category": "landscape",
     "tags": [
       "agent-framework",
       "sdk"
+    ],
+    "notable_stargazers": [
+      {
+        "login": "simonw",
+        "label": "Simon Willison (simonw) @ Datasette",
+        "followers": 13058,
+        "weight": 8
+      },
+      {
+        "login": "Shubhamsaboo",
+        "label": "Shubham Saboo (Shubhamsaboo) @ Google",
+        "followers": 7399,
+        "weight": 4
+      },
+      {
+        "login": "ogabrielluiz",
+        "label": "Gabriel Luiz Freitas Almeida (ogabrielluiz) @ @ibm",
+        "followers": 841,
+        "weight": 1
+      },
+      {
+        "login": "jasl",
+        "label": "Jun Jiang (jasl) @ @jasl-lab  ",
+        "followers": 720,
+        "weight": 1
+      },
+      {
+        "login": "kaichen",
+        "label": "Kai (kaichen) @ @imtoken",
+        "followers": 537,
+        "weight": 1
+      }
+    ],
+    "notable_score": 15,
+    "notable_density": 0.76,
+    "notable_coverage_pct": 1.0,
+    "bus_factor": 5,
+    "top_contributors": [
+      {
+        "login": "rm-openai",
+        "commits": 291,
+        "pct": 31.7
+      },
+      {
+        "login": "seratch",
+        "commits": 271,
+        "pct": 29.5
+      },
+      {
+        "login": "github-actions[bot]",
+        "commits": 120,
+        "pct": 13.1
+      },
+      {
+        "login": "MartinEBravo",
+        "commits": 33,
+        "pct": 3.6
+      },
+      {
+        "login": "dmitry-openai",
+        "commits": 28,
+        "pct": 3.0
+      }
+    ],
+    "days_since_commit": 1,
+    "issue_ratio": 0.94,
+    "open_issues": 67,
+    "closed_issues": 1055,
+    "forks": 3237,
+    "age_months": 12.1,
+    "signals": {
+      "notable_density": 7.6,
+      "bus_factor": 9,
+      "freshness": 10,
+      "issue_health": 10,
+      "star_velocity": 7
+    },
+    "last_updated": "2026-03-10",
+    "score_history": [
+      {
+        "date": "2026-03-10",
+        "score": 8.7,
+        "signals": {
+          "notable_density": 7.6,
+          "bus_factor": 9,
+          "freshness": 10,
+          "issue_health": 10,
+          "star_velocity": 7
+        }
+      }
     ]
   }
 ]
