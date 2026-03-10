@@ -13,7 +13,6 @@
     "weaknesses": "Nur fuer Software-Entwicklung, kein Knowledge Management, hat einen Crypto-Token ($GSD)",
     "learned": "Context Monitor Hook, Analysis Paralysis Guard, Deviation Rules — in unser AgentField-System uebernommen",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "kieranklaassen",
@@ -68,7 +67,7 @@
       "orchestration"
     ],
     "related": [
-      "spec-driven-development",
+      "spec-driven-dev",
       "cc-sdd"
     ]
   },
@@ -86,7 +85,6 @@
     "weaknesses": "12k Stars in 2 Wochen (Red Flag), v0.1.0 mit massivem Feature-Scope, Lizenz-Widerspruch (Apache vs MIT), Self-Reported Benchmarks, positioniert sich aggressiv gegen OpenClaw",
     "learned": "Noch nicht getestet. Abwarten bis v0.2+",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "Freelander",
@@ -160,7 +158,6 @@
     "weaknesses": "Lernkurve fuer Pandas-Nutzer, nicht alle Pandas-Integrationen verfuegbar",
     "learned": "Code-ASERM Score 4.6/T1. Referenz fuer hochwertige Open-Source-Projekte.",
     "added": "2026-03-04",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "minimaxir",
@@ -305,7 +302,6 @@
     "weaknesses": "Bus-Factor 1, Stars-Inflation-Risiko, Quellen-Bias in Tutorials. Code-ASERM nach Signal-Check korrigiert: 4.4 auf 3.9/T2",
     "learned": "Wichtige Lektion: Stars allein kein Qualitaetssignal. GitHub Fake Stars Problem (CMU 2024 Studie).",
     "added": "2026-03-04",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "dsfb",
@@ -385,7 +381,6 @@
     "weaknesses": "Nicht getestet, weniger ausgereift als GSD",
     "learned": "Noch nicht getestet.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "rootsongjc",
@@ -482,7 +477,7 @@
       "dev-workflow"
     ],
     "related": [
-      "spec-driven-development",
+      "spec-driven-dev",
       "gsd",
       "claude-code-spec-workflow"
     ]
@@ -501,7 +496,6 @@
     "weaknesses": "Nicht getestet, weniger tiefgehend als GSD",
     "learned": "Noch nicht getestet.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "rootsongjc",
@@ -615,7 +609,7 @@
       "dev-workflow"
     ],
     "related": [
-      "spec-driven-development",
+      "spec-driven-dev",
       "cc-sdd"
     ]
   },
@@ -633,7 +627,6 @@
     "weaknesses": "Nicht getestet, sehr grosser Scope, moeglicherweise over-engineered",
     "learned": "Noch nicht getestet.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "jedisct1",
@@ -682,7 +675,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "dev-workflow",
+      "orchestration"
+    ]
   },
   {
     "id": "orchestrator-starter",
@@ -698,7 +695,6 @@
     "weaknesses": "2 Stars, kein npm-Installer, keine Multi-Runtime-Unterstuetzung, kein Social Proof",
     "learned": "Eigenes Projekt. Taeglicher Einsatz als AgentField.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [],
     "notable_score": 0,
     "notable_density": 0.0,
@@ -740,7 +736,11 @@
         }
       }
     ],
-    "status": "in-use"
+    "status": "in-use",
+    "tags": [
+      "claude-ecosystem",
+      "orchestration"
+    ]
   },
   {
     "id": "awesome-claude-skills",
@@ -756,7 +756,6 @@
     "weaknesses": "Link-Dump ohne Bewertung, keine Qualitaetssicherung der gelisteten Tools",
     "learned": "Gute Quelle fuer Discovery, aber keine Bewertung — genau die Luecke die GitHub-Radar fuellt.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "doggy8088",
@@ -841,7 +840,6 @@
     "weaknesses": "Reine Linkliste, keine Bewertungen oder Vergleiche",
     "learned": "Zweite grosse Quelle fuer Discovery neben Composio.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "zchee",
@@ -921,7 +919,6 @@
     "weaknesses": "Noch kein einheitliches Framework — jeder implementiert es anders. Messung von Context-Qualitaet ist schwierig",
     "learned": "Context Rot ist real. Frische Subagents (GSD-Ansatz) und Context Monitors (Hook-basiert) sind die beste Gegenmassnahme.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "doggy8088",
@@ -1055,7 +1052,6 @@
     "weaknesses": "Overhead fuer kleine Aenderungen, Specs koennen selbst veralten, Pattern erfordert Disziplin",
     "learned": "Wir nutzen Elemente davon (Klaeren-Phase in AgentField). Fuer groessere Features lohnt sich der volle Spec-Workflow.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "rootsongjc",
@@ -1133,7 +1129,11 @@
         }
       }
     ],
-    "status": "tested"
+    "status": "tested",
+    "tags": [
+      "pattern",
+      "dev-workflow"
+    ]
   },
   {
     "id": "claude-md-convention",
@@ -1149,7 +1149,6 @@
     "weaknesses": "Kein Schema-Standard, kann aufgeblaehen, weniger ist mehr (Anthropic-Empfehlung). Keine Validierung ob Instructions befolgt werden",
     "learned": "Unser gesamtes AgentField-System basiert darauf. Wichtigste Lektion: Kurz halten, priorisieren, regelmaessig aufraeumen.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [],
     "notable_score": 0,
     "notable_density": 0.0,
@@ -1175,7 +1174,6 @@
     "weaknesses": "Hohe Abstraktion, keine konkreten Implementierungs-Empfehlungen. Reale Systeme kombinieren immer mehrere Patterns",
     "learned": "Gutes mentales Modell fuer Agent-Design. Hilft beim Einordnen neuer Tools im Radar.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "Freelander",
@@ -1262,7 +1260,6 @@
     "weaknesses": "Noch nicht getestet, Python-only, MCP-Standard noch jung",
     "learned": "Noch nicht getestet. Kandidat fuer eigene MCP-Server.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "jlowin",
@@ -1345,7 +1342,6 @@
     "weaknesses": "Nicht getestet, Qualitaet der Konvertierung variiert je Format, OCR-Abhaengigkeiten",
     "learned": "Noch nicht getestet. Potentiell nuetzlich fuer Document-to-Context Pipelines.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "yihong0618",
@@ -1458,7 +1454,6 @@
     "weaknesses": "Nicht fuer OLTP/Transaktionen, kein Multi-User-Server-Modus, grosse Binary",
     "learned": "Idealer Companion zu Polars: DuckDB fuer SQL-Queries, Polars fuer DataFrame-Pipelines.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "wesm",
@@ -1603,7 +1598,6 @@
     "weaknesses": "Relativ jung (seit 2023), noch nicht alle Edge-Cases abgedeckt, Astral als VC-funded Company (Nachhaltigkeit?)",
     "learned": "Noch nicht getestet. Standard-Empfehlung fuer neue Python-Projekte.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "ekzhang",
@@ -1740,7 +1734,6 @@
     "weaknesses": "5k Stars (noch frueh), Python-only, wenig Community-Ecosystem bisher",
     "learned": "Noch nicht getestet. Relevant wenn wir eigene Agents ausserhalb Claude Code bauen.",
     "added": "2026-03-08",
-    "tested": false,
     "notable_stargazers": [
       {
         "login": "bcherny",
@@ -1882,7 +1875,6 @@
     "weaknesses": "Over-abstraction: zu viele Wrapper-Layer, Breaking Changes bei Minor-Updates, schwer zu debuggen, Performance-Overhead. Fuer Claude Code irrelevant — wir arbeiten direkt mit der API",
     "learned": "Abstraction Tax ist real. Direkte API-Nutzung (Claude SDK) ist zuverlaessiger als Framework-Wrapper. LangChain loest Probleme die man ohne LangChain nicht haette.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "fxia22",
@@ -2003,7 +1995,6 @@
     "weaknesses": "Endlose Loops ohne Ergebnis, hohe API-Kosten, keine zuverlaessige Task-Completion. Pivot zu 'Platform' hat Fokus verloren. Viel Hype, wenig Production-Einsatz",
     "learned": "Autonome Agents ohne menschliches Steering scheitern. Die Zukunft sind Human-in-the-Loop Agents (Claude Code, Cursor) — nicht vollautonome Systeme.",
     "added": "2026-03-08",
-    "tested": true,
     "notable_stargazers": [
       {
         "login": "jonatas",
@@ -2086,7 +2077,6 @@
     "strengths": "Offiziell von GitHub maintained, exzellenter Bus Factor (10), Top-Notables (Google, Docker, Charm), sehr aktiv (3d since commit), hohe Issue-Health (0.79)",
     "weaknesses": "Noch relativ jung (12 Monate), Go-only Implementation",
     "learned": "Noch nicht getestet. Evaluieren fuer direkte GitHub-Integration in Agent-Workflows.",
-    "tested": false,
     "category": "radar",
     "stars": 27675,
     "added": "2026-03-09",
@@ -2229,7 +2219,6 @@
     "strengths": "Microsoft-backed, Bus Factor 3, exzellente Issue-Health (0.97), aktive Entwicklung",
     "weaknesses": "Zwei Haupt-Contributor dominieren (pavelfeldman 52%, yury-s 24%), Notable Density niedrig",
     "learned": "Noch nicht getestet. Potenzial fuer Browser-basierte Agent-Workflows und Testing.",
-    "tested": false,
     "category": "radar",
     "stars": 28490,
     "added": "2026-03-09",
@@ -2332,7 +2321,6 @@
     "strengths": "Praktisches Problem geloest (Repo → AI Context), MIT-Lizenz, aktive Entwicklung (1d since commit), gute Star Velocity",
     "weaknesses": "Bus Factor 1 (yamadashy 83%), niedrige Issue-Ratio (0.47), wenig Notable Stargazers",
     "learned": "Noch nicht getestet. Alternative zu manuellem Context-Zusammenstellen fuer Claude Code Sessions.",
-    "tested": false,
     "category": "radar",
     "stars": 22315,
     "added": "2026-03-09",
@@ -2407,7 +2395,6 @@
     "strengths": "80k Stars, exzellenter Bus Factor (5), hohe Issue-Health (0.92), breite Contributor-Basis, MIT-Lizenz",
     "weaknesses": "Schnelles Wachstum (80k in 16 Monaten), Notable Density niedrig relativ zur Groesse",
     "learned": "Noch nicht getestet. Interessant fuer Web-Interaktion in Agent-Pipelines.",
-    "tested": false,
     "category": "radar",
     "stars": 80005,
     "added": "2026-03-09",
@@ -2519,7 +2506,6 @@
     "strengths": "90k Stars, Bus Factor 3, exzellente Issue-Health (0.95), aktive Entwicklung, auch als MCP-Server verfuegbar",
     "weaknesses": "AGPL-3.0 Lizenz (Einschraenkung fuer kommerzielle Nutzung), Notable Density niedrig fuer 90k Repo",
     "learned": "Noch nicht getestet. Evaluieren fuer Web-Content-Ingestion in Research-Pipelines.",
-    "tested": false,
     "category": "radar",
     "stars": 89995,
     "added": "2026-03-09",
@@ -2621,7 +2607,6 @@
     "weaknesses": "7 Tage alt mit 13.7k Stars (verdaechtiges Wachstum), Bus Factor 1 (90% ein Dev), Issue-Health 0.25 (Issues haeufeln sich), Notable Density niedrig fuer Repo-Groesse",
     "learned": "Noch nicht getestet. Beobachten ob nachhaltiges Projekt oder Hype-Blase. Aehnliches Pattern wie OpenFang.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -2676,7 +2661,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "agent-framework",
+      "automation"
+    ]
   },
   {
     "id": "e2b",
@@ -2692,7 +2681,6 @@
     "weaknesses": "MDX-lastig (Docs-Repo), Cloud-only (kein Self-Hosting), Pricing unklar fuer Heavy Use",
     "learned": "Noch nicht getestet. Vielversprechend fuer sichere Agent-Execution.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -2818,7 +2806,6 @@
     "weaknesses": "Nur relevant wenn AWS genutzt wird, Python-only",
     "learned": "Noch nicht getestet. Relevant sobald AWS-Integration benoetigt wird.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -2941,7 +2928,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "cloud"
+    ]
   },
   {
     "id": "trigger-dev",
@@ -2957,7 +2948,6 @@
     "weaknesses": "Fokus auf managed/hosted Workflows, Self-Hosting komplexer",
     "learned": "Noch nicht getestet. Interessant fuer produktionsreife Agent-Pipelines.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -3084,7 +3074,6 @@
     "weaknesses": "Junges Projekt, Community noch klein",
     "learned": "Noch nicht getestet. Framework-Ansatz fuer MCP-Entwicklung.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -3210,7 +3199,6 @@
     "weaknesses": "Sehr nischig (Security Research), begrenzte Zielgruppe",
     "learned": "Noch nicht getestet. Referenz fuer hochwertige Skill-Entwicklung.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -3333,7 +3321,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "dev-tool"
+    ]
   },
   {
     "id": "chrome-devtools-mcp",
@@ -3349,7 +3341,6 @@
     "weaknesses": "Chrome-only, benoetigt laufenden Browser",
     "learned": "Noch nicht getestet. Direkter Nutzen fuer Web-Development mit AI Agents.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -3492,7 +3483,6 @@
     "weaknesses": "Abhaengig von Firecrawl API (Cloud oder Self-Hosted), Issue-Ratio niedrig",
     "learned": "Noch nicht getestet. Ergaenzt Firecrawl-Eintrag im Radar.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -3633,7 +3623,6 @@
     "weaknesses": "Wettbewerb mit Pinecone/Weaviate/Qdrant, API-Stabilitaet bei Major Rewrites",
     "learned": "Noch nicht getestet. Standard-Wahl fuer lokale Vector Search.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -3738,7 +3727,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "memory-context",
+      "rag"
+    ]
   },
   {
     "id": "letta",
@@ -3754,7 +3747,6 @@
     "weaknesses": "Komplexer Setup, eigener Agent-Standard (nicht Claude-nativ)",
     "learned": "Noch nicht getestet. Konzept von stateful agents mit Memory interessant.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -3894,7 +3886,6 @@
     "weaknesses": "Freshness-Score 6 (nicht taegliche Commits), noch kleine Community",
     "learned": "Noch nicht getestet. Relevantes Pattern fuer verantwortungsvolle Agent-Nutzung.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4000,7 +3991,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "agent-framework",
+      "agent-tool"
+    ]
   },
   {
     "id": "claude-plugins-official",
@@ -4016,7 +4011,6 @@
     "weaknesses": "Issue-Health niedrig (0.2), noch junges Directory",
     "learned": "Noch nicht getestet. Referenz fuer Plugin-Ecosystem.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4127,7 +4121,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "claude-ecosystem",
+      "mcp-server"
+    ]
   },
   {
     "id": "continue",
@@ -4143,7 +4141,6 @@
     "weaknesses": "Breiter Fokus (IDE + CI), nicht spezifisch fuer Claude",
     "learned": "Noch nicht getestet. Konzept von AI-Checks in CI vielversprechend.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4260,7 +4257,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "dev-tool",
+      "ai-data"
+    ]
   },
   {
     "id": "google-workspace-mcp",
@@ -4276,7 +4277,6 @@
     "weaknesses": "Single-Maintainer (BF=1), Community-Projekt (nicht offiziell von Google)",
     "learned": "Noch nicht getestet. Relevant fuer Google-Workspace-Integration.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4399,7 +4399,6 @@
     "weaknesses": "Eigene Memory-Abstraktion (Vendor Lock-in Risiko), SaaS-fokussiert",
     "learned": "Noch nicht getestet. Memory-Problem ist zentral fuer Agent-Workflows.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4529,7 +4528,6 @@
     "weaknesses": "Python-only, eigene Abstraktion (nicht Claude-nativ), Komplexitaet bei vielen Agents",
     "learned": "Noch nicht getestet. Bekanntestes Multi-Agent Framework neben LangGraph.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4628,7 +4626,7 @@
     ],
     "related": [
       "goose",
-      "agents-wshobson"
+      "wshobson-agents"
     ]
   },
   {
@@ -4645,7 +4643,6 @@
     "weaknesses": "Nische (Computer Use), noch experimentell",
     "learned": "Noch nicht getestet. Spannend fuer GUI-basierte Agent-Workflows.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4732,7 +4729,11 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "browser",
+      "agent-tool"
+    ]
   },
   {
     "id": "goose",
@@ -4748,7 +4749,6 @@
     "weaknesses": "Breiter Scope (nicht spezifisch), eigenes Plugin-System",
     "learned": "Noch nicht getestet. Interessant als Alternative zu Claude Code fuer nicht-Code Tasks.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -4842,7 +4842,7 @@
     ],
     "related": [
       "crewai",
-      "agents-wshobson"
+      "wshobson-agents"
     ]
   },
   {
@@ -4859,7 +4859,6 @@
     "weaknesses": "Star Velocity Score nur 4 (schnelles Wachstum), Abhaengigkeit von Upstash-Service",
     "learned": "Noch nicht getestet. Loest echtes Problem (veraltete Docs in LLM-Context).",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5000,7 +4999,6 @@
     "weaknesses": "BF=1, klein (915 Stars), noch frueh",
     "learned": "Noch nicht getestet. Companion zum Python Claude Agent SDK.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5128,7 +5126,6 @@
     "weaknesses": "Star Velocity nur 4 (verdaechtiges Wachstum fuer Alter), breiter Scope",
     "learned": "Noch nicht getestet. Relevant fuer sichere Agent-Ausfuehrungsumgebungen.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5229,7 +5226,6 @@
     "weaknesses": "SaaS-Modell (Cloud-first), viele Integrationen aber Tiefe fraglich",
     "learned": "Noch nicht getestet. Potenzielle Tool-Schicht fuer Agent-Pipelines.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5319,7 +5315,6 @@
     "weaknesses": "BF=2, kleine Community, Issue-Health niedrig",
     "learned": "Noch nicht getestet. Referenz-Material fuer SDK-Nutzung.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5452,7 +5447,6 @@
     "weaknesses": "BF=2, Freshness niedrig (Score 2), JavaScript-only",
     "learned": "Noch nicht getestet. Ergaenzung zu Chrome DevTools MCP.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5585,7 +5579,6 @@
     "weaknesses": "Star Velocity nur 4, noch experimentell",
     "learned": "Noch nicht getestet. Interessantes UI-Konzept fuer Agent-Management.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5686,7 +5679,6 @@
     "weaknesses": "Single-Maintainer-lastig, noch frueh im Lifecycle",
     "learned": "Noch nicht getestet. Semantisches Code-Verstaendnis als Differentiator.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5760,7 +5752,6 @@
     "weaknesses": "BF=2, Star Velocity verdaechtig (Score 4), Claude-spezifisch",
     "learned": "Noch nicht getestet. Claude-natives Multi-Agent Framework.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5838,7 +5829,10 @@
         }
       }
     ],
-    "status": "evaluated"
+    "status": "evaluated",
+    "tags": [
+      "agent-framework"
+    ]
   },
   {
     "id": "beads",
@@ -5854,7 +5848,6 @@
     "weaknesses": "BF=1 (Solo-Projekt), Star Velocity verdaechtig",
     "learned": "Noch nicht getestet. Memory-Ansatz fuer Coding Agents.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -5951,7 +5944,6 @@
     "weaknesses": "BF=2, Star Velocity verdaechtig (Score 4), Notable Density niedrig fuer 69k",
     "learned": "Noch nicht getestet. Groesstes Claude-Code-spezifisches Optimierungsprojekt.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -6031,7 +6023,6 @@
     "weaknesses": "BF=1 (Solo-Projekt), abhaengig von n8n",
     "learned": "Noch nicht getestet. Interessant wenn n8n im Stack.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [],
     "notable_score": 0,
@@ -6093,7 +6084,6 @@
     "weaknesses": "BF=1 (Solo-Projekt), Star Velocity verdaechtig",
     "learned": "Noch nicht getestet. Loest aehnliches Problem wie unser Episodic Memory Setup.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -6166,7 +6156,6 @@
     "weaknesses": "BF=1, Awesome-Liste (kein Code), kuratierte Qualitaet variiert",
     "learned": "Nützliche Referenz fuer MCP-Server-Discovery.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "landscape",
     "notable_stargazers": [
       {
@@ -6241,7 +6230,6 @@
     "weaknesses": "BF=1, Freshness niedrig (Score 2), kleine Community",
     "learned": "Noch nicht getestet. Relevant fuer eigene FastAPI-Services als MCP.",
     "added": "2026-03-09",
-    "tested": false,
     "category": "radar",
     "notable_stargazers": [
       {
@@ -6319,7 +6307,6 @@
     "weaknesses": "Hohe Abstraktions-Komplexitaet, viele Breaking Changes zwischen Versionen, starke Vendor-Kopplung an OpenAI",
     "learned": "RAG-Patterns als Referenz nuetzlich, direkter Einsatz zu schwergewichtig fuer unser Setup",
     "added": "2026-03-09",
-    "tested": false,
     "status": "evaluated",
     "quality_score": 7.2,
     "category": "landscape",
@@ -6342,7 +6329,6 @@
     "weaknesses": "C#-zentriert, Python-SDK hinter .NET zurueck, Enterprise-Overhead fuer kleine Projekte",
     "learned": "Plugin-Architektur als Referenz fuer modulare Agent-Systeme",
     "added": "2026-03-09",
-    "tested": false,
     "status": "evaluated",
     "quality_score": 7.8,
     "category": "landscape",
@@ -6365,7 +6351,6 @@
     "weaknesses": "Stark an OpenAI-Modelle gekoppelt, kein Claude-Support, junges Projekt",
     "learned": "Handoff-Pattern als Architektur-Referenz, aber keine direkte Nutzung mit Claude",
     "added": "2026-03-09",
-    "tested": false,
     "status": "evaluated",
     "quality_score": 6.5,
     "category": "landscape",

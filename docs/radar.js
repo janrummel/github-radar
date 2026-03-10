@@ -208,11 +208,13 @@ function renderRadar(filteredEntries) {
     g.setAttribute('data-id', entry.id);
     g.style.cursor = 'pointer';
 
+    const isActive = entry.status === 'in-use' || entry.status === 'tested';
+
     // Glow
     const glow = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
     glow.setAttribute('cx', pos.x);
     glow.setAttribute('cy', pos.y);
-    glow.setAttribute('r', entry.tested ? 10 : 7);
+    glow.setAttribute('r', isActive ? 10 : 7);
     glow.setAttribute('fill', color);
     glow.setAttribute('opacity', '0.15');
     g.appendChild(glow);
@@ -221,10 +223,10 @@ function renderRadar(filteredEntries) {
     const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
     dot.setAttribute('cx', pos.x);
     dot.setAttribute('cy', pos.y);
-    dot.setAttribute('r', entry.tested ? 6 : 4);
+    dot.setAttribute('r', isActive ? 6 : 4);
     dot.setAttribute('fill', color);
-    dot.setAttribute('stroke', entry.tested ? '#fff' : 'none');
-    dot.setAttribute('stroke-width', entry.tested ? '1.5' : '0');
+    dot.setAttribute('stroke', isActive ? '#fff' : 'none');
+    dot.setAttribute('stroke-width', isActive ? '1.5' : '0');
     g.appendChild(dot);
 
     // Label — hidden by default, visible on hover (always visible for Adopt)
@@ -245,7 +247,7 @@ function renderRadar(filteredEntries) {
     g.addEventListener('mouseenter', (e) => {
       showTooltip(e, entry);
       if (!isAdopt) text.setAttribute('opacity', '1');
-      glow.setAttribute('r', entry.tested ? 14 : 10);
+      glow.setAttribute('r', isActive ? 14 : 10);
       glow.setAttribute('opacity', '0.3');
     });
     g.addEventListener('mouseleave', () => {
@@ -528,7 +530,23 @@ const TAG_LABELS = {
   'dev-tool': 'Dev Tools',
   'pattern': 'Patterns',
   'sdk': 'SDKs',
-  'data-lib': 'Data Libraries'
+  'data-lib': 'Data Libraries',
+  'agent-tool': 'Agent Tools',
+  'ai-data': 'AI Data',
+  'automation': 'Automation',
+  'awesome-list': 'Awesome Lists',
+  'cloud': 'Cloud',
+  'code-nav': 'Code Navigation',
+  'examples': 'Examples',
+  'framework': 'Frameworks',
+  'github': 'GitHub',
+  'memory': 'Memory',
+  'orchestration': 'Orchestration',
+  'package-manager': 'Package Manager',
+  'productivity': 'Productivity',
+  'rag': 'RAG',
+  'sandbox': 'Sandbox',
+  'testing': 'Testing'
 };
 
 function renderTagFilters() {
@@ -617,7 +635,7 @@ document.querySelectorAll('#entries-table th[data-sort]').forEach(th => {
       sortDesc = !sortDesc;
     } else {
       sortColumn = col;
-      sortDesc = ['stars', 'quality', 'tested'].includes(col);
+      sortDesc = ['stars', 'quality', 'status'].includes(col);
     }
     applyFilters();
   });
