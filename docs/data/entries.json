@@ -5,7 +5,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Trial",
     "url": "https://github.com/gsd-build/get-shit-done",
-    "stars": 27572,
+    "stars": 27575,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Meta-prompting, context engineering und spec-driven development system fuer Claude Code. Multi-Agent Orchestration mit Wave Execution, Context Monitor, Plan-Checker.",
@@ -37,7 +37,7 @@
     "issue_ratio": 0.75,
     "open_issues": 131,
     "closed_issues": 385,
-    "forks": 2336,
+    "forks": 2338,
     "age_months": 2.9,
     "signals": {
       "notable_density": 0.4,
@@ -89,7 +89,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/RightNow-AI/openfang",
-    "stars": 13546,
+    "stars": 13549,
     "language": "Rust",
     "license": "Apache-2.0",
     "description": "Agent Operating System in Rust. Autonome Agents (Hands) die 24/7 laufen: Lead Gen, OSINT, Social Media, Web Scraping. Single 32MB Binary.",
@@ -101,7 +101,7 @@
       {
         "login": "simonw",
         "label": "Simon Willison (simonw) @ Datasette",
-        "followers": 13058,
+        "followers": 13059,
         "weight": 8
       },
       {
@@ -138,7 +138,7 @@
     "issue_ratio": 0.82,
     "open_issues": 65,
     "closed_issues": 287,
-    "forks": 1548,
+    "forks": 1550,
     "age_months": 1,
     "signals": {
       "notable_density": 8.9,
@@ -188,7 +188,7 @@
     "stars": 37680,
     "language": "Rust/Python",
     "license": "MIT",
-    "description": "DataFrame Engine fuer schnelle Datenverarbeitung. Lazy evaluation, zero-copy, multi-threaded. Alternative zu Pandas.",
+    "description": "DataFrame Engine fuer schnelle Datenverarbeitung. Lazy evaluation, zero-copy, multi-threaded. Im Radar weil: Basis fuer Radar-Datenanalyse (update-radar.py), Agent-Output-Verarbeitung und strukturierte Daten-Pipelines im AgentField.",
     "strengths": "37.6k Stars organisch, 665 Contributors, Zero-Deps, MIT, Production-ready, Benchmark-Gewinner",
     "weaknesses": "Lernkurve fuer Pandas-Nutzer, nicht alle Pandas-Integrationen verfuegbar",
     "learned": "Code-ASERM Score 4.6/T1. Referenz fuer hochwertige Open-Source-Projekte.",
@@ -288,7 +288,7 @@
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.8,
-    "open_issues": 2500,
+    "open_issues": 2501,
     "closed_issues": 9949,
     "forks": 2674,
     "age_months": 70.9,
@@ -691,7 +691,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/ruvnet/ruflo",
-    "stars": 20401,
+    "stars": 20403,
     "language": "JavaScript",
     "license": "MIT",
     "description": "Agent Orchestration Platform. Multi-Agent Swarms, DDD Bounded Contexts, ADR-basierte Architektur. RAG Integration, Claude Code/Codex Integration.",
@@ -843,7 +843,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "stars": 42680,
+    "stars": 42684,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Sammlung von Claude Skills, Resources und Tools. Groesste Sammlung im Oekosystem.",
@@ -932,7 +932,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "stars": 27352,
+    "stars": 27353,
     "language": "Markdown",
     "license": "MIT",
     "description": "Kuratierte Liste von Skills, Hooks, Slash-Commands, Agent-Orchestratoren, Apps und Plugins fuer Claude Code.",
@@ -1166,7 +1166,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Trial",
     "url": "https://github.com/github/spec-kit",
-    "stars": 75577,
+    "stars": 75580,
     "language": "Markdown",
     "license": "MIT",
     "description": "Specs als First-Class Artifacts: Erst spezifizieren, dann planen, dann Tasks ableiten, dann implementieren. GitHub's offizielles Toolkit (spec-kit) formalisiert den Workflow fuer AI Coding Agents.",
@@ -1299,7 +1299,7 @@
     "quadrant": "Patterns & Methods",
     "ring": "Trial",
     "url": "https://github.com/nibzard/awesome-agentic-patterns",
-    "stars": 3558,
+    "stars": 3559,
     "language": "Concept",
     "license": "MIT",
     "description": "Andrew Ng's 4 Kernmuster fuer AI Agents: Reflection (Selbstkorrektur), Tool Use (externe Werkzeuge), Planning (Aufgabenzerlegung), Multi-Agent Collaboration (Rollen-Aufteilung). Framework fuer Agent-Architektur-Entscheidungen.",
@@ -1339,16 +1339,16 @@
       }
     ],
     "days_since_commit": 0,
-    "issue_ratio": 0.8,
-    "open_issues": 1,
-    "closed_issues": 4,
+    "issue_ratio": 1.0,
+    "open_issues": 0,
+    "closed_issues": 5,
     "forks": 223,
     "age_months": 9.4,
     "signals": {
       "notable_density": 10,
       "bus_factor": 2,
       "freshness": 10,
-      "issue_health": 10.0,
+      "issue_health": 10,
       "star_velocity": 10
     },
     "quality_score": 8.0,
@@ -1373,7 +1373,7 @@
           "notable_density": 10,
           "bus_factor": 2,
           "freshness": 10,
-          "issue_health": 10.0,
+          "issue_health": 10,
           "star_velocity": 10
         }
       }
@@ -1483,7 +1483,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/microsoft/markitdown",
-    "stars": 90511,
+    "stars": 90512,
     "language": "Python",
     "license": "MIT",
     "description": "Microsoft-Tool zur Konvertierung von Office-Dokumenten, PDFs, Bildern und anderen Dateiformaten nach Markdown. CLI und Python-API.",
@@ -1609,7 +1609,7 @@
     "stars": 36542,
     "language": "C++",
     "license": "MIT",
-    "description": "Analytische In-Process SQL-Datenbank. Columnar Storage, Zero-Copy, direktes Lesen von Parquet/CSV/JSON. Perfekter Companion zu Polars fuer SQL-basierte Analysen.",
+    "description": "Analytische In-Process SQL-Datenbank. Columnar Storage, Zero-Copy, direktes Lesen von Parquet/CSV/JSON. Im Radar weil: Knowledge DB Backend (knowledge.db), SQL-Queries fuer Radar-Auswertungen, Agent-Log-Analyse.",
     "strengths": "36k Stars, 900+ Contributors, Production-ready, embedded (kein Server noetig), liest direkt Parquet/CSV/JSON, hervorragende Python-Integration",
     "weaknesses": "Nicht fuer OLTP/Transaktionen, kein Multi-User-Server-Modus, grosse Binary",
     "learned": "Idealer Companion zu Polars: DuckDB fuer SQL-Queries, Polars fuer DataFrame-Pipelines.",
@@ -1773,7 +1773,7 @@
       {
         "login": "ekzhang",
         "label": "Eric Zhang (ekzhang) @ @thinking-machines-lab",
-        "followers": 3048,
+        "followers": 3049,
         "weight": 2
       },
       {
@@ -1859,8 +1859,8 @@
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.73,
-    "open_issues": 2347,
-    "closed_issues": 6284,
+    "open_issues": 2342,
+    "closed_issues": 6289,
     "forks": 2659,
     "age_months": 29.7,
     "signals": {
@@ -1920,7 +1920,7 @@
       {
         "login": "bcherny",
         "label": "Boris Cherny (bcherny) @ @Anthropic",
-        "followers": 5211,
+        "followers": 5212,
         "weight": 4
       },
       {
@@ -2066,7 +2066,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/langchain-ai/langchain",
-    "stars": 129018,
+    "stars": 129019,
     "language": "Python",
     "license": "MIT",
     "description": "Agent Engineering Platform. Chains, Agents, RAG, Memory. Eines der populaersten AI-Frameworks — aber zunehmend als over-abstracted und fragil kritisiert.",
@@ -2553,7 +2553,7 @@
     "weaknesses": "Bus Factor 1 (yamadashy 83%), niedrige Issue-Ratio (0.47), wenig Notable Stargazers",
     "learned": "Noch nicht getestet. Alternative zu manuellem Context-Zusammenstellen fuer Claude Code Sessions.",
     "category": "radar",
-    "stars": 22352,
+    "stars": 22353,
     "added": "2026-03-09",
     "notable_stargazers": [
       {
@@ -2638,7 +2638,7 @@
     "weaknesses": "Schnelles Wachstum (80k in 16 Monaten), Notable Density niedrig relativ zur Groesse",
     "learned": "Noch nicht getestet. Interessant fuer Web-Interaktion in Agent-Pipelines.",
     "category": "radar",
-    "stars": 80210,
+    "stars": 80213,
     "added": "2026-03-09",
     "notable_stargazers": [
       {
@@ -2766,7 +2766,7 @@
     "weaknesses": "AGPL-3.0 Lizenz (Einschraenkung fuer kommerzielle Nutzung), Notable Density niedrig fuer 90k Repo",
     "learned": "Noch nicht getestet. Evaluieren fuer Web-Content-Ingestion in Research-Pipelines.",
     "category": "radar",
-    "stars": 90759,
+    "stars": 90760,
     "added": "2026-03-09",
     "notable_stargazers": [
       {
@@ -2875,7 +2875,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/paperclipai/paperclip",
-    "stars": 16024,
+    "stars": 16039,
     "language": "TypeScript",
     "license": "MIT",
     "description": "Open-Source Orchestrierung fuer 'Zero-Human Companies'. Koordiniert mehrere AI Agents (OpenClaw, Claude Code, Codex) mit Org-Charts, Budgets, Scheduling und Audit Trails.",
@@ -2911,15 +2911,15 @@
     "top_contributors": [
       {
         "login": "cryppadotta",
-        "commits": 659,
-        "pct": 90.4
+        "commits": 669,
+        "pct": 90.5
       }
     ],
     "days_since_commit": 0,
     "issue_ratio": 0.24,
     "open_issues": 139,
     "closed_issues": 43,
-    "forks": 1926,
+    "forks": 1929,
     "age_months": 1,
     "signals": {
       "notable_density": 2.5,
@@ -4072,10 +4072,10 @@
       {
         "login": "Sicheng-Pan",
         "commits": 293,
-        "pct": 7.8
+        "pct": 7.7
       }
     ],
-    "days_since_commit": -1,
+    "days_since_commit": 0,
     "issue_ratio": 0.84,
     "open_issues": 250,
     "closed_issues": 1332,
@@ -4565,7 +4565,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/continuedev/continue",
-    "stars": 31760,
+    "stars": 31761,
     "language": "TypeScript",
     "license": "apache-2.0",
     "description": "Source-controlled AI Checks, enforceable in CI. AI-gestuetzte Code-Qualitaet als Teil der Development-Pipeline.",
@@ -4967,7 +4967,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/crewAIInc/crewAI",
-    "stars": 45701,
+    "stars": 45702,
     "language": "Python",
     "license": "mit",
     "description": "Framework fuer Multi-Agent-Orchestrierung. Rollenbasierte AI Agents die als Team zusammenarbeiten.",
@@ -5210,7 +5210,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/block/goose",
-    "stars": 32792,
+    "stars": 32793,
     "language": "Rust",
     "license": "apache-2.0",
     "description": "Erweiterbarer AI Agent von Block (Square). Geht ueber Code hinaus: Dateien, APIs, Datenbanken. Rust-basiert, Plugin-System.",
@@ -5603,7 +5603,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/daytonaio/daytona",
-    "stars": 63553,
+    "stars": 63552,
     "language": "TypeScript",
     "license": "agpl-3.0",
     "description": "Sichere und elastische Infrastruktur fuer AI Workloads. Managed Development Environments mit Agent-Support.",
@@ -5714,7 +5714,7 @@
     "quadrant": "Libraries & Frameworks",
     "ring": "Scout",
     "url": "https://github.com/ComposioHQ/composio",
-    "stars": 27340,
+    "stars": 27341,
     "language": "TypeScript",
     "license": "mit",
     "description": "1000+ Tool-Integrationen fuer AI Agents. Tool Search, Context Management und Auth-Handling fuer Agent-Frameworks.",
@@ -5845,7 +5845,7 @@
       {
         "login": "koala73",
         "label": "Elie Habib (koala73)",
-        "followers": 1889,
+        "followers": 1890,
         "weight": 2
       },
       {
@@ -6426,11 +6426,11 @@
     "top_contributors": [
       {
         "login": "steveyegge",
-        "commits": 4324,
+        "commits": 4327,
         "pct": 86.2
       }
     ],
-    "days_since_commit": -1,
+    "days_since_commit": 0,
     "issue_ratio": 0.94,
     "open_issues": 65,
     "closed_issues": 983,
@@ -6485,7 +6485,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Scout",
     "url": "https://github.com/affaan-m/everything-claude-code",
-    "stars": 70419,
+    "stars": 70434,
     "language": "JavaScript",
     "license": "mit",
     "description": "Agent Harness Performance-Optimierung fuer Claude Code. Skills, Workflows und Konfiguration in einem System.",
@@ -6528,7 +6528,7 @@
     "issue_ratio": 0.98,
     "open_issues": 3,
     "closed_issues": 136,
-    "forks": 8840,
+    "forks": 8842,
     "age_months": 1.7,
     "signals": {
       "notable_density": 0.6,
@@ -6575,7 +6575,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/czlonkowski/n8n-mcp",
-    "stars": 14824,
+    "stars": 14826,
     "language": "TypeScript",
     "license": "mit",
     "description": "MCP-Server fuer n8n Workflow-Automatisierung. n8n-Workflows direkt aus AI Agents triggern und steuern.",
@@ -6647,7 +6647,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/thedotmack/claude-mem",
-    "stars": 33975,
+    "stars": 33978,
     "language": "TypeScript",
     "license": "other",
     "description": "Claude Code Plugin fuer automatische Memory-Erfassung. Speichert Kontext, Entscheidungen und Learnings persistent.",
@@ -6730,7 +6730,7 @@
     "quadrant": "Developer Tools & Infra",
     "ring": "Scout",
     "url": "https://github.com/punkpeye/awesome-mcp-servers",
-    "stars": 82699,
+    "stars": 82700,
     "language": "Unknown",
     "license": "mit",
     "description": "Kuratierte Sammlung von MCP-Servern. Umfassendstes Verzeichnis des MCP-Ecosystems.",
@@ -7127,7 +7127,7 @@
     "quadrant": "AI Workflow & Orchestration",
     "ring": "Hold",
     "url": "https://github.com/openai/openai-agents-python",
-    "stars": 19637,
+    "stars": 19639,
     "language": "Python",
     "license": "MIT",
     "description": "OpenAIs Agent Framework. Handoffs, Guardrails, Tracing fuer Multi-Agent-Systeme.",
@@ -7146,7 +7146,7 @@
       {
         "login": "simonw",
         "label": "Simon Willison (simonw) @ Datasette",
-        "followers": 13058,
+        "followers": 13060,
         "weight": 8
       },
       {
@@ -7229,6 +7229,297 @@
           "freshness": 10,
           "issue_health": 10,
           "star_velocity": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "mcp-inspector",
+    "name": "MCP Inspector",
+    "quadrant": "Developer Tools & Infra",
+    "ring": "Trial",
+    "url": "https://github.com/modelcontextprotocol/inspector",
+    "stars": 8991,
+    "language": "TypeScript",
+    "license": "MIT",
+    "description": "Offizielles Developer-Tool zum Testen und Debuggen von MCP-Servern. Browser-UI fuer Tool-Inspektion, Resource-Browsing und interaktive Ausfuehrung.",
+    "strengths": "Offizielles MCP-Projekt, essentiell fuer MCP-Server-Entwicklung, unterstuetzt stdio/SSE/HTTP",
+    "weaknesses": "Nur fuer Entwicklung (kein Production-Tool), setzt MCP-Kenntnisse voraus",
+    "learned": "Unverzichtbar beim Bau des agentfield-knowledge MCP-Servers. Schnelles Feedback beim Tool-Design.",
+    "added": "2026-03-10",
+    "category": "radar",
+    "status": "tested",
+    "tags": [
+      "mcp-server",
+      "testing",
+      "dev-tool"
+    ],
+    "related": [
+      "fastmcp"
+    ],
+    "notable_stargazers": [
+      {
+        "login": "transitive-bullshit",
+        "label": "Travis Fischer (transitive-bullshit)",
+        "followers": 4487,
+        "weight": 2
+      },
+      {
+        "login": "jlowin",
+        "label": "Jeremiah Lowin (jlowin) @ @PrefectHQ ",
+        "followers": 2200,
+        "weight": 2
+      },
+      {
+        "login": "WangYihang",
+        "label": "Yihang Wang (WangYihang) @ Tsinghua University",
+        "followers": 1933,
+        "weight": 2
+      },
+      {
+        "login": "wshobson",
+        "label": "Seth Hobson (wshobson) @ UDT | Major 7 Apps",
+        "followers": 1620,
+        "weight": 2
+      },
+      {
+        "login": "namin",
+        "label": "Nada Amin (namin) @ Harvard University",
+        "followers": 1247,
+        "weight": 2
+      },
+      {
+        "login": "kimocoder",
+        "label": "Christian <kimo> B. (kimocoder) @ @aircrack-ng",
+        "followers": 1206,
+        "weight": 2
+      },
+      {
+        "login": "jevinskie",
+        "label": "Jevin Sweval (jevinskie)",
+        "followers": 984,
+        "weight": 1
+      },
+      {
+        "login": "remorses",
+        "label": "Tommy D. Rossi (remorses)",
+        "followers": 890,
+        "weight": 1
+      },
+      {
+        "login": "mashharuki",
+        "label": "Haruki Kondo (mashharuki)",
+        "followers": 778,
+        "weight": 1
+      },
+      {
+        "login": "AbdelStark",
+        "label": "A₿del ∞/21M (AbdelStark) @ StarkWare",
+        "followers": 761,
+        "weight": 1
+      }
+    ],
+    "notable_score": 26,
+    "notable_density": 2.89,
+    "notable_coverage_pct": 6.7,
+    "bus_factor": 8,
+    "top_contributors": [
+      {
+        "login": "olaservo",
+        "commits": 408,
+        "pct": 27.0
+      },
+      {
+        "login": "cliffhall",
+        "commits": 383,
+        "pct": 25.4
+      },
+      {
+        "login": "jspahrsummers",
+        "commits": 135,
+        "pct": 8.9
+      },
+      {
+        "login": "ashwin-ant",
+        "commits": 133,
+        "pct": 8.8
+      },
+      {
+        "login": "richardkmichael",
+        "commits": 49,
+        "pct": 3.2
+      }
+    ],
+    "days_since_commit": 2,
+    "issue_ratio": 0.76,
+    "open_issues": 128,
+    "closed_issues": 399,
+    "forks": 1205,
+    "age_months": 17.4,
+    "signals": {
+      "notable_density": 10,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 9.5,
+      "star_velocity": 7
+    },
+    "quality_score": 9.5,
+    "last_updated": "2026-03-10",
+    "score_history": [
+      {
+        "date": "2026-03-10",
+        "score": 9.5,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 9.5,
+          "star_velocity": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "semgrep-mcp",
+    "name": "Semgrep MCP",
+    "quadrant": "Developer Tools & Infra",
+    "ring": "Scout",
+    "url": "https://github.com/semgrep/semgrep",
+    "stars": 14389,
+    "language": "Python",
+    "license": "LGPL-2.1",
+    "description": "SAST-Engine als MCP-Server. Scannt AI-generierten Code auf Security-Vulnerabilities in 30+ Sprachen. Tools: security_check, semgrep_scan, AST-Analyse.",
+    "strengths": "11k Stars, 30+ Sprachen, Claude Code Integration (claude mcp add), Semgrep Registry fuer Custom Rules",
+    "weaknesses": "LGPL-Lizenz (nicht MIT), MCP-Modus noch Beta, erfordert Semgrep-Account fuer erweiterte Features",
+    "learned": "Relevantestes Security-Tool fuer Claude Code. MCP-Server jetzt in semgrep CLI integriert (semgrep mcp).",
+    "added": "2026-03-10",
+    "category": "radar",
+    "status": "evaluated",
+    "tags": [
+      "mcp-server",
+      "dev-tool"
+    ],
+    "related": [
+      "playwright-mcp"
+    ],
+    "notable_stargazers": [
+      {
+        "login": "KevinHock",
+        "label": "KevinHock @ SecEng @sierra-inc Formerly @grammarly, @pinterest, @Yelp",
+        "followers": 5585,
+        "weight": 4
+      },
+      {
+        "login": "taviso",
+        "label": "Tavis Ormandy (taviso)",
+        "followers": 3188,
+        "weight": 2
+      },
+      {
+        "login": "0xbadshah",
+        "label": "Chandrapal Badshah (0xbadshah)",
+        "followers": 1724,
+        "weight": 2
+      },
+      {
+        "login": "moloch--",
+        "label": "Joe (moloch--) @ Hacker / Programmer",
+        "followers": 1188,
+        "weight": 2
+      },
+      {
+        "login": "madhuakula",
+        "label": "Madhu Akula (madhuakula)",
+        "followers": 1114,
+        "weight": 2
+      },
+      {
+        "login": "lifa123",
+        "label": "muuk (lifa123)",
+        "followers": 961,
+        "weight": 1
+      },
+      {
+        "login": "yhy0",
+        "label": "yhy (yhy0)",
+        "followers": 893,
+        "weight": 1
+      },
+      {
+        "login": "titanous",
+        "label": "Jonathan Rudenberg (titanous)",
+        "followers": 734,
+        "weight": 1
+      },
+      {
+        "login": "fraxken",
+        "label": "Thomas.G (fraxken) @ @OpenAlly",
+        "followers": 696,
+        "weight": 1
+      },
+      {
+        "login": "blendin",
+        "label": "Brendon Tiszka (blendin)",
+        "followers": 597,
+        "weight": 1
+      }
+    ],
+    "notable_score": 17,
+    "notable_density": 1.18,
+    "notable_coverage_pct": 1.4,
+    "bus_factor": 10,
+    "top_contributors": [
+      {
+        "login": "aryx",
+        "commits": 2626,
+        "pct": 34.4
+      },
+      {
+        "login": "IagoAbal",
+        "commits": 559,
+        "pct": 7.3
+      },
+      {
+        "login": "brendongo",
+        "commits": 545,
+        "pct": 7.1
+      },
+      {
+        "login": "nmote",
+        "commits": 452,
+        "pct": 5.9
+      },
+      {
+        "login": "brandonspark",
+        "commits": 411,
+        "pct": 5.4
+      }
+    ],
+    "days_since_commit": 1,
+    "issue_ratio": 0.74,
+    "open_issues": 829,
+    "closed_issues": 2390,
+    "forks": 879,
+    "age_months": 76.0,
+    "signals": {
+      "notable_density": 10,
+      "bus_factor": 10,
+      "freshness": 10,
+      "issue_health": 9.2,
+      "star_velocity": 8
+    },
+    "quality_score": 9.6,
+    "last_updated": "2026-03-10",
+    "score_history": [
+      {
+        "date": "2026-03-10",
+        "score": 9.6,
+        "signals": {
+          "notable_density": 10,
+          "bus_factor": 10,
+          "freshness": 10,
+          "issue_health": 9.2,
+          "star_velocity": 8
         }
       }
     ]

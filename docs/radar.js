@@ -359,7 +359,7 @@ function showDetails(entry) {
         }).join('')}
       </div>
       <div class="signal-details">
-        Bus Factor: ${entry.bus_factor || '?'} · Letzter Commit: ${entry.days_since_commit != null ? (entry.days_since_commit === 0 ? 'heute' : entry.days_since_commit + 'd') : '?'} · Issues: ${entry.closed_issues || 0}/${(entry.open_issues||0)+(entry.closed_issues||0)} geschlossen · Forks: ${entry.forks || 0}
+        Bus Factor: ${entry.bus_factor || '?'} · Letzter Commit: ${entry.days_since_commit != null ? (entry.days_since_commit === 0 ? 'heute' : entry.days_since_commit + 'd') : '?'}${entry.days_since_commit > 90 ? ' <span class="stale-badge">⚠️ Stale</span>' : ''} · Issues: ${entry.closed_issues || 0}/${(entry.open_issues||0)+(entry.closed_issues||0)} geschlossen · Forks: ${entry.forks || 0}
       </div>
     </div>` : ''}
     ${entry.score_history && entry.score_history.length > 1 ? `
@@ -466,7 +466,7 @@ function renderTable(filteredEntries) {
     const cov = entry.notable_coverage_pct || 0;
     const qClass = qs >= 7 ? 'signal-high' : qs >= 5 ? 'signal-mid' : qs > 0 ? 'signal-low' : 'signal-none';
     tr.innerHTML = `
-      <td><a href="${entry.url}" target="_blank">${entry.name}</a>${entry.own_project ? ' <span class="own-project-badge">Eigenes Projekt</span>' : ''}${entry.crypto_token ? ' <span class="crypto-badge">⚠️ $Token</span>' : ''}</td>
+      <td><a href="${entry.url}" target="_blank">${entry.name}</a>${entry.own_project ? ' <span class="own-project-badge">Eigenes Projekt</span>' : ''}${entry.crypto_token ? ' <span class="crypto-badge">⚠️ $Token</span>' : ''}${entry.days_since_commit > 90 ? ' <span class="stale-badge" title="Letzter Commit vor ' + entry.days_since_commit + ' Tagen">⚠️ Stale</span>' : ''}</td>
       <td>${entry.quadrant}</td>
       <td><span class="ring-badge ${ringClass}">${entry.ring}</span></td>
       <td class="stars-cell">${formatStars(entry.stars)}</td>

@@ -391,6 +391,20 @@ footer a { color: var(--accent); text-decoration: none; }
   font-style: italic;
 }
 
+/* Stale warning badge (>90d since last commit) */
+.stale-badge {
+  font-size: 0.65rem;
+  color: #d29922;
+  background: rgba(210,153,34,0.1);
+  border: 1px solid rgba(210,153,34,0.3);
+  padding: 0.1rem 0.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+
 /* Crypto-Token warning badge */
 .crypto-badge {
   font-size: 0.65rem;
