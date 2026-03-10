@@ -2,10 +2,10 @@
 // Renders a technology radar as SVG with interactive features
 
 const QUADRANTS = [
-  { name: 'AI Workflow & Orchestration', color: '#f78166', angle: 0 },
-  { name: 'Libraries & Frameworks', color: '#d2a8ff', angle: 90 },
-  { name: 'Developer Tools & Infra', color: '#58a6ff', angle: 180 },
-  { name: 'Patterns & Methods', color: '#3fb950', angle: 270 }
+  { name: 'AI Workflow & Orchestration', color: '#f0883e', angle: 0 },
+  { name: 'Libraries & Frameworks', color: '#bc8cff', angle: 90 },
+  { name: 'Developer Tools & Infra', color: '#79c0ff', angle: 180 },
+  { name: 'Patterns & Methods', color: '#a5d6ff', angle: 270 }
 ];
 
 const RINGS = [
@@ -200,8 +200,8 @@ function renderRadar(filteredEntries) {
     const pos = getEntryPosition(entry);
     if (!pos) return;
 
-    const qi = getQuadrantIndex(entry.quadrant);
-    const color = QUADRANTS[qi].color;
+    const ri = getRingIndex(entry.ring);
+    const color = RINGS[ri]?.color || '#8b949e';
 
     const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
     g.setAttribute('class', 'entry-dot');
