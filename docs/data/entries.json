@@ -7641,5 +7641,34 @@
         }
       }
     ]
+  },
+  {
+    "id": "skill-forge",
+    "name": "Skill Forge",
+    "quadrant": "AI Workflow & Orchestration",
+    "ring": "Scout",
+    "category": "radar",
+    "description": "Autonomes Experiment-Framework fuer iterative Skill-Verbesserung. 3-Agenten-Loop (Hypothesis, Mutator, Scorer) mutiert SKILL.md Dateien und bewertet per LLM-as-Judge. Inspiriert von Karpathys autoresearch.",
+    "url": "https://github.com/godmodeai2025/skill-forge",
+    "status": "evaluated",
+    "strengths": [
+      "Vollautonomer Verbesserungs-Loop",
+      "Train/Test-Split fuer robuste Evaluation",
+      "Crash Recovery + Session-Tagging",
+      "MIT License"
+    ],
+    "weaknesses": [
+      "Sehr frisch (erstellt 2026-03-15, 0 Stars)",
+      "Kein Mensch im Loop — Risiko bei Skill-Drift",
+      "Nur fuer Prompt-Optimierung, nicht Workflow-Erkennung"
+    ],
+    "tags": [
+      "claude-ecosystem",
+      "agent-framework",
+      "prompt-engineering",
+      "autoresearch"
+    ],
+    "notes": "Relevant wenn wir 5+ Rezepte auf dem Mac mini haben und deren Prompt-Qualitaet automatisch verbessern wollen. Vorher nicht relevant.",
+    "quality_score": 5.0
   }
 ]
